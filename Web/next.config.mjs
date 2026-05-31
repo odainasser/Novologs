@@ -16,6 +16,12 @@ const nextConfig = {
       transform: '@mui/lab/{{member}}',
     },
   },
+  experimental: {
+    // Trim the module graph compiled per route in dev (faster navigation).
+    // NOTE: Turbopack (`next dev --turbo`) cannot build this project — `react-audio-voice-recorder`
+    // uses `new URL(corePath, import.meta.url)` which Turbopack can't resolve. Stay on webpack.
+    optimizePackageImports: ['@iconify/react', '@mui/lab', 'framer-motion'],
+  },
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,

@@ -6,6 +6,10 @@
   - API      : https://localhost:5443  (Swagger at /swagger)   + http://localhost:5080
   - Frontend : https://localhost:3035
   Press Ctrl+C to stop both.
+
+  Note: Turbopack (`next dev --turbo`) is NOT usable here — `react-audio-voice-recorder`
+  uses `new URL(corePath, import.meta.url)`, which Turbopack can't resolve, so every
+  dashboard route 500s. This launcher uses webpack (`dev:https`).
 #>
 $ErrorActionPreference = 'Stop'
 $root  = $PSScriptRoot
