@@ -1,0 +1,22 @@
+{
+  "overview": "概览",
+  "home": "首页",
+  "team": "团队",
+  "tasks": "任务",
+  "projects": "项目",
+  "clients": "客户",
+  "vendors": "供应商",
+  "missions": "特殊任务",
+  "repositories": "存储库",
+  "timesheet": "时间表",
+  "documents": "文档",
+  "chat": "聊天",
+  "settings": "设置",
+  "activities": "活动",
+  "workflow": "工作流程",
+  "calender": "日历",
+  "accounts": "账户",
+  "support": "支持",
+  "ticketing": "工单系统",
+  "admin": "管理员"
+}

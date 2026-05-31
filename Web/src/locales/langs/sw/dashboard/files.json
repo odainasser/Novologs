@@ -1,0 +1,117 @@
+{
+  "files": {
+    "custombreads": {
+      "dashboard": "Dashibodi",
+      "title": "Msimamizi wa Faili",
+      "list": "Orodha"
+    },
+    "tabs": {
+      "all": "Zote",
+      "my": "Faili Zangu",
+      "shared": "Zilizoshirikiwa",
+      "starred": "Zilizopewa nyota"
+    },
+    "buttons": {
+      "back": "Rudi",
+      "update_file/folder": "Sasisha Faili/Folda",
+      "addfile/folder": "Ongeza Faili/Folda",
+      "update": "Sasisha",
+      "save": "Hifadhi",
+      "open": "Fungua",
+      "download": "Pakua",
+      "delete": "Futa",
+      "share": "Shiriki",
+      "edit": "Hariri",
+      "close": "Funga",
+      "add": "Ongeza",
+      "print": "Chapisha",
+      "export": "Hamisha",
+      "import": "Leta",
+      "cancel": "Ghairi"
+    },
+    "tooltip": {
+      "delete": "Futa",
+      "clear_all": "Futa sehemu zote",
+      "choose_file": "Chagua faili",
+      "view_members": "Tazama wanachama",
+      "add_update_members": "Ongeza / Sasisha Wanachama",
+      "tooltip_title": "Ruhusa hii ya kushiriki itamruhusu mwanachama huyu kushiriki na kutuma kwa wanachama wengine"
+    },
+    "labels": {
+      "folders": "Folda",
+      "files": "Faili",
+      "project": "Mradi",
+      "client": "Mteja",
+      "fileinfo": "Taarifa ya Faili",
+      "no_file_selected": "Hakuna faili lililochaguliwa",
+      "size": "Ukubwa",
+      "modified": "Iliyobadilishwa",
+      "type": "Aina",
+      "shared_with": "Imeshirikiwa na",
+      "share_permission": "Ruhusa ya kushiriki",
+      "exit_fullscreen": "Toka skrini nzima",
+      "copy_link": "Nakili kiungo",
+      "not_available": "Haipatikani",
+      "serial_no": "Na.",
+      "name": "Jina",
+      "members": "Wanachama",
+      "actions": "Vitendo",
+      "creators": "Muundaji",
+      "details": "Maelezo",
+      "share": "Shiriki",
+      "no_members": "Hakuna wanachama",
+      "general": "Jumla",
+      "copy_file": "Nakili Faili",
+      "copy_folder ": "Nakili Folda",
+      "all_members": "Wanachama wote",
+      "share_with_me": "Imeshirikiwa nami",
+      "select_members": "Chagua Wanachama",
+      "add_members": "Ongeza Wanachama",
+      "id_not_available": "ID haipatikani",
+      "desig_not_available": "Wadhifa haupatikani",
+      "dept_not_available": "Idara haipatikani",
+      "status_not_avaialble": "Hali haipatikani"
+    },
+    "placeholder": {
+      "foldername": "Jina la Folda",
+      "add_members": "Ongeza Wanachama",
+      "search_projects": "Tafuta miradi...",
+      "no_results_found": "Hakuna matokeo yaliyopatikana",
+      "search_clients": "Tafuta wateja...",
+      "search": "Tafuta...",
+      "select_date": "Chagua tarehe",
+      "calendar": "Kalenda",
+      "not_available": "Haipatikani",
+      "edit_members": "Hariri Wanachama",
+      "no_members_found": "Hakuna wanachama waliopatikana",
+      "desc_members": "Hakuna wanachama waliopo"
+    },
+    "validations": {
+      "folder_name_required": "Jina la folda linahitajika",
+      "invalid_type": "Aina ya faili si sahihi"
+    },
+    "toast": {
+      "update_success": "Imesasishwa kwa mafanikio!",
+      "delete_success": "Imefutwa kwa mafanikio!",
+      "shared_membres": "Wanachama walioshirikiwa wamesasishwa!",
+      "permission_success": "Ruhusa imetolewa kwa mafanikio!",
+      "copied": "Imenakiliwa",
+      "shared_member": "Wanachama walioshirikiwa wamesasishwa!",
+      "file_delete": "Faili limefutwa kwa mafanikio",
+      "star_updated": "Nyota imesasishwa",
+      "no_file_chosen": "Hakuna faili lililochaguliwa",
+      "folder_name_is_required": "Jina la folda linahitajika",
+      "shared_success": "Imeshirikiwa kwa mafanikio"
+    },
+    "dialog": {
+      "members": "Wanachama",
+      "close": "Funga",
+      "delete_title": "Futa",
+      "delete_content": "Una uhakika unataka kufuta",
+      "items": "vipengee?",
+      "delete_content2": "Una uhakika unataka kufuta?",
+      "share_file": "Shiriki Faili",
+      "delete_content3": "Una uhakika unataka kufuta faili hili?"
+    }
+  }
+}

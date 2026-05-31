@@ -1,0 +1,13 @@
+
+
+
+{
+  "upload": {
+    "drop_or_select": "ፋይል እባኮት አስገባ ወይም ምረጥ",
+    "drop_here": "ፋይሎችን እዚህ አስገባ ወይም ጠቅ አለ",
+    "browse": "እባኮት ለመመልከት",
+    "browse_suffix": "ከእባኮት ስር",
+    "upload_photo": "ምስል አስገባ",
+    "update_photo": "ምስል አዘምን"
+  }
+}

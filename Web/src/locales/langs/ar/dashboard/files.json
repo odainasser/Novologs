@@ -1,0 +1,117 @@
+{
+  "files": {
+    "custombreads": {
+      "dashboard": "لوحة التحكم",
+      "title": "مدير الملفات",
+      "list": "القائمة"
+    },
+    "tabs": {
+      "all": "الكل",
+      "my": "ملفاتي",
+      "shared": "مشاركه",
+      "starred": "المميزة"
+    },
+    "buttons": {
+      "back": "رجوع",
+      "update_file/folder": "تحديث الملف/المجلد",
+      "addfile/folder": "إضافة ملف/مجلد",
+      "update": "تحديث",
+      "save": "حفظ",
+      "open": "فتح",
+      "download": "تنزيل",
+      "delete": "حذف",
+      "share": "مشاركة",
+      "edit": "تعديل",
+      "close": "إغلاق",
+      "add": "إضافة",
+      "print": "طباعة",
+      "export": "تصدير",
+      "import": "استيراد",
+      "cancel": "إلغاء"
+    },
+    "tooltip": {
+      "delete": "حذف",
+      "clear_all": "مسح كافة الحقول",
+      "choose_file": "اختيار ملف",
+      "view_members": "عرض الأعضاء",
+      "add_update_members": "إضافة/تحديث الأعضاء",
+      "tooltip_title":"إذن المشاركة هذا سيتيح لهذا العضو إمكانية المشاركة والإرسال لأعضاء آخرين"
+    },
+    "labels": {
+      "folders": "المجلد",
+      "files": "الملف",
+      "project": "المشروع",
+      "client": "العميل",
+      "fileinfo": "معلومات الملف",
+      "no_file_selected": "لا يوجد ملف مختار",
+      "size": "الحجم",
+      "modified": "تم التعديل",
+      "type": "النوع",
+      "shared_with": "مشارك مع",
+      "share_permission": "إذن المشاركة",
+      "exit_fullscreen": "خروج من وضع ملء الشاشة",
+      "copy_link": "نسخ الرابط",
+      "not_available": "غير متوفر",
+      "serial_no": "رقم المسلسل",
+      "name": "الاسم",
+      "members": "الأعضاء",
+      "actions": "الإجراءات",
+      "creators":"المبدعون",
+      "details":"التفاصيل",
+      "share":"مشاركة",
+      "no_members":"لا يوجد أعضاء",
+      "general":"عام",
+      "copy_file":"نسخ الملف",
+      "copy_folder":"نسخ المجلد",
+      "all_members":"جميع الأعضاء",
+      "share_with_me":"مشاركة معي",
+      "select_members":"اختيار الأعضاء",
+      "add_members":"إضافة الأعضاء",
+      "id_not_available":"الهوية غير متوفرة",
+      "desig_not_available":"التعيين غير متوفر",
+      "dept_not_available":"القسم غير متوفر",
+      "status_not_avaialble":"الحالة غير متوفرة"
+    },
+    "placeholder": {
+      "foldername": "اسم المجلد",
+      "add_members": "إضافة أعضاء",
+      "search_projects": "بحث عن المشاريع...",
+      "no_results_found": "لم يتم العثور على نتائج",
+      "search_clients": "بحث عن العملاء...",
+      "search": "بحث...",
+      "select_date": "اختر التاريخ",
+      "calendar": "التقويم",
+      "not_available": "غير متوفر",
+      "edit_members": "تعديل الأعضاء",
+      "no_members_found":"لم يتم العثور على أعضاء",
+      "desc_members":"لا توجد أعضاء متاحين"
+    },
+    "validations": {
+      "folder_name_required": "اسم المجلد مطلوب",
+      "invalid_type": "نوع الملف غير صالح"
+    },
+    "toast": {
+      "update_success": "تم التحديث بنجاح!",
+      "delete_success": "تم الحذف بنجاح!",
+      "shared_membres": "تم تحديث الأعضاء المشاركين!",
+      "permission_success": "تم منح الإذن بنجاح!",
+      "copied": "تم النسخ",
+      "shared_member": "تم تحديث الأعضاء المشاركين!",
+      "file_delete": "تم حذف الملف بنجاح",
+      "star_updated": "تم تحديث النجمة",
+      "no_file_chosen": "لم يتم اختيار ملف",
+      "folder_name_is_required": "اسم المجلد مطلوب",
+      "shared_success":"تمت المشاركة بنجاح"
+    },
+    "dialog": {
+      "members": "الأعضاء",
+      "close": "إغلاق",
+      "delete_title": "حذف",
+      "delete_content": "هل أنت متأكد أنك تريد حذف",
+      "items": "العناصر؟",
+      "delete_content2": "هل أنت متأكد أنك تريد الحذف؟",
+      "share_file": "مشاركة الملف",
+      "delete_content3": "هل أنت متأكد أنك تريد حذف هذا الملف؟"
+    }
+  }
+}

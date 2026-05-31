@@ -1,0 +1,125 @@
+{
+  "files": {
+    "custombreads": {
+      "dashboard": "Dashboard",
+      "title": "Maareeyaha Faylasha",
+      "list": "Liis"
+    },
+
+    "tabs": {
+      "all": "Dhammaan",
+      "my": "Faylashayda",
+      "shared": "La wadaagay",
+      "starred": "La calaamadeeyay"
+    },
+
+    "buttons": {
+      "back": "Dib u noqo",
+      "update_file/folder": "Cusboonaysii Fayl/Folder",
+      "addfile/folder": "Ku dar Fayl/Folder",
+      "update": "Cusboonaysii",
+      "save": "Kaydi",
+      "open": "Fur",
+      "download": "Soo dejiso",
+      "delete": "Tirtir",
+      "share": "La wadaag",
+      "edit": "Wax ka beddel",
+      "close": "Xir",
+      "add": "Ku dar",
+      "print": "Daabac",
+      "export": "Dhoofin",
+      "import": "Soo dejin",
+      "cancel": "Jooji"
+    },
+
+    "tooltip": {
+      "delete": "Tirtir",
+      "clear_all": "Nadiifi dhammaan goobaha",
+      "choose_file": "Dooro fayl",
+      "view_members": "Arag xubnaha",
+      "add_update_members": "Ku dar / Cusboonaysii xubnaha",
+      "tooltip_title": "Ogolaanshahan wadaagga wuxuu u oggolaanayaa xubinkan inuu la wadaago xubno kale"
+    },
+
+    "labels": {
+      "folders": "Folder",
+      "files": "Fayl",
+      "project": "Mashruuc",
+      "client": "Macmiil",
+      "fileinfo": "Faahfaahinta Faylka",
+      "no_file_selected": "Fayl lama dooran",
+      "size": "Cabbir",
+      "modified": "La beddelay",
+      "type": "Nooc",
+      "shared_with": "La wadaagay",
+      "share_permission": "Ogolaanshaha wadaagga",
+      "exit_fullscreen": "Ka bax shaashad buuxda",
+      "copy_link": "Nuqul ka samee link",
+      "not_available": "Lama heli karo",
+      "serial_no": "Lambarka",
+      "name": "Magac",
+      "members": "Xubno",
+      "actions": "Ficillo",
+      "creators": "Abuuraha",
+      "details": "Faahfaahin",
+      "share": "La wadaag",
+      "no_members": "Xubno ma jiraan",
+      "general": "Guud",
+      "copy_file": "Nuqul ka samee fayl",
+      "copy_folder": "Nuqul ka samee folder",
+      "all_members": "Dhammaan xubnaha",
+      "share_with_me": "La wadaagay aniga",
+      "select_members": "Dooro xubno",
+      "add_members": "Ku dar xubno",
+      "id_not_available": "ID lama heli karo",
+      "desig_not_available": "Jago lama heli karo",
+      "dept_not_available": "Waax lama heli karo",
+      "status_not_avaialble": "Xaalad lama heli karo"
+    },
+
+    "placeholder": {
+      "foldername": "Magaca Folder-ka",
+      "add_members": "Ku dar xubno",
+      "search_projects": "Raadi mashruucyo...",
+      "no_results_found": "Natiijo lama helin",
+      "search_clients": "Raadi macaamiil...",
+      "search": "Raadi...",
+      "select_date": "Dooro taariikh",
+      "calendar": "Kalandar",
+      "not_available": "Lama heli karo",
+      "edit_members": "Wax ka beddel xubnaha",
+      "no_members_found": "Xubno lama helin",
+      "desc_members": "Xubno ma jiraan"
+    },
+
+    "validations": {
+      "folder_name_required": "Magaca folder-ka waa loo baahan yahay",
+      "invalid_type": "Nooca faylka sax ma aha"
+    },
+
+    "toast": {
+      "update_success": "Si guul leh ayaa loo cusboonaysiiyay!",
+      "delete_success": "Si guul leh ayaa loo tirtiray!",
+      "shared_membres": "Xubnaha la wadaagay waa la cusboonaysiiyay!",
+      "permission_success": "Ogolaansho si guul leh ayaa loo siiyay!",
+      "copied": "La koobiyay",
+      "shared_member": "Xubnaha la wadaagay waa la cusboonaysiiyay!",
+      "file_delete": "Fayl si guul leh ayaa loo tirtiray",
+      "star_updated": "Calaamad waa la cusboonaysiiyay",
+      "no_file_chosen": "Fayl lama dooran",
+      "folder_name_is_required": "Magaca folder-ka waa loo baahan yahay",
+      "shared_success": "Si guul leh ayaa loo wadaagay"
+    },
+
+    "dialog": {
+      "members": "Xubno",
+      "close": "Xir",
+      "delete_title": "Tirtir",
+      "delete_content": "Ma hubtaa inaad tirtirto",
+      "items": "walxahan?",
+      "delete_content2": "Ma hubtaa inaad tirtirto?",
+      "share_file": "La wadaag fayl",
+      "delete_content3": "Ma hubtaa inaad tirtirto faylkan?"
+    }
+  }
+}

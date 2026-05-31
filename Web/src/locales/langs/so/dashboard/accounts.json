@@ -1,0 +1,174 @@
+{
+  "accounts": {
+    "dashboard": "Dashboard",
+    "accounts": "Akoonno",
+    "new": "Cusub",
+    "cancel": "Jooji",
+    "add": "Ku dar",
+    "done": "La dhammeeyay",
+    "save": "Kaydi",
+    "clear": "Nadiifi",
+    "delete": "Tirtir",
+    "edit": "Wax ka beddel",
+    "none_selected": "Waxba lama dooran",
+    "placeholder_category": "Raadi qayb...",
+    "print": "Daabac",
+    "export": "Dhoofin",
+    "import": "Soo dejin",
+
+    "archived_projects": "Mashruucyo kaydsan",
+    "general_accounting": "Xisaab guud",
+    "purchases": "Iibsasho",
+    "sales": "Iib",
+    "payment": "Bixin",
+    "receipt": "Rasiid",
+    "hr": "Kheyraadka Aadanaha",
+    "assets_management": "Maareynta Hantida",
+
+    "chart_account": "Jaantuska Akoonnada",
+    "journal": "Joornaal",
+    "journal_vocher": "Voucher Joornaal",
+    "create_a_new_account": "Abuur Akoon Cusub",
+
+    "main_category": "Qaybta weyn",
+    "posted_journal_vocher": "Voucher Joornaal la diiwaangeliyay",
+
+    "sub_category": "Qayb-hoosaad",
+    "add_new": "Ku dar cusub",
+    "add_new_sub": "Ku dar qayb-hoosaad cusub",
+    "sub_category_name": "Magaca qayb-hoosaadka",
+    "sub_category2": "Qayb-hoosaad 2",
+    "sub_category3": "Qayb-hoosaad 3",
+
+    "accountname": "Magaca Akoonka",
+    "description": "Sharaxaad",
+    "add_opening_balance": "Ku dar saldo bilow",
+    "view_details": "Arag faahfaahin",
+    "opening_balance_added": "Saldo bilow si guul leh ayaa loo daray",
+
+    "credit": "Credit",
+    "Debit": "Debit",
+    "type": "Nooc",
+    "s/no": "Lambarka",
+    "account_name": "Magaca Akoonka",
+    "not_available": "Lama heli karo",
+
+    "cash": "Lacag caddaan",
+    "bank": "Bangiga",
+    "attendance_register": "Diiwaanka Imaanshaha",
+
+    "office_supplies_expense": "Kharashka Qalabka Xafiiska",
+    "accounts_payable": "Akoonnada la bixinayo",
+
+    "serial_no": "Lambarka",
+    "accountdetails": "Faahfaahinta Akoonka",
+    "date": "Taariikh",
+
+    "unexpected_error": "Khalad lama filaan ah ayaa dhacay intii la tirtirayay",
+    "confirm_swap": "Xaqiiji beddelka",
+    "debitandcredit": "Debit iyo credit waa inay isku mid noqdaan",
+
+    "enter_narration": "Geli sharaxaad",
+    "add_row": "Ku dar saf",
+    "total": "Wadar",
+    "upload_files": "Soo geli faylal",
+    "show_thumbnail": "Muuji muuqaal hore",
+
+    "actions": "Ficillo",
+    "post": "Diiwaangeli",
+
+    "purchase_order": "Dalabka Iibsiga",
+    "journal_voucher": "Voucher Joornaal",
+    "local_purchase_order": "Dalab Iibsi Gudaha",
+
+    "clients": "Macaamiil",
+    "vendors": "Alaab-qeybiyeyaasha",
+    "client": "Macmiil",
+    "vendor": "Alaab-qeybiye",
+
+    "add_new_client": "Ku dar macmiil cusub",
+    "add_new_vendor": "Ku dar alaab-qeybiye cusub",
+
+    "client_name": "Magaca Macmiilka",
+    "vendor_name": "Magaca Alaab-qeybiyaha",
+    "client_details": "Faahfaahinta Macmiilka",
+    "vendor_details": "Faahfaahinta Alaab-qeybiyaha",
+
+    "client_list": "Liiska Macaamiisha",
+    "vendor_list": "Liiska Alaab-qeybiyeyaasha",
+
+    "sales_invoices": "Faktuurada Iibka",
+    "purchase_invoices": "Faktuurada Iibsiga",
+    "credit_note": "Qoraal Credit",
+    "debit_note": "Qoraal Debit",
+
+    "posted_sales_invoices": "Faktuurada iibka la diiwaangeliyay",
+    "posted_purchase_invoices": "Faktuurada iibsiga la diiwaangeliyay",
+    "posted_credit_note": "Qoraalka credit la diiwaangeliyay",
+    "posted_debit_note": "Qoraalka debit la diiwaangeliyay",
+    "posted_local_purchase_order": "Dalabka iibsi gudaha la diiwaangeliyay",
+    "posted_purchase_order": "Dalabka iibsi la diiwaangeliyay",
+    "posted_journal_voucher": "Voucher joornaal la diiwaangeliyay",
+
+    "view": "Arag",
+    "view_more": "Arag dheeraad ah",
+
+    "payment_voucher": "Voucher Bixin",
+    "receipt_voucher": "Voucher Rasiid",
+    "expense_register": "Diiwaanka Kharashka",
+
+    "purchase_date": "Taariikhda iibsiga",
+    "receipt_number": "Lambarka rasiidka",
+    "journal_number": "Lambarka joornaalka",
+
+    "create_invoice": "Abuur faktuur",
+    "make_credit_note": "Samee qoraal credit",
+    "make_debit_note": "Samee qoraal debit",
+
+    "are_you_sure_want": "Ma hubtaa inaad tirtirto LPO-kan",
+    "yes": "Haa",
+
+    "invoice": "Faktuur",
+    "invoice_type": "Nooca faktuurka",
+    "order_type": "Nooca dalabka",
+    "currency": "Lacag",
+    "billing_address": "Cinwaanka biilka",
+    "location": "Goob",
+    "terms": "Shuruudo",
+    "due_date": "Taariikhda kama dambaysta",
+    "total_amount": "Wadarta",
+    "invoice_date": "Taariikhda faktuurka",
+
+    "enter_description": "Geli sharaxaad",
+    "enter_unit": "Geli unit",
+    "serialno": "Lambarka",
+    "product/service": "Alaab/Adeeg",
+    "quantity": "Tiro",
+    "unit": "Unit",
+    "rate": "Qiime",
+    "amount": "Qaddar",
+    "action": "Ficil",
+
+    "our_ref": "Tixraaceena",
+    "discount": "Dhimo",
+    "tax": "Canshuur",
+    "grand_total": "Wadarta guud",
+
+    "message_on_invoice": "Fariin ku saabsan faktuurka",
+    "message_on_purchase": "Fariin ku saabsan iibsiga",
+    "non_tax_inovice": "Faktuur aan canshuur lahayn",
+
+    "payment_method": "Habka bixinta",
+    "newcard": "Kaar cusub",
+    "add_new_card": "Ku dar kaar cusub",
+    "reference_number": "Lambarka tixraaca",
+
+    "payment_to": "Loo bixiyo",
+    "employees": "Shaqaale",
+    "enter_to_name": "Geli magaca",
+    "amount_in_words": "Qaddarka erayo ahaan",
+    "prepared_by": "Diyaariyay",
+    "received_by": "Qaatay",
+    "account_details": "Faahfaahinta Akoonka"
+  }
+}

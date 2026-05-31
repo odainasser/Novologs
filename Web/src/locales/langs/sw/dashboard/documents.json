@@ -1,0 +1,162 @@
+{
+  "documents": {
+    "add": {
+      "back": "Rudi",
+      "dashboard": "Dashibodi",
+      "documents": "Nyaraka",
+      "actions": "Vitendo",
+      "new_heading": "Unda Nyaraka Mpya",
+      "edit_heading": "Hariri Nyaraka",
+      "details_title": "Maelezo",
+      "type": "Aina",
+      "edit_content": "Hariri Maudhui",
+      "no_comments_yet": "Hakuna maoni bado",
+      "details_subtitle": "Kichwa, maelezo mafupi, picha...",
+
+      "form": {
+        "title": "Kichwa cha Nyaraka",
+        "description": "Maelezo Mafupi",
+        "cover_upload": "Pakia picha ya jalada",
+        "category": "Kategoria",
+        "node_type": "Aina ya Node",
+        "viewers": "Tafuta watazamaji...",
+        "editors": "Tafuta wahariri...",
+        "no_viewers_note": "Ikiwa hakuna watazamaji waliochaguliwa, nyaraka hii itakuwa ya umma",
+        "add_category": "Ongeza Kategoria Mpya",
+        "category_name": "Jina la Kategoria",
+        "title_1": "Kichwa",
+        "cover": "Jalada",
+        "card_header": "Sifa",
+        "subheader": "Kazi na vipengele vya ziada...",
+        "viewers_name": "Watazamaji",
+        "editor_name": "Wahariri",
+        "Change_Viewers": "Badilisha Watazamaji",
+        "Add_viewers": "Ongeza Watazamaji",
+        "Change_Editors": "Badilisha Wahariri",
+        "Add_Editors": "Ongeza Wahariri"
+      },
+
+      "content": "Maudhui",
+      "placeholder": "Anza kuandika...",
+      "placeholder_category": "Tafuta kategoria...",
+      "submit_create": "Unda Nyaraka",
+      "submit_update": "Sasisha Nyaraka",
+      "toast_create": "Nyaraka imeundwa",
+      "toast_update": "Nyaraka imesasishwa",
+      "editor_title": "Maudhui",
+      "cover_upload_success": "Picha ya jalada imepakiwa kwa mafanikio",
+      "cover_upload_error": "Hitilafu wakati wa kupakia picha ya jalada",
+      "editor_subtitle": "Andika maudhui ya nyaraka hapa..."
+    },
+
+    "validation": {
+      "title_required": "Kichwa kinahitajika",
+      "description_required": "Maelezo yanahitajika",
+      "category_required": "Kategoria inahitajika",
+      "node_type_required": "Aina ya node inahitajika"
+    },
+
+    "list": {
+      "heading": "Nyaraka",
+      "tabs": {
+        "list": "Orodha"
+      },
+      "toolbar": {
+        "search_placeholder": "Tafuta nyaraka...",
+        "category_all": "Kategoria zote",
+        "sort_by": "Panga kwa",
+        "sort_latest": "Mpya zaidi",
+        "sort_oldest": "Za zamani",
+        "add_button": "Ongeza Nyaraka Mpya",
+        "none_selected": "Hakuna kilichochaguliwa",
+        "back": "Rudi",
+        "edit": "Hariri",
+        "share": "Shiriki",
+        "doc_type": "Aina ya Nyaraka",
+        "dialog_title": "Shiriki Nyaraka",
+        "make_public": "Fanya ya umma",
+        "copy_instruction": "Nakili na shiriki kiungo hiki:",
+        "copy_button": "Nakili Kiungo",
+        "close_button": "Funga",
+        "copied_to_clipboard": "Kiungo kimenakiliwa!"
+      },
+      "filters": {
+        "keyword": "Neno:",
+        "category": "Kategoria:",
+        "sort": "Panga kwa:"
+      }
+    },
+
+    "type": {
+      "book": "Kitabu",
+      "folder": "Folda",
+      "wiki": "Wiki",
+      "post": "Chapisho",
+      "project": "Mradi",
+      "story": "Hadithi",
+      "task": "Kazi",
+      "milestone": "Hatua Muhimu",
+      "lead": "Fursa",
+      "client": "Mteja",
+      "contract": "Mkataba",
+      "vendor": "Msambazaji"
+    },
+
+    "details": {
+      "not_found": "Nyaraka haijapatikana",
+      "comments": "Maoni",
+      "share": {
+        "title": "Shiriki Nyaraka",
+        "public_toggle": "Fanya ya umma",
+        "copy_label": "Nakili na shiriki kiungo hiki:",
+        "copy_button": "Nakili Kiungo",
+        "copied": "Kiungo kimenakiliwa!"
+      }
+    },
+
+    "comment": {
+      "placeholder": "Andika maoni yako...",
+      "reply_button": "Jibu",
+      "write_comment": "Andika maoni yako...",
+      "post_comment": "Tuma maoni",
+      "copied_file": "Faili imenakiliwa",
+      "attached_file_removed": "Faili imeondolewa",
+      "emoji_picker": "Chagua emoji",
+      "attached_files": "Faili Zilizoambatishwa",
+      "file_removed": "Faili imeondolewa",
+      "select_file": "Chagua faili"
+    },
+
+    "toast": {
+      "document_delete": "Nyaraka imefutwa kwa mafanikio",
+      "response_error": "Kufuta nyaraka kumeshindikana",
+      "document_update": "Nyaraka imesasishwa kwa mafanikio",
+      "failed_document": "Imeshindikana kusasisha nyaraka",
+      "failed_add": "Imeshindikana kuongeza nyaraka",
+      "comment_add": "Maoni yameongezwa kwa mafanikio",
+      "comment_add_fail": "Imeshindikana kuongeza maoni",
+      "document_add_fail": "Nyaraka imeongezwa lakini sasisho la kazi limeshindwa",
+      "document_error": "Hitilafu imetokea wakati wa kuhifadhi nyaraka",
+      "document_link": "Nyaraka imeongezwa na kuunganishwa na kazi kwa mafanikio",
+      "unexpected_error_delete": "Hitilafu isiyotarajiwa wakati wa kufuta nyaraka",
+      "operation_failed": "Operesheni imeshindikana. Tafadhali jaribu tena"
+    },
+
+    "actions": {
+      "edit": "Hariri",
+      "delete": "Futa",
+      "view": "Tazama",
+      "new": "Mpya",
+      "cancel": "Ghairi",
+      "add": "Ongeza",
+      "print": "Chapisha",
+      "save": "Hifadhi",
+      "export": "Hamisha",
+      "import": "Leta",
+      "no_documents_found": "Hakuna nyaraka zilizopatikana",
+      "no_douments_available": "Hakuna nyaraka zinazopatikana",
+      "no_content": "Hakuna maudhui ya kuhifadhi",
+      "delete_confirm": "Una uhakika unataka kufuta nyaraka hii?"
+    }
+  }
+}

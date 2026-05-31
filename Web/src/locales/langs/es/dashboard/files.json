@@ -1,0 +1,108 @@
+{
+  "files": {
+    "custombreads": {
+      "dashboard": "Tablero",
+      "title": "Gestor de archivos",
+      "list": "Lista"
+    },
+    "tabs": {
+      "all": "Todos",
+      "my": "Mis archivos",
+      "shared": "Compartido",
+      "starred": "Favoritos"
+    },
+    "buttons": {
+      "back": "Atrás",
+      "update_file/folder": "Actualizar archivo/carpeta",
+      "addfile/folder": "Agregar archivo/carpeta",
+      "update": "Actualizar",
+      "save": "Guardar",
+      "open": "Abrir",
+      "download": "Descargar",
+      "delete": "Eliminar",
+      "share": "Compartir",
+      "edit": "Editar",
+      "close": "Cerrar",
+      "add": "Agregar",
+      "print": "Imprimir",
+      "export": "Exportar",
+      "import": "Importar",
+      "cancel": "Cancelar"
+    },
+    "tooltip": {
+      "delete": "Eliminar",
+      "clear_all": "Borrar todos los campos",
+      "choose_file": "Elegir archivo",
+      "view_members": "Ver miembros",
+      "add_update_members": "Agregar / actualizar miembros",
+      "tooltip_title": "Este permiso de uso compartido permitirá a este miembro compartir y enviar a otros miembros"
+    },
+    "labels": {
+      "folders": "Carpeta",
+      "files": "Archivo",
+      "project": "Proyecto",
+      "client": "Cliente",
+      "fileinfo": "Información del archivo",
+      "no_file_selected": "Ningún archivo seleccionado",
+      "size": "Tamaño",
+      "modified": "Modificado",
+      "type": "Tipo",
+      "shared_with": "Compartido con",
+      "share_permission": "Permiso de compartir",
+      "exit_fullscreen": "Salir de pantalla completa",
+      "copy_link": "Copiar enlace",
+      "not_available": "No disponible",
+      "serial_no": "N.º",
+      "name": "Nombre",
+      "members": "Miembros",
+      "actions": "Acciones",
+      "creators": "Creador",
+      "details": "Detalles",
+      "share": "Compartir",
+      "share_es": "Compartir",
+  "no_members": "Sin miembros",
+  "general": "General",
+  "copy_file": "Copiar archivo",
+  "copy_folder": "Copiar carpeta"
+    },
+    "placeholder": {
+      "foldername": "Nombre de la carpeta",
+      "add_members": "Agregar miembros",
+      "search_projects": "Buscar proyectos...",
+      "no_results_found": "No se encontraron resultados",
+      "search_clients": "Buscar clientes...",
+      "search": "Buscar...",
+      "select_date": "Seleccionar fecha",
+      "calendar": "Calendario",
+      "not_available": "No disponible",
+      "edit_members": "Editar miembros"
+    },
+    "validations": {
+      "folder_name_required": "Se requiere el nombre de la carpeta",
+      "invalid_type": "Tipo de archivo no válido"
+    },
+    "toast": {
+      "update_success": "¡Actualizado con éxito!",
+      "delete_success": "¡Eliminado con éxito!",
+      "shared_membres": "¡Miembros compartidos actualizados!",
+      "permission_success": "¡Permiso concedido con éxito!",
+      "copied": "Copiado",
+      "shared_member": "¡Miembros compartidos actualizados!",
+      "file_delete": "Archivo eliminado con éxito",
+      "star_updated": "Favorito actualizado",
+      "no_file_chosen": "No se ha elegido ningún archivo",
+      "folder_name_is_required": "Se requiere el nombre de la carpeta",
+      "shared_success": "Compartido con éxito"
+    },
+    "dialog": {
+      "members": "Miembros",
+      "close": "Cerrar",
+      "delete_title": "Eliminar",
+      "delete_content": "¿Estás seguro de que deseas eliminar?",
+      "items": "elementos?",
+      "delete_content2": "¿Estás seguro de que deseas eliminar?",
+      "share_file": "Compartir archivo",
+      "delete_content3": "¿Estás seguro de que deseas eliminar este archivo?"
+    }
+  }
+}

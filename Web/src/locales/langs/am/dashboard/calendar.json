@@ -1,0 +1,58 @@
+{
+  "calendar": {
+    "title": "የቀን መቁጠሪያ",
+    "new_event": "አዲስ ክስተት",
+    "edit_event": "ክስተት አርትዕ",
+    "filters": "ማጣሪያዎች",
+    "colors": "ቀለሞች",
+    "range": "ክልል",
+    "events": "ክስተቶች",
+    "event": "ክስተት",
+    "today": "ዛሬ",
+    "month": "ወር",
+    "week": "ሳምንት",
+    "day": "ቀን",
+    "agenda": "የተግባር ዝርዝር",
+    "reset": "ዳግም አስጀምር",
+    "view": {
+      "month": "ወር",
+      "week": "ሳምንት",
+      "day": "ቀን",
+      "agenda": "የተግባር ዝርዝር"
+    },
+
+    "tooltip": {
+      "delete_event": "ክስተት ሰርዝ",
+      "edit_event": "ክስተት አርትዕ"
+    },
+
+    "form": {
+      "title": "ርዕስ",
+      "description": "መግለጫ",
+      "all_day": "ቀኑ በሙሉ",
+      "start_date": "የመጀመሪያ ቀን",
+      "end_date": "የመጨረሻ ቀን",
+      "save": "ቀይርና አስቀምጥ",
+      "cancel": "ሰርዝ",
+      "delete": "ክስተት ሰርዝ",
+      "create_success": "በተሳካ ሁኔታ ተፈጠረ!",
+      "update_success": "በተሳካ ሁኔታ ተዘምኗል!",
+      "delete_success": "በተሳካ ሁኔታ ተሰርዟል!"
+    },
+
+    "dialog": {
+      "add": "አክል",
+      "edit": "አርትዕ",
+      "cancel": "ሰርዝ",
+      "delete": "ሰርዝ"
+    },
+
+    "validation": {
+      "title_required": "ርዕስ አስፈላጊ ነው!",
+      "description_required": "መግለጫ አስፈላጊ ነው!",
+      "description_min": "መግለጫው ቢያንስ 50 ፊደላት መኖሩ አለበት",
+      "title_max": "ርዕሱ ከ100 ፊደላት በታች መሆን አለበት",
+      "end_date_error": "የመጨረሻ ቀን ከመጀመሪያ ቀን በኋላ መሆን አለበት"
+    }
+  }
+}

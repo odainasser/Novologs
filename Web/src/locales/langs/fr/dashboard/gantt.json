@@ -1,0 +1,32 @@
+{
+  "gantt": {
+    "timeline_not_found": "Chronologie introuvable",
+    "column_assignees": "Personnes assignées",
+    "column_project": "Projet",
+    "column_mission": "Mission",
+    "column_client": "Client",
+    "column_lead": "Piste",
+    "column_vendor": "Fournisseur",
+    "column_contract": "Contrat",
+    "column_backlog": "Arriéré",
+    "tooltip_start": "Début :",
+    "tooltip_finish": "Fin :",
+     "no_tasks_display": "Aucune tâche à afficher dans la chronologie.",
+  "permission_denied": "Permission refusée",
+  "confirm_date": "Confirmer le changement de date",
+  "date": "date",
+  "?": "？",
+  "are_you_sure": "Êtes-vous sûr de vouloir modifier",
+  "confirm": "Confirmer",
+  "cancel": "Annuler",
+  "are_you_sure_update_task": "Êtes-vous sûr de vouloir mettre à jour la progression de la tâche ?",
+  "task_name": "Nom de la tâche",
+  "ID": "ID",
+  "start_date": "Date de début",
+  "end_date": "Date de fin",
+  "task_not_in_progress": "La tâche n'est pas \"En cours\", mise à jour impossible.",
+  "you_donot": "Vous n'avez pas la permission de modifier la progression.",
+   "confirm_progress": "Confirmer la modification de la progression"
+  
+}
+}

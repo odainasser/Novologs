@@ -1,0 +1,10 @@
+{
+  "date": {
+    "title": "Select date range",
+    "start_date": "Start date",
+    "end_date": "End date",
+    "end_date_validation": "End date must be later than start date",
+    "cancel": "Cancel",
+    "apply": "Apply"
+  }
+}

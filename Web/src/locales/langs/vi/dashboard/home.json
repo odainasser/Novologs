@@ -1,0 +1,17 @@
+{
+  "home": {
+    "welcome_back": "Chào mừng trở lại ",
+    "new_notice": "Bạn sẽ thấy thông báo tại đây",
+    "no_notice": "Không có thông báo",
+    "view_all": "Xem tất cả",
+    "no_data": "Không có dữ liệu",
+    "no_data_found": "Không tìm thấy dữ liệu",
+    "loading": "Đang tải...",
+    "error": "Lỗi",
+    "try_again": "Thử lại",
+    "search": "Tìm kiếm",
+    "no_results": "Không tìm thấy kết quả",
+    "searching": "Đang tìm kiếm...",
+    "cancel": "Hủy"
+  }
+}

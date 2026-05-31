@@ -1,0 +1,32 @@
+{
+  "gantt": {
+    "timeline_not_found": "Ratiba haijapatikana",
+    "column_assignees": "Waliokabidhiwa",
+    "column_project": "Mradi",
+    "column_mission": "Misheni",
+    "column_client": "Mteja",
+    "column_lead": "Fursa",
+    "column_vendor": "Msambazaji",
+    "column_contract": "Mkataba",
+    "column_backlog": "Kazi zilizosalia",
+    "tooltip_start": "Kuanza:",
+    "tooltip_finish": "Kumaliza:",
+    "no_tasks_display": "Hakuna kazi za kuonyesha kwenye ratiba.",
+    "permission_denied": "Ruhusa imekataliwa",
+    "confirm_date": "Thibitisha mabadiliko ya tarehe",
+    "date": "Tarehe",
+    "?": "?",
+    "title": "Gantt",
+    "are_you_sure": "Una uhakika unataka kubadilisha",
+    "confirm": "Thibitisha",
+    "cancel": "Ghairi",
+    "are_you_sure_update_task": "Una uhakika unataka kusasisha maendeleo ya kazi?",
+    "task_name": "Jina la Kazi",
+    "ID": "ID",
+    "start_date": "Tarehe ya kuanza",
+    "end_date": "Tarehe ya kumaliza",
+    "task_not_in_progress": "Kazi haiko kwenye hali ya \"Inaendelea\", haiwezi kusasishwa.",
+    "you_donot": "Huna ruhusa ya kuhariri maendeleo.",
+    "confirm_progress": "Thibitisha mabadiliko ya maendeleo"
+  }
+}

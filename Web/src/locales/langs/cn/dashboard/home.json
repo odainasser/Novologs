@@ -1,0 +1,17 @@
+{
+  "home": {
+    "welcome_back": "欢迎回来 ",
+    "new_notice": "您将在这里看到公告",
+    "no_notice": "没有公告",
+    "view_all": "查看全部",
+    "no_data": "没有数据",
+    "no_data_found": "未找到数据",
+    "loading": "加载中...",
+    "error": "错误",
+    "try_again": "重试",
+    "search": "搜索",
+    "no_results": "未找到结果",
+    "searching": "搜索中...",
+    "cancel": "取消"
+  }
+}

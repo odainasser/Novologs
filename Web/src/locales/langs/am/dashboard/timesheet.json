@@ -1,0 +1,78 @@
+{
+  "heading": {
+    "list": "ዝርዝር"
+  },
+  "breadcrumbs": {
+    "dashboard": "መለኪያ ሰሌዳ",
+    "timesheet": "ሰርቪስ መዝገብ",
+    "list": "ዝርዝር"
+  },
+  "tabs": {
+    "all": "ሁሉም ሰርቪስ መዝገቦች",
+    "task_type": "የተግባር አይነት"
+
+  },
+  "table": {
+    "sl_no": "ቁጥር",
+    "timesheet_id": "ሰርቪስ መዝገብ መለያ",
+    "project": "ፕሮጀክት",
+    "task": "ተግባር",
+    "start_date": "መነሻ ቀን",
+    "duration": "ጊዜ ቆይታ",
+    "notes": "ምላሽዎች",
+    "not_available": "አልተገኘም",
+    "no_notes": "ምላሽ አልተገኙም",
+    "timeslot": "ጊዜ ተወላጅ",
+    "actions": "እርምጃዎች",
+    
+  "date": "ቀን",
+  "task_details": "የተግባር ዝርዝሮች",
+  "tasktype": "የተግባር አይነት"
+
+
+  },
+  "toast": {
+    "timesheet_success": "ሰርቪስ መዝገብ በተሳካ ሁኔታ ተጨምሯል!",
+    "delete_success": "ማስፈን በተሳካ ሁኔታ ተሳካ!",
+    "calendar_error": "እባኮትን ከቀን ምንጭ ቀን ተመርጠው አሁን በምንም መተኮር የተስፋፋነት ሁኔታ ለመምሰል",
+    "id_error": "የተሳካ እባኮት ማስተካከል"
+  },
+  "form": {
+    "save": "አስተካክል",
+    "update": "አሻሽል",
+    "clear": "አጽዳ",
+    "id": "መለያ",
+    "project": "ፕሮጀክት",
+    "task": "ተግባር",
+    "start_date": "መነሻ ቀን",
+    "duration": "ጊዜ ቆይታ",
+    "notes": "ምላሽዎች",
+    "start_time": "መነሻ ሰዓት",
+    "end_time": "መጨረሻ ሰዓት",
+    "select_time_slot": "ጊዜ ተወላጅ ምረጥ",
+    "add_timesheet": "ሰርቪስ መዝገብ አክል",
+    "select_project": "ፕሮጀክት ምረጥ",
+    "select_task": "ተግባር ምረጥ",
+    "search_task": "ተግባር ፈልግ...",
+    "search_placeholder": "ፈልግ...",
+    "no_results": "ምንም ውጤቶች አልተገኙም",
+    "search": "ፈልግ",
+    "search_project": "ፕሮጀክቶችን ፈልግ...",
+    "add_timesheet_details":"የሰዓት ሰብስ ዝርዝሮችን ያክሉ"
+  },
+  "actions": {
+    "delete": "ማስፈን",
+    "add_timesheet": "ሰርቪስ መዝገብ አክል",
+    "edit": "ማሻሻያ",
+    "print": "ተተኪ",
+    "export": "ማስመዝገብ",
+    "import": "መግባት",
+    "cancel": "ማስተካከያ",
+    "confirm": "እርግጠኛ"
+  },
+  "dialogs": {
+    "confirm_delete": "እባኮትን ስለምታሳየው ስለምታሳየው እባኮትን መስፈን ማስፈን ማስፈን ይደርሳል?",
+    "items": "እባላት?",
+    "confirm_delete_single": "ስለምታሳየው ስለምታሳየው ሰርቪስ መዝገብ ተመረጠ ይህንን ስለምታሳየው ስለምታሳየው?"
+  }
+}

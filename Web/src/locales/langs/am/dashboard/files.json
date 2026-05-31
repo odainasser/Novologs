@@ -1,0 +1,110 @@
+{
+  "files": {
+    "custombreads": {
+      "dashboard": "ጠቅላላ መረጃ ገጽ",
+      "title": "የፋይል አስተዳደር",
+      "list": "ዝርዝር"
+    },
+    "tabs": {
+      "all": "ሁሉም",
+      "my": "የእኔ ፋይሎች",
+      "shared": "ተጋራ",
+      "starred": "በኮከብ የተለየ"
+    },
+    "buttons": {
+      "back": "ተመለስ",
+      "update_file/folder": " ፋይል/ፎልደር አዘመን",
+      "addfile/folder": "ፋይል/ፎልደር ያክሉ",
+      "update": "አዘመን",
+      "save": "አስቀምጥ",
+      "open": "ክፈት",
+      "download": "ያውርዱ",
+      "delete": "ሰርዝ",
+      "share": "አጋራ",
+      "edit": "አርትዕ",
+      "close": "ዝጋ",
+      "add": "አክል",
+      "print": "ይታተሙ",
+      "export": "ውጣ",
+      "import": "ያስገቡ",
+      "cancel": "ተው"
+    },
+    "tooltip": {
+      "delete": "ሰርዝ",
+      "clear_all": "ሁሉንም መስፈርያዎች ሰርዝ",
+      "choose_file": "ፋይል ይምረጡ",
+      "view_members": "አባላትን ይመልከቱ",
+      "add_update_members": "አባላት ያክሉ/ያዘመኑ",
+      "tooltip_title": "ይህ የአጋራ ፈቃድ እርስዎን እንዲያጋራና ለሌሎች አባላት እንዲላኩ ያስችላል"
+    },
+    "labels": {
+      "folders": "ፎልደር",
+      "files": "ፋይል",
+      "project": "ፕሮጀክት",
+      "client": "ደንበኛ",
+      "fileinfo": "የፋይል መረጃ",
+      "no_file_selected": "ፋይል አልተመረጠም",
+      "size": "መጠን",
+      "modified": "ተሻሽሏል",
+      "type": "ዓይነት",
+      "shared_with": "ጋራ ተደርጓል",
+      "share_permission": "የመጋራት ፈቃድ",
+      "exit_fullscreen": "ከሙሉ ማያ ውጥታ",
+      "copy_link": "አገናኝ ቅዳ",
+      "not_available": "አይገኝም",
+      "serial_no": "ቁጥር ተቀምጧል",
+      "name": "ስም",
+      "members": "አባላት",
+      "actions": "እርምጃዎች",
+      "creators": "ፈጣሪ",
+      "details": "ዝርዝሮች",
+      "share": "አጋራ",
+      
+  "no_members": "ምንም አባላት የሉም",
+  "general": "አጠቃላይ",
+  "copy_file": "ፋይል ቅዳ",
+  "copy_folder": "ፎልደር ቅዳ"
+    },
+    "placeholder": {
+      "foldername": "የፎልደር ስም",
+      "add_members": "አባላት ያክሉ",
+      "search_projects": "ፕሮጀክቶችን ፈልግ...",
+      "no_results_found": "ውጤት አልተገኘም",
+      "search_clients": "ደንበኞችን ፈልግ...",
+      "search": "ፈልግ...",
+      "select_date": "ቀን ይምረጡ",
+      "calendar": "ቀን መጠያቂያ",
+      "not_available": "አይገኝም",
+      "edit_members": "አባላት አርትዕ",
+      "no_members_found":"ምንም አባላት አልተገኘም",
+      "desc_members":"ምንም አባላት የሉም"
+    },
+    "validations": {
+      "folder_name_required": "የፎልደር ስም ያስፈልጋል",
+      "invalid_type": "የውስጥ ፋይል ዓይነት የተሳሳተ ነው"
+    },
+    "toast": {
+      "update_success": "በተሳካ ሁኔታ ተዘመነ!",
+      "delete_success": "በተሳካ ሁኔታ ተሰርዟል!",
+      "shared_membres": "ተጋራ አባላት ተዘመኑ!",
+      "permission_success": "ፈቃድ በተሳካ ሁኔታ ተሰጠ!",
+      "copied": "ተቅዳል",
+      "shared_member": "ተጋራ አባላት ተዘመኑ!",
+      "file_delete": "ፋይል በተሳካ ሁኔታ ተሰርዟል",
+      "star_updated": "ኮከብ ተዘመነ",
+      "no_file_chosen": "ፋይል አልተመረጠም",
+      "folder_name_is_required": "የፎልደር ስም ያስፈልጋል",
+      "shared_success": "በተሳካ ሁኔታ ተጋራ"
+    },
+    "dialog": {
+      "members": "አባላት",
+      "close": "ዝጋ",
+      "delete_title": "ሰርዝ",
+      "delete_content": "ለእርግጥ ይርጋሉ?",
+      "items": "ንጥሎች?",
+      "delete_content2": "ለእርግጥ ይርጋሉ?",
+      "share_file": "ፋይል አጋራ",
+      "delete_content3": "ለእርግጥ ይርጋሉ ይህን ፋይል ሰርዝ?"
+    }
+  }
+}

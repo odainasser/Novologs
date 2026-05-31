@@ -1,0 +1,17 @@
+{
+  "home": {
+    "welcome_back": "Bienvenido de nuevo ",
+    "new_notice": "Verás un anuncio aquí",
+    "no_notice": "No hay anuncios",
+    "view_all": "Ver todos",
+    "no_data": "Sin datos",
+    "no_data_found": "No se encontraron datos",
+    "loading": "Cargando...",
+    "error": "Error",
+    "try_again": "Intentar de nuevo",
+    "search": "Buscar",
+    "no_results": "No se encontraron resultados",
+    "searching": "Buscando...",
+    "cancel": "Cancelar"
+  }
+}

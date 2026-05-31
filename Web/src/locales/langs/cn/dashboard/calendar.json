@@ -1,0 +1,64 @@
+{
+    "calendar": {
+      "title": "日历",
+  "new_event": "新事件",
+  "edit_event": "编辑事件",
+  "filters": "筛选器",
+  "colors": "颜色",
+  "range": "范围",
+  "events": "事件",
+  "event": "事件",
+  "today": "今天",
+  "month": "月份",
+  "week": "周",
+  "day": "天",
+  "agenda": "议程",
+  "reset": "重置",
+
+
+     "view": {
+  "month": "月份",
+  "week": "周",
+  "day": "天",
+  "agenda": "议程"
+},
+
+    "tooltip": {
+  "delete_event": "删除事件",
+  "edit_event": "编辑事件"
+},
+
+
+     "form": {
+  "title": "标题",
+  "description": "描述",
+  "all_day": "全天",
+  "start_date": "开始日期",
+  "end_date": "结束日期",
+  "save": "保存更改",
+  "cancel": "取消",
+  "delete": "删除事件",
+  "create_success": "创建成功！",
+  "update_success": "更新成功！",
+  "delete_success": "删除成功！"
+},
+
+   "dialog": {
+  "add": "添加",
+  "edit": "编辑",
+  "cancel": "取消",
+  "delete": "删除"
+},
+
+
+     "validation": {
+  "title_required": "标题是必填项！",
+  "description_required": "描述是必填项！",
+  "description_min": "描述至少需要 50 个字符",
+  "title_max": "标题必须少于 100 个字符",
+  "end_date_error": "结束日期必须在开始日期之后"
+}
+
+    }
+  }
+  

@@ -1,0 +1,58 @@
+{
+    "calendar": {
+      "title": "التقويم",
+      "new_event": "حدث جديد",
+      "edit_event": "تعديل الحدث",
+      "filters": "الفلاتر",
+      "colors": "الألوان",
+      "range": "النطاق",
+      "events": "الأحداث",
+      "event": "الحدث",
+
+      "today": "اليوم",
+      "month": "الشهر",
+      "week": "الأسبوع",
+      "day": "اليوم",
+      "agenda": "جدول الأعمال",
+      "reset": "إعادة ضبط",
+      "view": {
+        "month": "الشهر",
+        "week": "الأسبوع",
+        "day": "اليوم",
+        "agenda": "جدول الأعمال"
+      },
+      "tooltip": {
+  "delete_event": "حذف الحدث",
+  "edit_event": "تعديل الحدث"
+},
+
+      "form": {
+        "title": "العنوان",
+        "description": "الوصف",
+        "all_day": "طوال اليوم",
+        "start_date": "تاريخ البدء",
+        "end_date": "تاريخ الانتهاء",
+        "save": "حفظ التغييرات",
+        "cancel": "إلغاء",
+        "delete": "حذف الحدث",
+        "create_success": "تم الإنشاء بنجاح!",
+        "update_success": "تم التحديث بنجاح!",
+        "delete_success": "تم الحذف بنجاح!"
+      },
+     "dialog": {
+  "add": "إضافة",
+  "edit": "تعديل",
+  "cancel": "إلغاء",
+  "delete": "حذف"
+},
+
+      "validation": {
+        "title_required": "العنوان مطلوب!",
+        "description_required": "الوصف مطلوب!",
+        "description_min": "يجب أن يكون الوصف 50 حرفًا على الأقل",
+        "title_max": "يجب أن يكون العنوان أقل من 100 حرف",
+        "end_date_error": "يجب أن يكون تاريخ الانتهاء بعد تاريخ البدء"
+      }
+    }
+  }
+  

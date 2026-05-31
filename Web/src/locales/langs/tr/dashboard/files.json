@@ -1,0 +1,124 @@
+{
+    "files":{
+       "custombreads": {
+  "dashboard": "Tableau de bord",
+  "title": "Gestionnaire de fichiers",
+  "list": "Liste"
+},
+
+       "tabs": {
+  "all": "Tous",
+  "my": "Mes fichiers",
+  "shared": "Partagés",
+  "starred": "Favoris"
+},
+
+
+       "buttons": {
+  "back": "Geri",
+  "update_file/folder": "Dosya/Klasörü Güncelle",
+  "addfile/folder": "Dosya/Klasör Ekle",
+  "update": "Güncelle",
+  "save": "Kaydet",
+  "open": "Aç",
+  "download": "İndir",
+  "delete": "Sil",
+  "share": "Paylaş",
+  "edit": "Düzenle",
+  "close": "Kapat",
+  "add": "Ekle",
+  "print": "Yazdır",
+  "export": "Dışa Aktar",
+  "import": "İçe Aktar",
+  "cancel": "İptal"
+},
+
+
+
+  "tooltip": {
+  "delete": "Sil",
+  "clear_all": "Tüm alanları temizle",
+  "choose _file": "Dosya seç",
+  "view_members": "Üyeleri Görüntüle",
+  "add_update_members": "Üyeleri Ekle / Güncelle"
+},
+
+
+
+       "labels": {
+  "folders": "Klasör",
+  "files": "Dosya",
+  "project": "Proje",
+  "client": "Müşteri",
+  "fileinfo": "Dosya Bilgileri",
+  "no_file_selected": "Seçili dosya yok",
+  "size": "Boyut",
+  "modified": "Değiştirildi",
+  "type": "Tür",
+  "shared_with": "Paylaşıldı",
+  "share_permission": "Paylaşım İzni",
+  "exit_fullscreen": "Tam ekrandan çık",
+  "copy_link": "Bağlantıyı kopyala",
+  "not_available": "Mevcut değil",
+  "serial_no": "No",
+  "name": "Ad",
+  "members": "Üyeler",
+  "actions": "İşlemler",
+  "creators": "Oluşturanlar",
+  
+  "details": "Detaylar",
+    "share": "Paylaş",
+  "no_members": "Üye yok",
+  "general": "Genel",
+  "copy_file": "Dosyayı Kopyala",
+  "copy_folder": "Klasörü Kopyala"
+},
+
+
+
+      "placeholder": {
+  "foldername": "Klasör adı",
+  "add_members": "Üye ekle",
+  "search_projects": "Projeleri ara...",
+  "no_results_found": "Sonuç bulunamadı",
+  "search_clients": "Müşterileri ara...",
+  "search": "Ara...",
+  "select_date": "Tarih seç",
+  "calendar": "Takvim",
+  "not_available": "Mevcut değil"
+},
+
+
+ "validations": {
+  "folder_name_required": "Klasör adı gereklidir",
+  "invalid_type": "Geçersiz dosya türü"
+},
+
+
+"toast": {
+  "update_success": "Mis à jour avec succès !",
+  "delete_success": "Supprimé avec succès !",
+  "shared_membres": "Membres partagés mis à jour !",
+  "permission_success": "Permission accordée avec succès !",
+  "copied": "Copié",
+  "file_delete": "Fichier supprimé avec succès",
+  "star_updated": "Étoile mise à jour",
+  "no_file_chosen": "Aucun fichier sélectionné",
+  "folder_name_is_required": "Le nom du dossier est requis"
+},
+
+
+ "dialog": {
+  "members": "Üyeler",
+  "close": "Kapat",
+  "delete_title": "Sil",
+  "delete_content": "Silmek istediğinizden emin misiniz",
+  "items": "öğeler?",
+  "delete_content2": "Silmek istediğinizden emin misiniz?",
+  "share_file": "Dosyayı Paylaş",
+  "delete_content3": "Bu dosyayı silmek istediğinizden emin misiniz?"
+}
+
+
+}
+}

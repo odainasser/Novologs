@@ -1,0 +1,29 @@
+# Normalize line endings automatically.
+* text=auto
+
+# C# / project files
+*.cs        text diff=csharp
+*.csproj    text eol=crlf
+*.sln       text eol=crlf
+*.props     text eol=crlf
+*.targets   text eol=crlf
+*.json      text
+*.config    text
+
+# Scripts keep their native endings
+*.sh        text eol=lf
+*.ps1       text eol=crlf
+*.cmd       text eol=crlf
+*.bat       text eol=crlf
+
+# Binary / non-diffable assets
+*.pem       binary
+*.pfx       binary
+*.snk       binary
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.ico       binary
+*.dll       binary
+*.zip       binary

@@ -1,0 +1,78 @@
+{
+  "heading": {
+    "list": "列表"
+  },
+  "breadcrumbs": {
+    "dashboard": "仪表板",
+    "timesheet": "工时表",
+    "list": "列表"
+  },
+  "tabs": {
+    "all": "所有工时记录",
+    "task_type": "任务类型"
+
+  },
+  "table": {
+    "sl_no": "序号",
+    "timesheet_id": "工时表编号",
+    "project": "项目",
+    "task": "任务",
+    "start_date": "开始日期",
+    "duration": "持续时间",
+    "notes": "备注",
+    "not_available": "不可用",
+    "no_notes": "无备注",
+    "timeslot": "时间段",
+    "actions": "操作",
+    "details": "详情",
+    "date": "日期",
+  "task_details": "任务详情",
+  "tasktype": "任务类型"
+  },
+  "toast": {
+    "timesheet_success": "工时表添加成功！",
+    "delete_success": "删除成功！",
+    "calendar_error": "请先从日历中选择日期。",
+    "id_error": "必填项"
+  },
+  "form": {
+    "save": "保存",
+    "update": "更新",
+    "clear": "清除",
+    "id": "工时表编号",
+    "project": "项目",
+    "task": "任务",
+    "start_date": "开始日期",
+    "duration": "持续时间",
+    "notes": "备注",
+    "start_time": "开始时间",
+    "end_time": "结束时间",
+    "select_time_slot": "选择时间段",
+    "add_timesheet": "添加工时记录",
+    "select_project": "选择项目",
+    "select_task": "选择任务",
+    "search_task": "搜索任务...",
+    "search_placeholder": "搜索...",
+    "no_results": "未找到结果",
+    "search": "搜索",
+    "search_project": "搜索项目...",
+     "add_timesheet_details":"添加时间表详细信息"
+     
+
+  },
+  "actions": {
+    "delete": "删除",
+    "add_timesheet": "添加工时记录",
+    "edit": "编辑",
+    "print": "打印",
+    "export": "导出",
+    "import": "导入",
+    "cancel": "取消",
+    "confirm": "确认"
+  },
+  "dialogs": {
+    "confirm_delete": "您确定要删除",
+    "items": "项？",
+    "confirm_delete_single": "您确定要删除此工时记录吗？"
+  }
+}

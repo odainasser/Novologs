@@ -1,0 +1,108 @@
+{
+  "files": {
+    "custombreads": {
+      "dashboard": "Bảng điều khiển",
+      "title": "Trình quản lý tệp",
+      "list": "Danh sách"
+    },
+    "tabs": {
+      "all": "Tất cả",
+      "my": "Tệp của tôi",
+      "shared": "Đã chia sẻ",
+      "starred": "Được đánh dấu sao"
+    },
+    "buttons": {
+      "back": "Quay lại",
+      "update_file/folder": "Cập nhật Tệp/Thư mục",
+      "addfile/folder": "Thêm Tệp/Thư mục",
+      "update": "Cập nhật",
+      "save": "Lưu",
+      "open": "Mở",
+      "download": "Tải xuống",
+      "delete": "Xóa",
+      "share": "Chia sẻ",
+      "edit": "Chỉnh sửa",
+      "close": "Đóng",
+      "add": "Thêm",
+      "print": "In",
+      "export": "Xuất",
+      "import": "Nhập",
+      "cancel": "Hủy"
+    },
+    "tooltip": {
+      "delete": "Xóa",
+      "clear_all": "Xóa tất cả các trường",
+      "choose_file": "Chọn tệp",
+      "view_members": "Xem thành viên",
+      "add_update_members": "Thêm / Cập nhật thành viên",
+      "tooltip_title": "Quyền chia sẻ này sẽ cho phép thành viên này chia sẻ và gửi tới các thành viên khác"
+    },
+    "labels": {
+      "folders": "Thư mục",
+      "files": "Tệp",
+      "project": "Dự án",
+      "client": "Khách hàng",
+      "fileinfo": "Thông tin tệp",
+      "no_file_selected": "Chưa chọn tệp",
+      "size": "Kích thước",
+      "modified": "Đã chỉnh sửa",
+      "type": "Loại",
+      "shared_with": "Chia sẻ với",
+      "share_permission": "Quyền chia sẻ",
+      "exit_fullscreen": "Thoát toàn màn hình",
+      "copy_link": "Sao chép liên kết",
+      "not_available": "Không khả dụng",
+      "serial_no": "STT",
+      "name": "Tên",
+      "members": "Thành viên",
+      "actions": "Hành động",
+      "creators": "Người tạo",
+      "details": "Chi tiết",
+      "share": "Chia sẻ",
+      
+  "no_members": "Không có thành viên",
+  "general": "Chung",
+  "copy_file": "Sao chép tệp",
+  "copy_folder": "Sao chép thư mục"
+    },
+    "placeholder": {
+      "foldername": "Tên thư mục",
+      "add_members": "Thêm thành viên",
+      "search_projects": "Tìm kiếm dự án...",
+      "no_results_found": "Không tìm thấy kết quả",
+      "search_clients": "Tìm kiếm khách hàng...",
+      "search": "Tìm kiếm...",
+      "select_date": "Chọn ngày",
+      "calendar": "Lịch",
+      "not_available": "Không khả dụng",
+      "edit_members": "Chỉnh sửa thành viên"
+    },
+    "validations": {
+      "folder_name_required": "Tên thư mục là bắt buộc",
+      "invalid_type": "Loại tệp không hợp lệ"
+    },
+    "toast": {
+      "update_success": "Cập nhật thành công!",
+      "delete_success": "Xóa thành công!",
+      "shared_membres": "Cập nhật thành viên đã chia sẻ!",
+      "permission_success": "Cấp quyền thành công!",
+      "copied": "Đã sao chép",
+      "shared_member": "Cập nhật thành viên đã chia sẻ!",
+      "file_delete": "Tệp đã được xóa thành công",
+      "star_updated": "Đã cập nhật đánh dấu sao",
+      "no_file_chosen": "Chưa chọn tệp",
+      "folder_name_is_required": "Tên thư mục là bắt buộc",
+      "shared_success": "Chia sẻ thành công"
+    },
+    "dialog": {
+      "members": "Thành viên",
+      "close": "Đóng",
+      "delete_title": "Xóa",
+      "delete_content": "Bạn có chắc chắn muốn xóa",
+      "items": "mục?",
+      "delete_content2": "Bạn có chắc chắn muốn xóa?",
+      "share_file": "Chia sẻ tệp",
+      "delete_content3": "Bạn có chắc chắn muốn xóa tệp này?"
+    }
+  }
+}

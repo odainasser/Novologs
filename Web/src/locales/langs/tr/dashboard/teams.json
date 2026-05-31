@@ -1,0 +1,630 @@
+{
+  "teams": {
+    "heading": "Ekipler",
+    "dashboard": "Kontrol Paneli",
+    "organization_hierarchy": "Organizasyon Hiyerarşisi",
+    "add_new_member": "Yeni Üye Ekle",
+    "add_more_details": "Daha Fazla Detay Ekle",
+    "user": "Kullanıcı",
+    "list": "Liste",
+    "export": "PDF'ye Dışa Aktar",
+    "tabs": {
+      "internal": "Dahili",
+      "all": "Hepsi",
+      "my-team": "Ekibim",
+      "external": "Harici"
+    },
+    "no_data": "Veri yok",
+    "no_members_found": "Üye bulunamadı",
+    "no_members_available": "Mevcut üye yok"
+  },
+  "tooltip": {
+    "grid": "Izgara Görünümü",
+    "list": "Liste Görünümü",
+    "add_employee": "Çalışan Ekle",
+    "add_user_details": "Kullanıcı Detaylarını Ekle",
+    "edit_user_details": "Kullanıcı Detaylarını Düzenle",
+    "add_organization": "Organigrama Ekle",
+    "add_user_image": "Kullanıcı Görseli Ekle",
+    "change_user_image": "Kullanıcı Görselini Değiştir",
+    "settings": "Ayarlar",
+    "Organization_tree": "Organizasyon Ağacı",
+    "code": "Kod",
+    "details_added": "Detaylar Eklendi"
+  },
+  "table": {
+    "headings": {
+      "serialNo": "No",
+      "empId": "Çalışan Kimliği",
+      "name": "Ad",
+      "userName": "Kullanıcı Adı",
+      "role": "Pozisyon",
+      "department": "Departman",
+      "email": "E-posta",
+      "status": "Durum",
+      "id": "Kimlik",
+      "designation": "Pozisyon",
+      "firstName": "Ad",
+      "departmentId": "Departman",
+      "contact": "İletişim",
+      "countryId": "Uyruk",
+      "device": "Cihaz",
+      "company": "Şirket",
+      "actions": "İşlemler",
+      "employee": "Çalışan",
+      "card": "Kart",
+      "not_available": "Mevcut değil",
+      "not_register": "Kayıtlı değil",
+      "unknown_device": "Bilinmeyen cihaz",
+      "add_business_target": "İş Hedefi Ekle",
+      "add_target": "Hedef Ekle",
+      "edit_target": "Hedefi Düzenle",
+      "set_business": "İş Hedefi Belirle",
+      "year": "Yıl",
+      "phone-number": "Telefon Numarası",
+      "enter-phoneno": "Telefon numarası girin",
+      "ID": "Kimlik",
+      "details": "Detaylar",
+      "tree": "Seviye",
+      "choose_country": "Ülke Seçin",
+      "placeholder_search": "Kullanıcı rolleri ara",
+      "admin": "Yönetici",
+      "hr_mangement": "İK Yönetimi",
+      "project_management": "Proje Yönetimi",
+      "task_management": "Görev Yönetimi",
+      "client_management": "Müşteri Yönetimi",
+      "vendor_management": "Tedarikçi Yönetimi",
+      "settings_management": "Ayar Yönetimi",
+      "hourly_rate": "Saatlik Ücret (AED):",
+      "branches": "Şubeler"
+    },
+    "status": {
+      "label": "Durum",
+      "active": "Aktif",
+      "disabled": "Devre Dışı"
+    },
+    "search": {
+      "placeholder": "Ara..."
+    },
+    "actions": {
+      "edit": "Düzenle",
+      "view": "Görüntüle",
+      "print": "Yazdır",
+      "import": "İçe Aktar",
+      "delete": "Sil",
+      "export": "Dışa Aktar",
+      "search": "Ara",
+      "save": "Kaydet",
+      "clear_all": "Tümünü Temizle",
+      "Dense": "Sıkı Görünüm",
+      "add": "Ekle",
+      "cancel": "İptal",
+      "addmore": "Daha Fazla Ekle",
+      "deactivate": "Devre Dışı Bırak",
+      "update": "Güncelle"
+    },
+    "confirm_delete": "Silmek istediğinizden emin misiniz?",
+    "delete_success": "Başarıyla silindi!",
+    "deactivate_message": "Bu çalışanı devre dışı bırakmak istediğinizden emin misiniz?"
+  },
+  "filters": {
+    "search_placeholder": "Ada göre ara...",
+    "reset_filters": "Filtreleri Sıfırla",
+    "results_found": "{{count}} sonuç bulundu",
+    "status_filter": "Duruma göre filtrele"
+  },
+  "Validations": {
+    "name_error": "İsim boş olamaz.",
+    "email_error": "Kullanıcı adı boş olamaz.",
+    "email_valid": "Geçerli bir e-posta gereklidir.",
+    "files_too": "Dosya boyutu ${fData(1000000)} değerinden büyük.",
+    "allowed_types": "İzin verilen formatlar: *.jpeg, *.jpg, *.png, *.gif",
+    "max": "maksimum boyut"
+  },
+  "placeholder": {
+    "enter_address": "Adres girin",
+    "serach_rights": "Kullanıcı haklarını ara..."
+  },
+  "success_messages": {
+    "employee_add": "Çalışan başarıyla eklendi!",
+    "user_updated": "Kullanıcı başarıyla güncellendi!"
+  },
+  "hierarchy": {
+    "title": "Organizasyon Hiyerarşisi",
+    "add_role": "Rol Ekle",
+    "new-user": "Yeni Kullanıcı",
+    "close": "Kapat",
+    "edit_permission_level": "İzin Seviyesini Düzenle",
+    "no_levels_found": "Seviye bulunamadı",
+    "edit": "Düzenle",
+    "general_members": "Genel Üyeler",
+    "no_members": "Üye yok",
+    "add": "Ekle",
+    "search": "Ara",
+    "back_to_employee": "Çalışan listesine dön",
+    "general_member_list": "Genel Üye Listesi",
+    "please_add": "Lütfen ekleyin",
+    "employee_here": "buraya bir çalışan",
+    "unknown_group": "Bilinmeyen grup",
+    "delete": {
+      "confirm_title": "Silme Onayı",
+      "confirm_message": "«{{item}}» öğesini hiyerarşiden silmek istediğinizden emin misiniz?",
+      "cancel": "İptal",
+      "del_confirm": "Silmek istediğinizden emin misiniz",
+      "from": "hiyerarşiden?",
+      "confirm": "Sil",
+      "employee_deactivated_success": "Çalışan başarıyla devre dışı bırakıldı",
+      "employee_activated": "Çalışan başarıyla etkinleştirildi",
+      "error_activating_employee": "Çalışan etkinleştirilirken hata oluştu",
+      "employee_vacant": "Pozisyon boş",
+      "no_members_available": "Mevcut üye yok",
+      "team_hierarchy": "Ekip Hiyerarşisi",
+      "employee_id_is_not": "Çalışan kimliği mevcut değil",
+      "designation_not": "Pozisyon mevcut değil",
+      "department_not": "Departman mevcut değil"
+    },
+    "toast": {
+      "user_success": "Kullanıcı hiyerarşiden başarıyla silindi",
+      "failed_delete": "Kullanıcı silinemedi",
+      "are_sure": "Bu çalışanı hiyerarşiden silmek istediğinizden emin misiniz?",
+      "cancel": "İptal",
+      "delete": "Sil",
+      "delete_successfully": "Başarıyla silindi",
+      "edit": "Düzenle"
+    },
+    "fullscreen": {
+      "enter": "Tam ekranı göster",
+      "exit": "Tam ekrandan çık"
+    },
+    "employee_vacant": "Boş pozisyon",
+    "add_subordinate": "Ast Ekle",
+    "select_user_permissions": "Kullanıcı Rolleri",
+    "select_all": "Tümünü Seç",
+    "no_user_rights": "Kullanıcı yetkisi yok"
+  },
+  "profile": {
+    "heading": "Profil",
+    "dashboard": "Tableau de bord",
+    "teams": "Équipes",
+    "tabs": {
+      "profile": "Profil",
+      "tasks": "Tâches",
+      "timesheet": "Feuille de temps",
+      "personal": "Détails personnels",
+      "gallery": "Galerie"
+    },
+    "no_project_tr": "Proje bulunamadı",
+    "no_project_details_tr": "Proje detayları mevcut değil.",
+    "add_user_image": "Ajouter une image utilisateur",
+    "edit_user_image": "Modifier l'image utilisateur",
+    "about": "À propos",
+    "follower": "Abonné",
+    "following": "Abonnements",
+    "live_at": "Habite à",
+    "employee_id": "ID de l’employé",
+    "status": "Statut",
+    "not_available": "Non disponible",
+    "social": "Réseaux sociaux",
+    "skills": "Compétences",
+    "no_skills_found": "Aucune compétence trouvée",
+    "no_skills_description": "Aucune compétence n’est disponible pour ce membre.",
+    "no_tasks_found": "Aucune tâche trouvée",
+    "no_tasks_description": "Aucune tâche n’est disponible pour ce membre.",
+    "task_status": "Statut de la tâche",
+    "task_categories": {
+      "not_started": "Non commencée",
+      "in_progress": "En cours",
+      "on_hold": "En attente",
+      "submitted": "Soumise",
+      "completed": "Terminée"
+    },
+    "user_permissions": "Autorisations utilisateur",
+    "search_placeholder": "Rechercher des amis...",
+    "add_post_placeholder": "Partagez ce que vous pensez ici...",
+    "attach_image": "Joindre une image/vidéo",
+    "start_streaming": "Démarrer le streaming",
+    "post_button": "Publier",
+    "employee-activate": "L’employé est activé",
+    "error-activating-employee": "Erreur lors de l’activation de l’employé"
+  },
+  "months": {
+    "jan": "Jan",
+    "feb": "Fév",
+    "mar": "Mar",
+    "apr": "Avr",
+    "may": "Mai",
+    "jun": "Juin",
+    "jul": "Juil",
+    "aug": "Aoû",
+    "sep": "Sep",
+    "oct": "Oct",
+    "nov": "Nov",
+    "dec": "Déc"
+  },
+  "editform": {
+    "labels": {
+      "employee_id": "ID de l’employé",
+      "name": "Nom",
+      "username": "Nom d’utilisateur",
+      "email": "Adresse e-mail",
+      "phone_number": "Numéro de téléphone",
+      "nationality": "Nationalité",
+      "address": "Adresse",
+      "designation": "Fonction",
+      "department": "Département",
+      "date_of_birth": "Date de naissance",
+      "city": "Ville",
+      "national_id": "Numéro d’identification nationale",
+      "national_id_expiry": "Expiration de l’ID nationale",
+      "passport": "Numéro de passeport",
+      "passport_expiry": "Expiration du passeport",
+      "insurance_id": "ID d’assurance",
+      "insurance_id_expiry": "Expiration de l’assurance",
+      "visa_type": "Type de visa",
+      "visa_expiry": "Expiration du visa",
+      "gender": "Genre",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "whatsapp": "WhatsApp",
+      "twitter": "X (Twitter)",
+      "date_hired": "Date d’embauche",
+      "date_joining": "Date d’entrée",
+      "basic_salary": "Salaire de base",
+      "hra_amount": "Montant HRA",
+      "transportation_allowance": "Indemnité de transport",
+      "other_allowance": "Autres indemnités",
+      "files": "Fichiers",
+      "personal_details": "Détails personnels",
+      "social_media_links": "Liens des réseaux sociaux",
+      "job_data": "Données d’emploi",
+      "uploadfiles": "Téléverser des fichiers",
+      "showthumbnail": "Afficher la vignette"
+    },
+    "validations": {
+      "avatar_required": "L’avatar est requis !",
+      "id_required": "L’ID est requis !",
+      "name_required": "Le nom est requis !",
+      "username_required": "Le nom d’utilisateur est requis !",
+      "email_required": "L’adresse e-mail est requise !",
+      "email_invalid": "L’e-mail doit être une adresse valide !",
+      "phone_invalid": "Le numéro de téléphone est invalide !",
+      "country_required": "Le pays est requis !",
+      "address_required": "L’adresse est requise !",
+      "company_required": "L’entreprise est requise !",
+      "state_required": "L’état est requis !",
+      "city_required": "La ville est requise !",
+      "role_required": "Le rôle est requis !",
+      "zipcode_required": "Le code postal est requis !"
+    },
+    "placeholders": {
+      "choose_country": "Choisissez un pays"
+    },
+    "buttons": {
+      "create_user": "Kullanıcı oluştur",
+      "save_changes": "Değişiklikleri kaydet",
+      "add_image": "Görsel ekle",
+      "edit_image": "Görseli düzenle"
+    },
+    "toast": {
+      "create_success": "Başarıyla oluşturuldu!",
+      "update_success": "Başarıyla güncellendi!",
+      "image_upload": "Görsel başarıyla yüklendi",
+      "unexpected_error": "Beklenmeyen bir hata oluştu."
+    },
+    "helper_text": {
+      "avatar_upload": "Formats autorisés : *.jpeg, *.jpg, *.png, *.gif. Taille maximale de "
+    }
+  },
+  "user_profile": {
+    "heading": "Profil",
+    "breadcrumb_dashboard": "Tableau de bord",
+    "breadcrumb_users": "Utilisateurs",
+    "tabs": {
+      "profile": "Profil",
+      "tasks": "Tâches",
+      "timesheet": "Feuille de temps"
+    },
+    "profile_home": {
+      "followers": "Takipçiler",
+      "following": "Takip edilenler",
+      "about_title": "Hakkında",
+      "location": "Yaşadığı yer",
+      "email": "E-posta",
+      "role_at_company": "şirketinde",
+      "studied_at": "Okuduğu yer",
+      "post_placeholder": "Burada ne düşündüğünüzü paylaşın...",
+      "attach_image": "Görsel / Video",
+      "streaming": "Canlı yayın",
+      "post_button": "Paylaş",
+      "target": "Hedef",
+      "days_off": "İzin günleri",
+      "days_reported": "Bildirilen günler",
+      "days_work": "Çalışılan günler",
+      "on_duty": "Görevde",
+      "total_points": "Toplam puan",
+      "device": "Cihaz",
+      "task_details_title": "Görev Detayları",
+      "active_tasks": "Aktif görevler",
+      "not_active": "Aktif değil",
+      "completed": "Tamamlandı",
+      "projects_title": "Projeler",
+      "pending_tasks": "Bekleyen görevler",
+      "sales_title": "Satışlar",
+      "total_clients": "Toplam müşteriler",
+      "total_leads": "Toplam potansiyel müşteriler",
+      "sales_target": "Satış hedefi",
+      "total_vendors": "Toplam tedarikçiler",
+      "active_vendors": "Aktif tedarikçiler",
+      "leads_amount": "Potansiyel müşteri tutarı",
+      "awarded_amount": "Onaylanan tutar",
+      "rejected_amount": "Reddedilen tutar",
+      "open_leads": "Açık potansiyel müşteriler",
+      "closed_leads": "Kapanan potansiyel müşteriler",
+      "total_contracts_year": "Bu yılki toplam sözleşmeler",
+      "total_users": "Toplam kullanıcılar",
+      "internal_users": "Dahili kullanıcılar",
+      "external_users": "Harici kullanıcılar",
+      "total_tasks": "Toplam görevler",
+      "total_projects": "Toplam projeler",
+      "active_clients": "Aktif müşteriler",
+      "tasks_title": "Görevler",
+      "tasks_year_to_date": "Yılbaşından bugüne görevler",
+      "overall_target": "Genel hedef",
+      "months": {
+        "jan": "Oca",
+        "feb": "Şub",
+        "mar": "Mar",
+        "apr": "Nis",
+        "may": "May",
+        "jun": "Haz",
+        "jul": "Tem",
+        "aug": "Ağu",
+        "sep": "Eyl",
+        "oct": "Eki",
+        "nov": "Kas",
+        "dec": "Ara"
+      },
+      "chart_labels": {
+        "actual": "Gerçek",
+        "achieved": "Ulaşılan",
+        "remaining": "Kalan",
+        "completed_on_time": "Zamanında tamamlandı",
+        "completed_late": "Geç tamamlandı",
+        "overdue": "Gecikmiş",
+        "working_on": "Üzerinde çalışılıyor",
+        "not_started": "Başlanmadı",
+        "on_hold": "Beklemede",
+        "waiting_for_approval": "Onay bekliyor"
+      }
+    },
+    "user_settings": {
+      "departments": "Départements",
+      "designations": "Fonctions",
+      "employee_statuses": "Statuts des employés",
+      "team_notice": "Annonce",
+      "exempted": "Exempté d’ajouter une tâche",
+      "hierarchy": "Définir la hiérarchie des tâches",
+      "notice_board": "Duyuru Panosu",
+      "roles": "Roller ve İzinler"
+    }
+  },
+  "departments": {
+    "labels": {
+      "new_department": "Nouveau département",
+      "new_division": "Nouvelle division",
+      "new_section": "Nouvelle section",
+      "new_session": "Nouvelle session",
+      "arabic_department": "Nouveau département en arabe",
+      "arabic_division": "Nouvelle division en arabe",
+      "arabic_section": "Nouvelle section en arabe",
+      "arabic_session": "Nouvelle session en arabe",
+      "department": "Département",
+      "division": "Division",
+      "section": "Section",
+      "session": "Session",
+      "loading_departments": "Chargement des départements...",
+      "failed_to_load": "Échec du chargement des départements.",
+      "department_name": "Nom du département",
+      "department_name_arabic": "Nom du département en arabe",
+      "editing": "Édition...",
+      "no_of_employees": "Nombre d’employés",
+      "all_departments": "Tous les départements",
+      "division_name": "Nom de la division",
+      "division_name_arabic": "Nom de la division en arabe",
+      "all_divisions": "Toutes les divisions",
+      "section_name": "Nom de la section",
+      "section_name_arabic": "Nom de la section en arabe",
+      "all_sections": "Toutes les sections",
+      "session_name": "Nom de la session",
+      "session_name_arabic": "Nom de la session en arabe",
+      "all_sessions": "Toutes les sessions"
+    },
+    "buttons": {
+      "save": "Enregistrer",
+      "delete": "Supprimer",
+      "cancel": "Annuler",
+      "add": "Ajouter"
+    },
+    "tooltips": {
+      "edit_department": "Modifier le département",
+      "edit_departmentlevel": "Modifier le niveau du département",
+      "delete_department": "Supprimer le département",
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "cannot_delete_department": "Suppression impossible : le département a des employés assignés",
+      "departments_available": "Aucun département disponible",
+      "cannot_delete_division": "Suppression impossible : la division a des employés assignés",
+      "division_available": "Aucune division disponible",
+      "cannot_section": "Suppression impossible : la section a des employés assignés",
+      "section_available": "Aucune section disponible",
+      "cannot_delete_session": "Suppression impossible : la session a des employés assignés",
+      "session_available": "Aucune session disponible"
+    },
+    "toast": {
+      "add_success": "Département ajouté avec succès",
+      "update_success": "Département mis à jour avec succès",
+      "delete_success": "Niveau du département supprimé avec succès",
+      "delete_level": "Niveau du département supprimé avec succès",
+      "update_level": "Niveau du département mis à jour avec succès",
+      "delete_successfully": "Supprimé avec succès",
+      "delete_confirm": "Êtes-vous sûr de vouloir supprimer "
+    },
+    "dialog": {
+      "delete_title": "Supprimer",
+      "delete_department_confirm": "Êtes-vous sûr de vouloir supprimer ce département ?",
+      "delete_designation_confirm": "Êtes-vous sûr de vouloir supprimer ce niveau de département ?"
+    }
+  },
+  "designations": {
+    "labels": {
+      "new_designation": "Nouvelle fonction",
+      "arabic_designation": "Nouvelle fonction en arabe",
+      "members": "Membres"
+    },
+    "buttons": {
+      "add": "Ajouter",
+      "update": "Mettre à jour",
+      "delete": "Supprimer"
+    },
+    "tooltips": {
+      "edit": "Modifier la fonction",
+      "delete": "Supprimer la fonction",
+      "save": "Enregistrer"
+    },
+    "toast": {
+      "add_success": "Fonction ajoutée avec succès",
+      "update_success": "Fonction mise à jour avec succès",
+      "delete_success": "Fonction supprimée avec succès",
+      "failed_designation": "Échec de l'ajout de l'intitulé du poste",
+      "unexpected_error": "Erreur inattendue"
+    },
+    "dialog": {
+      "delete_title": "Supprimer",
+      "delete_confirm": "Êtes-vous sûr de vouloir supprimer cette fonction ?"
+    }
+  },
+  "status": {
+    "labels": {
+      "new_status": "Nouveau statut d’employé",
+      "arabic_status": "Nouveau statut d’employé en arabe",
+      "choose_color": "Choisir une couleur"
+    },
+    "buttons": {
+      "add": "Ajouter",
+      "update": "Mettre à jour",
+      "delete": "Supprimer"
+    },
+    "tooltips": {
+      "edit": "Modifier le statut",
+      "delete": "Supprimer le statut",
+      "save": "Enregistrer"
+    },
+    "toast": {
+      "add_success": "Statut d’employé ajouté avec succès",
+      "update_success": "Statut d’employé mis à jour avec succès",
+      "delete_success": "Statut d’employé supprimé avec succès"
+    },
+    "dialog": {
+      "delete_title": "Supprimer",
+      "delete_confirm": "Êtes-vous sûr de vouloir supprimer ce statut d’employé ?"
+    }
+  },
+  "team_notice": {
+    "labels": {
+      "notice_en": "Annonce en anglais",
+      "notice_ar": "Annonce en arabe"
+    },
+    "buttons": {
+      "add": "Ajouter une annonce",
+      "save": "Enregistrer",
+      "cancel": "Annuler",
+      "clear": "Effacer l’annonce"
+    },
+    "dialog": {
+      "title": "Ajouter une annonce",
+      "title2": "Supprimer l’annonce"
+    },
+    "toast": {
+      "add_success": "Annonce ajoutée avec succès",
+      "delete": "Annonce supprimée avec succès",
+      "delete_success": "Annonce supprimée avec succès",
+      "delete_successfully": "Annonce supprimée avec succès",
+      "update_success": "Annonce mise à jour avec succès",
+      "clear_success": "Annonce effacée avec succès",
+      "delete_confirm": "Êtes-vous sûr de vouloir supprimer l’annonce ?"
+    },
+    "errors": {
+      "empty_notice": "L’annonce ne peut pas être vide."
+    }
+  },
+  "task_exempted": {
+    "buttons": {
+      "add_employees": "Ajouter des employés",
+      "confirm_exempt": "Oui",
+      "add_member": "Ajouter un membre",
+      "add": "Ajouter",
+      "close": "Fermer"
+    },
+    "toast": {
+      "exempt_success": "Employé exempté de l’ajout de tâche !"
+    },
+    "placeholder": "Rechercher",
+    "dialog": {
+      "exempt_title": "Exempter",
+      "exempt_confirm": "Êtes-vous sûr de vouloir exempter cet employé de l’ajout de tâche ?"
+    },
+    "labels": {
+      "reporting_to": "Bağlı Olduğu Kişi",
+      "no_members": "Üye Yok",
+      "assign_tasks": "Görev Ata",
+      "unassign": "Atamayı Kaldır",
+      "are_you_sure_want": "Bu kullanıcıya görev atamak istediğinizden emin misiniz?"
+    }
+  },
+  "role": {
+    "new_role": "Yeni Rol",
+    "add_role": "Yeni Rol Ekle",
+    "role_deleted": "Rol başarıyla silindi",
+    "permissions_unassigned": "İzinler rolden başarıyla kaldırıldı",
+    "permissions_assigned": "İzinler role başarıyla atandı",
+    "all_permissions": "Tüm izinler rolden başarıyla kaldırıldı",
+    "role_added": "Rol başarıyla eklendi",
+    "assigned_permissions": "Atanmış İzinler",
+    "unassign_all": "Tüm Atamaları Kaldır",
+    "permissions_unassigned!": "İzinler atandı!",
+    "add_permission_role": "Bu Role İzin Ekle",
+    "role_name": "Rol Adı",
+    "Add": "Ekle",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "permissions": "İzinler",
+    "unassign": "Atamayı Kaldır",
+    "assign": "Ata",
+    "unassign_Permission": "İzni Kaldır",
+    "unassign_all_permission": "Tüm İzinleri Kaldır",
+    "are_you_sure_want": "Atamayı kaldırmak istediğinizden emin misiniz?",
+    "confirm_delete": "Bu rolü silmek istediğinizden emin misiniz?",
+    "unassign_to_all": "Tüm İzinleri Kaldır",
+    "unassignall": "Tüm Atamaları Kaldır",
+    "from_this": "bu rolden?",
+    "unassign_sure": "Bu rolden tüm izinleri kaldırmak istediğinizden emin misiniz?",
+    "select_all": "Tümünü Seç",
+    "search": "Ara",
+    "permissions_added": "İzinler kullanıcıya başarıyla atandı",
+    "permissions_updated": "İzinler başarıyla güncellendi",
+    "no_permissions_available": "Mevcut izin yok",
+    "permissions_added_role": "İzinler role başarıyla atandı",
+    "permissions_added_user": "İzinler kullanıcıya başarıyla atandı",
+    "permissions_removed_user": "İzinler kullanıcıdan başarıyla kaldırıldı",
+    "permissions_available": "Mevcut izin yok",
+    "description_added": "Açıklama başarıyla eklendi",
+    "description_added_fail": "Açıklama ekleme başarısız oldu",
+    "unassign_user_role": "Bu izni bu kullanıcıdan kaldırmak istediğinizden emin misiniz?",
+    "role_permissions_cannot_be_edit": "Rol izinleri düzenlenemez",
+    "assign_permission": "İzin Ata",
+    "assign_all_permissions": "Tüm İzinleri Ata",
+    "assign_sure": "Tüm izinleri bu kullanıcıya atamak istediğinizden emin misiniz?"
+  }
+}

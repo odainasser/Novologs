@@ -1,0 +1,17 @@
+{
+  "home": {
+    "welcome_back": "Tekrar hoş geldiniz ",
+    "new_notice": "Duyuruyu burada göreceksiniz",
+    "no_notice": "Duyuru yok",
+    "view_all": "Tümünü Gör",
+    "no_data": "Veri yok",
+    "no_data_found": "Veri bulunamadı",
+    "loading": "Yükleniyor...",
+    "error": "Hata",
+    "try_again": "Tekrar dene",
+    "search": "Ara",
+    "no_results": "Sonuç bulunamadı",
+    "searching": "Aranıyor...",
+    "cancel": "İptal"
+  }
+}

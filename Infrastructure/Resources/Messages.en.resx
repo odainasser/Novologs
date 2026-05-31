@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <!-- ==================== TASK MESSAGES ==================== -->
+  
+  <!-- TaskCreated -->
+  <data name="TaskCreated_EmailSubject" xml:space="preserve">
+    <value>New Task Created {TaskSerial}</value>
+  </data>
+  <data name="TaskCreated_EmailBody" xml:space="preserve">
+    <value>A new task '{TaskSerial} - {Description}' has been created. You have been added as a member of this task.</value>
+  </data>
+  <data name="TaskCreated_NotificationTitle" xml:space="preserve">
+    <value>New Task Created (Code: {TaskSerial})</value>
+  </data>
+  <data name="TaskCreated_NotificationBody" xml:space="preserve">
+    <value>A new task '{TaskSerial} - {Description}' has been created. You have been added as a member of this task.</value>
+  </data>
+
+  <!-- TaskUpdated -->
+  <data name="TaskUpdated_EmailSubject" xml:space="preserve">
+    <value>Task Updated: {TaskSerial} - {Description}</value>
+  </data>
+  <data name="TaskUpdated_EmailBody" xml:space="preserve">
+    <value>The task '{TaskSerial} - {Description}' has been updated.</value>
+  </data>
+  <data name="TaskUpdated_NotificationTitle" xml:space="preserve">
+    <value>Task Updated {TaskSerial} - {Description}</value>
+  </data>
+  <data name="TaskUpdated_NotificationBody" xml:space="preserve">
+    <value>The task '{TaskSerial} - {Description}' has been updated.</value>
+  </data>
+
+  <!-- TaskDeleted -->
+  <data name="TaskDeleted_EmailSubject" xml:space="preserve">
+    <value>Task Deleted: {TaskSerial} - {TaskCode}</value>
+  </data>
+  <data name="TaskDeleted_EmailBody" xml:space="preserve">
+    <value>The task '{TaskSerial} - {TaskCode}' has been deleted.</value>
+  </data>
+  <data name="TaskDeleted_NotificationTitle" xml:space="preserve">
+    <value>Task Deleted {TaskSerial} - {TaskCode}</value>
+  </data>
+  <data name="TaskDeleted_NotificationBody" xml:space="preserve">
+    <value>The task '{TaskSerial} - {TaskCode}' has been deleted.</value>
+  </data>
+
+  <!-- TaskStatusChanged -->
+  <data name="TaskStatusChanged_EmailSubject" xml:space="preserve">
+    <value>Task Status Updated {TaskSerial} - {TaskCode}</value>
+  </data>
+  <data name="TaskStatusChanged_EmailBody" xml:space="preserve">
+    <value>The status of task '{TaskSerial} - {TaskCode}' has been updated.</value>
+  </data>
+  <data name="TaskStatusChanged_NotificationTitle" xml:space="preserve">
+    <value>Task Status Updated {TaskSerial} - {TaskCode}</value>
+  </data>
+  <data name="TaskStatusChanged_NotificationBody" xml:space="preserve">
+    <value>The status of task '{TaskSerial} - {TaskCode}' has been updated.</value>
+  </data>
+
+  <!-- TaskMemberAdded -->
+  <data name="TaskMemberAdded_EmailSubject" xml:space="preserve">
+    <value>You have been assigned to Task {TaskSerial} - {Description}</value>
+  </data>
+  <data name="TaskMemberAdded_EmailBody" xml:space="preserve">
+    <value>You have been added as a member to the task '{TaskSerial} - {Description}'.</value>
+  </data>
+  <data name="TaskMemberAdded_NotificationTitle" xml:space="preserve">
+    <value>Assigned to Task {TaskSerial} - {Description}</value>
+  </data>
+  <data name="TaskMemberAdded_NotificationBody" xml:space="preserve">
+    <value>You have been added as a member to the task '{TaskSerial} - {Description}'.</value>
+  </data>
+
+  <!-- TaskMemberRemoved -->
+  <data name="TaskMemberRemoved_EmailSubject" xml:space="preserve">
+    <value>You have been removed from Task {TaskSerial} - {Description}</value>
+  </data>
+  <data name="TaskMemberRemoved_EmailBody" xml:space="preserve">
+    <value>You have been removed as a member from the task '{TaskSerial} - {Description}'.</value>
+  </data>
+  <data name="TaskMemberRemoved_NotificationTitle" xml:space="preserve">
+    <value>Removed from Task {TaskSerial} - {Description}</value>
+  </data>
+  <data name="TaskMemberRemoved_NotificationBody" xml:space="preserve">
+    <value>You have been removed as a member from the task '{TaskSerial} - {Description}'.</value>
+  </data>
+
+  <!-- ==================== TICKET MESSAGES ==================== -->
+
+  <!-- TicketCreated -->
+  <data name="TicketCreated_EmailSubject" xml:space="preserve">
+    <value>New Ticket Created {TicketSerial}</value>
+  </data>
+  <data name="TicketCreated_EmailBody" xml:space="preserve">
+    <value>A new ticket '{TicketSerial} - {Description}' has been created in '{ProjectName}'.</value>
+  </data>
+  <data name="TicketCreated_NotificationTitle" xml:space="preserve">
+    <value>New Ticket Created (Serial: {TicketSerial})</value>
+  </data>
+  <data name="TicketCreated_NotificationBody" xml:space="preserve">
+    <value>A new ticket '{TicketSerial} - {Description}' has been created in '{ProjectName}'.</value>
+  </data>
+
+  <!-- TicketUpdated -->
+  <data name="TicketUpdated_EmailSubject" xml:space="preserve">
+    <value>Ticket Updated: {TicketSerial}</value>
+  </data>
+  <data name="TicketUpdated_EmailBody" xml:space="preserve">
+    <value>The ticket '{TicketSerial} - {Description}' has been updated.</value>
+  </data>
+  <data name="TicketUpdated_NotificationTitle" xml:space="preserve">
+    <value>Ticket Updated {TicketSerial}</value>
+  </data>
+  <data name="TicketUpdated_NotificationBody" xml:space="preserve">
+    <value>The ticket '{TicketSerial} - {Description}' has been updated.</value>
+  </data>
+
+  <!-- TicketAssigned -->
+  <data name="TicketAssigned_EmailSubject" xml:space="preserve">
+    <value>You have been assigned to Ticket {TicketSerial} - {Description}</value>
+  </data>
+  <data name="TicketAssigned_EmailBody" xml:space="preserve">
+    <value>You have been added as a member to the ticket '{TicketSerial} - {Description}'.</value>
+  </data>
+  <data name="TicketAssigned_NotificationTitle" xml:space="preserve">
+    <value>Assigned to Ticket {TicketSerial} - {Description}</value>
+  </data>
+  <data name="TicketAssigned_NotificationBody" xml:space="preserve">
+    <value>You have been added as a member to the ticket '{TicketSerial} - {Description}'.</value>
+  </data>
+
+  <!-- ==================== PROJECT MESSAGES ==================== -->
+
+  <!-- ProjectCreated -->
+  <data name="ProjectCreated_EmailSubject" xml:space="preserve">
+    <value>New {ProjectType} Created {ProjectCode} - {ProjectName}</value>
+  </data>
+  <data name="ProjectCreated_EmailBody" xml:space="preserve">
+    <value>A new {ProjectType} '{ProjectName}' has been created. You have been added as a member of this {ProjectTypeLower}.</value>
+  </data>
+  <data name="ProjectCreated_NotificationTitle" xml:space="preserve">
+    <value>New {ProjectType} Created {ProjectCode} - {ProjectName}</value>
+  </data>
+  <data name="ProjectCreated_NotificationBody" xml:space="preserve">
+    <value>A new {ProjectType} '{ProjectName}' has been created. You have been added as a member.</value>
+  </data>
+
+  <!-- ProjectUpdated -->
+  <data name="ProjectUpdated_EmailSubject" xml:space="preserve">
+    <value>{ProjectType} Updated {ProjectCode} - {ProjectName}</value>
+  </data>
+  <data name="ProjectUpdated_EmailBody" xml:space="preserve">
+    <value>The {ProjectTypeLower} '{ProjectName}' has been updated.</value>
+  </data>
+  <data name="ProjectUpdated_NotificationTitle" xml:space="preserve">
+    <value>{ProjectType} Updated {ProjectCode} - {ProjectName}</value>
+  </data>
+  <data name="ProjectUpdated_NotificationBody" xml:space="preserve">
+    <value>The {ProjectTypeLower} '{ProjectName}' has been updated.</value>
+  </data>
+
+  <!-- ProjectDeleted -->
+  <data name="ProjectDeleted_EmailSubject" xml:space="preserve">
+    <value>{ProjectType} Deleted {ProjectCode} - {ProjectName}</value>
+  </data>
+  <data name="ProjectDeleted_EmailBody" xml:space="preserve">
+    <value>The {ProjectTypeLower} '{ProjectName}' has been deleted.</value>
+  </data>
+  <data name="ProjectDeleted_NotificationTitle" xml:space="preserve">
+    <value>{ProjectType} Deleted {ProjectCode} - {ProjectName}</value>
+  </data>
+  <data name="ProjectDeleted_NotificationBody" xml:space="preserve">
+    <value>The {ProjectTypeLower} '{ProjectName}' has been deleted. You have been removed as a member.</value>
+  </data>
+
+  <!-- ProjectMemberAdded -->
+  <data name="ProjectMemberAdded_EmailSubject" xml:space="preserve">
+    <value>You have been added to {ProjectType} {ProjectCode} - {ProjectName}</value>
+  </data>
+  <data name="ProjectMemberAdded_EmailBody" xml:space="preserve">
+    <value>You have been added as a member to the {ProjectTypeLower} '{ProjectName}'.</value>
+  </data>
+  <data name="ProjectMemberAdded_NotificationTitle" xml:space="preserve">
+    <value>Added to {ProjectType} {ProjectCode} - {ProjectName}</value>
+  </data>
+  <data name="ProjectMemberAdded_NotificationBody" xml:space="preserve">
+    <value>You have been added as a member to the {ProjectTypeLower} '{ProjectName}'.</value>
+  </data>
+
+  <!-- ProjectMemberRemoved -->
+  <data name="ProjectMemberRemoved_EmailSubject" xml:space="preserve">
+    <value>You have been removed from {ProjectType} {ProjectCode} - {ProjectName}</value>
+  </data>
+  <data name="ProjectMemberRemoved_EmailBody" xml:space="preserve">
+    <value>You have been removed as a member from the {ProjectTypeLower} '{ProjectName}'.</value>
+  </data>
+  <data name="ProjectMemberRemoved_NotificationTitle" xml:space="preserve">
+    <value>Removed from {ProjectType} {ProjectCode} - {ProjectName}</value>
+  </data>
+  <data name="ProjectMemberRemoved_NotificationBody" xml:space="preserve">
+    <value>You have been removed as a member from the {ProjectTypeLower} '{ProjectName}'.</value>
+  </data>
+
+  <!-- LeadMemberAdded -->
+  <data name="LeadMemberAdded_EmailSubject" xml:space="preserve">
+    <value>You have been added to Lead {LeadCode} - {LeadName}</value>
+  </data>
+  <data name="LeadMemberAdded_EmailBody" xml:space="preserve">
+    <value>You have been added as a member to the lead '{LeadCode} - {LeadName}'.</value>
+  </data>
+  <data name="LeadMemberAdded_NotificationTitle" xml:space="preserve">
+    <value>Added to Lead {LeadCode} - {LeadName}</value>
+  </data>
+  <data name="LeadMemberAdded_NotificationBody" xml:space="preserve">
+    <value>You have been added as a member to the lead '{LeadCode} - {LeadName}'.</value>
+  </data>
+
+  <!-- LeadMemberRemoved -->
+  <data name="LeadMemberRemoved_EmailSubject" xml:space="preserve">
+    <value>You have been removed from Lead {LeadCode} - {LeadName}</value>
+  </data>
+  <data name="LeadMemberRemoved_EmailBody" xml:space="preserve">
+    <value>You have been removed as a member from the lead '{LeadCode} - {LeadName}'.</value>
+  </data>
+  <data name="LeadMemberRemoved_NotificationTitle" xml:space="preserve">
+    <value>Removed from Lead {LeadCode} - {LeadName}</value>
+  </data>
+  <data name="LeadMemberRemoved_NotificationBody" xml:space="preserve">
+    <value>You have been removed as a member from the lead '{LeadCode} - {LeadName}'.</value>
+  </data>
+
+  <!-- ==================== USER MANAGEMENT MESSAGES ==================== -->
+
+  <!-- UserProfileUpdated -->
+  <data name="UserProfileUpdated_EmailSubject" xml:space="preserve">
+    <value>Your User Profile Has Been Updated</value>
+  </data>
+  <data name="UserProfileUpdated_EmailBody" xml:space="preserve">
+    <value>Your user profile has been updated by an administrator.</value>
+  </data>
+  <data name="UserProfileUpdated_NotificationTitle" xml:space="preserve">
+    <value>User Profile Updated</value>
+  </data>
+  <data name="UserProfileUpdated_NotificationBody" xml:space="preserve">
+    <value>Your user profile has been updated by an administrator.</value>
+  </data>
+
+  <!-- UserCreated -->
+  <data name="UserCreated_EmailSubject" xml:space="preserve">
+    <value>Confirm your email</value>
+  </data>
+  <data name="UserCreated_EmailBody" xml:space="preserve">
+    <value>Welcome! Please confirm your email address to activate your account.</value>
+  </data>
+  <data name="UserCreated_NotificationTitle" xml:space="preserve">
+    <value>Welcome to the platform!</value>
+  </data>
+  <data name="UserCreated_NotificationBody" xml:space="preserve">
+    <value>Your account has been created. Please check your email to confirm.</value>
+  </data>
+
+  <!-- UserPasswordReset -->
+  <data name="UserPasswordReset_EmailSubject" xml:space="preserve">
+    <value>Reset your password</value>
+  </data>
+  <data name="UserPasswordReset_EmailBody" xml:space="preserve">
+    <value>You requested to reset your password. Click the link below to proceed.</value>
+  </data>
+  <data name="UserPasswordReset_NotificationTitle" xml:space="preserve">
+    <value>Password Reset Requested</value>
+  </data>
+  <data name="UserPasswordReset_NotificationBody" xml:space="preserve">
+    <value>A password reset has been requested for your account.</value>
+  </data>
+
+  <!-- TeamUpdated -->
+  <data name="TeamUpdated_EmailSubject" xml:space="preserve">
+    <value>Team/Group Updated: {TeamName}</value>
+  </data>
+  <data name="TeamUpdated_EmailBody" xml:space="preserve">
+    <value>The team/group '{TeamName}' has been updated.</value>
+  </data>
+  <data name="TeamUpdated_NotificationTitle" xml:space="preserve">
+    <value>Team Updated: {TeamName}</value>
+  </data>
+  <data name="TeamUpdated_NotificationBody" xml:space="preserve">
+    <value>The team/group '{TeamName}' has been updated.</value>
+  </data>
+
+  <!-- ==================== DOCUMENT MESSAGES ==================== -->
+
+  <!-- DocumentCreated -->
+  <data name="DocumentCreated_EmailSubject" xml:space="preserve">
+    <value>New Document Created {DocumentSerial}</value>
+  </data>
+  <data name="DocumentCreated_EmailBody" xml:space="preserve">
+    <value>A new document '{DocumentSerial}' has been created.</value>
+  </data>
+  <data name="DocumentCreated_NotificationTitle" xml:space="preserve">
+    <value>New Document Created {DocumentSerial}</value>
+  </data>
+  <data name="DocumentCreated_NotificationBody" xml:space="preserve">
+    <value>A new document '{DocumentSerial}' has been created.</value>
+  </data>
+
+  <!-- DocumentUpdated -->
+  <data name="DocumentUpdated_EmailSubject" xml:space="preserve">
+    <value>Document Updated {DocumentSerial}</value>
+  </data>
+  <data name="DocumentUpdated_EmailBody" xml:space="preserve">
+    <value>The document '{DocumentSerial}' has been updated.</value>
+  </data>
+  <data name="DocumentUpdated_NotificationTitle" xml:space="preserve">
+    <value>Document Updated {DocumentSerial}</value>
+  </data>
+  <data name="DocumentUpdated_NotificationBody" xml:space="preserve">
+    <value>The document '{DocumentSerial}' has been updated.</value>
+  </data>
+
+  <!-- DocumentMentioned -->
+  <data name="DocumentMentioned_EmailSubject" xml:space="preserve">
+    <value>You were mentioned in Document {DocumentSerial}</value>
+  </data>
+  <data name="DocumentMentioned_EmailBody" xml:space="preserve">
+    <value>You were mentioned in the document '{DocumentSerial}'.</value>
+  </data>
+  <data name="DocumentMentioned_NotificationTitle" xml:space="preserve">
+    <value>Mentioned in Document {DocumentSerial}</value>
+  </data>
+  <data name="DocumentMentioned_NotificationBody" xml:space="preserve">
+    <value>You were mentioned in the document '{DocumentSerial}'.</value>
+  </data>
+
+  <!-- ==================== TODO ITEM MESSAGES ==================== -->
+
+  <!-- TodoItemCreated -->
+  <data name="TodoItemCreated_EmailSubject" xml:space="preserve">
+    <value>Todo Item Created: {Content}</value>
+  </data>
+  <data name="TodoItemCreated_EmailBody" xml:space="preserve">
+    <value>A new todo item '{Content}' has been created.</value>
+  </data>
+  <data name="TodoItemCreated_NotificationTitle" xml:space="preserve">
+    <value>Todo Item Created: {Content}</value>
+  </data>
+  <data name="TodoItemCreated_NotificationBody" xml:space="preserve">
+    <value>A new todo item '{Content}' has been created.</value>
+  </data>
+
+  <!-- TodoItemDeleted -->
+  <data name="TodoItemDeleted_EmailSubject" xml:space="preserve">
+    <value>Todo Item Deleted: {Content}</value>
+  </data>
+  <data name="TodoItemDeleted_EmailBody" xml:space="preserve">
+    <value>The todo item '{Content}' has been deleted.</value>
+  </data>
+  <data name="TodoItemDeleted_NotificationTitle" xml:space="preserve">
+    <value>Todo Item Deleted: {Content}</value>
+  </data>
+  <data name="TodoItemDeleted_NotificationBody" xml:space="preserve">
+    <value>The todo item '{Content}' has been deleted.</value>
+  </data>
+
+  <!-- TodoItemStatusChanged -->
+  <data name="TodoItemStatusChanged_EmailSubject" xml:space="preserve">
+    <value>Todo Item Status Changed: {Content}</value>
+  </data>
+  <data name="TodoItemStatusChanged_EmailBody" xml:space="preserve">
+    <value>The status of todo item '{Content}' has been changed.</value>
+  </data>
+  <data name="TodoItemStatusChanged_NotificationTitle" xml:space="preserve">
+    <value>Todo Item Status Changed: {Content}</value>
+  </data>
+  <data name="TodoItemStatusChanged_NotificationBody" xml:space="preserve">
+    <value>The status of todo item '{Content}' has been changed.</value>
+  </data>
+
+  <!-- TodoItemReminder -->
+  <data name="TodoItemReminder_NotificationTitle" xml:space="preserve">
+    <value>Todo Item Reminder: {TodoItemContent}</value>
+  </data>
+  <data name="TodoItemReminder_NotificationBody" xml:space="preserve">
+    <value>Reminder for todo item '{TodoItemContent}'.</value>
+  </data>
+
+  <!-- ==================== FOLDER MESSAGES ==================== -->
+
+  <!-- FolderShared -->
+  <data name="FolderShared_EmailSubject" xml:space="preserve">
+    <value>Folder Shared: {FolderName}</value>
+  </data>
+  <data name="FolderShared_EmailBody" xml:space="preserve">
+    <value>The folder '{FolderName}' has been shared with you.</value>
+  </data>
+  <data name="FolderShared_NotificationTitle" xml:space="preserve">
+    <value>Folder Shared {FolderName}</value>
+  </data>
+  <data name="FolderShared_NotificationBody" xml:space="preserve">
+    <value>The folder '{FolderName}' has been shared with you.</value>
+  </data>
+
+  <!-- FolderAccessRemoved -->
+  <data name="FolderAccessRemoved_EmailSubject" xml:space="preserve">
+    <value>Folder Access Removed: {FolderName}</value>
+  </data>
+  <data name="FolderAccessRemoved_EmailBody" xml:space="preserve">
+    <value>Your access to folder '{FolderName}' has been removed.</value>
+  </data>
+  <data name="FolderAccessRemoved_NotificationTitle" xml:space="preserve">
+    <value>Folder Access Removed {FolderName}</value>
+  </data>
+  <data name="FolderAccessRemoved_NotificationBody" xml:space="preserve">
+    <value>Your access to folder '{FolderName}' has been removed.</value>
+  </data>
+
+  <!-- ==================== SYSTEM MESSAGES ==================== -->
+
+  <!-- PolicyViolation -->
+  <data name="PolicyViolation_EmailSubject" xml:space="preserve">
+    <value>Policy Violation Alert for {TenantName}</value>
+  </data>
+  <data name="PolicyViolation_EmailBody" xml:space="preserve">
+    <value>A policy violation has been detected for tenant '{TenantName}'.</value>
+  </data>
+  <data name="PolicyViolation_NotificationTitle" xml:space="preserve">
+    <value>Policy Violation Alert</value>
+  </data>
+  <data name="PolicyViolation_NotificationBody" xml:space="preserve">
+    <value>A policy violation has been detected for your organization.</value>
+  </data>
+
+  <!-- StorageAlert -->
+  <data name="StorageAlert_EmailSubject" xml:space="preserve">
+    <value>Storage Usage Alert for {TenantName}</value>
+  </data>
+  <data name="StorageAlert_EmailBody" xml:space="preserve">
+    <value>Your organization '{TenantName}' has reached {UsagePercentage}% of storage capacity.</value>
+  </data>
+  <data name="StorageAlert_NotificationTitle" xml:space="preserve">
+    <value>Storage Usage Alert</value>
+  </data>
+  <data name="StorageAlert_NotificationBody" xml:space="preserve">
+    <value>Your organization has reached {UsagePercentage}% of storage capacity.</value>
+  </data>
+
+  <!-- TenantInitialized -->
+  <data name="TenantInitialized_EmailSubject" xml:space="preserve">
+    <value>Welcome to Novotak ({TenantName})!</value>
+  </data>
+  <data name="TenantInitialized_EmailBody" xml:space="preserve">
+    <value>Your organization '{TenantName}' has been successfully set up!</value>
+  </data>
+  <data name="TenantInitialized_NotificationTitle" xml:space="preserve">
+    <value>Welcome to Novotak!</value>
+  </data>
+  <data name="TenantInitialized_NotificationBody" xml:space="preserve">
+    <value>Your organization has been successfully set up!</value>
+  </data>
+
+  <!-- General -->
+  <data name="General_EmailSubject" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="General_EmailBody" xml:space="preserve">
+    <value>You have a new notification.</value>
+  </data>
+  <data name="General_NotificationTitle" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="General_NotificationBody" xml:space="preserve">
+    <value>You have a new notification.</value>
+  </data>
+
+</root>

@@ -1,0 +1,116 @@
+{
+  "clients": {
+    "List": {
+      "heading": "Wateja",
+      "dashboard": "Dashibodi",
+      "list": "Orodha",
+      "heading2": "Wasambazaji",
+      "roles": "Majukumu"
+    },
+    "tabs": {
+      "groups": "Makundi",
+      "clients": "Wateja",
+      "leads": "Fursa",
+      "group1": "Kundi1",
+      "group2": "Kundi2",
+      "group3": "Kundi3",
+      "documents": "Nyaraka",
+      "contacts": "Anwani",
+      "tasks": "Kazi",
+      "files": "Faili",
+      "sales_details": "Maelezo ya Mauzo",
+      "sales_report": "Ripoti ya Malengo",
+      "contracts": "Mikataba"
+    },
+    "buttons": {
+      "add": "Ongeza",
+      "update": "Sasisha",
+      "delete": "Futa",
+      "add_client": "Ongeza Mteja",
+      "add_member": "Ongeza Mwanachama",
+      "add_lead": "Ongeza Fursa",
+      "back": "Rudi",
+      "add_sales_group": "Ongeza Kundi la Mauzo",
+      "add_group": "Ongeza Kundi",
+      "edit_group": "Hariri Kundi",
+      "save": "Hifadhi",
+      "print": "Chapisha",
+      "export": "Hamisha",
+      "import": "Leta",
+      "cancel": "Ghairi",
+      "clear_all": "Futa Sehemu Zote",
+      "add_employees": "Ongeza Wafanyakazi",
+      "editButton": "Hariri",
+      "add_members": "Ongeza Wanachama",
+      "members": "Wanachama",
+      "close": "Funga",
+      "award_lead": "Kubali Fursa",
+      "reject_lead": "Kataa Fursa",
+      "edit": "Hariri",
+      "add_contact": "Ongeza Anwani",
+      "add_amount": "Ongeza Kiasi",
+      "enter_amount": "Weka Kiasi",
+      "award": "Kubali",
+      "reject": "Kataa"
+    },
+
+    "toast": {
+      "delete_success": "Imefutwa kwa mafanikio!",
+      "group_add": "Kundi limeongezwa kwa mafanikio!",
+      "group_deleted": "Kundi limefutwa kwa mafanikio",
+      "client_add": "Mteja ameongezwa kwa mafanikio!",
+      "member_add": "Mwanachama ameongezwa kwa mafanikio",
+      "client_deleted_successfully": "Mteja amefutwa kwa mafanikio",
+      "vendor_deleted_successfully": "Msambazaji amefutwa kwa mafanikio",
+      "client_update": "Mteja amesasishwa kwa mafanikio!",
+      "employee_exempted": "Mfanyakazi ameondolewa kwenye kazi",
+      "permission_added": "Ruhusa imeongezwa",
+      "unexpected_error": "Hitilafu isiyotarajiwa imetokea",
+      "vendor_update": "Msambazaji amesasishwa kwa mafanikio",
+      "group_error": "Hitilafu imetokea wakati wa kufuta kundi",
+      "vendor_add": "Msambazaji ameongezwa kwa mafanikio"
+    },
+
+    "dialog": {
+      "delete_title": "Futa",
+      "delete_content": "Una uhakika unataka kufuta",
+      "items": "vipengee?",
+      "delete_group": "Una uhakika unataka kufuta kundi hili?",
+      "delete_content2": "Una uhakika unataka kufuta?"
+    },
+
+    "filters": {
+      "name_placeholder": "Tafuta kwa jina",
+      "search": "Tafuta..."
+    },
+
+    "columns": {
+      "serial_no": "Na.",
+      "client_id": "Kitambulisho cha Mteja",
+      "name": "Jina la Mteja",
+      "website": "Tovuti",
+      "emirates": "Emirates",
+      "location": "Eneo",
+      "email": "Barua Pepe",
+      "address": "Anwani",
+      "empId": "ID ya Mfanyakazi",
+      "role": "Wadhifa",
+      "department": "Idara",
+      "status": "Hali",
+      "level": "Kiwango",
+      "details": "Maelezo",
+      "username": "Jina la Mtumiaji",
+      "employId": "ID",
+      "names": "Jina",
+      "creator": "Muundaji",
+      "leads": "Fursa",
+      "sales": "Mauzo",
+      "actions": "Vitendo",
+      "phone_no": "Nambari ya Simu",
+      "mobile_no": "Simu ya Mkononi",
+      "projects": "Miradi",
+      "contracts": "Mikataba",
+      "vendor_name": "Jina la Msambazaji"
+    }
+  }
+}

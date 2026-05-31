@@ -1,0 +1,10 @@
+{
+  "date": {
+    "title": "Seleccionar rango de fechas",
+    "start_date": "Fecha de inicio",
+    "end_date": "Fecha de fin",
+    "end_date_validation": "La fecha de fin debe ser posterior a la fecha de inicio",
+    "cancel": "Cancelar",
+    "apply": "Aplicar"
+  }
+}

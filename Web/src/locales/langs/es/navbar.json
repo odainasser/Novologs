@@ -1,0 +1,22 @@
+{
+  "overview": "Descripción general",
+  "home": "Inicio",
+  "team": "Equipo",
+  "tasks": "Tareas",
+  "projects": "Proyectos",
+  "clients": "Clientes",
+  "vendors": "Proveedores",
+  "missions": "Misiones especiales",
+  "repositories": "Repositorios",
+  "timesheet": "Hoja de tiempo",
+  "documents": "Documentos",
+  "chat": "Chat",
+  "settings": "Configuraciones",
+  "activities": "Actividades",
+  "workflow": "Flujo de trabajo",
+  "calender": "Calendario",
+  "accounts": "Cuentas",
+  "support": "Soporte",
+  "ticketing": "Sistema de tickets",
+  "admin": "Administrador"
+}

@@ -1,0 +1,54 @@
+{
+  "calendar": {
+    "title": "Kalenda",
+    "new_event": "Tukio Jipya",
+    "edit_event": "Hariri Tukio",
+    "filters": "Vichujio",
+    "colors": "Rangi",
+    "range": "Wigo",
+    "event": "Tukio",
+    "events": "Matukio",
+    "today": "Leo",
+    "month": "Mwezi",
+    "week": "Wiki",
+    "day": "Siku",
+    "agenda": "Ajenda",
+    "reset": "Weka upya",
+    "view": {
+      "month": "Mwezi",
+      "week": "Wiki",
+      "day": "Siku",
+      "agenda": "Ajenda"
+    },
+    "tooltip": {
+      "delete_event": "Futa tukio",
+      "edit_event": "Hariri tukio"
+    },
+    "form": {
+      "title": "Kichwa",
+      "description": "Maelezo",
+      "all_day": "Siku nzima",
+      "start_date": "Tarehe ya kuanza",
+      "end_date": "Tarehe ya kumaliza",
+      "save": "Hifadhi mabadiliko",
+      "cancel": "Ghairi",
+      "delete": "Futa tukio",
+      "create_success": "Imeundwa kwa mafanikio!",
+      "update_success": "Imesasishwa kwa mafanikio!",
+      "delete_success": "Imefutwa kwa mafanikio!"
+    },
+    "dialog": {
+      "add": "Ongeza",
+      "edit": "Hariri",
+      "cancel": "Ghairi",
+      "delete": "Futa"
+    },
+    "validation": {
+      "title_required": "Kichwa kinahitajika!",
+      "description_required": "Maelezo yanahitajika!",
+      "description_min": "Maelezo lazima yawe angalau herufi 50",
+      "title_max": "Kichwa lazima kiwe chini ya herufi 100",
+      "end_date_error": "Tarehe ya mwisho lazima iwe baada ya tarehe ya kuanza"
+    }
+  }
+}

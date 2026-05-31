@@ -1,0 +1,33 @@
+{
+  "gantt": {
+    "timeline_not_found": "未找到时间轴",
+    "column_assignees": "负责人",
+    "column_project": "项目",
+    "column_mission": "任务",
+    "column_client": "客户",
+    "column_lead": "线索",
+    "column_vendor": "供应商",
+    "column_contract": "合同",
+    "column_backlog": "待办事项",
+    "tooltip_start": "开始：",
+    "tooltip_finish": "结束：",
+    "no_tasks_display": "时间线中没有任务可显示。",
+  "permission_denied": "权限被拒绝",
+  "confirm_date": "确认更改日期",
+  "date": "日期",
+  "?": "？",
+  "are_you_sure": "您确定要更改",
+  "confirm": "确认",
+  "cancel": "取消",
+  "are_you_sure_update_task": "您确定要更新任务进度吗？",
+  "task_name": "任务名称",
+  "ID": "编号",
+  "start_date": "开始日期",
+  "end_date": "结束日期",
+  "task_not_in_progress": "任务未处于“进行中”状态，无法更新进度。",
+  "you_donot": "您没有权限编辑进度。",
+   "confirm_progress": "确认进度更改"
+ 
+  
+}
+}

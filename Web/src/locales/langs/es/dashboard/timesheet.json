@@ -1,0 +1,75 @@
+{
+  "heading": {
+    "list": "Lista"
+  },
+  "breadcrumbs": {
+    "dashboard": "Tablero",
+    "timesheet": "Hoja de tiempo",
+    "list": "Lista"
+  },
+  "tabs": {
+    "all": "Todas las hojas de tiempo",
+    "task_type": "Tipo de tarea"
+  },
+  "table": {
+    "sl_no": "N°",
+    "timesheet_id": "ID de la hoja de tiempo",
+    "project": "Proyecto",
+    "task": "Tarea",
+    "start_date": "Fecha de inicio",
+    "duration": "Hora y duración",
+    "notes": "Notas",
+    "not_available": "No disponible",
+    "no_notes": "No hay notas",
+    "timeslot": "Franja horaria",
+    "actions": "Acciones",
+    "details": "Detalles",
+     "date": "Fecha",
+  "task_details": "Detalles de la tarea",
+  "tasktype": "Tipo de tarea"
+  },
+  "form": {
+    "save": "Guardar",
+    "update": "Actualizar",
+    "clear": "Borrar",
+    "id": "ID de la hoja de tiempo",
+    "project": "Proyecto",
+    "task": "Tarea",
+    "start_date": "Fecha de inicio",
+    "duration": "Hora y duración",
+    "notes": "Notas",
+    "start_time": "Hora de inicio",
+    "end_time": "Hora de finalización",
+    "select_time_slot": "Seleccionar franja horaria",
+    "add_timesheet": "Agregar hoja de tiempo",
+    "select_project": "Seleccionar proyecto",
+    "select_task": "Seleccionar tarea",
+    "search_task": "Buscar tarea...",
+    "search_placeholder": "Buscar...",
+    "no_results": "No se encontraron resultados",
+    "search": "Buscar",
+    "search_project": "Buscar proyectos...",
+    "add_timesheet_details": "Agregar detalles de la hoja de tiempo"
+  },
+  "toast": {
+    "timesheet_success": "¡Hoja de tiempo agregada con éxito!",
+    "delete_success": "¡Eliminación exitosa!",
+    "calendar_error": "Por favor, seleccione primero una fecha en el calendario.",
+    "id_error": "Requerido"
+  },
+  "actions": {
+    "delete": "Eliminar",
+    "add_timesheet": "Agregar hoja de tiempo",
+    "edit": "Editar",
+    "print": "Imprimir",
+    "export": "Exportar",
+    "import": "Importar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar"
+  },
+  "dialogs": {
+    "confirm_delete": "¿Está seguro de que desea eliminar",
+    "items": "elementos?",
+    "confirm_delete_single": "¿Está seguro de que desea eliminar esta hoja de tiempo?"
+  }
+}

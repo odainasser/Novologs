@@ -1,0 +1,629 @@
+{
+  "teams": {
+    "heading": "ቡድኖች",
+    "dashboard": "መቆጣጠሪያ ቦታ",
+    "organization_hierarchy": "የድርጅት አሰተዳደር",
+    "add_new_member": "አዲስ አባል ባህድር",
+    "add_more_details": "ተጨማሪ ዝርዝሮች መጨመር",
+    "user": "ተጠቃሚ",
+    "list": "ዝርዝር",
+    "export": "ወደ PDF ውጤት ይላኩ",
+    "forward": "ወደ ድርጅት ተጫንቋል",
+    "tabs": {
+      "internal": "ውስጥ",
+      "all": "ሁሉም",
+      "my-team": "የእኔ ቡድን",
+      "external": "ውጭ"
+    },
+    "no_data": "መረጃ የለም",
+    "no_members_found": "አባል አልተገኘም",
+    "no_members_available": "አሁን አባል የለም"
+  },
+  "tooltip": {
+    "grid": "መደበቂያ እይታ",
+    "list": "ዝርዝር እይታ",
+    "add_employee": "ሰራተኛ መጨመር",
+    "add_user_details": "የተጠቃሚ ዝርዝሮች መጨመር",
+    "edit_user_details": "የተጠቃሚ ዝርዝሮች ማስተካከል",
+    "add_organization": "ወደ ድርጅት መጨመር",
+    "add_user_image": "የተጠቃሚ ምስል መጨመር",
+    "change_user_image": "የተጠቃሚ ምስል መቀየር",
+    "settings": "ቅንብሮች",
+    "Organization_tree": "የድርጅት አሰተዳደር",
+    "code": "ኮድ",
+    "details_added": "ዝርዝሮች በተሳካ ሁኔታ ተጨምሯል"
+  },
+  "table": {
+    "headings": {
+      "serialNo": "ቁጥር",
+      "empId": "የሰራተኛ መታወቂያ",
+      "name": "ስም",
+      "userName": "የተጠቃሚ ስም",
+      "role": "ሚና",
+      "department": "የስራ ክፍል",
+      "email": "ኢሜይል",
+      "status": "ሁኔታ",
+      "id": "መታወቂያ",
+      "designation": "ቦታ",
+      "firstName": "ስም",
+      "departmentId": "የክፍል መታወቂያ",
+      "contact": "አገናኝ",
+      "countryId": "ዜግነት",
+      "device": "መሣሪያ",
+      "company": "ኩባንያ",
+      "actions": "ተግባራት",
+      "employee": "ሰራተኛ",
+      "card": "ካርድ",
+      "not_available": "የለም",
+      "not_register": "የተመዘገበ አይደለም",
+      "unknown_device": "ያልታወቀ መሣሪያ",
+      "add_business_target": "የንግድ ዕላማ መጨመር",
+      "add_target": "ዕላማ መጨመር",
+      "edit_target": "ዕላማ ማስተካከል",
+      "set_business": "የንግድ ዕላማ መደርሰያ",
+      "year": "ዓመት",
+      "phone-number": "የስልክ ቁጥር",
+      "enter-phoneno": "የስልክ ቁጥር ያስገቡ",
+      "ID": "መታወቂያ",
+      "details": "ዝርዝሮች",
+      "tree": "ደረጃ",
+      "choose_country": "አገር ይምረጡ",
+      "placeholder_search": "የተጠቃሚ ሚናዎችን ተፈልጋሉ",
+      "admin": "አስተባባሪ",
+      "hr_mangement": "ሰዎች አስተዳደር",
+      "project_management": "ፕሮጀክት አስተዳደር",
+      "task_management": "ተግዳሮት አስተዳደር",
+      "client_management": "ደንበኞች አስተዳደር",
+      "vendor_management": "ተቋሚዎች አስተዳደር",
+      "settings_management": "ቅንብሮች አስተዳደር",
+      "hourly_rate": "የሰዓት ክፍያ (AED):",
+      "branches": "የቅርንጫፍ ቅርንጫፎች"
+    },
+    "status": {
+      "label": "ሁኔታ",
+      "active": "ንቁ",
+      "disabled": "ተሰናክሏል"
+    },
+    "search": {
+      "placeholder": "ፈልግ..."
+    },
+    "actions": {
+      "edit": "አርትዕ",
+      "view": "እይ",
+      "print": "አትም",
+      "import": "አስመጣ",
+      "delete": "ሰርዝ",
+      "export": "ውጣ",
+      "search": "ፈልግ",
+      "save": "አስቀምጥ",
+      "clear_all": "ሁሉንም አጽድቅ",
+      "Dense": "አጥብቀው እይታ",
+      "add": "አክል",
+      "cancel": "ይቅር",
+      "addmore": "ተጨማሪ አክል",
+      "deactivate": "ያጥፋል",
+      "update": "ያዘምን"
+    },
+    "confirm_delete": "ማጥፋት እንደሚፈልጉ ያረጋግጡ?",
+    "delete_success": "በተሳካ ሁኔታ ተሰርዟል!",
+    "deactivate_message": "እሱን ሰራተኛ ማጥፋት ይፈልጋሉ?"
+  },
+  "filters": {
+    "search_placeholder": "በስም ፈልግ...",
+    "reset_filters": "መጠቆም አስቀምጥ",
+    "results_found": "{{count}} ውጤት ተገኘ",
+    "status_filter": "በሁኔታ አጥቆም"
+  },
+  "Validations": {
+    "name_error": "ስም ባዶ መሆን አይችልም።",
+    "email_error": "የተጠቃሚ ስም ባዶ መሆን አይችልም።",
+    "email_valid": "እባክዎን ትክክለኛ ኢሜይል ያስገቡ።",
+    "files_too": "ፋይል መጠን ${fData(1000000)} ይበልጥ ነው።",
+    "allowed_types": "ፈቃድ ያላቸው ቅርጾች: *.jpeg, *.jpg, *.png, *.gif",
+    "max": "ከፍተኛ መጠን"
+  },
+  "placeholder": {
+    "enter_address": "አድራሻ ያስገቡ",
+    "serach_rights": "የተጠቃሚ መብቶችን ፈልግ..."
+  },
+  "success_messages": {
+    "employee_add": "ሰራተኛ በተሳካ ሁኔታ ተጨምሯል!",
+    "user_updated": "ተጠቃሚው በተሳካ ሁኔታ ተዘምኗል!"
+  },
+  "hierarchy": {
+    "title": "የድርጅት አሰተዳደር",
+    "add_role": "ሚና አክል",
+    "new-user": "አዲስ ተጠቃሚ",
+    "close": "ዝጋ",
+    "edit_permission_level": "የፍቃድ ደረጃ ማስተካከል",
+    "no_levels_found": "ደረጃ አልተገኘም",
+    "edit": "አርትዕ",
+    "general_members": "ጠቅላላ አባላት",
+    "no_members": "አባል የለም",
+    "add": "አክል",
+    "search": "ፈልግ",
+    "back_to_employee": "ወደ ሰራተኛ ዝርዝር ተመለስ",
+    "general_member_list": "ጠቅላላ አባላት ዝርዝር",
+    "please_add": "እባኮት ያክሉ",
+    "employee_here": "እዚህ ሰራተኛ",
+    "unknown_group": "ያልታወቀ ቡድን",
+    "delete": {
+      "confirm_title": "ማጥፋት ማረጋገጫ",
+      "confirm_message": "«{{item}}» ንጥልን ከአሰተዳደር ማጥፋት ይፈልጋሉ?",
+      "cancel": "ይቅር",
+      "del_confirm": "ማጥፋት እንደምትፈልጉ ያረጋግጡ",
+      "from": "ከአሰተዳደር?",
+      "confirm": "ሰርዝ",
+      "employee_deactivated_success": "ሰራተኛ በተሳካ ሁኔታ ተዘግቷል",
+      "employee_activated": "ሰራተኛ በተሳካ ሁኔታ ተነጸቷል",
+      "error_activating_employee": "ሰራተኛ ሊነጸበር ሲሞክር ስህተት ተፈጠረ",
+      "employee_vacant": "ቦታ ባዶ ነው",
+      "no_members_available": "አባል የለም",
+      "team_hierarchy": "የቡድን አሰተዳደር",
+      "employee_id_is_not": "የሰራተኛ መታወቂያ የለም",
+      "designation_not": "ቦታ የለም",
+      "department_not": "ክፍል የለም"
+    },
+    "toast": {
+      "user_success": "ተጠቃሚው ከአሰተዳደር በተሳካ ሁኔታ ተሰርዟል",
+      "failed_delete": "ተጠቃሚው ሊሰረዝ አልቻለም",
+      "are_sure": "ይህን ሰራተኛ ከአሰተዳደር ማጥፋት ይፈልጋሉ?",
+      "cancel": "ይቅር",
+      "delete": "ሰርዝ",
+      "delete_successfully": "በተሳካ ሁኔታ ተሰርዟል",
+      "edit": "አርትዕ"
+    },
+    "fullscreen": {
+      "enter": "ሙሉ ማይዳሪያ አሳይ",
+      "exit": "ከሙሉ ማይዳሪያ ውጣ"
+    },
+    "employee_vacant": "ቦታ ባዶ ነው",
+    "add_subordinate": "አሳሳቢ አክል",
+    "select_user_permissions": "የተጠቃሚ መብቶች",
+    "select_all": "ሁሉንም ምረጥ",
+    "no_user_rights": "የተጠቃሚ መብት የለም"
+  },
+  "profile": {
+    "heading": "መግለጫ",
+    "dashboard": "መቆጣጠሪያ ቦታ",
+    "teams": "ቡድኖች",
+    "tabs": {
+      "profile": "መግለጫ",
+      "tasks": "ተግባሮች",
+      "timesheet": "የሰዓት ቅጽ",
+      "personal": "የግል ዝርዝሮች",
+      "gallery": "ማዕከል"
+    },
+    "no_project_tr": "ፕሮጀክት አልተገኘም",
+    "no_project_details_tr": "የፕሮጀክት ዝርዝሮች የሉም።",
+    "add_user_image": "የተጠቃሚ ምስል መጨመር",
+    "edit_user_image": "የተጠቃሚ ምስል መቀየር",
+    "about": "ስለ",
+    "follower": "ተከታታይ",
+    "following": "ተከተል",
+    "live_at": "ይኖራል በ",
+    "employee_id": "የሰራተኛ መታወቂያ",
+    "status": "ሁኔታ",
+    "not_available": "የለም",
+    "social": "ማህበራዊ",
+    "skills": "ክህሎቶች",
+    "no_skills_found": "ክህሎቶች አልተገኙም",
+    "no_skills_description": "ለዚህ አባል አንድም ክህሎት የለም።",
+    "no_tasks_found": "ተግባሮች አልተገኙም",
+    "no_tasks_description": "ለዚህ አባል ተግባሮች የሉም።",
+    "task_status": "የተግባር ሁኔታ",
+    "task_categories": {
+      "not_started": "አልጀረም",
+      "in_progress": "በሂደት ላይ",
+      "on_hold": "ተዘግቷል",
+      "submitted": "ተስተዋል",
+      "completed": "ተጠናቀቀ"
+    },
+    "user_permissions": "የተጠቃሚ መብቶች",
+    "search_placeholder": "ጓደኛዎችን ፈልግ...",
+    "add_post_placeholder": "ማስታወቂያዎን እዚህ አጋራ...",
+    "attach_image": "ምስል/ቪዲዮ ያክሉ",
+    "start_streaming": "የስብስ መጀመር",
+    "post_button": "ለጋራ አስቀምጥ",
+    "employee-activate": "ሰራተኛው የተገነባ",
+    "error-activating-employee": "ሰራተኛውን ለመገነባት ስህተት ተፈጠረ"
+  },
+  "months": {
+    "jan": "ጃን",
+    "feb": "ፌብ",
+    "mar": "ማር",
+    "apr": "ኤፕሪ",
+    "may": "ሜይ",
+    "jun": "ጁን",
+    "jul": "ጁላይ",
+    "aug": "ኦገስት",
+    "sep": "ሴፕ",
+    "oct": "ኦክቶ",
+    "nov": "ኖቬ",
+    "dec": "ዴሴ"
+  },
+  "editform": {
+    "labels": {
+      "employee_id": "የሰራተኛ መታወቂያ",
+      "name": "ስም",
+      "username": "የተጠቃሚ ስም",
+      "email": "ኢሜይል",
+      "phone_number": "የስልክ ቁጥር",
+      "nationality": "ዜግነት",
+      "address": "አድራሻ",
+      "designation": "ቦታ",
+      "department": "ክፍል",
+      "date_of_birth": "የትውልድ ቀን",
+      "city": "ከተማ",
+      "national_id": "ብሄራዊ መታወቂያ",
+      "national_id_expiry": "የመታወቂያ ማብቂያ",
+      "passport": "ፓስፖርት ቁጥር",
+      "passport_expiry": "የፓስፖርት ማብቂያ",
+      "insurance_id": "የመድኃኒት መታወቂያ",
+      "insurance_id_expiry": "የመድኃኒት መታወቂያ ማብቂያ",
+      "visa_type": "የቪዛ ዓይነት",
+      "visa_expiry": "የቪዛ ማብቂያ",
+      "gender": "ፆታ",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "whatsapp": "WhatsApp",
+      "twitter": "Twitter",
+      "date_hired": "የተቀጥቀጠበት ቀን",
+      "date_joining": "የተቀላቀሰበት ቀን",
+      "basic_salary": "መሰረታዊ ደመወዝ",
+      "hra_amount": "የ HRA መጠን",
+      "transportation_allowance": "የጓደኝ እድያ",
+      "other_allowance": "ሌሎች እድያዎች",
+      "files": "ፋይሎች",
+      "personal_details": "የግል ዝርዝሮች",
+      "social_media_links": "የማህበራዊ መድረኮች አገናኞች",
+      "job_data": "የስራ መረጃ",
+      "uploadfiles": "ፋይሎች አስገባ",
+      "showthumbnail": "ትንሽ ስንኳ አሳይ"
+    },
+    "validations": {
+      "avatar_required": "ፎቶ ያስፈልጋል!",
+      "id_required": "መታወቂያ ያስፈልጋል!",
+      "name_required": "ስም ያስፈልጋል!",
+      "username_required": "የተጠቃሚ ስም ያስፈልጋል!",
+      "email_required": "ኢሜይል ያስፈልጋል!",
+      "email_invalid": "ኢሜይሉ ትክክለኛ አይደለም!",
+      "phone_invalid": "የስልክ ቁጥር የተሳሳተ ነው!",
+      "country_required": "አገር ያስፈልጋል!",
+      "address_required": "አድራሻ ያስፈልጋል!",
+      "company_required": "ኩባንያ ያስፈልጋል!",
+      "state_required": "ግዙፍ ያስፈልጋል!",
+      "city_required": "ከተማ ያስፈልጋል!",
+      "role_required": "ሚና ያስፈልጋል!",
+      "zipcode_required": "የፖስታ ኮድ ያስፈልጋል!"
+    },
+    "placeholders": {
+      "choose_country": "አገር ይምረጡ"
+    },
+    "buttons": {
+      "create_user": "ተጠቃሚ ፍጠር",
+      "save_changes": "ለውጦችን አስቀመጥ",
+      "add_image": "ምስል አክል",
+      "edit_image": "ምስል አርትዕ"
+    },
+    "toast": {
+      "create_success": "በተሳካ ሁኔታ ተፈጥሯል!",
+      "update_success": "በተሳካ ሁኔታ ተዘምኗል!",
+      "image_upload": "ምስል በተሳካ ሁኔታ ተሰብሷል",
+      "unexpected_error": "አልፎ ጊዜውን ያልተጠበቀ ስህተት ተፈጠረ።"
+    },
+    "helper_text": {
+      "avatar_upload": "ፈቃድ ያላቸው ቅርጾች: *.jpeg, *.jpg, *.png, *.gif. ከፍተኛ መጠን ሲሆን "
+    }
+  },
+  "user_profile": {
+    "heading": "መግለጫ",
+    "breadcrumb_dashboard": "መቆጣጠሪያ ቦታ",
+    "breadcrumb_users": "ተጠቃሚዎች",
+    "tabs": {
+      "profile": "መግለጫ",
+      "tasks": "ተግባሮች",
+      "timesheet": "የሰዓት ቅጽ"
+    },
+    "profile_home": {
+      "followers": "ተከታዮች",
+      "following": "የሚከተላቸው",
+      "about_title": "ስለ እኔ",
+      "location": "የሚኖርበት",
+      "email": "ኢሜይል",
+      "role_at_company": "በ",
+      "studied_at": "ተማረበት",
+      "post_placeholder": "እዚህ ያስቡትን ነገር ያጋሩ...",
+      "attach_image": "ምስል / ቪዲዮ",
+      "streaming": "ቀጥታ ስርጭት",
+      "post_button": "ለጥፍ",
+      "target": "ግብ",
+      "days_off": "የእረፍት ቀናት",
+      "days_reported": "የተመዘገቡ ቀናት",
+      "days_work": "የስራ ቀናት",
+      "on_duty": "በስራ ላይ",
+      "total_points": "አጠቃላይ ነጥቦች",
+      "device": "መሣሪያ",
+      "task_details_title": "የስራ ዝርዝሮች",
+      "active_tasks": "ንቁ ስራዎች",
+      "not_active": "ንቁ ያልሆነ",
+      "completed": "ተጠናቋል",
+      "projects_title": "ፕሮጀክቶች",
+      "pending_tasks": "በመጠባበቅ ላይ ያሉ ስራዎች",
+      "sales_title": "ሽያጭ",
+      "total_clients": "አጠቃላይ ደንበኞች",
+      "total_leads": "አጠቃላይ እድሎች",
+      "sales_target": "የሽያጭ ግብ",
+      "total_vendors": "አጠቃላይ አቅራቢዎች",
+      "active_vendors": "ንቁ አቅራቢዎች",
+      "leads_amount": "የእድሎች መጠን",
+      "awarded_amount": "የተሰጠ መጠን",
+      "rejected_amount": "የተከለከለ መጠን",
+      "open_leads": "ክፍት እድሎች",
+      "closed_leads": "የተዘጉ እድሎች",
+      "total_contracts_year": "በዚህ ዓመት ያሉ ጠቅላላ ውሎች",
+      "total_users": "አጠቃላይ ተጠቃሚዎች",
+      "internal_users": "ውስጣዊ ተጠቃሚዎች",
+      "external_users": "ውጭ ተጠቃሚዎች",
+      "total_tasks": "አጠቃላይ ስራዎች",
+      "total_projects": "አጠቃላይ ፕሮጀክቶች",
+      "active_clients": "ንቁ ደንበኞች",
+      "tasks_title": "ስራዎች",
+      "tasks_year_to_date": "ከዓመቱ ጀምሮ ያሉ ስራዎች",
+      "overall_target": "አጠቃላይ ግብ",
+      "months": {
+        "jan": "ጃንዋሪ",
+        "feb": "ፌብሩወሪ",
+        "mar": "ማርች",
+        "apr": "ኤፕሪል",
+        "may": "ሜይ",
+        "jun": "ጁን",
+        "jul": "ጁላይ",
+        "aug": "ኦገስት",
+        "sep": "ሴፕቴምበር",
+        "oct": "ኦክቶበር",
+        "nov": "ኖቬምበር",
+        "dec": "ዲሴምበር"
+      },
+      "chart_labels": {
+        "actual": "ትክክለኛ",
+        "achieved": "የተሳካ",
+        "remaining": "የቀረ",
+        "completed_on_time": "በጊዜው የተጠናቀቀ",
+        "completed_late": "ዘግይቶ የተጠናቀቀ",
+        "overdue": "ያለፈ",
+        "working_on": "በስራ ላይ",
+        "not_started": "አልተጀመረም",
+        "on_hold": "ቆይቷል",
+        "waiting_for_approval": "ማጽደቅ በመጠባበቅ ላይ"
+      }
+    },
+    "user_settings": {
+      "departments": "የክፍሎች",
+      "designations": "የስራ ቦታዎች",
+      "employee_statuses": "የሰራተኞች ሁኔታዎች",
+      "team_notice": "ማስታወቂያ",
+      "exempted": "ተግባር መጨመር ከሌለበት",
+      "hierarchy": "የተግባር አሰተዳደር መደረጃ",
+      "notice_board": "የማስታወቂያ ፈርጅ",
+      "roles": "ሚናዎች እና መብቶች"
+    }
+  },
+  "departments": {
+    "labels": {
+      "new_department": "አዲስ ክፍል",
+      "new_division": "አዲስ ክፍል ክፍል",
+      "new_section": "አዲስ ክፍል ክፍል",
+      "new_session": "አዲስ ክፍል ክፍል",
+      "arabic_department": "አረብኛ ክፍል አዲስ",
+      "arabic_division": "አረብኛ ክፍል ክፍል አዲስ",
+      "arabic_section": "አረብኛ ክፍል ክፍል አዲስ",
+      "arabic_session": "አረብኛ ክፍል ክፍል አዲስ",
+      "department": "ክፍል",
+      "division": "ክፍል",
+      "section": "ክፍል",
+      "session": "ክፍል",
+      "loading_departments": "ክፍሎችን እየጫነ ነው ...",
+      "failed_to_load": "ክፍሎችን መጫን አልተቻለም።",
+      "department_name": "የክፍል ስም",
+      "department_name_arabic": "የአረብኛ ክፍል ስም",
+      "editing": "በማስተካከል...",
+      "no_of_employees": "የሰራተኞች ብዛት",
+      "all_departments": "ሁሉም ክፍሎች",
+      "division_name": "የክፍል ስም",
+      "division_name_arabic": "የአረብኛ ክፍል ስም",
+      "all_divisions": "ሁሉም ክፍሎች",
+      "section_name": "የክፍል ስም",
+      "section_name_arabic": "የአረብኛ ክፍል ስም",
+      "all_sections": "ሁሉም ክፍሎች",
+      "session_name": "የክፍል ስም",
+      "session_name_arabic": "የአረብኛ ክፍል ስም",
+      "all_sessions": "ሁሉም ትዕዛዞች"
+    },
+    "buttons": {
+      "save": "አስቀመጥ",
+      "delete": "ሰርዝ",
+      "cancel": "ይቅር",
+      "add": "አክል"
+    },
+    "tooltips": {
+      "edit_department": "ክፍል ማስተካከል",
+      "edit_departmentlevel": "ደረጃ ማስተካከል",
+      "delete_department": "ክፍል ማጥፋት",
+      "edit": "ማስተካከል",
+      "delete": "ማጥፋት",
+      "cannot_delete_department": "መሰረዝ አይቻልም፤ ሰራተኞች ተያዙበት",
+      "departments_available": "ክፍሎች አሉ",
+      "cannot_delete_division": "መሰረዝ አይቻልም፤ ሰራተኞች ተያዙበት",
+      "division_available": "ክፍል አልተገኘም",
+      "cannot_section": "መሰረዝ አይቻልም፤ ክፍል ባይሆንም",
+      "section_available": "ክፍል አልተገኘም",
+      "cannot_delete_session": "መሰረዝ አይቻልም፤ ሰራተኞች ተያዙበት",
+      "session_available": "ትዕዛዞች አልተገኙም"
+    },
+    "toast": {
+      "add_success": "ክፍል በተሳካ ሁኔታ ታክሏል",
+      "update_success": "ክፍል በተሳካ ሁኔታ ታዘምናል",
+      "delete_success": "ደረጃው በተሳካ ሁኔታ ተሰርዟል",
+      "delete_level": "ደረጃው በተሳካ ሁኔታ ተሰርዟል",
+      "update_level": "ደረጃው በተሳካ ሁኔታ ታዘምናል",
+      "delete_successfully": "በተሳካ ሁኔታ ተሰርዟል",
+      "delete_confirm": "ይህን ክፍል ማጥፋት ይፈልጋሉ?"
+    },
+    "dialog": {
+      "delete_title": "ማጥፋት",
+      "delete_department_confirm": "ይህን ክፍል ማጥፋት እንደምትፈልጉ ያረጋግጡ።",
+      "delete_designation_confirm": "ይህን የስራ ቦታ ደረጃ ማጥፋት እንደምትፈልጉ ያረጋግጡ?"
+    }
+  },
+  "designations": {
+    "labels": {
+      "new_designation": "አዲስ ቦታ",
+      "arabic_designation": "በአረብኛ አዲስ ቦታ",
+      "members": "አባላት"
+    },
+    "buttons": {
+      "add": "አክል",
+      "update": "ያዘምን",
+      "delete": "ሰርዝ"
+    },
+    "tooltips": {
+      "edit": "ቦታ ማስተካከል",
+      "delete": "ቦታ ማጥፋት",
+      "save": "አስቀመጥ"
+    },
+    "toast": {
+      "add_success": "ቦታ በተሳካ ሁኔታ ታክሏል",
+      "update_success": "ቦታ በተሳካ ሁኔታ ታዘምናል",
+      "delete_success": "ቦታ በተሳካ ሁኔታ ተሰርዟል",
+      "failed_designation": "የቦታ መጨመር አልተሳካም",
+      "unexpected_error": "ያልተጠበቀ ስህተት"
+    },
+    "dialog": {
+      "delete_title": "ማጥፋት",
+      "delete_confirm": "ይህን ቦታ ማጥፋት እንደምትፈልጉ ያረጋግጡ?"
+    }
+  },
+  "status": {
+    "labels": {
+      "new_status": "አዲስ የሰራተኛ ሁኔታ",
+      "arabic_status": "በአረብኛ አዲስ ሁኔታ",
+      "choose_color": "ቀለም ይምረጡ"
+    },
+    "buttons": {
+      "add": "አክል",
+      "update": "ያዘምን",
+      "delete": "ሰርዝ"
+    },
+    "tooltips": {
+      "edit": "ሁኔታ ማስተካከል",
+      "delete": "ሁኔታ ማጥፋት",
+      "save": "አስቀመጥ"
+    },
+    "toast": {
+      "add_success": "የሰራተኛ ሁኔታ በተሳካ ሁኔታ ታክሏል",
+      "update_success": "የሰራተኛ ሁኔታ በተሳካ ሁኔታ ታዘምናል",
+      "delete_success": "የሰራተኛ ሁኔታ በተሳካ ሂኖታ ተሰርዟል"
+    },
+    "dialog": {
+      "delete_title": "ማጥፋት",
+      "delete_confirm": "ይህን የሰራተኛ ሁኔታ ማጥፋት እንደምትፈልጉ ያረጋግጡ?"
+    }
+  },
+  "team_notice": {
+    "labels": {
+      "notice_en": "ማስታወቂያ በእንግሊዝኛ",
+      "notice_ar": "ማስታወቂያ በአረብኛ"
+    },
+    "buttons": {
+      "add": "ማስታወቂያ አክል",
+      "save": "አስቀምጥ",
+      "cancel": "ይቅር",
+      "clear": "ማስታወቂያ አጥፋ"
+    },
+    "dialog": {
+      "title": "ማስታወቂያ አክል",
+      "title2": "ማስታወቂያ ሰርዝ"
+    },
+    "toast": {
+      "delete": "ማስታወቂያው በተሳካ ሁኔታ ተሰርዟል",
+      "update_success": "ማስታወቂያው በተሳካ ሁኔታ ተዘምኗል",
+      "add_success": "ማስታወቂያው በተሳካ ሁኔታ ታክሏል",
+      "clear_success": "ማስታወቂያው በተሳካ ሁኔታ ጸድቷል",
+      "delete_confirm": "ማስታወቂያውን መሰረዝ እርግጠኛ ነዎት?"
+    },
+    "errors": {
+      "empty_notice": "ማስታወቂያው ባዶ መሆን አይችልም።"
+    }
+  },
+  "task_exempted": {
+    "buttons": {
+      "add_employees": "ሰራተኞች አክል",
+      "confirm_exempt": "አዎ",
+      "add_member": "አባል አክል",
+      "add": "አክል",
+      "close": "ዝጋ"
+    },
+    "toast": {
+      "exempt_success": "ሰራተኛው ከተግባር መጨመር ተደርሷል!"
+    },
+    "placeholder": "ፈልግ",
+    "dialog": {
+      "exempt_title": "በማቋረጥ ይታገላሉ",
+      "exempt_confirm": "ይህን ሰራተኛ ከተግባር መጨመር ይፈልጋሉ?"
+    },
+    "labels": {
+      "reporting_to": "ለማስታወቂያ",
+      "no_members": "አባል የለም",
+      "assign_tasks": "ተግባሮች መመደብ",
+      "unassign": "ተመደበው መሰረዝ",
+      "are_you_sure_want": "ተግባሮችን ለዚህ ተጠቃሚ መመደብ እንደምትፈልጉ ያረጋግጡ?"
+    }
+  },
+  "role": {
+    "new_role": "አዲስ ሚና",
+    "add_role": "አዲስ ሚና አክል",
+    "role_deleted": "ሚና በተሳካ ሁኔታ ተሰርዟል",
+    "permissions_unassigned": "ፍቃዶች ከሚናው በተሳካ ሁኔታ ተወግደዋል",
+    "permissions_assigned": "ፍቃዶች ለሚናው በተሳካ ሁኔታ ተመደቡ",
+    "all_permissions": "ሁሉም ፍቃዶች ከሚናው ተወግደዋል",
+    "role_added": "ሚና በተሳካ ሁኔታ ታክሏል",
+    "assigned_permissions": "የተመደቡ ፍቃዶች",
+    "unassign_all": "ሁሉንም አስወግድ",
+    "permissions_unassigned!": "ፍቃዶች ተመድበዋል!",
+    "add_permission_role": "ለዚህ ሚና ፍቃድ ያክሉ",
+    "role_name": "የሚና ስም",
+    "Add": "አክል",
+    "cancel": "ይቅር",
+    "delete": "ሰርዝ",
+    "edit": "አርትዕ",
+    "permissions": "ፍቃዶች",
+    "unassign": "አስወግድ",
+    "assign": "መመደብ",
+    "unassign_Permission": "ፍቃድ አስወግድ",
+    "unassign_all_permission": "ሁሉንም ፍቃዶች አስወግድ",
+    "are_you_sure_want": "ማስወገድ እንደምትፈልጉ ያረጋግጡ",
+    "confirm_delete": "ይህን ሚና መሰረዝ እንደምትፈልጉ ያረጋግጡ?",
+    "unassign_to_all": "ሁሉንም ፍቃዶች አስወግድ",
+    "unassignall": "ሁሉንም አስወግድ",
+    "from_this": "ከዚህ ሚና?",
+    "unassign_sure": "ከዚህ ሚና ሁሉንም ፍቃዶች ወግድ እንደምትፈልጉ ያረጋግጡ?",
+    "select_all": "ሁሉንም ምረጥ",
+    "search": "ፈልግ",
+    "permissions_added": "ፍቃዶች ለተጠቃሚው በተሳካ ሁኔታ ታክለዋል",
+    "permissions_updated": "ፍቃዶች በተሳካ ሁኔታ ተዘምኗል",
+    "no_permissions_available": "ፍቃዶች አልተገኙም",
+    "permissions_added_role": "ፍቃዶች ለሚናው በተሳካ ሁኔታ ታክለዋል",
+    "permissions_added_user": "ፍቃዶች ለተጠቃሚው በተሳካ ሁኔታ ታክለዋል",
+    "permissions_removed_user": "ፍቃዶች ከተጠቃሚው በተሳካ ሁኔታ ወግደዋል",
+    "permissions_available": "ፍቃዶች አልተገኙም",
+    "description_added": "መግለጫ በተሳካ ሁኔታ ታክሏል",
+    "description_added_fail": "መግለጫ መጨመር አልተሳካም",
+    "unassign_user_role": "ይህን ፍቃድ ከዚህ ተጠቃሚ መወጣት እንደምትፈልጉ ያረጋግጡ?",
+    "role_permissions_cannot_be_edit": "የሚና ፍቃዶች ማስተካከል አይቻልም",
+    "assign_permission": "ፍቃድ መመደብ",
+    "assign_all_permissions": "ሁሉንም ፍቃዶች መመደብ",
+    "assign_sure": "ሁሉንም ፍቃዶች ለዚህ ተጠቃሚ መመደብ እንደምትፈልጉ ያረጋግጡ?"
+  }
+}

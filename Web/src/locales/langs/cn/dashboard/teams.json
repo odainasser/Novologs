@@ -1,0 +1,632 @@
+{
+  "teams": {
+    "heading": "团队",
+    "dashboard": "仪表板",
+    "organization_hierarchy": "组织层级",
+    "add_new_member": "添加新成员",
+    "add_more_details": "添加更多详情",
+    "user": "用户",
+    "list": "列表",
+    "export": "导出为 PDF",
+    "forward": "转发",
+    "tabs": {
+      "internal": "内部",
+      "all": "全部",
+      "my-team": "我的团队",
+      "external": "外部"
+    },
+    "no_branches": "没有分支",
+    "no_data": "暂无数据",
+    "no_members_found": "未找到成员",
+    "no_members_available": "当前无成员"
+  },
+  "tooltip": {
+    "grid": "栅格视图",
+    "list": "列表视图",
+    "add_employee": "添加员工",
+    "add_user_details": "添加用户详情",
+    "edit_user_details": "编辑用户详情",
+    "add_organization": "添加组织",
+    "add_user_image": "添加用户图片",
+    "change_user_image": "更换用户图片",
+    "settings": "设置",
+    "Organization_tree": "组织树",
+    "code": "代码",
+    "details_added": "详情已添加"
+  },
+  "table": {
+    "headings": {
+      "serialNo": "序号",
+      "empId": "员工编号",
+      "name": "姓名",
+      "userName": "用户名",
+      "role": "角色",
+      "department": "部门",
+      "email": "电子邮件",
+      "status": "状态",
+      "id": "ID",
+      "designation": "职称",
+      "firstName": "名字",
+      "departmentId": "部门 ID",
+      "contact": "联系方式",
+      "countryId": "国籍",
+      "device": "设备",
+      "company": "公司",
+      "actions": "操作",
+      "employee": "员工",
+      "card": "卡片",
+      "not_available": "不可用",
+      "not_register": "未注册",
+      "unknown_device": "未知设备",
+      "add_business_target": "添加业务目标",
+      "add_target": "添加目标",
+      "edit_target": "编辑目标",
+      "set_business": "设置业务目标",
+      "year": "年份",
+      "phone-number": "电话号码",
+      "enter-phoneno": "请输入电话号码",
+      "ID": "ID",
+      "details": "详情",
+      "tree": "层级",
+      "choose_country": "选择国家",
+      "placeholder_search": "搜索用户角色",
+      "admin": "管理员",
+      "hr_mangement": "人力资源管理",
+      "project_management": "项目管理",
+      "task_management": "任务管理",
+      "client_management": "客户管理",
+      "vendor_management": "供应商管理",
+      "settings_management": "设置管理",
+      "hourly_rate": "小时费率 (AED)：",
+      "branches": "分支机构"
+    },
+    "status": {
+      "label": "状态",
+      "active": "激活",
+      "disabled": "已禁用"
+    },
+    "search": {
+      "placeholder": "搜索..."
+    },
+    "actions": {
+      "edit": "编辑",
+      "view": "查看",
+      "print": "打印",
+      "import": "导入",
+      "delete": "删除",
+      "export": "导出",
+      "search": "搜索",
+      "save": "保存",
+      "clear_all": "全部清除",
+      "Dense": "紧凑视图",
+      "add": "添加",
+      "cancel": "取消",
+      "addmore": "添加更多",
+      "deactivate": "禁用",
+      "update": "更新"
+    },
+    "confirm_delete": "您确定要删除吗？",
+    "delete_success": "删除成功！",
+    "deactivate_message": "您确定要禁用该员工吗？"
+  },
+  "filters": {
+    "search_placeholder": "按名字搜索...",
+    "reset_filters": "重置筛选",
+    "results_found": "{{count}} 条结果",
+    "status_filter": "按状态筛选"
+  },
+  "Validations": {
+    "name_error": "名字不能为空。",
+    "email_error": "用户名不能为空。",
+    "email_valid": "请输入有效的电子邮件。",
+    "files_too": "文件大小超过 ${fData(1000000)}。",
+    "allowed_types": "允许的格式：*.jpeg, *.jpg, *.png, *.gif",
+    "max": "最大尺寸"
+  },
+  "placeholder": {
+    "enter_address": "输入地址",
+    "serach_rights": "搜索用户权限..."
+  },
+  "success_messages": {
+    "employee_add": "员工添加成功！",
+    "user_updated": "用户更新成功！"
+  },
+  "hierarchy": {
+    "title": "组织层级",
+    "add_role": "添加角色",
+    "new-user": "新用户",
+    "close": "关闭",
+    "edit_permission_level": "编辑权限级别",
+    "no_levels_found": "未找到级别",
+    "edit": "编辑",
+    "general_members": "普通成员",
+    "no_members": "无成员",
+    "add": "添加",
+    "search": "搜索",
+    "back_to_employee": "返回员工列表",
+    "general_member_list": "普通成员列表",
+    "please_add": "请添加",
+    "employee_here": "这里一名员工",
+    "unknown_group": "未知组",
+    "delete": {
+      "confirm_title": "删除确认",
+      "confirm_message": "您确定要从层级中删除 «{{item}}» 吗？",
+      "cancel": "取消",
+      "del_confirm": "确认删除？",
+      "from": "从层级中？",
+      "confirm": "删除",
+      "employee_deactivated_success": "员工已成功禁用",
+      "employee_activated": "员工已成功启用",
+      "error_activating_employee": "启用员工时出错",
+      "employee_vacant": "职位空缺",
+      "no_members_available": "当前无成员",
+      "team_hierarchy": "团队层级",
+      "employee_id_is_not": "员工 ID 不存在",
+      "designation_not": "职称不存在",
+      "department_not": "部门不存在"
+    },
+    "toast": {
+      "user_success": "用户已成功从层级删除",
+      "failed_delete": "无法删除用户",
+      "are_sure": "您确定要从层级中删除该员工吗？",
+      "cancel": "取消",
+      "delete": "删除",
+      "delete_successfully": "删除成功",
+      "edit": "编辑"
+    },
+    "fullscreen": {
+      "enter": "进入全屏",
+      "exit": "退出全屏"
+    },
+    "employee_vacant": "职位空缺",
+    "add_subordinate": "添加下属",
+    "select_user_permissions": "选择用户权限",
+    "select_all": "全选",
+    "no_user_rights": "无用户权限"
+  },
+  "profile": {
+    "heading": "个人资料",
+    "dashboard": "仪表板",
+    "teams": "团队",
+    "tabs": {
+      "profile": "资料",
+      "tasks": "任务",
+      "timesheet": "时间表",
+      "personal": "个人",
+      "gallery": "画廊"
+    },
+    "no_project_tr": "未找到项目",
+    "no_project_details_tr": "无项目详情。",
+    "add_user_image": "添加用户图片",
+    "edit_user_image": "编辑用户图片",
+    "about": "关于",
+    "follower": "关注者",
+    "following": "正在关注",
+    "live_at": "居住于",
+    "employee_id": "员工编号",
+    "status": "状态",
+    "not_available": "不可用",
+    "social": "社交",
+    "skills": "技能",
+    "no_skills_found": "未找到技能",
+    "no_skills_description": "该成员暂无任何技能。",
+    "no_tasks_found": "未找到任务",
+    "no_tasks_description": "该成员暂无任务。",
+    "task_status": "任务状态",
+    "task_categories": {
+      "not_started": "未开始",
+      "in_progress": "进行中",
+      "on_hold": "暂停中",
+      "submitted": "已提交",
+      "completed": "已完成"
+    },
+    "user_permissions": "用户权限",
+    "search_placeholder": "搜索朋友...",
+    "add_post_placeholder": "在这里分享你的想法...",
+    "attach_image": "附加图片/视频",
+    "start_streaming": "开始直播",
+    "post_button": "发布",
+    "employee-activate": "员工已激活",
+    "error-activating-employee": "激活员工时发生错误"
+  },
+  "months": {
+    "jan": "1月",
+    "feb": "2月",
+    "mar": "3月",
+    "apr": "4月",
+    "may": "5月",
+    "jun": "6月",
+    "jul": "7月",
+    "aug": "8月",
+    "sep": "9月",
+    "oct": "10月",
+    "nov": "11月",
+    "dec": "12月"
+  },
+  "editform": {
+    "labels": {
+      "employee_id": "员工编号",
+      "name": "姓名",
+      "username": "用户名",
+      "email": "电子邮件",
+      "phone_number": "电话号码",
+      "nationality": "国籍",
+      "address": "地址",
+      "designation": "职称",
+      "department": "部门",
+      "date_of_birth": "出生日期",
+      "city": "城市",
+      "national_id": "国家身份证号",
+      "national_id_expiry": "身份证到期",
+      "passport": "护照号",
+      "passport_expiry": "护照到期",
+      "insurance_id": "保险号",
+      "insurance_id_expiry": "保险号到期",
+      "visa_type": "签证类型",
+      "visa_expiry": "签证到期",
+      "gender": "性别",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "whatsapp": "WhatsApp",
+      "twitter": "Twitter",
+      "date_hired": "聘用日期",
+      "date_joining": "入职日期",
+      "basic_salary": "基本工资",
+      "hra_amount": "HRA金额",
+      "transportation_allowance": "交通补贴",
+      "other_allowance": "其他补贴",
+      "files": "文件",
+      "personal_details": "个人详情",
+      "social_media_links": "社交媒体链接",
+      "job_data": "岗位信息",
+      "uploadfiles": "上传文件",
+      "showthumbnail": "显示缩略图"
+    },
+    "validations": {
+      "avatar_required": "头像为必填项！",
+      "id_required": "ID 为必填项！",
+      "name_required": "姓名为必填项！",
+      "username_required": "用户名为必填项！",
+      "email_required": "电子邮件为必填项！",
+      "email_invalid": "请输入有效的电子邮件！",
+      "phone_invalid": "电话号码无效！",
+      "country_required": "国家为必填项！",
+      "address_required": "地址为必填项！",
+      "company_required": "公司为必填项！",
+      "state_required": "州/省为必填项！",
+      "city_required": "城市为必填项！",
+      "role_required": "角色为必填项！",
+      "zipcode_required": "邮政编码为必填项！"
+    },
+    "placeholders": {
+      "choose_country": "选择国家"
+    },
+    "buttons": {
+      "create_user": "创建用户",
+      "save_changes": "保存更改",
+      "add_image": "添加图片",
+      "edit_image": "编辑图片"
+    },
+    "toast": {
+      "create_success": "创建成功！",
+      "update_success": "更新成功！",
+      "image_upload": "图片上传成功",
+      "unexpected_error": "发生意外错误。"
+    },
+    "helper_text": {
+      "avatar_upload": "允许格式：*.jpeg, *.jpg, *.png, *.gif。最大文件大小为 …"
+    }
+  },
+  "user_profile": {
+    "heading": "个人资料",
+    "breadcrumb_dashboard": "仪表板",
+    "breadcrumb_users": "用户",
+    "tabs": {
+      "profile": "资料",
+      "tasks": "任务",
+      "timesheet": "时间表"
+    },
+    "profile_home": {
+      "followers": "Seguidores",
+      "following": "Siguiendo",
+      "about_title": "Acerca de",
+      "location": "Vive en",
+      "email": "Correo electrónico",
+      "role_at_company": "en",
+      "studied_at": "Estudió en",
+      "post_placeholder": "Comparte lo que estás pensando aquí...",
+      "attach_image": "Imagen / Video",
+      "streaming": "Transmisión en vivo",
+      "post_button": "Publicar",
+      "target": "Objetivo",
+      "days_off": "Días libres",
+      "days_reported": "Días reportados",
+      "days_work": "Días trabajados",
+      "on_duty": "En servicio",
+      "total_points": "Puntos totales",
+      "device": "Dispositivo",
+      "task_details_title": "Detalles de tareas",
+      "active_tasks": "Tareas activas",
+      "not_active": "No activo",
+      "completed": "Completado",
+      "projects_title": "Proyectos",
+      "pending_tasks": "Tareas pendientes",
+      "sales_title": "Ventas",
+      "total_clients": "Total de clientes",
+      "total_leads": "Total de prospectos",
+      "sales_target": "Objetivo de ventas",
+      "total_vendors": "Total de proveedores",
+      "active_vendors": "Proveedores activos",
+      "leads_amount": "Monto de prospectos",
+      "awarded_amount": "Monto adjudicado",
+      "rejected_amount": "Monto rechazado",
+      "open_leads": "Prospectos abiertos",
+      "closed_leads": "Prospectos cerrados",
+      "total_contracts_year": "Total de contratos este año",
+      "total_users": "Total de usuarios",
+      "internal_users": "Usuarios internos",
+      "external_users": "Usuarios externos",
+      "total_tasks": "Total de tareas",
+      "total_projects": "Total de proyectos",
+      "active_clients": "Clientes activos",
+      "tasks_title": "Tareas",
+      "tasks_year_to_date": "Tareas en lo que va del año",
+      "overall_target": "Objetivo general",
+      "months": {
+        "jan": "Ene",
+        "feb": "Feb",
+        "mar": "Mar",
+        "apr": "Abr",
+        "may": "May",
+        "jun": "Jun",
+        "jul": "Jul",
+        "aug": "Ago",
+        "sep": "Sep",
+        "oct": "Oct",
+        "nov": "Nov",
+        "dec": "Dic"
+      },
+      "chart_labels": {
+        "actual": "Real",
+        "achieved": "Alcanzado",
+        "remaining": "Restante",
+        "completed_on_time": "Completado a tiempo",
+        "completed_late": "Completado con retraso",
+        "overdue": "Vencido",
+        "working_on": "En progreso",
+        "not_started": "No iniciado",
+        "on_hold": "En espera",
+        "waiting_for_approval": "En espera de aprobación"
+      }
+    },
+    "user_settings": {
+      "departments": "部门",
+      "designations": "职称",
+      "employee_statuses": "员工状态",
+      "team_notice": "公告",
+      "exempted": "免除添加任务",
+      "hierarchy": "任务层级设定",
+      "notice_board": "公告栏",
+      "roles": "角色与权限"
+    }
+  },
+  "departments": {
+    "labels": {
+      "new_department": "新部门",
+      "new_division": "新分部",
+      "new_section": "新科室",
+      "new_session": "新会话",
+      "arabic_department": "阿拉伯语部门",
+      "arabic_division": "阿拉伯语分部",
+      "arabic_section": "阿拉伯语科室",
+      "arabic_session": "阿拉伯语会话",
+      "department": "部门",
+      "division": "分部",
+      "section": "科室",
+      "session": "会话",
+      "loading_departments": "部门加载中...",
+      "failed_to_load": "加载部门失败。",
+      "department_name": "部门名称",
+      "department_name_arabic": "阿拉伯语部门名称",
+      "editing": "编辑中...",
+      "no_of_employees": "员工数量",
+      "all_departments": "所有部门",
+      "division_name": "分部名称",
+      "division_name_arabic": "阿拉伯语分部名称",
+      "all_divisions": "所有分部",
+      "section_name": "科室名称",
+      "section_name_arabic": "阿拉伯语科室名称",
+      "all_sections": "所有科室",
+      "session_name": "会话名称",
+      "session_name_arabic": "阿拉伯语会话名称",
+      "all_sessions": "所有会话"
+    },
+    "buttons": {
+      "save": "保存",
+      "delete": "删除",
+      "cancel": "取消",
+      "add": "添加"
+    },
+    "tooltips": {
+      "edit_department": "编辑部门",
+      "edit_departmentlevel": "编辑部门等级",
+      "delete_department": "删除部门",
+      "edit": "编辑",
+      "delete": "删除",
+      "cannot_delete_department": "无法删除：部门中有员工",
+      "departments_available": "无可用部门",
+      "cannot_delete_division": "无法删除：分部中有员工",
+      "division_available": "无可用分部",
+      "cannot_section": "无法删除：科室中有员工",
+      "section_available": "无可用科室",
+      "cannot_delete_session": "无法删除：会话中有员工",
+      "session_available": "无可用会话"
+    },
+    "toast": {
+      "add_success": "部门添加成功",
+      "update_success": "部门更新成功",
+      "delete_success": "部门/级别删除成功",
+      "delete_level": "级别已删除",
+      "update_level": "级别已更新",
+      "delete_successfully": "删除成功",
+      "delete_confirm": "您确定要删除吗？"
+    },
+    "dialog": {
+      "delete_title": "删除",
+      "delete_department_confirm": "您确定要删除这个部门吗？",
+      "delete_designation_confirm": "您确定要删除这个职称等级吗？"
+    }
+  },
+  "designations": {
+    "labels": {
+      "new_designation": "新职称",
+      "arabic_designation": "阿拉伯语职称",
+      "members": "成员"
+    },
+    "buttons": {
+      "add": "添加",
+      "update": "更新",
+      "delete": "删除"
+    },
+    "tooltips": {
+      "edit": "编辑职称",
+      "delete": "删除职称",
+      "save": "保存"
+    },
+    "toast": {
+      "add_success": "职称添加成功",
+      "update_success": "职称更新成功",
+      "delete_success": "职称删除成功",
+      "failed_designation": "添加职称失败",
+      "unexpected_error": "发生意外错误"
+    },
+    "dialog": {
+      "delete_title": "删除",
+      "delete_confirm": "您确定要删除这个职称吗？"
+    }
+  },
+  "status": {
+    "labels": {
+      "new_status": "新员工状态",
+      "arabic_status": "阿拉伯语状态",
+      "choose_color": "选择颜色"
+    },
+    "buttons": {
+      "add": "添加",
+      "update": "更新",
+      "delete": "删除"
+    },
+    "tooltips": {
+      "edit": "编辑状态",
+      "delete": "删除状态",
+      "save": "保存"
+    },
+    "toast": {
+      "add_success": "员工状态添加成功",
+      "update_success": "员工状态更新成功",
+      "delete_success": "员工状态删除成功"
+    },
+    "dialog": {
+      "delete_title": "删除",
+      "delete_confirm": "您确定要删除此员工状态吗？"
+    }
+  },
+  "team_notice": {
+    "labels": {
+      "notice_en": "公告（英文）",
+      "notice_ar": "公告（阿拉伯语）"
+    },
+    "buttons": {
+      "add": "添加公告",
+      "save": "保存",
+      "cancel": "取消",
+      "clear": "清除公告"
+    },
+    "dialog": {
+      "title": "添加公告",
+      "title2": "删除公告"
+    },
+    "toast": {
+      "add_success": "公告添加成功",
+      "delete": "公告删除成功",
+      "delete_success": "公告删除成功",
+      "delete_successfully": "公告删除成功",
+      "update_success": "公告更新成功",
+      "clear_success": "公告清除成功",
+      "delete_confirm": "您确定要删除该公告吗？"
+    },
+    "errors": {
+      "empty_notice": "公告不能为空。"
+    }
+  },
+  "task_exempted": {
+    "buttons": {
+      "add_employees": "添加员工",
+      "confirm_exempt": "是",
+      "add_member": "添加成员",
+      "add": "添加",
+      "close": "关闭"
+    },
+    "toast": {
+      "exempt_success": "员工已被免除添加任务！"
+    },
+    "placeholder": "搜索",
+    "dialog": {
+      "exempt_title": "免除",
+      "exempt_confirm": "您确定要免除此员工添加任务吗？"
+    },
+    "labels": {
+      "reporting_to": "汇报给",
+      "no_members": "无成员",
+      "assign_tasks": "分配任务",
+      "unassign": "取消分配",
+      "are_you_sure_want": "您确定要为该用户分配任务吗？"
+    }
+  },
+  "role": {
+    "new_role": "新角色",
+    "add_role": "添加角色",
+    "role_deleted": "角色删除成功",
+    "permissions_unassigned": "权限已成功从角色移除",
+    "permissions_assigned": "权限已成功分配给角色",
+    "all_permissions": "所有权限已从角色移除",
+    "role_added": "角色添加成功",
+    "assigned_permissions": "已分配权限",
+    "unassign_all": "取消全部分配",
+    "permissions_unassigned!": "权限已分配！",
+    "add_permission_role": "为此角色添加权限",
+    "role_name": "角色名称",
+    "Add": "添加",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "permissions": "权限",
+    "unassign": "取消分配",
+    "assign": "分配",
+    "unassign_Permission": "取消权限",
+    "unassign_all_permission": "取消所有权限",
+    "are_you_sure_want": "您确定要取消分配吗？",
+    "confirm_delete": "您确定要删除此角色吗？",
+    "unassign_to_all": "取消所有权限",
+    "unassignall": "取消全部分配",
+    "from_this": "从此角色？",
+    "unassign_sure": "您确定要从此角色取消所有权限吗？",
+    "select_all": "全选",
+    "search": "搜索",
+    "permissions_added": "权限已成功分配给用户",
+    "permissions_updated": "权限更新成功",
+    "no_permissions_available": "无可用权限",
+    "permissions_added_role": "权限已成功分配给角色",
+    "permissions_added_user": "权限已成功分配给用户",
+    "permissions_removed_user": "权限已成功从用户移除",
+    "permissions_available": "无可用权限",
+    "description_added": "描述添加成功",
+    "description_added_fail": "添加描述失败",
+    "unassign_user_role": "您确定要取消此用户的该权限吗？",
+    "role_permissions_cannot_be_edit": "无法编辑角色权限",
+    "assign_permission": "分配权限",
+    "assign_all_permissions": "分配所有权限",
+    "assign_sure": "您确定要将所有权限分配给此用户吗？"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "heading": {
+    "list": "Danh sách"
+  },
+  "breadcrumbs": {
+    "dashboard": "Bảng điều khiển",
+    "timesheet": "Bảng chấm công",
+    "list": "Danh sách"
+  },
+  "tabs": {
+    "all": "Tất cả bảng chấm công",
+    "task_type": "Loại công việc"
+
+  },
+  "table": {
+    "sl_no": "STT",
+    "timesheet_id": "ID bảng chấm công",
+    "project": "Dự án",
+    "task": "Nhiệm vụ",
+    "start_date": "Ngày bắt đầu",
+    "duration": "Thời gian & Thời gian",
+    "notes": "Ghi chú",
+    "not_available": "Không khả dụng",
+    "no_notes": "Không có ghi chú",
+    "timeslot": "Khung giờ",
+    "actions": "Hành động",
+    "details": "Chi tiết",
+    "date": "Ngày",
+  "task_details": "Chi tiết nhiệm vụ",
+  "tasktype": "Loại nhiệm vụ"
+
+  },
+  "form": {
+    "save": "Lưu",
+    "update": "Cập nhật",
+    "clear": "Xóa",
+    "id": "ID bảng chấm công",
+    "project": "Dự án",
+    "task": "Nhiệm vụ",
+    "start_date": "Ngày bắt đầu",
+    "duration": "Thời gian & Thời gian",
+    "notes": "Ghi chú",
+    "start_time": "Thời gian bắt đầu",
+    "end_time": "Thời gian kết thúc",
+    "select_time_slot": "Chọn khung giờ",
+    "add_timesheet": "Thêm bảng chấm công",
+    "select_project": "Chọn dự án",
+    "select_task": "Chọn nhiệm vụ",
+    "search_task": "Tìm kiếm nhiệm vụ...",
+    "search_placeholder": "Tìm kiếm...",
+    "no_results": "Không tìm thấy kết quả",
+    "search": "Tìm kiếm",
+    "search_project": "Tìm kiếm dự án...",
+   "add_timesheet_details" :"Thêm chi tiết bảng chấm công"
+  },
+  "toast": {
+    "timesheet_success": "Bảng chấm công đã được thêm thành công!",
+    "delete_success": "Xóa thành công!",
+    "calendar_error": "Vui lòng chọn ngày từ lịch trước.",
+    "id_error": "Bắt buộc"
+  },
+  "actions": {
+    "delete": "Xóa",
+    "add_timesheet": "Thêm bảng chấm công",
+    "edit": "Chỉnh sửa",
+    "print": "In",
+    "export": "Xuất",
+    "import": "Nhập",
+    "cancel": "Hủy",
+    "confirm": "Xác nhận"
+  },
+  "dialogs": {
+    "confirm_delete": "Bạn có chắc chắn muốn xóa",
+    "items": "mục?",
+    "confirm_delete_single": "Bạn có chắc chắn muốn xóa bảng chấm công này không?"
+  }
+}

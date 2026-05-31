@@ -1,0 +1,417 @@
+{
+  "clients": {
+    "List": {
+      "heading": "Müşteriler",
+      "dashboard": "Kontrol Paneli",
+      "list": "Liste",
+      "heading2": "Tedarikçiler"
+    },
+    "tabs": {
+      "groups": "Gruplar",
+      "clients": "Müşteriler",
+      "leads": "Potansiyel Müşteriler",
+      "group1": "Grup1",
+      "group2": "Grup2",
+      "group3": "Grup3",
+      "documents": "Belgeler",
+      "contacts": "Kişiler",
+      "tasks": "Görevler",
+      "files": "Dosyalar",
+      "sales_details": "Satış Detayları",
+      "sales_report": "Hedef Raporu",
+      "contracts": "Sözleşmeler"
+    },
+    "buttons": {
+      "add": "Ekle",
+      "update": "Güncelle",
+      "delete": "Sil",
+      "add_client": "Müşteri Ekle",
+      "add_member": "Üye Ekle",
+      "add_lead": "Potansiyel Müşteri Ekle",
+      "back": "Geri",
+      "add_sales_group": "Satış Grubu Ekle",
+      "add_group": "Grup Ekle",
+      "edit_group": "Grubu Düzenle",
+      "save": "Kaydet",
+      "print": "Yazdır",
+      "export": "Dışa Aktar",
+      "import": "İçe Aktar",
+      "cancel": "İptal",
+      "clear_all": "Tüm Alanları Temizle",
+      "add_employees": "Çalışan Ekle",
+      "editButton": "Düzenle",
+      "add_members": "Üyeler Ekle",
+      "members": "Üyeler",
+      "close": "Kapat",
+      "award_lead": "Potansiyel Müşteri Ödülü",
+      "edit": "Düzenle",
+      "add_contact":"İletişim Ekle"
+    },
+    "toast": {
+      "delete_success": "Silme başarılı!",
+      "group_add": "Grup başarıyla eklendi!",
+      "client_add": "Müşteri başarıyla eklendi!",
+      "member_add": "Üye başarıyla eklendi",
+      "client_update": "Müşteri başarıyla güncellendi!",
+      "employee_exempted": "Çalışan görev eklemeden muaf tutuldu",
+      "permission_added": "İzin eklendi",
+      "unexpected_error": "Beklenmeyen bir hata oluştu",
+      "vendor_update": "Tedarikçi başarıyla güncellendi",
+      "vendor_add": "Tedarikçi başarıyla eklendi",
+      "group_deleted":"Grup başarıyla silindi",
+      "group_error":"Grup silinirken bir hata oluştu."
+
+    },
+    "dialog": {
+      "delete_title": "Sil",
+      "delete_group":"Bu grubu silmek istediğinizden emin misiniz?",
+      "delete_contact":"Bu kişiyi silmek istediğinizden emin misiniz?",
+      "delete_content": "Silmek istediğinizden emin misiniz",
+      "items": " öğe?",
+      "delete_content2": "Silmek istediğinizden emin misiniz?"
+    },
+    "filters": {
+      "name_placeholder": "İsme göre ara",
+      "search": "Ara..."
+    },
+    "columns": {
+      "serial_no": "Sıra No.",
+      "client_id": "Müşteri ID",
+      "name": "Müşteri Adı",
+      "website": "Web Sitesi",
+      "emirates": "Emirlikler",
+      "location": "Konum",
+      "email": "E-posta",
+      "address": "Adres",
+      "empId": "Çalışan ID",
+      "role": "Görev",
+      "department": "Departman",
+      "status": "Durum",
+      "level": "Seviye",
+      "details": "Detaylar",
+      "username": "Kullanıcı Adı",
+      "employId": "Çalışan ID",
+      "names": "İsimler",
+      "creator": "Oluşturan",
+      "leads": "Potansiyel Müşteriler",
+      "sales": "Satışlar",
+      "actions": "İşlemler",
+      "phone_no": "Telefon Numarası",
+      "mobile_no":"Cep Numarası",
+      "select_location": "Konum Seçin:",
+      "projects": "Projeler",
+      "contracts": "Sözleşmeler",
+      "vendor_name": "Tedarikçi Adı",
+      "add_contact":"İletişim Ekle",
+      "contact_details":"İletişim Detayları",
+      "expected_start":"Beklenen Başlangıç Tarihi",
+      "date":"Tarih",
+      "source":"Kaynak",
+      "contract_type":"Sözleşme Türü",
+      "no_source_available":"Mevcut kaynak yok",
+      "no_contract_type_available":"Mevcut sözleşme türü yok",
+      "no_status_available":"Mevcut durum yok",
+      "probability":"İhtimal (%)",
+      "award":"Ödül",
+      "reject":"Reddet",
+      "members":"Üyeler",
+      "myClient":"Benim Müşterim"
+    },
+    
+ 
+  "labels": {
+    "group_id": "Grup ID",
+    "group_name": "Grup Adı",
+    "no_members": "Üye yok",
+    "member_sales": "Üye Satış Detayları",
+    "all_clients": "Tüm Müşteriler",
+    "all_vendors": "Tüm Tedarikçiler",
+    "add_client_image": "Müşteri Görseli Ekle",
+    "edit_client_image": "Müşteri Görselini Düzenle",
+    "add_user_image": "Kullanıcı Görseli Ekle",
+    "change_user_image": "Kullanıcı Görselini Değiştir",
+    "add_client_details": "Müşteri Detaylarını Ekle",
+    "edit_client_details": "Müşteri Detaylarını Düzenle",
+    "client_view_rights": "Müşteri Görüntüleme Hakları",
+    "reject_reasons": "Reddetme Nedenleri",
+    "sale_statuses": "Satış Durumları",
+    "client_details": "Müşteri Detayları",
+    "vendor_details": "Tedarikçi Detayları",
+    "add_vendor_details": "Tedarikçi Detaylarını Ekle",
+    "edit_vendor_details": "Tedarikçi Detaylarını Düzenle",
+    "active_clients": "Aktif Müşteriler",
+    "non_active_clients": "Aktif Olmayan Müşteriler",
+    "client_members": "Müşteri Üyeleri",
+    "client_contacts": "Müşteri Kişileri",
+    "client_tasks": "Müşteri Görevleri",
+    "client_files": "Müşteri Dosyaları",
+    "business_lead_info": "İş Potansiyel Bilgisi",
+    "lead_count": "Potansiyel Müşteri Sayısı",
+    "lead_amount": "Potansiyel Müşteri Tutarı",
+    "awarded_count": "Verilen Sayısı",
+    "awarded_amount": "Verilen Tutar",
+    "rejected_count": "Reddedilen Sayısı",
+    "rejected_amount": "Reddedilen Tutar",
+    "overall_target": "Genel Hedef",
+    "days_off": "İzin Günleri",
+    "days_reported": "Raporlanan Günler",
+    "days_work": "Çalışma Günleri",
+    "total_points": "Toplam Puan:",
+    "business_target": "İş Hedefi Ekle",
+    "report_to": "Raporlanan Kişi",
+    "award_lead": "Potansiyel Müşteriyi Ödüllendir",
+    "reject_lead": "Potansiyel Müşteriyi Reddet",
+    "select_reason": "Sebep Seç",
+    "rejected": "Reddedildi",
+    "Change_status": "Durumu Değiştir",
+    "no_status_available": "Durum mevcut değil",
+    "change": "Değiştir",
+    "no_availble": "Mevcut değil",
+    "no_members_available": "Mevcut üye yok",
+    "lead_source": "Potansiyel Müşteri Kaynağı",
+    "sales_status": "Satış Durumu",
+    "sales_status_arabic": "Arapça Satış Durumu",
+    "reject_reason_arabic": "Arapça Reddetme Nedeni",
+    "designation_arabic": "Arapça Unvan",
+    "no_available": "Mevcut değil",
+    "add_contact": "Kişi Ekle",
+    "edit_contact": "Kişiyi Düzenle",
+    "delete_contact": "Kişiyi Sil",
+    "contact_details": "Kişi Detayları",
+    "no_contact_found": "Kişi bulunamadı",
+    "no_contact_available": "Bu müşteri için mevcut kişi yok",
+    "no_contact_added": "Kişi eklenmedi",
+    "no_contact_added_yet": "Henüz kişi eklenmedi",
+    "create_group_permissions": "Grup İzinleri Oluştur",
+    "view_all_clients": "Tüm Müşterileri Görme İzni",
+    "contract_types": "Sözleşme Türleri",
+    "Contract Status": "Sözleşme Durumu",
+    "view_all_contract": "Tüm Sözleşmeleri Görme İzni",
+    "view_all_task": "Tüm Görevleri Görme İzni",
+    "view_all_file": "Tüm Dosyaları Görme İzni",
+    "add_target": "Hedef Ekle",
+    "edit_businesss_target": "İş Hedefini Düzenle",
+    "device": "Cihaz"
+  },
+
+
+
+
+    "placeholder": {
+      "search": "Ara",
+      "group_name": "Grup Adı Girin",
+      "group_id": "Grup ID Girin",
+      "enter_address": "Adres Girin"
+    },
+    "validations": {
+      "group_name": "Grup adı zorunludur",
+      "group_id": "Grup ID zorunludur",
+      "file_is_too": "Dosya şu büyüklükten büyük:",
+      "allowed": " İzin verilen *.jpeg, *.jpg, *.png, *.gif",
+      "max": "maksimum boyut",
+      "required": "Gerekli.",
+      "mobile_no":"Cep numarası gereklidir",
+      "email_required":"E-posta gereklidir.",
+      "name_required":"İsim gereklidir"
+    },
+    "categories": {
+      "jan": "Ocak",
+      "feb": "Şubat",
+      "mar": "Mart",
+      "apr": "Nisan",
+      "may": "Mayıs",
+      "jun": "Haziran",
+      "jul": "Temmuz",
+      "aug": "Ağustos",
+      "sep": "Eylül",
+      "oct": "Ekim",
+      "nov": "Kasım",
+      "dec": "Aralık"
+    },
+    "series": {
+      "actual": "Gerçek",
+      "achieved": "Başarıldı",
+      "remaining": "Kalan"
+    },
+    "sales_report": {
+      "title": "Hedef Raporu için",
+      "total_achieved": "Toplam Başarılan:",
+      "target": "Hedef:",
+      "remaining": "Kalan:",
+      "total_progress": "Toplam İlerleme:",
+      "no_target": "Hedef belirlenmedi",
+      "achieved": "Başarılan",
+      "target_label": "Hedef",
+      "total_target": "Toplam Hedef"
+    },
+    "empty": {
+      "no_data": "Müşteri bulunamadı"
+    },
+    "views": {
+      "list": "Liste Görünümü",
+      "grid": "Grid Görünümü",
+      "settings": "Ayarlar"
+    },
+    "breadcrumb": {
+      "dashboard": "Kontrol Paneli",
+      "groups": "Gruplar",
+      "group_details": "Grup Detayları"
+    }
+  },
+  "leaddetails": {
+    "breadcrumbs": {
+      "dashboard": "Kontrol Paneli",
+      "leads": "Potansiyel Müşteriler",
+      "lead": "Potansiyel Müşteri Detayları"
+    },
+    "common": {
+      "sl_no": "Sıra No.",
+      "lead_id": "Potansiyel Müşteri ID",
+      "creator": "Oluşturan",
+      "lead_name": "Potansiyel Müşteri Adı",
+      "client_name": "Müşteri Adı",
+      "value": "Değer",
+      "source": "Kaynak",
+      "probability": "İhtimal",
+      "status": "Durum",
+      "awarded_amount": "Verilen Miktar",
+      "rejected_reason": "Reddetme Sebebi",
+      "lead_source": "Potansiyel Müşteri Kaynağı",
+      "lead_source_arabic": "Potansiyel Müşteri Kaynağı (Arapça)",
+      "actions": "İşlemler",
+      "clear_all": "Tüm Alanları Temizle",
+      "delete_success": "Silme başarılı!",
+      "under_approval": "Onay bekleniyor",
+      "percentageSuccess": "30%",
+      "placeholder_reject": "Reddetme Sebebi",
+      "arabic_reject_reason": "Reddetme Sebebi (Arapça)",
+      "arabic_sales": "Satış Durumu (Arapça)",
+      "arabic_designation": "Ünvan (Arapça)",
+      "sale_status": "Satış Durumu",
+      "contract_id": "Sözleşme ID",
+      "contract_name": "Sözleşme Adı",
+      "vendorname": "Tedarikçi Adı",
+      "contract": "Sözleşme :",
+      "total_amount": "Toplam Tutar",
+      "contract_type":"Sözleşme Türü",
+      "delivery_date":"Teslim Tarihi",
+      "award_reject":"Ödül / Reddet"
+    },
+    "tabs": {
+      "leads": "Potansiyeller",
+      "awarded": "Verilenler",
+      "rejected": "Reddedilenler",
+      "all": "Hepsi"
+    },
+    "form": {
+      "idLabel": "ID",
+      "nameLabel": "Potansiyel Müşteri Adı",
+      "amountLabel": "Tutar",
+      "currencyLabel": "Para Birimi",
+      "sourceLabel": "Kaynak",
+      "probabilityLabel": "İhtimal (%)",
+      "statusLabel": "Durum",
+      "addButton": "Kaydet"
+    },
+    "errors": {
+      "nameRequired": "Potansiyel müşteri adı gerekli",
+      "idRequired": "ID gerekli",
+      "valueRequired": "Tutar gerekli",
+      "currencyRequired": "Para birimi gerekli",
+      "sourceRequired": "Kaynak gerekli",
+      "probabilityRequired": "İhtimal gerekli",
+      "statusRequired": "Durum gerekli"
+    },
+    "toast": {
+      "leadAdded": "Potansiyel müşteri başarıyla eklendi!",
+      "leads_awarded": "Potansiyel müşteriler ödüllendirildi",
+      "leads_rejected": "Potansiyel müşteriler reddedildi",
+      "lead_source": "Potansiyel müşteri kaynağı başarıyla eklendi",
+      "lead_source_delete": "Potansiyel müşteri kaynağı silindi",
+      "lead_source_update": "Potansiyel müşteri kaynağı güncellendi",
+      "lead_delete": "Bu kaynağı silmek istediğinizden emin misiniz?",
+      "leadUpdated": "Potansiyel müşteri güncellendi",
+      "reject_reason": "Reddetme sebebi başarıyla eklendi",
+      "reject_reason_delete": "Reddetme sebebi silindi",
+      "degination_update": "Ünvan başarıyla güncellendi",
+      "sales_status_added": "Satış durumu başarıyla eklendi",
+      "sales_status_deleted": "Satış durumu silindi",
+      "sales_status_updated": "Satış durumu güncellendi",
+      "lead_deleted":"Potansiyel müşteri silindi",
+      "lead_delete_error":"Potansiyel müşteri silinirken hata",
+      "failed_to_delete_lead":"Potansiyel müşteri silinemedi",
+      "failed_delete_contract":"Sözleşme silinemedi",
+      "contarct_deleted":"Sözleşme silindi",
+      "unexpected_error":"Beklenmeyen bir hata oluştu",
+      "contract_updated_successfully":"Sözleşme başarıyla güncellendi",
+      "contract_created_successfully":"Sözleşme başarıyla oluşturuldu",
+      "failed_to_delete":"İletişim silinirken hata",
+      "contact_deleted_successfully":"İletişim başarıyla silindi",
+      "are_you_sure_contact":"Bu iletişimi silmek istediğinizden emin misiniz?",
+      "contact_updated":"İletişim başarıyla güncellendi",
+      "failed_to_update":"Güncelleme başarısız",
+      "contact_created_successfully":"İletişim başarıyla oluşturuldu"
+    },
+    "buttons": {
+      "list_view": "Liste Görünümü",
+      "grid_view": "Izgara Görünümü",
+      "delete": "Sil",
+      "add_lead": "Potansiyel Müşteri Ekle"
+    },
+    "confirm": {
+      "confirm_title": "Sil",
+      "confirm_content": "Bu ünvanı silmek istediğinizden emin misiniz?",
+      "confirm_status": "Bu satış durumunu silmek istediğinizden emin misiniz?",
+      "confirm_reason": "Bu reddetme sebebini silmek istediğinizden emin misiniz?"
+    },
+    "tooltips": {
+      "leadStatus": "Potansiyel müşteri durumu",
+      "leadValue": "Potansiyel müşteri değeri",
+      "percentageSuccess": "Başarı yüzdesi",
+      "edit_desigination": "Ünvanı düzenle",
+      "delete_designation": "Ünvanı sil"
+    },
+    "toolbar": {
+      "filters": "Filtreler",
+      "status": "Durum",
+      "leads": "Potansiyeller",
+      "options_status": "Durum Seçenekleri",
+      "leads_options": "Potansiyel Seçenekleri",
+      "all_leads": "Tüm Potansiyeller",
+      "department": "Departman",
+      "print": "Yazdır",
+      "export": "Dışa Aktar",
+      "import": "İçe Aktar"
+    },
+    "editor": {
+      "placeholder": "Yazmaya başla..."
+    },
+    "table": {
+      "no_data": "Veri bulunamadı",
+      "empty_rows": "Daha fazla satır yok"
+    },
+    "pagination": {
+      "rows_per_page": "Sayfa başına satır",
+      "dense_mode": "Yoğun Mod"
+    }
+  },
+  "addTarget": {
+    "dialogTitle": {
+      "add": "Hedef Ekle",
+      "edit": "Hedefi Düzenle"
+    },
+    "form": {
+      "yearLabel": "Yıl",
+      "monthLabel": "Ay",
+      "addButton": "Ekle",
+      "editButton": "Düzenle"
+    },
+    "dialogActions": {
+      "cancel": "İptal"
+    },
+    "errors": {
+      "yearRequired": "Yıl gerekli",
+      "monthlyValueRequired": "Aylık değerler gerekli"
+    }
+  }
+}

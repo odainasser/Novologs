@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <!-- ==================== رسائل المهام ==================== -->
+  
+  <!-- TaskCreated -->
+  <data name="TaskCreated_EmailSubject" xml:space="preserve">
+    <value>تم إنشاء مهمة جديدة {TaskSerial}</value>
+  </data>
+  <data name="TaskCreated_EmailBody" xml:space="preserve">
+    <value>تم إنشاء مهمة جديدة '{TaskSerial} - {Description}'. تمت إضافتك كعضو في هذه المهمة.</value>
+  </data>
+  <data name="TaskCreated_NotificationTitle" xml:space="preserve">
+    <value>تم إنشاء مهمة جديدة (الرقم: {TaskSerial})</value>
+  </data>
+  <data name="TaskCreated_NotificationBody" xml:space="preserve">
+    <value>تم إنشاء مهمة جديدة '{TaskSerial} - {Description}'. تمت إضافتك كعضو في هذه المهمة.</value>
+  </data>
+
+  <!-- TaskUpdated -->
+  <data name="TaskUpdated_EmailSubject" xml:space="preserve">
+    <value>تم تحديث المهمة: {TaskSerial} - {Description}</value>
+  </data>
+  <data name="TaskUpdated_EmailBody" xml:space="preserve">
+    <value>تم تحديث المهمة '{TaskSerial} - {Description}'.</value>
+  </data>
+  <data name="TaskUpdated_NotificationTitle" xml:space="preserve">
+    <value>تم تحديث المهمة {TaskSerial} - {Description}</value>
+  </data>
+  <data name="TaskUpdated_NotificationBody" xml:space="preserve">
+    <value>تم تحديث المهمة '{TaskSerial} - {Description}'.</value>
+  </data>
+
+  <!-- TaskDeleted -->
+  <data name="TaskDeleted_EmailSubject" xml:space="preserve">
+    <value>تم حذف المهمة: {TaskSerial} - {TaskCode}</value>
+  </data>
+  <data name="TaskDeleted_EmailBody" xml:space="preserve">
+    <value>تم حذف المهمة '{TaskSerial} - {TaskCode}'.</value>
+  </data>
+  <data name="TaskDeleted_NotificationTitle" xml:space="preserve">
+    <value>تم حذف المهمة {TaskSerial} - {TaskCode}</value>
+  </data>
+  <data name="TaskDeleted_NotificationBody" xml:space="preserve">
+    <value>تم حذف المهمة '{TaskSerial} - {TaskCode}'.</value>
+  </data>
+
+  <!-- TaskStatusChanged -->
+  <data name="TaskStatusChanged_EmailSubject" xml:space="preserve">
+    <value>تم تحديث حالة المهمة {TaskSerial} - {TaskCode}</value>
+  </data>
+  <data name="TaskStatusChanged_EmailBody" xml:space="preserve">
+    <value>تم تحديث حالة المهمة '{TaskSerial} - {TaskCode}'.</value>
+  </data>
+  <data name="TaskStatusChanged_NotificationTitle" xml:space="preserve">
+    <value>تم تحديث حالة المهمة {TaskSerial} - {TaskCode}</value>
+  </data>
+  <data name="TaskStatusChanged_NotificationBody" xml:space="preserve">
+    <value>تم تحديث حالة المهمة '{TaskSerial} - {TaskCode}'.</value>
+  </data>
+
+  <!-- TaskMemberAdded -->
+  <data name="TaskMemberAdded_EmailSubject" xml:space="preserve">
+    <value>تم تعيينك للمهمة {TaskSerial} - {Description}</value>
+  </data>
+  <data name="TaskMemberAdded_EmailBody" xml:space="preserve">
+    <value>تمت إضافتك كعضو في المهمة '{TaskSerial} - {Description}'.</value>
+  </data>
+  <data name="TaskMemberAdded_NotificationTitle" xml:space="preserve">
+    <value>تم التعيين للمهمة {TaskSerial} - {Description}</value>
+  </data>
+  <data name="TaskMemberAdded_NotificationBody" xml:space="preserve">
+    <value>تمت إضافتك كعضو في المهمة '{TaskSerial} - {Description}'.</value>
+  </data>
+
+  <!-- TaskMemberRemoved -->
+  <data name="TaskMemberRemoved_EmailSubject" xml:space="preserve">
+    <value>تم إزالتك من المهمة {TaskSerial} - {Description}</value>
+  </data>
+  <data name="TaskMemberRemoved_EmailBody" xml:space="preserve">
+    <value>تم إزالتك كعضو من المهمة '{TaskSerial} - {Description}'.</value>
+  </data>
+  <data name="TaskMemberRemoved_NotificationTitle" xml:space="preserve">
+    <value>تم الإزالة من المهمة {TaskSerial} - {Description}</value>
+  </data>
+  <data name="TaskMemberRemoved_NotificationBody" xml:space="preserve">
+    <value>تم إزالتك كعضو من المهمة '{TaskSerial} - {Description}'.</value>
+  </data>
+
+  <!-- ==================== رسائل التذاكر ==================== -->
+
+  <!-- TicketCreated -->
+  <data name="TicketCreated_EmailSubject" xml:space="preserve">
+    <value>تم إنشاء تذكرة جديدة {TicketSerial}</value>
+  </data>
+  <data name="TicketCreated_EmailBody" xml:space="preserve">
+    <value>تم إنشاء تذكرة جديدة '{TicketSerial} - {Description}' في '{ProjectName}'.</value>
+  </data>
+  <data name="TicketCreated_NotificationTitle" xml:space="preserve">
+    <value>تم إنشاء تذكرة جديدة (الرقم: {TicketSerial})</value>
+  </data>
+  <data name="TicketCreated_NotificationBody" xml:space="preserve">
+    <value>تم إنشاء تذكرة جديدة '{TicketSerial} - {Description}' في '{ProjectName}'.</value>
+  </data>
+
+  <!-- TicketUpdated -->
+  <data name="TicketUpdated_EmailSubject" xml:space="preserve">
+    <value>تم تحديث التذكرة: {TicketSerial}</value>
+  </data>
+  <data name="TicketUpdated_EmailBody" xml:space="preserve">
+    <value>تم تحديث التذكرة '{TicketSerial} - {Description}'.</value>
+  </data>
+  <data name="TicketUpdated_NotificationTitle" xml:space="preserve">
+    <value>تم تحديث التذكرة {TicketSerial}</value>
+  </data>
+  <data name="TicketUpdated_NotificationBody" xml:space="preserve">
+    <value>تم تحديث التذكرة '{TicketSerial} - {Description}'.</value>
+  </data>
+
+  <!-- TicketAssigned -->
+  <data name="TicketAssigned_EmailSubject" xml:space="preserve">
+    <value>تم تعيينك للتذكرة {TicketSerial} - {Description}</value>
+  </data>
+  <data name="TicketAssigned_EmailBody" xml:space="preserve">
+    <value>تمت إضافتك كعضو في التذكرة '{TicketSerial} - {Description}'.</value>
+  </data>
+  <data name="TicketAssigned_NotificationTitle" xml:space="preserve">
+    <value>تم التعيين للتذكرة {TicketSerial} - {Description}</value>
+  </data>
+  <data name="TicketAssigned_NotificationBody" xml:space="preserve">
+    <value>تمت إضافتك كعضو في التذكرة '{TicketSerial} - {Description}'.</value>
+  </data>
+
+  <!-- ==================== رسائل المشاريع ==================== -->
+
+  <!-- ProjectCreated -->
+  <data name="ProjectCreated_EmailSubject" xml:space="preserve">
+    <value>تم إنشاء {ProjectType} جديد {ProjectCode} - {ProjectName}</value>
+  </data>
+  <data name="ProjectCreated_EmailBody" xml:space="preserve">
+    <value>تم إنشاء {ProjectType} جديد '{ProjectName}'. تمت إضافتك كعضو في هذا {ProjectTypeLower}.</value>
+  </data>
+  <data name="ProjectCreated_NotificationTitle" xml:space="preserve">
+    <value>تم إنشاء {ProjectType} جديد {ProjectCode} - {ProjectName}</value>
+  </data>
+  <data name="ProjectCreated_NotificationBody" xml:space="preserve">
+    <value>تم إنشاء {ProjectType} جديد '{ProjectName}'. تمت إضافتك كعضو.</value>
+  </data>
+
+  <!-- ProjectUpdated -->
+  <data name="ProjectUpdated_EmailSubject" xml:space="preserve">
+    <value>تم تحديث {ProjectType} {ProjectCode} - {ProjectName}</value>
+  </data>
+  <data name="ProjectUpdated_EmailBody" xml:space="preserve">
+    <value>تم تحديث {ProjectTypeLower} '{ProjectName}'.</value>
+  </data>
+  <data name="ProjectUpdated_NotificationTitle" xml:space="preserve">
+    <value>تم تحديث {ProjectType} {ProjectCode} - {ProjectName}</value>
+  </data>
+  <data name="ProjectUpdated_NotificationBody" xml:space="preserve">
+    <value>تم تحديث {ProjectTypeLower} '{ProjectName}'.</value>
+  </data>
+
+  <!-- ProjectDeleted -->
+  <data name="ProjectDeleted_EmailSubject" xml:space="preserve">
+    <value>تم حذف {ProjectType} {ProjectCode} - {ProjectName}</value>
+  </data>
+  <data name="ProjectDeleted_EmailBody" xml:space="preserve">
+    <value>تم حذف {ProjectTypeLower} '{ProjectName}'.</value>
+  </data>
+  <data name="ProjectDeleted_NotificationTitle" xml:space="preserve">
+    <value>تم حذف {ProjectType} {ProjectCode} - {ProjectName}</value>
+  </data>
+  <data name="ProjectDeleted_NotificationBody" xml:space="preserve">
+    <value>تم حذف {ProjectTypeLower} '{ProjectName}'. تم إزالتك كعضو.</value>
+  </data>
+
+  <!-- ProjectMemberAdded -->
+  <data name="ProjectMemberAdded_EmailSubject" xml:space="preserve">
+    <value>تمت إضافتك إلى {ProjectType} {ProjectCode} - {ProjectName}</value>
+  </data>
+  <data name="ProjectMemberAdded_EmailBody" xml:space="preserve">
+    <value>تمت إضافتك كعضو في {ProjectTypeLower} '{ProjectName}'.</value>
+  </data>
+  <data name="ProjectMemberAdded_NotificationTitle" xml:space="preserve">
+    <value>تمت الإضافة إلى {ProjectType} {ProjectCode} - {ProjectName}</value>
+  </data>
+  <data name="ProjectMemberAdded_NotificationBody" xml:space="preserve">
+    <value>تمت إضافتك كعضو في {ProjectTypeLower} '{ProjectName}'.</value>
+  </data>
+
+  <!-- ProjectMemberRemoved -->
+  <data name="ProjectMemberRemoved_EmailSubject" xml:space="preserve">
+    <value>تم إزالتك من {ProjectType} {ProjectCode} - {ProjectName}</value>
+  </data>
+  <data name="ProjectMemberRemoved_EmailBody" xml:space="preserve">
+    <value>تم إزالتك كعضو من {ProjectTypeLower} '{ProjectName}'.</value>
+  </data>
+  <data name="ProjectMemberRemoved_NotificationTitle" xml:space="preserve">
+    <value>تم الإزالة من {ProjectType} {ProjectCode} - {ProjectName}</value>
+  </data>
+  <data name="ProjectMemberRemoved_NotificationBody" xml:space="preserve">
+    <value>تم إزالتك كعضو من {ProjectTypeLower} '{ProjectName}'.</value>
+  </data>
+
+  <!-- LeadMemberAdded -->
+  <data name="LeadMemberAdded_EmailSubject" xml:space="preserve">
+    <value>تم إضافتك إلى فرصة البيع {LeadCode} - {LeadName}</value>
+  </data>
+  <data name="LeadMemberAdded_EmailBody" xml:space="preserve">
+    <value>تم إضافتك كعضو في فرصة البيع '{LeadCode} - {LeadName}'.</value>
+  </data>
+  <data name="LeadMemberAdded_NotificationTitle" xml:space="preserve">
+    <value>تمت إضافتك إلى فرصة البيع {LeadCode} - {LeadName}</value>
+  </data>
+  <data name="LeadMemberAdded_NotificationBody" xml:space="preserve">
+    <value>تم إضافتك كعضو في فرصة البيع '{LeadCode} - {LeadName}'.</value>
+  </data>
+
+  <!-- LeadMemberRemoved -->
+  <data name="LeadMemberRemoved_EmailSubject" xml:space="preserve">
+    <value>تم إزالتك من فرصة البيع {LeadCode} - {LeadName}</value>
+  </data>
+  <data name="LeadMemberRemoved_EmailBody" xml:space="preserve">
+    <value>تم إزالتك كعضو من فرصة البيع '{LeadCode} - {LeadName}'.</value>
+  </data>
+  <data name="LeadMemberRemoved_NotificationTitle" xml:space="preserve">
+    <value>تم الإزالة من فرصة البيع {LeadCode} - {LeadName}</value>
+  </data>
+  <data name="LeadMemberRemoved_NotificationBody" xml:space="preserve">
+    <value>تم إزالتك كعضو من فرصة البيع '{LeadCode} - {LeadName}'.</value>
+  </data>
+
+  <!-- ==================== رسائل إدارة المستخدمين ==================== -->
+
+  <!-- UserProfileUpdated -->
+  <data name="UserProfileUpdated_EmailSubject" xml:space="preserve">
+    <value>تم تحديث ملفك الشخصي</value>
+  </data>
+  <data name="UserProfileUpdated_EmailBody" xml:space="preserve">
+    <value>تم تحديث ملفك الشخصي من قبل المسؤول.</value>
+  </data>
+  <data name="UserProfileUpdated_NotificationTitle" xml:space="preserve">
+    <value>تم تحديث الملف الشخصي</value>
+  </data>
+  <data name="UserProfileUpdated_NotificationBody" xml:space="preserve">
+    <value>تم تحديث ملفك الشخصي من قبل المسؤول.</value>
+  </data>
+
+  <!-- UserCreated -->
+  <data name="UserCreated_EmailSubject" xml:space="preserve">
+    <value>قم بتأكيد بريدك الإلكتروني</value>
+  </data>
+  <data name="UserCreated_EmailBody" xml:space="preserve">
+    <value>مرحباً! يرجى تأكيد عنوان بريدك الإلكتروني لتفعيل حسابك.</value>
+  </data>
+  <data name="UserCreated_NotificationTitle" xml:space="preserve">
+    <value>مرحباً بك في المنصة!</value>
+  </data>
+  <data name="UserCreated_NotificationBody" xml:space="preserve">
+    <value>تم إنشاء حسابك. يرجى التحقق من بريدك الإلكتروني للتأكيد.</value>
+  </data>
+
+  <!-- UserPasswordReset -->
+  <data name="UserPasswordReset_EmailSubject" xml:space="preserve">
+    <value>إعادة تعيين كلمة المرور</value>
+  </data>
+  <data name="UserPasswordReset_EmailBody" xml:space="preserve">
+    <value>لقد طلبت إعادة تعيين كلمة المرور. انقر على الرابط أدناه للمتابعة.</value>
+  </data>
+  <data name="UserPasswordReset_NotificationTitle" xml:space="preserve">
+    <value>تم طلب إعادة تعيين كلمة المرور</value>
+  </data>
+  <data name="UserPasswordReset_NotificationBody" xml:space="preserve">
+    <value>تم طلب إعادة تعيين كلمة المرور لحسابك.</value>
+  </data>
+
+  <!-- TeamUpdated -->
+  <data name="TeamUpdated_EmailSubject" xml:space="preserve">
+    <value>تم تحديث الفريق/المجموعة: {TeamName}</value>
+  </data>
+  <data name="TeamUpdated_EmailBody" xml:space="preserve">
+    <value>تم تحديث الفريق/المجموعة '{TeamName}'.</value>
+  </data>
+  <data name="TeamUpdated_NotificationTitle" xml:space="preserve">
+    <value>تم تحديث الفريق: {TeamName}</value>
+  </data>
+  <data name="TeamUpdated_NotificationBody" xml:space="preserve">
+    <value>تم تحديث الفريق/المجموعة '{TeamName}'.</value>
+  </data>
+
+  <!-- ==================== رسائل المستندات ==================== -->
+
+  <!-- DocumentCreated -->
+  <data name="DocumentCreated_EmailSubject" xml:space="preserve">
+    <value>تم إنشاء مستند جديد {DocumentSerial}</value>
+  </data>
+  <data name="DocumentCreated_EmailBody" xml:space="preserve">
+    <value>تم إنشاء مستند جديد '{DocumentSerial}'.</value>
+  </data>
+  <data name="DocumentCreated_NotificationTitle" xml:space="preserve">
+    <value>تم إنشاء مستند جديد {DocumentSerial}</value>
+  </data>
+  <data name="DocumentCreated_NotificationBody" xml:space="preserve">
+    <value>تم إنشاء مستند جديد '{DocumentSerial}'.</value>
+  </data>
+
+  <!-- DocumentUpdated -->
+  <data name="DocumentUpdated_EmailSubject" xml:space="preserve">
+    <value>تم تحديث المستند {DocumentSerial}</value>
+  </data>
+  <data name="DocumentUpdated_EmailBody" xml:space="preserve">
+    <value>تم تحديث المستند '{DocumentSerial}'.</value>
+  </data>
+  <data name="DocumentUpdated_NotificationTitle" xml:space="preserve">
+    <value>تم تحديث المستند {DocumentSerial}</value>
+  </data>
+  <data name="DocumentUpdated_NotificationBody" xml:space="preserve">
+    <value>تم تحديث المستند '{DocumentSerial}'.</value>
+  </data>
+
+  <!-- DocumentMentioned -->
+  <data name="DocumentMentioned_EmailSubject" xml:space="preserve">
+    <value>تم الإشارة إليك في المستند {DocumentSerial}</value>
+  </data>
+  <data name="DocumentMentioned_EmailBody" xml:space="preserve">
+    <value>تم الإشارة إليك في المستند '{DocumentSerial}'.</value>
+  </data>
+  <data name="DocumentMentioned_NotificationTitle" xml:space="preserve">
+    <value>تم الإشارة إليك في المستند {DocumentSerial}</value>
+  </data>
+  <data name="DocumentMentioned_NotificationBody" xml:space="preserve">
+    <value>تم الإشارة إليك في المستند '{DocumentSerial}'.</value>
+  </data>
+
+  <!-- ==================== رسائل قوائم المهام ==================== -->
+
+  <!-- TodoItemCreated -->
+  <data name="TodoItemCreated_EmailSubject" xml:space="preserve">
+    <value>تم إنشاء عنصر في قائمة المهام: {Content}</value>
+  </data>
+  <data name="TodoItemCreated_EmailBody" xml:space="preserve">
+    <value>تم إنشاء عنصر جديد في قائمة المهام '{Content}'.</value>
+  </data>
+  <data name="TodoItemCreated_NotificationTitle" xml:space="preserve">
+    <value>تم إنشاء عنصر في قائمة المهام: {Content}</value>
+  </data>
+  <data name="TodoItemCreated_NotificationBody" xml:space="preserve">
+    <value>تم إنشاء عنصر جديد في قائمة المهام '{Content}'.</value>
+  </data>
+
+  <!-- TodoItemDeleted -->
+  <data name="TodoItemDeleted_EmailSubject" xml:space="preserve">
+    <value>تم حذف عنصر من قائمة المهام: {Content}</value>
+  </data>
+  <data name="TodoItemDeleted_EmailBody" xml:space="preserve">
+    <value>تم حذف عنصر قائمة المهام '{Content}'.</value>
+  </data>
+  <data name="TodoItemDeleted_NotificationTitle" xml:space="preserve">
+    <value>تم حذف عنصر من قائمة المهام: {Content}</value>
+  </data>
+  <data name="TodoItemDeleted_NotificationBody" xml:space="preserve">
+    <value>تم حذف عنصر قائمة المهام '{Content}'.</value>
+  </data>
+
+  <!-- TodoItemStatusChanged -->
+  <data name="TodoItemStatusChanged_EmailSubject" xml:space="preserve">
+    <value>تم تغيير حالة عنصر قائمة المهام: {Content}</value>
+  </data>
+  <data name="TodoItemStatusChanged_EmailBody" xml:space="preserve">
+    <value>تم تغيير حالة عنصر قائمة المهام '{Content}'.</value>
+  </data>
+  <data name="TodoItemStatusChanged_NotificationTitle" xml:space="preserve">
+    <value>تم تغيير حالة عنصر قائمة المهام: {Content}</value>
+  </data>
+  <data name="TodoItemStatusChanged_NotificationBody" xml:space="preserve">
+    <value>تم تغيير حالة عنصر قائمة المهام '{Content}'.</value>
+  </data>
+
+  <!-- TodoItemReminder -->
+  <data name="TodoItemReminder_NotificationTitle" xml:space="preserve">
+    <value>تذكير بعنصر قائمة المهام: {TodoItemContent}</value>
+  </data>
+  <data name="TodoItemReminder_NotificationBody" xml:space="preserve">
+    <value>تذكير بعنصر قائمة المهام '{TodoItemContent}'.</value>
+  </data>
+
+  <!-- ==================== رسائل المجلدات ==================== -->
+
+  <!-- FolderShared -->
+  <data name="FolderShared_EmailSubject" xml:space="preserve">
+    <value>تمت مشاركة المجلد: {FolderName}</value>
+  </data>
+  <data name="FolderShared_EmailBody" xml:space="preserve">
+    <value>تمت مشاركة المجلد '{FolderName}' معك.</value>
+  </data>
+  <data name="FolderShared_NotificationTitle" xml:space="preserve">
+    <value>تمت مشاركة المجلد {FolderName}</value>
+  </data>
+  <data name="FolderShared_NotificationBody" xml:space="preserve">
+    <value>تمت مشاركة المجلد '{FolderName}' معك.</value>
+  </data>
+
+  <!-- FolderAccessRemoved -->
+  <data name="FolderAccessRemoved_EmailSubject" xml:space="preserve">
+    <value>تم إزالة صلاحية الوصول للمجلد: {FolderName}</value>
+  </data>
+  <data name="FolderAccessRemoved_EmailBody" xml:space="preserve">
+    <value>تم إزالة صلاحية الوصول للمجلد '{FolderName}'.</value>
+  </data>
+  <data name="FolderAccessRemoved_NotificationTitle" xml:space="preserve">
+    <value>تم إزالة صلاحية الوصول للمجلد {FolderName}</value>
+  </data>
+  <data name="FolderAccessRemoved_NotificationBody" xml:space="preserve">
+    <value>تم إزالة صلاحية الوصول للمجلد '{FolderName}'.</value>
+  </data>
+
+  <!-- ==================== رسائل النظام ==================== -->
+
+  <!-- PolicyViolation -->
+  <data name="PolicyViolation_EmailSubject" xml:space="preserve">
+    <value>تنبيه انتهاك السياسة لـ {TenantName}</value>
+  </data>
+  <data name="PolicyViolation_EmailBody" xml:space="preserve">
+    <value>تم اكتشاف انتهاك للسياسة لمؤسسة '{TenantName}'.</value>
+  </data>
+  <data name="PolicyViolation_NotificationTitle" xml:space="preserve">
+    <value>تنبيه انتهاك السياسة</value>
+  </data>
+  <data name="PolicyViolation_NotificationBody" xml:space="preserve">
+    <value>تم اكتشاف انتهاك للسياسة لمؤسستك.</value>
+  </data>
+
+  <!-- StorageAlert -->
+  <data name="StorageAlert_EmailSubject" xml:space="preserve">
+    <value>تنبيه استخدام المساحة التخزينية لـ {TenantName}</value>
+  </data>
+  <data name="StorageAlert_EmailBody" xml:space="preserve">
+    <value>وصلت مؤسستك '{TenantName}' إلى {UsagePercentage}٪ من السعة التخزينية.</value>
+  </data>
+  <data name="StorageAlert_NotificationTitle" xml:space="preserve">
+    <value>تنبيه استخدام المساحة التخزينية</value>
+  </data>
+  <data name="StorageAlert_NotificationBody" xml:space="preserve">
+    <value>وصلت مؤسستك إلى {UsagePercentage}٪ من السعة التخزينية.</value>
+  </data>
+
+  <!-- TenantInitialized -->
+  <data name="TenantInitialized_EmailSubject" xml:space="preserve">
+    <value>مرحباً بك في نوفوتاك ({TenantName})!</value>
+  </data>
+  <data name="TenantInitialized_EmailBody" xml:space="preserve">
+    <value>تم إعداد مؤسستك '{TenantName}' بنجاح!</value>
+  </data>
+  <data name="TenantInitialized_NotificationTitle" xml:space="preserve">
+    <value>مرحباً بك في نوفوتاك!</value>
+  </data>
+  <data name="TenantInitialized_NotificationBody" xml:space="preserve">
+    <value>تم إعداد مؤسستك بنجاح!</value>
+  </data>
+
+  <!-- General -->
+  <data name="General_EmailSubject" xml:space="preserve">
+    <value>إشعار</value>
+  </data>
+  <data name="General_EmailBody" xml:space="preserve">
+    <value>لديك إشعار جديد.</value>
+  </data>
+  <data name="General_NotificationTitle" xml:space="preserve">
+    <value>إشعار</value>
+  </data>
+  <data name="General_NotificationBody" xml:space="preserve">
+    <value>لديك إشعار جديد.</value>
+  </data>
+
+</root>

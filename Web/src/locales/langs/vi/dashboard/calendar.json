@@ -1,0 +1,54 @@
+{
+  "calendar": {
+    "title": "Lịch",
+    "new_event": "Sự kiện mới",
+    "edit_event": "Chỉnh sửa sự kiện",
+    "filters": "Bộ lọc",
+    "colors": "Màu sắc",
+    "range": "Khoảng thời gian",
+    "event": "Sự kiện",
+    "events": "Sự kiện",
+    "today": "Hôm nay",
+    "month": "Tháng",
+    "week": "Tuần",
+    "day": "Ngày",
+    "agenda": "Lịch trình",
+    "reset": "Đặt lại",
+    "view": {
+      "month": "Tháng",
+      "week": "Tuần",
+      "day": "Ngày",
+      "agenda": "Lịch trình"
+    },
+    "tooltip": {
+      "delete_event": "Xóa sự kiện",
+      "edit_event": "Chỉnh sửa sự kiện"
+    },
+    "form": {
+      "title": "Tiêu đề",
+      "description": "Mô tả",
+      "all_day": "Cả ngày",
+      "start_date": "Ngày bắt đầu",
+      "end_date": "Ngày kết thúc",
+      "save": "Lưu thay đổi",
+      "cancel": "Hủy bỏ",
+      "delete": "Xóa sự kiện",
+      "create_success": "Tạo sự kiện thành công!",
+      "update_success": "Cập nhật thành công!",
+      "delete_success": "Xóa thành công!"
+    },
+    "dialog": {
+      "add": "Thêm",
+      "edit": "Chỉnh sửa",
+      "cancel": "Hủy bỏ",
+      "delete": "Xóa"
+    },
+    "validation": {
+      "title_required": "Tiêu đề là bắt buộc!",
+      "description_required": "Mô tả là bắt buộc!",
+      "description_min": "Mô tả phải có ít nhất 50 ký tự",
+      "title_max": "Tiêu đề phải ít hơn 100 ký tự",
+      "end_date_error": "Ngày kết thúc phải sau ngày bắt đầu"
+    }
+  }
+}

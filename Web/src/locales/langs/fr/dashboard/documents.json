@@ -1,0 +1,169 @@
+{
+  "documents": {
+  "add": {
+    "back": "Retour",
+    "dashboard": "Tableau de bord",
+    "documents": "Documents",
+    "actions:" :"Actions",
+    "edit_content": "Modifier le contenu",
+"no_comments_yet": "Pas encore de commentaires.",
+    "new_heading": "Créer un nouveau document",
+    "edit_heading": "Modifier le document",
+    "details_title": "Détails",
+    "type": "Type",
+    "details_subtitle": "Titre, courte description, image...",
+  
+"form": {
+  "title": "Titre du document",
+  "description": "Brève description",
+  "cover_upload": "Télécharger une image de couverture",
+  "category": "Catégorie",
+  "node_type": "Type de nœud",
+  "viewers": "Rechercher des lecteurs...",
+  "editors": "Rechercher des éditeurs...",
+  "no_viewers_note": "Si aucun lecteur n’est sélectionné, cette publication sera publique.",
+  "add_category": "Ajouter une nouvelle catégorie",
+  "category_name": "Nom de la catégorie",
+  "title_1": "Titre",
+  "cover": "Couverture",
+  "card_header": "Propriétés",
+  "subheader": "Fonctions et attributs supplémentaires...",
+  "viewers_name": "Visionneurs",
+  "editor_name": "Éditeurs",
+  "Change_Viewers": "Changer les visionneurs",
+  "Add_viewers": "Ajouter des visionneurs",
+  "Change_Editors": "Changer les éditeurs",
+  "Add_Editors": "Ajouter des éditeurs"
+},
+
+"content": "Contenu",
+"placeholder": "Commencez à taper...",
+"placeholder_category": "Rechercher une catégorie...",
+
+"submit_create": "Créer le document",
+"submit_update": "Mettre à jour le document",
+"toast_create": "Document créé",
+"toast_update": "Document mis à jour",
+"editor_title": "Contenu",
+"cover_upload_success": "Image de couverture téléchargée avec succès",
+"cover_upload_error": "Erreur lors du téléchargement de l'image de couverture",
+"editor_subtitle": "Rédigez le contenu de votre document ici..."
+
+      },
+     "validation": {
+  "title_required": "Le titre est requis",
+  "description_required": "La description est requise",
+  "category_required": "La catégorie est requise",
+  "node_type_required": "Le type de nœud est requis"
+},
+
+      "list": {
+  "heading": "Documents",
+  "tabs": {
+    "list": "Liste"
+  },
+
+
+       "toolbar": {
+  "search_placeholder": "Rechercher des documents...",
+  "category_all": "Toutes les catégories",
+  "sort_by": "Trier par",
+  "sort_latest": "Les plus récents",
+  "sort_oldest": "Les plus anciens",
+  "add_button": "Ajouter de nouveaux documents",
+  "none_selected": "Aucun élément sélectionné",
+  "back": "Retour",
+  "edit": "Modifier",
+  "doc_type": "Type de Document",
+
+  "share": "Partager",
+  "dialog_title": "Partager le document",
+  "make_public": "Rendre public",
+  "copy_instruction": "Copiez et partagez ce lien :",
+  "copy_button": "Copier le lien",
+  "close_button": "Fermer",
+  "copied_to_clipboard": "Lien copié dans le presse-papiers !"
+},
+
+       "filters": {
+  "keyword": "Mot-clé :",
+  "category": "Catégorie :",
+  "sort": "Trier par :"
+}
+
+      },
+     "details": {
+  "not_found": "Document non trouvé",
+  "comments": "Commentaires",
+  "share": {
+    "title": "Partager le document",
+    "public_toggle": "Rendre public",
+    "copy_label": "Copiez et partagez ce lien :",
+    "copy_button": "Copier le lien",
+    "copied": "Lien copié dans le presse-papiers !"
+  }
+},
+ "type": {
+  "book": "Livre",
+
+    "folder": "Dossier",
+    "wiki": "Wiki",
+    "post": "Publication",
+    "project": "Projet",
+    "story": "Histoire",
+    "task": "Tâche",
+    "milestone": "Jalon",
+    "lead": "Prospect",
+    "client": "Client",
+    "contract": "Contrat",
+    "vendor": "Fournisseur"
+  },
+  "toast": {
+  "document_delete": "Document supprimé avec succès",
+  "response_error": "Échec de la suppression du document",
+  "document_update": "Document mis à jour avec succès",
+  "comment_add":"Commentaire ajouté avec succès",
+  "comment_add_fail":"Échec de l'ajout du commentaire",
+  "operation_failed":"Échec de l'opération. Veuillez réessayer.",
+  "failed_document": "Échec de la mise à jour du document",
+  "failed_add": "Échec de l'ajout du document",
+  "document_add_fail": "Document ajouté, mais la mise à jour de la tâche a échoué",
+  "document_error": "Une erreur s'est produite lors de l'enregistrement du document",
+  "document_link": "Document ajouté et lié à la tâche avec succès",
+  "unexpected_error_delete": "Erreur inattendue lors de la suppression du document"
+},
+
+
+
+     "comment": {
+  "placeholder": "Écrivez quelques commentaires...",
+  "reply_button": "Répondre",
+  "write_comment": "Écrivez quelques commentaires...",
+  "post_comment": "Publier le commentaire",
+  "copied_file": "Fichier copié",
+  "attached_file_removed": "Fichier supprimé",
+  "emoji_picker": "Choisir un emoji",
+  "attached_files": "Fichiers joints",
+  "file_removed": "Fichier supprimé",
+  "select_file": "Sélectionner un fichier"
+},
+
+  "actions": {
+  "edit": "Modifier",
+  "delete": "Supprimer",
+  "view": "Voir",
+  "new": "Nouveau",
+  "save":"Enregistrer",
+  "cancel": "Annuler",
+  "add": "Ajouter",
+  "print": "Imprimer",
+  "export": "Exporter",
+  "import": "Importer",
+  "no_content": "Aucun contenu trouvé à sauvegarder",
+
+  "delete_confirm": "Êtes-vous sûr de vouloir supprimer ce document ?"
+}
+
+    }
+  }
+  

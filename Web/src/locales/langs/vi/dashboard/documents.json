@@ -1,0 +1,166 @@
+{
+    "documents": {
+    "add": {
+    "back": "Quay lại",
+    "dashboard": "Bảng điều khiển",
+    "documents": "Tài liệu",
+    "new_heading": "Tạo tài liệu mới",
+    "edit_heading": "Chỉnh sửa tài liệu",
+    "actions":"Hành động",
+    "details_title": "Chi tiết",
+    "edit_content": "Chỉnh sửa nội dung",
+     "no_comments_yet": "Chưa có bình luận nào.",
+
+    "type": "Loại",
+    "details_subtitle": "Tiêu đề, mô tả ngắn, hình ảnh...",
+     "form": {
+    "title": "Tiêu đề tài liệu",
+    "description": "Mô tả ngắn gọn",
+    "cover_upload": "Tải ảnh bìa lên",
+    "category": "Danh mục",
+    "node_type": "Loại nút",
+    "viewers": "Tìm người xem...",
+    "editors": "Tìm biên tập viên...",
+    "no_viewers_note": "Nếu không chọn người xem, bài đăng này sẽ được công khai.",
+    "add_category": "Thêm danh mục mới",
+    "category_name": "Tên danh mục",
+    "title_1": "Tiêu đề",
+    "cover": "Ảnh bìa",
+    "card_header": "Thuộc tính",
+    "subheader": "Chức năng và thuộc tính bổ sung...",
+    "viewers_name": "Người xem",
+    "editor_name": "Biên tập viên",
+    "Change_Viewers": "Thay đổi người xem",
+    "Add_viewers": "Thêm người xem",
+    "Change_Editors": "Thay đổi biên tập viên",
+    "Add_Editors": "Thêm biên tập viên"
+  },
+    "content": "Nội dung",
+    "placeholder": "Bắt đầu gõ...",
+    "placeholder_category": "Tìm kiếm danh mục...",
+    "submit_create": "Tạo tài liệu",
+    "submit_update": "Cập nhật tài liệu",
+    "toast_create": "Tài liệu đã được tạo",
+    "toast_update": "Tài liệu đã được cập nhật",
+    "editor_title": "Nội dung",
+    "cover_upload_success": "Hình ảnh bìa đã được tải lên thành công",
+    "cover_upload_error": "Lỗi khi tải lên hình ảnh bìa",
+    "editor_subtitle": "Viết nội dung tài liệu của bạn tại đây..."
+},
+
+ "type": {
+    "book": "Sách",
+
+    "folder": "Thư mục",
+    "wiki": "Wiki",
+    "post": "Bài đăng",
+    "project": "Dự án",
+    "story": "Câu chuyện",
+    "task": "Nhiệm vụ",
+    "milestone": "Cột mốc",
+    "lead": "Khách hàng tiềm năng",
+    "client": "Khách hàng",
+    "contract": "Hợp đồng",
+    "vendor": "Nhà cung cấp"
+  },
+
+    "validation": {
+    "title_required": "Tiêu đề là bắt buộc",
+    "description_required": "Mô tả là bắt buộc",
+    "category_required": "Danh mục là bắt buộc",
+    "node_type_required": "Loại nút là bắt buộc"
+},
+
+      "list": {
+       "heading": "Tài liệu",
+        "tabs": {
+             "list": "Danh sách"
+        },
+        "toolbar": {
+    "search_placeholder": "Tìm kiếm tài liệu...",
+    "category_all": "Tất cả danh mục",
+    "sort_by": "Sắp xếp theo",
+    "sort_latest": "Mới nhất",
+    "sort_oldest": "Cũ nhất",
+    "add_button": "Thêm tài liệu mới",
+    "none_selected": "Chưa chọn",
+    "back": "Quay lại",
+    "edit": "Chỉnh sửa",
+    "share": "Chia sẻ",
+    "dialog_title": "Chia sẻ tài liệu",
+    "make_public": "Đưa lên công khai",
+    "copy_instruction": "Sao chép và chia sẻ liên kết này:",
+    "copy_button": "Sao chép liên kết",
+    "close_button": "Đóng",
+    "doc_type": "Loại tài liệu",
+
+    "copied_to_clipboard": "Liên kết đã được sao chép vào clipboard!"
+},
+
+        "filters": {
+    "keyword": "Từ khóa:",
+    "category": "Danh mục:",
+    "sort": "Sắp xếp theo:"
+}
+},
+      "details": {
+    "not_found": "Tài liệu không tìm thấy",
+    "comments": "Bình luận",
+    "share": {
+        "title": "Chia sẻ tài liệu",
+        "public_toggle": "Đưa lên công khai",
+        "copy_label": "Sao chép và chia sẻ liên kết này:",
+        "copy_button": "Sao chép liên kết",
+        "copied": "Liên kết đã được sao chép vào clipboard!"
+    }
+},
+
+"toast": {
+    "document_delete": "Xóa tài liệu thành công",
+    "response_error": "Xóa tài liệu thất bại",
+    "document_update": "Cập nhật tài liệu thành công",
+    "failed_document": "Cập nhật tài liệu thất bại",
+    "failed_add": "Thêm tài liệu thất bại",
+    "document_add_fail": "Đã thêm tài liệu, nhưng cập nhật nhiệm vụ thất bại",
+    "operation_failed":"Thao tác thất bại. Vui lòng thử lại.",
+    "comment_add":"Bình luận đã được thêm",
+    "comment_add_fail":"Thêm bình luận thất bại",
+    "document_error": "Đã xảy ra lỗi khi lưu tài liệu",
+    "document_link": "Đã thêm tài liệu và liên kết thành công với nhiệm vụ",
+    "unexpected_error_delete": "Đã xảy ra lỗi bất ngờ khi xóa tài liệu"
+},
+
+
+
+     "comment": {
+    "placeholder": "Viết bình luận của bạn...",
+    "reply_button": "Trả lời",
+    "write_comment": "Viết bình luận của bạn...",
+    "post_comment": "Đăng bình luận",
+    "copied_file": "Tệp đã được sao chép",
+    "attached_file_removed": "Tệp đã bị xóa",
+    "emoji_picker": "Chọn biểu tượng cảm xúc",
+    "attached_files": "Tệp đính kèm",
+    "file_removed": "Tệp đã bị xóa",
+    "select_file": "Chọn tệp"
+},
+
+      "actions": {
+    "edit": "Chỉnh sửa",
+    "delete": "Xóa",
+    "view": "Xem",
+    "new": "Mới",
+    "cancel": "Hủy",
+    "add": "Thêm",
+    "print": "In",
+    "export": "Xuất",
+    "no_content": "Không tìm thấy nội dung để lưu",
+    "save":"Lưu",
+
+    "import": "Nhập",
+    "delete_confirm": "Bạn có chắc chắn muốn xóa tài liệu này không?"
+}
+
+    }
+  }
+  

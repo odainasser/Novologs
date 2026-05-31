@@ -1,0 +1,31 @@
+{
+  "gantt": {
+    "timeline_not_found": "Cronograma no encontrado",
+    "column_assignees": "Asignados",
+    "column_project": "Proyecto",
+    "column_mission": "Misión",
+    "column_client": "Cliente",
+    "column_lead": "Prospecto",
+    "column_vendor": "Proveedor",
+    "column_contract": "Contrato",
+    "column_backlog": "Pendiente",
+    "tooltip_start": "Inicio:",
+    "tooltip_finish": "Fin:",
+     "no_tasks_display": "No hay tareas para mostrar en la línea de tiempo.",
+  "permission_denied": "Permiso denegado",
+  "confirm_date": "Confirmar cambio de fecha",
+  "date": "fecha",
+  "?": "¿",
+  "are_you_sure": "¿Estás seguro de que deseas cambiar",
+  "confirm": "Confirmar",
+  "cancel": "Cancelar",
+  "are_you_sure_update_task": "¿Estás seguro de que deseas actualizar el progreso de la tarea?",
+  "task_name": "Nombre de la tarea",
+  "ID": "ID",
+  "start_date": "Fecha de inicio",
+  "end_date": "Fecha de finalización",
+  "task_not_in_progress": "La tarea no está \"En progreso\", no se puede actualizar el progreso.",
+  "you_donot": "No tienes permiso para editar el progreso.",
+  "confirm_progress":"Confirmer la modification de la progression"
+  }
+}

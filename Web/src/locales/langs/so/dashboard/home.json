@@ -1,0 +1,17 @@
+{
+  "home": {
+    "welcome_back": "Ku soo noqo",
+    "new_notice": "Ogeysiiska halkan ayaad ku arki doontaa",
+    "no_notice": "Ogeysiis ma jiro",
+    "view_all": "Arag dhammaan",
+    "no_data": "Xog ma jirto",
+    "no_data_found": "Xog lama helin",
+    "loading": "Waa la soo gelinayaa...",
+    "error": "Khalad",
+    "try_again": "Mar kale isku day",
+    "search": "Raadi",
+    "no_results": "Natiijo lama helin",
+    "searching": "Waa la raadinayaa...",
+    "cancel": "Jooji"
+  }
+}

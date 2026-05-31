@@ -1,0 +1,54 @@
+{
+  "calendar": {
+    "title": "Takvim",
+    "new_event": "Yeni etkinlik",
+    "edit_event": "Etkinliği düzenle",
+    "filters": "Filtreler",
+    "colors": "Renkler",
+    "range": "Aralık",
+    "event": "Etkinlik",
+    "events": "Etkinlikler",
+    "today": "Bugün",
+    "month": "Ay",
+    "week": "Hafta",
+    "day": "Gün",
+    "agenda": "Ajanda",
+    "reset": "Sıfırla",
+    "view": {
+      "month": "Ay",
+      "week": "Hafta",
+      "day": "Gün",
+      "agenda": "Ajanda"
+    },
+    "tooltip": {
+      "delete_event": "Etkinliği sil",
+      "edit_event": "Etkinliği düzenle"
+    },
+    "form": {
+      "title": "Başlık",
+      "description": "Açıklama",
+      "all_day": "Tüm gün",
+      "start_date": "Başlangıç tarihi",
+      "end_date": "Bitiş tarihi",
+      "save": "Değişiklikleri kaydet",
+      "cancel": "İptal",
+      "delete": "Etkinliği sil",
+      "create_success": "Oluşturma başarılı!",
+      "update_success": "Güncelleme başarılı!",
+      "delete_success": "Silme başarılı!"
+    },
+    "dialog": {
+      "add": "Ekle",
+      "edit": "Düzenle",
+      "cancel": "İptal",
+      "delete": "Sil"
+    },
+    "validation": {
+      "title_required": "Başlık gereklidir!",
+      "description_required": "Açıklama gereklidir!",
+      "description_min": "Açıklama en az 50 karakter olmalıdır",
+      "title_max": "Başlık en fazla 100 karakter olabilir",
+      "end_date_error": "Bitiş tarihi, başlangıç tarihinden sonra olmalıdır"
+    }
+  }
+}

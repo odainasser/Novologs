@@ -1,0 +1,160 @@
+{
+  "documents": {
+    "add": {
+      "back": "Atrás",
+      "dashboard": "Tablero",
+      "documents": "Documentos",
+      "new_heading": "Crear un nuevo documento",
+      "edit_heading": "Modificar el documento",
+      "details_title": "Detalles",
+      "actions:" :"Acciones",
+       "no_comments_yet": "Aún no hay comentarios.",
+      "details_subtitle": "Título, breve descripción, imagen...",
+  "type": "Tipo",
+      "form": {
+        "title": "Título del documento",
+        "description": "Breve descripción",
+        "cover_upload": "Subir imagen de portada",
+        "category": "Categoría",
+        "node_type": "Tipo de nodo",
+        "viewers": "Buscar lectores...",
+        "editors": "Buscar editores...",
+        "no_viewers_note": "Si no se selecciona ningún lector, esta publicación será pública.",
+        "add_category": "Agregar nueva categoría",
+        "category_name": "Nombre de la categoría",
+        "title_1": "Título",
+        "cover": "Portada",
+        "card_header": "Propiedades",
+        "subheader": "Funciones y atributos adicionales...",
+         "viewers_name": "Visualizadores",
+        "editor_name": "Editores",
+        "Change_Viewers": "Cambiar visualizadores",
+         "Add_viewers": "Agregar visualizadores",
+         "Change_Editors": "Cambiar editores",
+        "Add_Editors": "Agregar editores"
+      },
+
+      "content": "Contenido",
+      "placeholder": "Comienza a escribir...",
+      "placeholder_category": "Buscar una categoría...",
+
+      "submit_create": "Crear documento",
+      "submit_update": "Actualizar documento",
+      "toast_create": "Documento creado",
+      "toast_update": "Documento actualizado",
+      "editor_title": "Contenido",
+      "cover_upload_success": "Imagen de portada subida con éxito",
+      "cover_upload_error": "Error al subir la imagen de portada",
+      "editor_subtitle": "Escribe el contenido de tu documento aquí..."
+    },
+   "type": {
+    "book": "Libro",
+    "folder": "Carpeta",
+    "wiki": "Wiki",
+    "post": "Publicación",
+    "project": "Proyecto",
+    "story": "Historia",
+    "task": "Tarea",
+    "milestone": "Hito",
+    "lead": "Cliente potencial",
+    "client": "Cliente",
+    "contract": "Contrato",
+    "vendor": "Proveedor"
+  },
+  "toast": {
+    "document_delete": "Documento eliminado con éxito",
+    "response_error": "Error al eliminar el documento",
+    "document_update": "Documento actualizado con éxito",
+    "failed_document": "Error al actualizar el documento",
+    "failed_add": "Error al agregar el documento",
+    "comment_add":"Comentario agregado con éxito",
+    "comment_add_fail":"Error al agregar el comentario",
+    "operation_failed":"Error al realizar la operación. Por favor, inténtalo de nuevo.",
+    "document_add_fail": "El documento fue agregado, pero falló la actualización de la tarea",
+
+    "document_error": "Ocurrió un error al guardar el documento",
+    "document_link": "Documento agregado y vinculado correctamente a la tarea",
+    "unexpected_error_delete": "Error inesperado al eliminar el documento"
+},
+
+
+    "validation": {
+      "title_required": "El título es requerido",
+      "description_required": "La descripción es requerida",
+      "category_required": "La categoría es requerida",
+      "node_type_required": "El tipo de nodo es requerido"
+    },
+    "list": {
+      "heading": "Documentos",
+      "tabs": {
+        "list": "Lista"
+      },
+
+      "toolbar": {
+        "search_placeholder": "Buscar documentos...",
+        "category_all": "Todas las categorías",
+        "sort_by": "Ordenar por",
+        "sort_latest": "Los más recientes",
+        "sort_oldest": "Los más antiguos",
+        "add_button": "Agregar nuevos documentos",
+        "none_selected": "Ningún elemento seleccionado",
+        "back": "Atrás",
+        "edit": "Editar",
+        "share": "Compartir",
+        "doc_type": "Tipo de Documento",
+
+        "dialog_title": "Compartir documento",
+        "make_public": "Hacer público",
+        "copy_instruction": "Copia y comparte este enlace:",
+        "copy_button": "Copiar enlace",
+        "close_button": "Cerrar",
+        "copied_to_clipboard": "¡Enlace copiado al portapapeles!"
+      },
+
+      "filters": {
+        "keyword": "Palabra clave:",
+        "category": "Categoría:",
+        "sort": "Ordenar por:"
+      }
+    },
+    "details": {
+      "not_found": "Documento no encontrado",
+      "comments": "Comentarios",
+      "share": {
+        "title": "Compartir documento",
+        "public_toggle": "Hacer público",
+        "copy_label": "Copia y comparte este enlace:",
+        "copy_button": "Copiar enlace",
+        "copied": "¡Enlace copiado al portapapeles!"
+      }
+    },
+
+    "comment": {
+      "placeholder": "Escribe algunos comentarios...",
+      "reply_button": "Responder",
+      "write_comment": "Escribe algunos comentarios...",
+      "post_comment": "Publicar comentario",
+      "copied_file": "Archivo copiado",
+      "attached_file_removed": "Archivo eliminado",
+      "emoji_picker": "Elegir un emoji",
+      "attached_files": "Archivos adjuntos",
+      "file_removed": "Archivo eliminado",
+      "select_file": "Seleccionar archivo"
+    },
+
+    "actions": {
+      "edit": "Editar",
+      "delete": "Eliminar",
+      "view": "Ver",
+      "new": "Nuevo",
+       "save": "Guardar",
+      "cancel": "Cancelar",
+      "add": "Agregar",
+      "print": "Imprimir",
+      "export": "Exportar",
+      "import": "Importar",
+      "no_content": "No se encontró contenido para guardar",
+      "delete_confirm": "¿Está seguro de que desea eliminar este documento?"
+    }
+  }
+}

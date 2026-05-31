@@ -1,0 +1,54 @@
+{
+  "calendar": {
+    "title": "Calendrier",
+    "new_event": "Nouvel événement",
+    "edit_event": "Modifier l'événement",
+    "filters": "Filtres",
+    "colors": "Couleurs",
+    "range": "Plage",
+    "event": "Événement",
+    "events": "Événements",
+    "today": "Aujourd'hui",
+    "month": "Mois",
+    "week": "Semaine",
+    "day": "Jour",
+    "agenda": "Agenda",
+    "reset": "Réinitialiser",
+    "view": {
+      "month": "Mois",
+      "week": "Semaine",
+      "day": "Jour",
+      "agenda": "Agenda"
+    },
+    "tooltip": {
+      "delete_event": "Supprimer l'événement",
+      "edit_event": "Modifier l'événement"
+    },
+    "form": {
+      "title": "Titre",
+      "description": "Description",
+      "all_day": "Toute la journée",
+      "start_date": "Date de début",
+      "end_date": "Date de fin",
+      "save": "Enregistrer les modifications",
+      "cancel": "Annuler",
+      "delete": "Supprimer l'événement",
+      "create_success": "Création réussie !",
+      "update_success": "Mise à jour réussie !",
+      "delete_success": "Suppression réussie !"
+    },
+    "dialog": {
+      "add": "Ajouter",
+      "edit": "Modifier",
+      "cancel": "Annuler",
+      "delete": "Supprimer"
+    },
+    "validation": {
+      "title_required": "Le titre est requis !",
+      "description_required": "La description est requise !",
+      "description_min": "La description doit contenir au moins 50 caractères",
+      "title_max": "Le titre doit contenir moins de 100 caractères",
+      "end_date_error": "La date de fin doit être postérieure à la date de début"
+    }
+  }
+}

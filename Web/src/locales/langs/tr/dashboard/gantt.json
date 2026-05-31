@@ -1,0 +1,33 @@
+{
+  "gantt": {
+  "timeline_not_found": "Zaman çizelgesi bulunamadı",
+  "column_assignees": "Atananlar",
+  "column_project": "Proje",
+  "column_mission": "Görev",
+  "column_client": "Müşteri",
+  "column_lead": "Aday",
+  "column_vendor": "Tedarikçi",
+  "column_contract": "Sözleşme",
+  "column_backlog": "Bekleyen İşler",
+  "tooltip_start": "Başlangıç:",
+  "tooltip_finish": "Bitiş:",
+  "no_tasks_display": "Không có nhiệm vụ nào để hiển thị trên dòng thời gian.",
+  "permission_denied": "Bị từ chối quyền truy cập",
+  "confirm_date": "Xác nhận thay đổi ngày",
+  "date": "ngày",
+  "?": "？",
+  "are_you_sure": "Bạn có chắc chắn muốn thay đổi",
+  "confirm": "Xác nhận",
+  "cancel": "Hủy",
+  "are_you_sure_update_task": "Bạn có chắc chắn muốn cập nhật tiến độ công việc không?",
+  "task_name": "Tên nhiệm vụ",
+  "ID": "ID",
+  "start_date": "Ngày bắt đầu",
+  "end_date": "Ngày kết thúc",
+  "task_not_in_progress": "Nhiệm vụ không ở trạng thái \"Đang thực hiện\", không thể cập nhật tiến độ.",
+  "you_donot": "Bạn không có quyền chỉnh sửa tiến độ.",
+    "confirm_progress": "Confirmer la modification de la progression"
+
+}
+
+}

@@ -1,0 +1,191 @@
+{
+  "tasks": {
+    "heading": "Kazi",
+    "dashboard": "Dashibodi",
+    "serial_no": "Na.",
+    "list": "Orodha",
+    "ref": "Namba ya Rejea",
+    "untitled": "Bila Kichwa",
+    "source": "Chanzo",
+    "createdOn": "Iliundwa Tarehe",
+    "priorities": "Vipaumbele",
+    "task_id": "Kitambulisho cha Kazi",
+    "ticket_id": "Kitambulisho cha Tiketi",
+    "project": "Mradi/Misheni",
+    "description": "Maelezo",
+    "members": "Wanachama",
+    "sub_tasks": "Kazi Ndogo",
+    "asset_name": "Jina la Mali",
+    "value": "Thamani",
+    "date_of_purchase": "Tarehe ya Ununuzi",
+    "asset_type": "Aina ya Mali",
+    "contacts": "Anwani",
+    "start_date": "Tarehe ya Kuanza",
+    "end_date": "Tarehe ya Mwisho",
+    "actual_start_date": "Tarehe Halisi ya Kuanza",
+    "cost_time": "Gharama na Muda",
+    "unassigned": "Haijapangiwa",
+    "id": "Kitambulisho",
+    "designation": "Cheo",
+    "department": "Idara",
+    "status": "Hali",
+    "type": "Aina",
+    "task_details": "Maelezo ya Kazi",
+    "category": "Kategoria",
+    "priority": "Kipaumbele",
+    "weight": "Uzito",
+    "add_task": "Ongeza Kazi",
+    "edit_weight": "Hariri Uzito",
+    "add_weight": "Ongeza Uzito",
+    "add_members": "Ongeza Wanachama",
+    "task_description": "Maelezo ya Kazi",
+    "save": "Hifadhi",
+    "clear_all": "Futa Zote",
+    "delete": "Futa",
+    "confirm_delete": "Una uhakika unataka kufuta",
+    "items": "vipengee?",
+    "press_enter_create": "Bonyeza Enter kuunda kazi",
+    "search": "Tafuta...",
+    "edit": "Hariri",
+    "details": "Maelezo",
+    "actions": "Vitendo",
+    "settings": "Mipangilio",
+    "task_variant": "Aina ya Kazi",
+    "edit_members": "Hariri Wanachama",
+    "repeat": "Rudia",
+    "lead": "Fursa",
+    "select_data_range": "Chagua Muda wa Tarehe",
+    "close": "Funga",
+    "add": "Ongeza",
+
+    "no_projects": "Hakuna miradi iliyopo",
+    "no_missions": "Hakuna misheni iliyopo",
+    "no_clients": "Hakuna wateja waliopo",
+    "no_vendors": "Hakuna wasambazaji waliopo",
+    "no_categories": "Hakuna kategoria zilizopo",
+    "no_priorities": "Hakuna vipaumbele vilivyopo",
+    "no_statuses": "Hakuna hali zilizopo",
+    "no_tasks": "Hakuna kazi zilizopo",
+    "no_members": "Hakuna wanachama",
+
+    "task_category": "Kategoria ya Kazi",
+    "required": "Inahitajika",
+    "not_available": "Haipatikani",
+
+    "change_status": "Badilisha Hali",
+    "results_found": "matokeo yamepatikana",
+    "clear": "Futa",
+
+    "confidential_task": "Hii ni kazi ya siri",
+    "assigned_to_me": "Imepangiwa kwangu",
+
+    "task_labels": "Lebo za Kazi",
+    "task_categories": "Kategoria za Kazi",
+
+    "add_category": "Ongeza Kategoria",
+    "edit-category": "Hariri Kategoria",
+    "delete_category": "Futa Kategoria",
+
+    "priority_delete": "Una uhakika unataka kufuta kipaumbele hiki?",
+    "default_priorities": "Vipaumbele vya Msingi",
+
+    "timeline": "Ratiba",
+
+    "cost": "Gharama",
+    "duration": "Muda",
+
+    "task_reporting": "Ripoti ya Kazi",
+    "task_export": "Hamisha Kazi",
+    "task_export_as_excel": "Hamisha kama Excel",
+    "Exportpdf": "Hamisha kama PDF",
+
+    "description_not_available": "Maelezo hayapatikani",
+
+    "errors": {
+      "no_permission": "Huna ruhusa",
+      "restricted": "Ukurasa huu una ruhusa zilizozuiliwa",
+      "go_home": "Rudi nyumbani",
+      "internal": "Hitilafu ya seva ya ndani",
+      "please_try": "Tafadhali jaribu tena baadaye",
+      "sorry_page": "Samahani, ukurasa haupatikani",
+      "unexpected_error": "Hitilafu isiyotarajiwa imetokea"
+    },
+
+    "filters": {
+      "status": "Hali",
+      "members": "Wanachama",
+      "print": "Chapisha",
+      "import": "Leta",
+      "export": "Hamisha",
+      "task_statuses": "Hali za Kazi",
+      "task_types": "Aina za Kazi",
+      "task_pirority": "Vipaumbele vya Kazi",
+      "change_task_status": "Badilisha hali ya kazi",
+      "overdue": "Imechelewa",
+      "completed_late": "Imekamilika kwa kuchelewa"
+    },
+
+    "toast": {
+      "delete_success": "Imefutwa kwa mafanikio",
+      "update_success": "Imesasishwa kwa mafanikio",
+      "create_success": "Imeundwa kwa mafanikio",
+      "task_update": "Kazi imesasishwa kwa mafanikio",
+      "task_deleted": "Kazi imefutwa kwa mafanikio",
+      "unexpected_error": "Hitilafu isiyotarajiwa imetokea",
+      "link_copied": "Kiungo kimenakiliwa",
+      "task_create": "Kazi imeundwa kwa mafanikio"
+    },
+
+    "tabs": {
+      "assigned": "Zilizopangiwa",
+      "created": "Zilizoundwa",
+      "backlog": "Zilizobaki",
+      "tickets": "Tiketi",
+      "completed": "Zilizokamilika",
+      "unassigned": "Zisizopangiwa"
+    },
+
+    "views": {
+      "list": "Mwonekano wa Orodha",
+      "grid": "Mwonekano wa Kanban",
+      "gantt": "Chati ya Gantt"
+    },
+  
+     "kanban_details": {
+    "back": "Rudi",
+    "delete": "Futa",
+    "task_name": "Jina la Kazi",
+    "delete_task": "Futa kazi",
+    "overview": "Muhtasari",
+    "like": "Penda",
+    "task_id_label": "Kitambulisho cha Kazi",
+    "task_details_title": "Maelezo ya Kazi",
+    "add_reminder": "Ongeza Kikumbusho",
+    "add_activities": "Ongeza Shughuli",
+    "start_typing": "Anza kuandika...",
+    "subtasks_label": "Kazi Ndogo",
+    "comments_label": "Maoni",
+    "reminder_description": "Maelezo",
+    "reminder_start_date": "Tarehe ya Kuanza",
+    "reminder_start_time": "Muda wa Kuanza",
+    "delete_reminder_tooltip": "Futa Kikumbusho",
+    "delete_activity_tooltip": "Futa Shughuli",
+    "todo_checkbox": "Weka kama imekamilika",
+    "editor_placeholder": "Anza kuandika...",
+    "activities": "Shughuli",
+    "timeline": "Ratiba",
+    "error_loading_timeline": "Hitilafu wakati wa kupakia ratiba. Tafadhali jaribu tena.",
+
+    "confirm_delete": "Una uhakika unataka kufuta",
+    "statuses": {
+      "not_started": "Haijaanza",
+      "in_progress": "Inaendelea",
+      "on_hold": "Imesitishwa",
+      "submitted": "Imewasilishwa",
+      "completed": "Imekamilika"
+    },
+    "fullscreen": "Skrini Nzima",
+    "exit_fullscreen": "Toka Skrini Nzima"
+  }
+}
+}

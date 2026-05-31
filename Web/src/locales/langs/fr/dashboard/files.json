@@ -1,0 +1,121 @@
+{
+    "files":{
+       "custombreads": {
+  "dashboard": "Tableau de bord",
+  "title": "Gestionnaire de fichiers",
+  "list": "Liste"
+},
+
+       "tabs": {
+  "all": "Tous",
+  "my": "Mes fichiers",
+  "shared": "Partagés",
+  "starred": "Favoris"
+},
+
+
+        "buttons": {
+  "back": "Retour",
+  "update_file/folder": "Mettre à jour le fichier/dossier",
+  "addfile/folder": "Ajouter un fichier/dossier",
+  "update": "Mettre à jour",
+  "save": "Enregistrer",
+  "open": "Ouvrir",
+  "download": "Télécharger",
+  "delete": "Supprimer",
+  "share": "Partager",
+  "edit": "Modifier",
+  "close": "Fermer",
+  "add": "Ajouter",
+  "print": "Imprimer",
+  "export": "Exporter",
+  "import": "Importer",
+  "cancel": "Annuler"
+},
+
+
+     "tooltip": {
+  "delete": "Supprimer",
+  "clear_all": "Effacer tous les champs",
+  "choose _file": "Choisir un fichier",
+  "view_members": "Voir les membres",
+  "add_update_members": "Ajouter / Mettre à jour les membres"
+},
+
+
+       "labels": {
+  "folders": "Dossier",
+  "files": "Fichier",
+  "project": "Projet",
+  "client": "Client",
+  "fileinfo": "Infos sur le fichier",
+  "no_file_selected": "Aucun fichier sélectionné",
+  "size": "Taille",
+  "modified": "Modifié",
+  "type": "Type",
+  "shared_with": "Partagé avec",
+  "share_permission": "Permission de partage",
+  "exit_fullscreen": "Quitter le mode plein écran",
+  "copy_link": "Copier le lien",
+  "not_available": "Non disponible",
+  "serial_no": "N°",
+  "name": "Nom",
+  "members": "Membres",
+  "actions": "Actions",
+  "creators": "Créateurs",
+ 
+  "details": "Détails",
+  
+   "share": "Partager",
+  "no_members": "Aucun membre",
+  "general": "Général",
+  "copy_file": "Copier le fichier",
+  "copy_folder": "Copier le dossier"
+
+},
+
+
+        "placeholder": {
+  "foldername": "Nom du dossier",
+  "add_members": "Ajouter des membres",
+  "search_projects": "Rechercher des projets...",
+  "no_results_found": "Aucun résultat trouvé",
+  "search_clients": "Rechercher des clients...",
+  "search": "Rechercher...",
+  "select_date": "Sélectionner une date",
+  "calendar": "Calendrier",
+  "not_available": "Non disponible"
+},
+
+ "validations": {
+  "folder_name_required": "Le nom du dossier est requis",
+  "invalid_type": "Type de fichier invalide"
+},
+
+
+"toast": {
+  "update_success": "Mis à jour avec succès !",
+  "delete_success": "Supprimé avec succès !",
+  "shared_membres": "Membres partagés mis à jour !",
+  "permission_success": "Permission accordée avec succès !",
+  "copied": "Copié",
+  "shared_member": "Membres partagés mis à jour !",
+  "file_delete": "Fichier supprimé avec succès",
+  "star_updated": "Étoile mise à jour",
+  "no_file_chosen": "Aucun fichier sélectionné",
+  "folder_name_is_required": "Le nom du dossier est requis"
+},
+
+ "dialog": {
+  "members": "Membres",
+  "close": "Fermer",
+  "delete_title": "Supprimer",
+  "delete_content": "Êtes-vous sûr de vouloir supprimer",
+  "items": "éléments ?",
+  "delete_content2": "Êtes-vous sûr de vouloir supprimer ?",
+  "share_file": "Partager le fichier",
+  "delete_content3": "Êtes-vous sûr de vouloir supprimer ce fichier ?"
+}
+
+}
+}

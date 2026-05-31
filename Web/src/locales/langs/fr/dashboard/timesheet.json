@@ -1,0 +1,77 @@
+{
+  "heading": {
+    "list": "Liste"
+  },
+  "breadcrumbs": {
+    "dashboard": "Tableau de bord",
+    "timesheet": "Feuille de temps",
+    "list": "Liste"
+  },
+  "tabs": {
+    "all": "Toutes les feuilles de temps",
+    "task_type": "Type de tâche"
+
+  },
+  "table": {
+    "sl_no": "N°",
+    "timesheet_id": "ID de la feuille de temps",
+    "project": "Projet",
+    "task": "Tâche",
+    "start_date": "Date de début",
+    "duration": "Heure & durée",
+    "notes": "Remarques",
+    "not_available": "Non disponible",
+    "no_notes": "Aucune remarque",
+    "timeslot": "Plage horaire",
+    "actions": "Actions",
+    "details": "Détails",
+     "date": "Date",
+     "task_details": "Détails de la tâche",
+     "tasktype": "Type de tâche"
+
+  },
+  "form": {
+    "save": "Enregistrer",
+    "update": "Mettre à jour",
+    "clear": "Effacer",
+    "id": "ID de la feuille de temps",
+    "project": "Projet",
+    "task": "Tâche",
+    "start_date": "Date de début",
+    "duration": "Heure & durée",
+    "notes": "Remarques",
+    "start_time": "Heure de début",
+    "end_time": "Heure de fin",
+    "select_time_slot": "Sélectionner une plage horaire",
+    "add_timesheet": "Ajouter une feuille de temps",
+    "select_project": "Sélectionner un projet",
+    "select_task": "Sélectionner une tâche",
+    "search_task": "Rechercher une tâche...",
+    "search_placeholder": "Rechercher...",
+    "no_results": "Aucun résultat trouvé",
+    "search": "Rechercher",
+    "search_project": "Rechercher des projets...",
+     "add_timesheet_details":"Ajouter les détails de la feuille de temps"
+  },
+  "toast": {
+    "timesheet_success": "Feuille de temps ajoutée avec succès !",
+    "delete_success": "Suppression réussie !",
+    "calendar_error": "Veuillez d'abord sélectionner une date dans le calendrier.",
+    "id_error": "Requis"
+  },
+  "actions": {
+    "delete": "Supprimer",
+    "add_timesheet": "Ajouter une feuille de temps",
+    "edit": "Modifier",
+    "print": "Imprimer",
+    "export": "Exporter",
+    "import": "Importer",
+    "cancel": "Annuler",
+    "confirm": "Confirmer"
+  },
+  "dialogs": {
+    "confirm_delete": "Êtes-vous sûr de vouloir supprimer",
+    "items": "éléments ?",
+    "confirm_delete_single": "Êtes-vous sûr de vouloir supprimer cette feuille de temps ?"
+  }
+}

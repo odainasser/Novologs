@@ -1,0 +1,13 @@
+
+
+
+{
+"upload": {
+  "drop_or_select": "قم بإسقاط أو تحديد ملف",
+  "drop_here": "قم بإسقاط الملفات هنا أو انقر",
+  "browse": "لتصفح",
+  "browse_suffix": "من جهازك.",
+  "upload_photo": "تحميل صورة",
+  "update_photo": "تحديث الصورة"
+}
+}

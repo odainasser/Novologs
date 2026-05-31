@@ -1,0 +1,32 @@
+{
+  "gantt": {
+    "timeline_not_found": "لم يتم العثور على المخطط الزمني",
+    "column_assignees": "المعينون",
+    "column_project": "المشروع",
+    "column_mission": "المهمة",
+    "column_client": "العميل",
+    "column_lead": "الفرصة",
+    "column_vendor": "المورد",
+    "column_contract": "العقد",
+    "column_backlog": "المهام المتراكمة",
+    "tooltip_start": "البداية:",
+    "tooltip_finish": "النهاية:",
+    "no_tasks_display": "لا توجد مهام لعرضها في الجدول الزمني.",
+  "permission_denied": "تم رفض الإذن",
+  "confirm_date": "تأكيد تغيير التاريخ",
+  "date": "التاريخ",
+  "?": "؟",
+  "are_you_sure": "هل أنت متأكد أنك تريد تغيير",
+  "confirm": "تأكيد",
+  "cancel": "إلغاء",
+  "are_you_sure_update_task": "هل أنت متأكد أنك تريد تحديث تقدم المهمة؟",
+  "task_name": "اسم المهمة",
+  "ID": "المعرف",
+  "start_date": "تاريخ البدء",
+  "end_date": "تاريخ الانتهاء",
+  "task_not_in_progress": "المهمة ليست \"قيد التقدم\"، لا يمكن تحديث التقدم.",
+  "you_donot": "ليس لديك إذن لتعديل التقدم.",
+   "confirm_progress":  "تأكيد تغيير التقدم"
+
+  }
+}

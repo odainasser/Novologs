@@ -1,0 +1,10 @@
+{
+  "date": {
+    "title": "Chagua muda wa tarehe",
+    "start_date": "Tarehe ya kuanza",
+    "end_date": "Tarehe ya mwisho",
+    "end_date_validation": "Tarehe ya mwisho lazima iwe baada ya tarehe ya kuanza",
+    "cancel": "Ghairi",
+    "apply": "Tumia"
+  }
+}

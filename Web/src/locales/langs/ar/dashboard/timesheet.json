@@ -1,0 +1,111 @@
+{
+  "heading": {
+    "list": "القائمة"
+  },
+  "breadcrumbs": {
+    "dashboard": "اللوحة الرئيسية",
+    "timesheet": "الجدول الزمني",
+    "list": "القائمة",
+    "calender": "التقويم",
+    "activities": "الأنشطة",
+    "my_activities": "أنشطتي",
+    "all_timesheets": "جميع الجداول الزمنية",
+    "all_activities": "جميع الأنشطة",
+    "my_timesheets": "جداولي الزمنية"
+  },
+  "tabs": {
+    "all": "جميع الجداول الزمنية",
+    "task_type": "نوع المهمة",
+    "mission": "المهمة",
+    "Contract": "العقد",
+    "vendor": "المورد",
+    "project": "المشروع",
+    "Lead": "العميل المحتمل",
+    "Client": "العميل",
+    "general": "عام"
+  },
+  
+  "table": {
+    "sl_no": "رقم التسلسل",
+    "timesheet_id": "معرف الجدول الزمني",
+    "project": "المشروع",
+    "task": "المهمة",
+    "start_date": "تاريخ البدء",
+    "duration": "الوقت والمدة",
+    "notes": "الملاحظات",
+    "not_available": "غير متوفر",
+    "no_notes": "لا توجد ملاحظات",
+    "timeslot": "الفترة الزمنية",
+    "actions": "الإجراءات",
+    "details": "التفاصيل",
+    "date": "التاريخ",
+    "task_details": "تفاصيل المهمة",
+    "tasktype": "نوع المهمة",
+    "duration_label": "المدة",
+    "total_duration": "إجمالي المدة",
+    "employee_id":"رقم الموظف",
+    "code":"الرمز",
+    "employee":"الموظف",
+    "designation&department":"التعيين والقسم"
+    
+  },
+  
+  "form": {
+    "save": "حفظ",
+    "update": "تحديث",
+    "clear": "مسح",
+    "id": "معرف الجدول الزمني",
+    "project": "المشروع",
+    "task": "المهمة",
+    "start_date": "تاريخ البدء",
+    "duration": "الوقت والمدة",
+    "notes": "الملاحظات",
+    "start_time": "وقت البدء",
+    "end_time": "وقت الانتهاء",
+    "select_time_slot": "اختر فترة زمنية",
+    "add_timesheet": "إضافة جدول زمني",
+    "select_project": "اختر المشروع",
+    "select_task": "اختر المهمة",
+    "search_task": "ابحث عن مهمة...",
+    "search_placeholder": "ابحث...",
+    "no_results": "لم يتم العثور على نتائج",
+    "search": "بحث",
+    "search_project": "ابحث عن المشاريع...",
+    "add_timesheet_details": "إضافة تفاصيل الجدول الزمني"
+  },
+  
+  "toast": {
+    "timesheet_success": "تم إضافة الجدول الزمني بنجاح!",
+    "delete_success": "تم الحذف بنجاح!",
+    "calendar_error": "يرجى اختيار تاريخ من التقويم أولاً.",
+    "id_error": "مطلوب",
+    "start_time_missing": "وقت البدء مفقود",
+    "durationMissing": "المدة مفقودة، يرجى اختيار فترة زمنية",
+    "please_select_time_slot": "يرجى اختيار فترة زمنية",
+    "timesheet_updated": "تم تحديث الجدول الزمني بنجاح",
+    "timesheet_created": "تم إنشاء الجدول الزمني بنجاح",
+    "timesheet_deleted": "تم حذف الجدول الزمني بنجاح",
+    "delete_failed": "فشل الحذف"
+  },
+  
+  "actions": {
+    "delete": "حذف",
+    "add_timesheet": "إضافة جدول زمني",
+    "edit": "تعديل",
+    "print": "طباعة",
+    "export": "تصدير",
+    "import": "استيراد",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "save":"حفظ",
+    "update":"تحديث",
+    "add":"إضافة",
+    "any_actions":"أي إجراءات"
+  },
+  
+  "dialogs": {
+    "confirm_delete": "هل أنت متأكد أنك تريد حذف",
+    "items": "العناصر؟",
+    "confirm_delete_single": "هل أنت متأكد أنك تريد حذف هذا الجدول الزمني؟"
+  }
+}

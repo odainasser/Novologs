@@ -1,0 +1,10 @@
+{
+  "date": {
+    "title": "选择日期范围",
+    "start_date": "开始日期",
+    "end_date": "结束日期",
+    "end_date_validation": "结束日期必须晚于开始日期",
+    "cancel": "取消",
+    "apply": "应用"
+  }
+}

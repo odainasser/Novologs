@@ -1,0 +1,458 @@
+{
+    "tasks": {
+    
+    "heading": "Hawlaha",
+    "dashboard": "Dashboard",
+    "serial_no": "Lambarka",
+    "list": "Liis",
+    "ref": "Tixraac",
+    "untitled": "Cinwaan la’aan",
+    "source": "Isha",
+    "createdOn": "La sameeyay",
+    "priorities": "Mudnaanta",
+    "task_id": "Aqoonsiga Hawsha",
+    "ticket_id": "Aqoonsiga Tikidhka",
+    "project": "Mashruuc/Mission",
+    "description": "Sharaxaad",
+    "members": "Xubno",
+    "sub_tasks": "Hawl-hoosaadyo",
+    "asset_name": "Magaca Hantida",
+    "value": "Qiimaha",
+    "date_of_purchase": "Taariikhda Iibsiga",
+    "asset_type": "Nooca Hantida",
+    "contacts": "Xiriirada",
+    "start_date": "Taariikhda Bilowga",
+    "end_date": "Taariikhda Dhamaadka",
+    "actual_start_date": "Taariikhda Bilowga Dhabta ah",
+    "cost_time": "Kharash & Waqti",
+    "unassigned": "Aan la qoondeyn",
+    "id": "ID",
+    "designation": "Jago",
+    "department": "Waax",
+    "status": "Xaalad",
+    "type": "Nooc",
+    "task_details": "Faahfaahinta Hawsha",
+    "category": "Qayb",
+    "priority": "Mudnaan",
+    "weight": "Miisaan",
+    "add_task": "Ku dar Hawl",
+    "edit_weight": "Wax ka beddel Miisaan",
+    "add_weight": "Ku dar Miisaan",
+    "add_members": "Ku dar Xubno",
+    "task_description": "Sharaxaadda Hawsha",
+    "save": "Kaydi",
+    "clear_all": "Nadiifi dhammaan",
+    "delete": "Tirtir",
+    "confirm_delete": "Ma hubtaa inaad tirtirto",
+    "items": "walxaha?",
+    "press_enter_create": "Riix Enter si aad u abuurto hawl",
+    "search": "Raadi...",
+    "edit": "Wax ka beddel",
+    "details": "Faahfaahin",
+    "actions": "Ficillo",
+    "settings": "Dejinta",
+    "task_variant": "Nooca Hawsha",
+    "edit_members": "Wax ka beddel xubnaha",
+    "repeat": "Ku celi",
+    "lead": "Lead",
+    "select_data_range": "Dooro xadka taariikhda",
+    "close": "Xir",
+    "add": "Ku dar",
+
+    "no_projects": "Mashruucyo lama heli karo",
+    "no_missions": "Missions lama heli karo",
+    "no_clients": "Macaamiil lama heli karo",
+    "no_vendors": "Alaab-qeybiyeyaal lama heli karo",
+    "no_categories": "Qaybo lama heli karo",
+    "no_priorities": "Mudnaano lama heli karo",
+    "no_statuses": "Xaalado lama heli karo",
+    "no_tasks": "Hawlo lama heli karo",
+    "no_members": "Xubno ma jiraan",
+
+    "task_category": "Qaybta Hawsha",
+    "required": "Waa loo baahan yahay",
+    "not_available": "Lama heli karo",
+
+    "change_status": "Beddel Xaalad",
+    "results_found": "natiijooyin la helay",
+    "clear": "Nadiifi",
+
+    "confidential_task": "Tani waa hawl qarsoodi ah",
+    "assigned_to_me": "Aniga ayaa la ii xilsaaray",
+
+    "task_labels": "Calaamadaha Hawsha",
+    "task_categories": "Qaybaha Hawsha",
+
+    "add_category": "Ku dar Qayb",
+    "edit-category": "Wax ka beddel Qayb",
+    "delete_category": "Tirtir Qayb",
+
+    "priority_delete": "Ma hubtaa inaad tirtirto mudnaantan?",
+    "default_priorities": "Mudnaanta Default",
+
+    "timeline": "Jadwal",
+    "cost": "Kharash",
+    "duration": "Muddo",
+
+    "task_reporting": "Warbixinta Hawsha",
+    "task_export": "Dhoofinta Hawsha",
+    "task_export_as_excel": "U dhoofin Excel",
+    "Exportpdf": "U dhoofin PDF",
+
+    "description_not_available": "Sharaxaad lama heli karo",
+    
+    "description_arabic": "Sharaxaad (Carabi):",
+  "comments_yet": "Faallooyin wali ma jiraan",
+  "no_activities": "Wax hawlo ah lama heli karo taariikhda la doortay",
+  "create_ai": "Abuur Ogolaansho AI",
+  "exempted": "Waxaa laga dhaafay u qoondeynta hawlaha",
+
+  "AddMilestone": "Ku dar Heer (Milestone)",
+  "are_you_sure_milestone": "Ma hubtaa inaad tirtirto heerkan?",
+  "add_tasks": "Ku dar hawlo heerkan",
+  "are_you_sure_want_to_milestone": "Ma hubtaa inaad tirtirto dhammaan hawlaha heerkan?",
+  "delete_milestone": "Heerka si guul leh ayaa loo tirtiray",
+  "no_milestone_deleted": "Heer lama dooran si loo tirtiro",
+  "task_cleared": "Hawlaha si guul leh ayaa looga saaray heerka",
+
+  "uncategorized": "Aan la kala saarin",
+
+  "account_number": "Lambarka Akoonka",
+  "account_name": "Magaca Akoonka",
+  "debit": "Debit (AED)",
+  "credit": "Credit (AED)",
+  "new": "Cusub",
+  "voucher_number": "Lambarka Voucher",
+  "accountdetails": "Faahfaahinta Akoonka",
+  "narration": "Sharaxaad",
+  "debit-a": "Debit",
+  "credit-a": "Credit",
+  "date": "Taariikh",
+
+  "unexpected_error": "Khalad lama filaan ah ayaa dhacay intii la tirtirayay heerka",
+
+  "confirm_swap": "Xaqiiji Isbeddelka",
+  "are_you_want_swap": "Ma hubtaa inaad beddesho qaybtan?",
+  "yes": "Haa",
+  "cancel": "Jooji",
+  "are_you_sure_want_to_delete": "Ma hubtaa inaad tirtirto heerkan?",
+  "Back": "Dib u noqo",
+
+  "general-o": "Guud",
+  "leads:": "Leads",
+
+  "purchase_date": "Taariikhda Iibsiga",
+  "receipt_number": "Lambarka Receipt",
+  "journal_number": "Lambarka Journal",
+  "receiver": "Qaataha",
+  "payment_method": "Habka Bixinta",
+  "amount": "Qadarka",
+  "categorized": "La kala saaray",
+  "invoice_number": "Lambarka Invoice",
+  "order_number": "Lambarka Dalabka",
+  "invoice_date": "Taariikhda Invoice",
+  "location": "Goobta",
+  "select_location": "Dooro goob",
+  "terms": "Shuruudaha",
+  "duedate": "Taariikhda Deynta",
+  "totalamount": "Wadarta Qadarka",
+  "branches": "Laamo",
+  "select_all": "Dooro dhammaan",
+
+  "milestone_added_successfully": "Heer si guul leh ayaa loo daray",
+  "no_members_found": "Xubno lama helin",
+  "no_tasks_found": "Hawlo lama helin",
+  "posted-journal-vocher": "Journal Voucher la diiwaangeliyay",
+  "add_task_milestone": "Ku dar hawl heerkan",
+  "there_no_members_available": "Xubno ma jiraan",
+
+  "errors": {
+    "no_permission": "Ogolaansho ma lihid",
+    "restricted": "Boggan aad isku dayeyso inaad gasho waa xaddidan yahay. Fadlan la xiriir maamulka nidaamka.",
+    "go_home": "Aad bogga hore",
+    "internal": "500 Khalad server gudaha ah",
+    "please_try": "Khalad ayaa dhacay, fadlan mar kale isku day",
+    "sorry_page": "Waan ka xumahay, bogga lama helin!",
+    "unexpected_error": "Khalad lama filaan ah ayaa dhacay",
+    "sorry_couldnt": "Waan ka xumahay, ma helin bogga aad raadineyso. Fadlan hubi URL-ka."
+    },
+
+"forward": {
+    "designation": "Jago:",
+    "forward": "U dir",
+    "are_you_sure_want_forward": "Ma hubtaa inaad hawshan u dirto xubnaha la doortay?",
+    "send": "Dir",
+    "forward_task": "U dir Hawsha"
+  },
+
+  "filters": {
+    "status": "Xaalad",
+    "members": "Xubno",
+    "print": "Daabac",
+    "import": "Soo dejin",
+    "export": "Dhoofin",
+    "task_statuses": "Xaaladaha Hawsha",
+    "task_types": "Noocyada Hawsha",
+    "task_pirority": "Mudnaanta Hawsha",
+    "change_task_status": "Beddel xaaladda hawsha",
+    "overdue": "Dib u dhac",
+    "completed_late": "Dib ayaa loo dhammeeyay"
+  },
+
+  "category-toast": {
+    "task_category_added": "Qaybta hawsha si guul leh ayaa loo daray",
+    "task_category_deleted": "Qaybta hawsha si guul leh ayaa loo tirtiray",
+    "unexpected_error": "Khalad lama filaan ah ayaa dhacay",
+    "failed_to_delete": "Ku guuldareysatay tirtiridda qaybta",
+    "task_category_updated": "Qaybta hawsha si guul leh ayaa loo cusboonaysiiyay",
+    "edit_category": "Wax ka beddel Qayb",
+    "add_category": "Ku dar Qayb",
+    "delete_category": "Tirtir Qayb",
+    "are_you_sure": "Ma hubtaa inaad tirtirto qaybta?"
+  },
+
+  "tooltips": {
+    "add_task_details": "Ku dar faahfaahinta hawsha"
+  },
+
+  "todo": {
+    "dialog_title": "Waxyaabaha la qabanayo",
+    "cancel": "Jooji",
+    "add": "Ku dar",
+    "success": "ToDo si guul leh ayaa loo daray",
+    "update": "Cusboonaysii",
+    "delete": "Tirtir",
+    "activities": "Hawlaha",
+    "timesheet": "Jadwalka Shaqada"
+  },
+
+  "confirm": {
+    "delete": "Tirtir",
+    "delete_desig": "Ma hubtaa inaad tirtirto jagadan?"
+  },
+
+  "subtasks": {
+    "subtasks": "Hawl-hoosaadyo",
+    "assigned": "La qoondeeyay",
+    "created": "La sameeyay",
+    "backlog": "Kayd Hawleed",
+    "delete": "Tirtir",
+    "assigned_all": "Loo qoondeeyay dhammaan",
+    "task_description": "Sharaxaadda Hawsha",
+    "start_date": "Taariikhda Bilowga",
+    "end_date": "Taariikhda Dhamaadka",
+    "category": "Qayb",
+    "priority": "Mudnaan",
+    "weight": "Miisaan",
+    "add_members": "Ku dar Xubno",
+    "add_weight": "Ku dar Miisaan",
+    "edit_weight": "Wax ka beddel Miisaan",
+    "add_task": "Ku dar Hawl",
+    "clear_all_fields": "Nadiifi dhammaan goobaha",
+    "are_you_sure_want_to_delete": "Ma hubtaa inaad tirtirto xaaladdan?",
+    "items": "walxaha?",
+    "save": "Kaydi",
+    "actions": "Ficillo",
+    "assign": "Qoondee",
+    "sl_no": "Lambarka",
+    "task_id": "Aqoonsiga Hawsha",
+    "members": "Xubno"
+  },
+     "toast": {
+    "delete_success": "Si guul leh ayaa loo tirtiray!",
+    "update_success": "Si guul leh ayaa loo cusboonaysiiyay!",
+    "create_success": "Si guul leh ayaa loo sameeyay!",
+    "task_update": "Hawl si guul leh ayaa loo cusboonaysiiyay",
+    "task_status_added": "Xaaladda hawsha si guul leh ayaa loo daray",
+    "task_status_deleted": "Xaaladda hawsha si guul leh ayaa loo tirtiray",
+    "task_status_updated": "Xaaladda hawsha si guul leh ayaa loo cusboonaysiiyay",
+    "task_type_added": "Nooca hawsha si guul leh ayaa loo daray",
+    "task_type_deleted": "Nooca hawsha si guul leh ayaa loo tirtiray",
+    "task_type_updated": "Nooca hawsha si guul leh ayaa loo cusboonaysiiyay",
+    "task_priority_added": "Mudnaanta hawsha si guul leh ayaa loo daray",
+    "task_priority_deleted": "Mudnaanta hawsha si guul leh ayaa loo tirtiray",
+    "task_priority_updated": "Mudnaanta hawsha si guul leh ayaa loo cusboonaysiiyay",
+    "status_changed": "Xaalad si guul leh ayaa loo beddelay",
+    "failed_update": "Ku guuldareysatay cusboonaysiinta xaaladda",
+    "failed_delete": "Ku guuldareysatay tirtiridda hawsha",
+    "task_deleted": "Hawl si guul leh ayaa loo tirtiray",
+
+    "document_deleted": "Dukumenti si guul leh ayaa loo tirtiray",
+    "failed_document": "Ku guuldareysatay tirtiridda dukumentiga",
+    "failed_add": "Ku guuldareysatay ku darista dukumentiga",
+    "failed_update_document": "Ku guuldareysatay cusboonaysiinta dukumentiga",
+    "unexpected_error": "Khalad lama filaan ah ayaa dhacay",
+    "no_content_save": "Wax macluumaad ah lama helin si loo kaydiyo",
+    "document_updated": "Dukumenti si guul leh ayaa loo cusboonaysiiyay",
+    "document_added_link": "Dukumenti si guul leh ayaa loogu daray lana xiriiriyay hawsha",
+    "doument_failed": "Dukumenti waa la daray, laakiin cusboonaysiinta hawsha way fashilantay",
+    "document_error": "Khalad ayaa dhacay marka la kaydinayay dukumentiga",
+    "document_confirm": "Ma hubtaa inaad tirtirto dukumentigan?",
+
+    "link_copied": "Link-ga waxaa lagu koobiyay clipboard",
+    "failed_link": "Ku guuldareysatay koobiyaynta link-ga",
+
+    "audio_upload": "Audio si guul leh ayaa loo soo geliyay",
+    "audio_upload_failed": "Soo gelinta audio way fashilantay:",
+
+    "task_create": "Hawl si guul leh ayaa loo sameeyay",
+    "task_update_failed": "Ku guuldareysatay cusboonaysiinta hawsha",
+
+    "delete_task_milestone": "Ka saar hawsha heerka",
+    "are_you_sure_want_to_delete_milestone": "Ma hubtaa inaad ka saarto hawshan heerkan?",
+    "task_forwarded": "Hawl si guul leh ayaa loo diray",
+    "task_cleared": "Hawl si guul leh ayaa looga saaray heerka",
+
+    "record_audio": "Duub Audio",
+    "category_not_available": "Qayb lama heli karo",
+
+    "comment_delete": "Faallo si guul leh ayaa loo tirtiray",
+    "members_added_successfully": "Xubno si guul leh ayaa loo daray",
+    "members_deleted_successfully": "Xubno si guul leh ayaa loo tirtiray",
+    "failed_comment": "Ku guuldareysatay tirtiridda faallada",
+    "are_you_sure": "Ma hubtaa inaad tirtirto faalladan",
+
+    "add_task_milestone": "Ku dar hawl heerkan"
+  },
+
+  "comment_input": {
+    "placeholder": "Qor fariin",
+    "comment": "Faallo",
+    "add_image": "Ku dar sawir",
+    "attach_file": "Ku lifaaq fayl",
+    "failed_attach": "Ku guuldareysatay helidda faahfaahinta faylka",
+    "failed_upload": "Ku guuldareysatay soo gelinta faylka",
+    "error_upload": "Khalad ayaa dhacay marka fayl la soo gelinayay",
+    "file_size_exceeded": "Cabbirka faylka wuu ka batay",
+    "comment_added": "Faallo si guul leh ayaa loo daray",
+    "upload_file": "fayl la soo geliyay",
+    "operation_failed": "Hawlgalka waa fashilmay. Fadlan mar kale isku day.",
+    "project": "Mashruuc",
+    "please_enter": "Fadlan geli fariin ama ku lifaaq fayl."
+  },
+
+  "kanban": {
+    "title": "Kanban",
+    "column_fixed": "Tiir go'an"
+  },
+
+  "gantt": {
+    "assignees": "Loo qoondeeyay",
+    "mission": "Mission",
+    "backlog": "Kayd Hawleed",
+    "tooltip_start": "Bilow",
+    "tooltip_finish": "Dhamaad"
+  },
+
+  "toolbar": {
+    "column_name": "Magaca Tiirka",
+    "rename": "Magac beddel",
+    "clear": "Nadiifi",
+    "delete": "Tirtir",
+    "are_you_sure_want_to_delete": "Ma hubtaa inaad tirtirto tiirkan?",
+    "note": "Fiiro gaar ah",
+    "note_text": "Dhammaan hawlaha la xiriira qaybtan sidoo kale waa la tirtiri doonaa."
+  },
+
+     "weight_dialog": {
+    "title": "Ku dar Miisaan",
+    "search": "Raadi",
+    "no_weights": "Miisaan lama helin",
+    "close": "Xir"
+  },
+
+  "reminder": {
+    "add_reminder": "Ku dar Xusuusin",
+    "description": "Sharaxaad",
+    "start_date": "Taariikhda Bilowga",
+    "add_members": "Ku dar Xubno",
+    "cancel": "Jooji",
+    "add": "Ku dar",
+    "success": "Xusuusin si guul leh ayaa loo daray",
+    "deleted": "Xusuusin si guul leh ayaa loo tirtiray",
+    "failed": "Ku guuldareysatay tirtiridda hawsha",
+    "error": "Khalad lama filaan ah ayaa dhacay",
+    "no_activity": "Wax hawlo ah lama helin",
+    "delete_activity": "Ma hubtaa inaad tirtirto hawshan?",
+    "activity_completed": "Hawl si guul leh ayaa loo dhammeeyay",
+    "no_activities_available": "Wax hawlo ah lama heli karo taariikhda la doortay",
+    "editor_not_ready": "Editor-ka wali lama diyaarin.",
+    "reminder": "Xusuusin",
+    "title": "Xaqiijin",
+    "complete": "Dhamee",
+    "date": "Taariikh",
+    "content": "Ma hubtaa inaad dhammaystirto hawshan?"
+  },
+
+  "members-a": {
+    "dialog_title_add": "Ku dar Xubno",
+    "dialog_title_default": "Xubno",
+    "assign_to_me": "Aniga ii qoondee",
+    "confidential": "Hawl qarsoodi ah",
+    "search": "Raadi",
+    "no_members": "Xubno ma jiraan",
+    "add_button": "Ku dar",
+    "close_button": "Xir",
+    "assignee": "Qofka loo qoondeeyay",
+    "completed": "La dhammeeyay"
+  },
+
+  "tabs": {
+    "assigned": "La qoondeeyay",
+    "created": "La sameeyay",
+    "backlog": "Kayd Hawleed",
+    "tickets": "Tikidhyo",
+    "allocatedtickets": "Tikidhyo la qoondeeyay",
+    "alltickets": "Dhammaan Tikidhyada",
+    "mytickets": "Tikidhyadayda",
+    "completed": "La dhammeeyay",
+    "unassigned": "Aan la qoondeyn"
+  },
+
+    
+    "views": {
+    "list": "Aragti Liis",
+    "grid": "Aragti Kanban",
+    "gantt": "Jaantus Gantt"
+  },
+
+  "kanban_details": {
+    "back": "Dib u noqo",
+    "delete": "Tirtir",
+    "task_name": "Magaca Hawsha",
+    "delete_task": "Tirtir hawsha",
+    "overview": "Dulmar",
+    "like": "Jecel",
+    "task_id_label": "Aqoonsiga Hawsha",
+    "task_details_title": "Faahfaahinta Hawsha",
+    "add_reminder": "Ku dar Xusuusin",
+    "add_activities": "Ku dar Hawlo",
+    "start_typing": "Bilow qorista...",
+    "subtasks_label": "Hawl-hoosaadyo",
+    "comments_label": "Faallooyin",
+    "reminder_description": "Sharaxaad",
+    "reminder_start_date": "Taariikhda Bilowga",
+    "reminder_start_time": "Waqtiga Bilowga",
+    "delete_reminder_tooltip": "Tirtir xusuusin",
+    "delete_activity_tooltip": "Tirtir hawl",
+    "todo_checkbox": "Calaamadee sida la dhammeeyay",
+    "editor_placeholder": "Bilow qorista...",
+    "activities": "Hawlaha",
+    "timeline": "Jadwal",
+    "error_loading_timeline": "Khalad ayaa dhacay marka la soo gelinayay jadwalka. Fadlan mar kale isku day.",
+
+    "confirm_delete": "Ma hubtaa inaad tirtirto",
+    
+    "statuses": {
+      "not_started": "Ma bilaaban",
+      "in_progress": "Socota",
+      "on_hold": "Hakadka ku jira",
+      "submitted": "La gudbiyay",
+      "completed": "La dhammeeyay"
+    },
+
+    "fullscreen": "Shaashad buuxda",
+    "exit_fullscreen": "Ka bax shaashad buuxda"
+  }
+  }
+}

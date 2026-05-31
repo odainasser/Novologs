@@ -1,0 +1,10 @@
+{
+  "upload": {
+    "drop_or_select": "Suelta o selecciona un archivo",
+    "drop_here": "Suelta los archivos aquí o haz clic para",
+    "browse": "explorar",
+    "browse_suffix": "tu dispositivo.",
+    "upload_photo": "Subir una foto",
+    "update_photo": "Actualizar la foto"
+  }
+}

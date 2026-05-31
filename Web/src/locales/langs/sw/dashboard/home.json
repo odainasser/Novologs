@@ -1,0 +1,17 @@
+{
+  "home": {
+    "welcome_back": "Karibu tena",
+    "new_notice": "Utaona matangazo hapa",
+    "no_notice": "Hakuna tangazo",
+    "view_all": "Tazama zote",
+    "no_data": "Hakuna data",
+    "no_data_found": "Hakuna data iliyopatikana",
+    "loading": "Inapakia...",
+    "error": "Hitilafu",
+    "try_again": "Jaribu tena",
+    "search": "Tafuta",
+    "no_results": "Hakuna matokeo yaliyopatikana",
+    "searching": "Inatafuta...",
+    "cancel": "Ghairi"
+  }
+}

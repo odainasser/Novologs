@@ -1,0 +1,118 @@
+{
+  "files": {
+    "custombreads": {
+      "dashboard": "Dashboard",
+      "title": "File manager",
+      "list": "List"
+    },
+    "tabs": {
+      "all": "All",
+      "my": "My Files",
+      "shared": "Shared",
+      "starred": "Starred"
+    },
+    "buttons": {
+      "back": "Back",
+      "update_file/folder": " Update File/Folder",
+      "addfile/folder": "Add File/Folder",
+      "update": "Update",
+      "save": "Save",
+      "open": "Open",
+      "download": "Download",
+      "delete": "Delete",
+      "share": "Share",
+      "edit": "Edit",
+      "close": "Close",
+      "add": "Add",
+      "print": "Print",
+      "export": "Export",
+      "import": "Import",
+      "cancel": "Cancel"
+    },
+    "tooltip": {
+      "delete": "Delete",
+      "clear_all": "Clear All Fields",
+      "choose_file": "Choose File",
+      "view_members": "View Members",
+      "add_update_members": "Add / Update Members",
+      "tooltip_title":"This share permission will allow this member the ability to share and send to other members"
+    },
+    "labels": {
+      "folders": "Folder",
+      "files": "File",
+      "project": "Project",
+      "client": "Client",
+      "fileinfo": "File Info",
+      "no_file_selected": "No file selected",
+      "size": "Size",
+      "modified": "Modified",
+      "type": "Type",
+      "shared_with": "Shared with",
+      "share_permission": "Share Permission",
+      "exit_fullscreen": "Exit Fullscreen",
+      "copy_link": "Copy Link",
+      "not_available": "Not Available",
+      "serial_no": "Sl No.",
+      "name": "Name",
+      "members": "Members",
+      "actions": "Actions",
+      "creators":"Creator",
+     "details":"Details",
+     "share":"Share",
+     "no_members":"No Members",
+     "general":"General",
+     "copy_file":"Copy File",
+     "copy_folder ":"Copy Folder",
+     "all_members":"All Members",
+     "share_with_me":"Share only to me",
+     "select_members":"Select Members",
+     "add_members":"Add Members",
+     "id_not_available":"ID is not Available",
+     "desig_not_available":"Designation is not Available",
+     "dept_not_available":"Department is not Available",
+     "status_not_avaialble":"Status is not Available"
+    },
+    "placeholder": {
+      "foldername": "Folder Name",
+      "add_members": "Add Members",
+      "search_projects": "Search projects...",
+      "no_results_found": "No results found",
+      "search_clients": "Search clients...",
+      "search": "Search...",
+      "select_date": "Select date",
+      "calendar": "Calendar",
+      "not_available": "Not Available",
+      "edit_members": "Edit Members",
+      "no_members_found":"No members found",
+      "desc_members":"There are no members available"
+
+    },
+    "validations": {
+      "folder_name_required": "Folder name is required",
+      "invalid_type": "Invalid file type"
+    },
+    "toast": {
+      "update_success": "Updated successfully!",
+      "delete_success": "Delete Successfully!",
+      "shared_membres": "Shared members updated!",
+      "permission_success": "Permission granted successfully!",
+      "copied": "Copied",
+      "shared_member": "Shared members updated!",
+      "file_delete": "File deleted successfully",
+      "star_updated": "Star updated",
+      "no_file_chosen": "No file chosen",
+      "folder_name_is_required": "Folder name is required",
+      "shared_success":"Shared successfully"
+    },
+    "dialog": {
+      "members": "Members",
+      "close": "Close",
+      "delete_title": "Delete",
+      "delete_content": "Are you sure you want to delete",
+      "items": "items?",
+      "delete_content2": "Are you sure you want to delete?",
+      "share_file": "Share File",
+      "delete_content3": "Are you sure you want to delete this file?"
+    }
+  }
+}

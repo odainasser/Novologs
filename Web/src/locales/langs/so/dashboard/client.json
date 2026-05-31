@@ -1,0 +1,381 @@
+{
+ 
+     "clients": {
+    "List": {
+      "heading": "Macaamiil",
+      "dashboard": "Dashboard",
+      "list": "Liis",
+      "heading2": "Alaab-qeybiyayaal",
+      "roles": "Doorar"
+    },
+
+    "tabs": {
+      "groups": "Kooxo",
+      "clients": "Macaamiil",
+      "leads": "Leads",
+      "group1": "Koox 1",
+      "group2": "Koox 2",
+      "group3": "Koox 3",
+      "documents": "Dukumentiyo",
+      "contacts": "Xiriirro",
+      "tasks": "Hawlo",
+      "files": "Faylal",
+      "sales_details": "Faahfaahinta Iibka",
+      "sales_report": "Warbixinta Target",
+      "contracts": "Qandaraasyo"
+    },
+
+    "buttons": {
+      "add": "Ku dar",
+      "update": "Cusboonaysii",
+      "delete": "Tirtir",
+      "add_client": "Ku dar Macmiil",
+      "add_member": "Ku dar Xubin",
+      "add_lead": "Ku dar Lead",
+      "back": "Dib u noqo",
+      "add_sales_group": "Ku dar Koox Iib",
+      "add_group": "Ku dar Koox",
+      "edit_group": "Wax ka beddel Koox",
+      "save": "Kaydi",
+      "print": "Daabac",
+      "export": "Dhoofin",
+      "import": "Soo dejin",
+      "cancel": "Jooji",
+      "clear_all": "Nadiifi dhammaan",
+      "add_employees": "Ku dar Shaqaale",
+      "editButton": "Wax ka beddel",
+      "add_members": "Ku dar xubno",
+      "members": "Xubno",
+      "close": "Xir",
+      "award_lead": "Guulee Lead",
+      "reject_lead": "Diid Lead",
+      "edit": "Wax ka beddel",
+      "add_contact": "Ku dar Xiriir",
+      "add_amount": "Ku dar Qaddar",
+      "enter_amount": "Geli Qaddar",
+      "award": "Guulee",
+      "reject": "Diid"
+    },
+
+    "toast": {
+      "delete_success": "Si guul leh ayaa loo tirtiray!",
+      "group_add": "Koox si guul leh ayaa loo daray!",
+      "group_deleted": "Koox waa la tirtiray",
+      "client_add": "Macmiil si guul leh ayaa loo daray!",
+      "member_add": "Xubin si guul leh ayaa loo daray",
+      "client_deleted_successfully": "Macmiil si guul leh ayaa loo tirtiray",
+      "vendor_deleted_successfully": "Alaab-qeybiye si guul leh ayaa loo tirtiray",
+      "client_update": "Macmiil waa la cusboonaysiiyay!",
+      "employee_exempted": "Shaqaale waa laga dhaafay hawlaha",
+      "permission_added": "Ogolaansho waa la daray",
+      "unexpected_error": "Khalad lama filaan ah ayaa dhacay",
+      "vendor_update": "Alaab-qeybiye waa la cusboonaysiiyay",
+      "group_error": "Khalad ayaa dhacay marka la tirtirayay kooxda",
+      "vendor_add": "Alaab-qeybiye waa la daray"
+    },
+
+    "dialog": {
+      "delete_title": "Tirtir",
+      "delete_content": "Ma hubtaa inaad tirtirto",
+      "items": "walxahan?",
+      "delete_group": "Ma hubtaa inaad tirtirto kooxdan?",
+      "delete_content2": "Ma hubtaa inaad tirtirto?"
+    },
+
+    "filters": {
+      "name_placeholder": "Raadi magaca",
+      "search": "Raadi..."
+    },
+
+    "columns": {
+      "serial_no": "Lambarka",
+      "client_id": "ID Macmiil",
+      "name": "Magaca Macmiilka",
+      "website": "Website",
+      "emirates": "Imaaraad",
+      "location": "Goob",
+      "email": "Email",
+      "address": "Cinwaan",
+      "empId": "ID Shaqaale",
+      "role": "Jago",
+      "department": "Waax",
+      "status": "Xaalad",
+      "level": "Heer",
+      "details": "Faahfaahin",
+      "username": "Magaca isticmaale",
+      "creator": "Abuuraha",
+      "leads": "Leads",
+      "sales": "Iib",
+      "actions": "Ficillo",
+      "phone_no": "Telefoon",
+      "mobile_no": "Moobil",
+      "projects": "Mashruucyo",
+      "contracts": "Qandaraasyo",
+      "vendor_name": "Magaca Alaab-qeybiyaha"
+    },
+
+    "labels": {
+      "group_id": "ID Koox",
+      "group_name": "Magaca Kooxda",
+      "no_members": "Xubno ma jiraan",
+      "all_clients": "Dhammaan Macaamiisha",
+      "all_vendors": "Dhammaan Alaab-qeybiyeyaasha",
+      "client_details": "Faahfaahinta Macmiilka",
+      "vendor_details": "Faahfaahinta Alaab-qeybiyaha",
+      "active_clients": "Macaamiil Firfircoon",
+      "non_active_clients": "Macaamiil aan firfircoonayn",
+      "client_members": "Xubnaha Macmiilka",
+      "client_contacts": "Xiriirrada Macmiilka",
+      "client_tasks": "Hawlaha Macmiilka",
+      "client_files": "Faylasha Macmiilka",
+      "lead_count": "Tirada Leads",
+      "lead_amount": "Qaddarka Leads",
+      "awarded_count": "Tirada la guuleeyay",
+      "rejected_count": "Tirada la diiday",
+      "overall_target": "Hadaf Guud",
+      "report_to": "Warbixin u dir",
+      "reject_lead": "Diid Lead"
+    },
+
+    "placeholder": {
+      "search": "Raadi",
+      "group_name": "Geli magaca kooxda",
+      "group_id": "Geli ID kooxda",
+      "enter_address": "Geli cinwaan"
+    },
+
+    "validations": {
+      "group_name": "Magaca kooxda waa loo baahan yahay",
+      "group_id": "ID kooxda waa loo baahan yahay",
+      "required": "Waa loo baahan yahay",
+      "mobile_no": "Lambarka moobilka waa loo baahan yahay",
+      "email_required": "Email waa loo baahan yahay",
+      "name_required": "Magac waa loo baahan yahay"
+    },
+
+    "categories": {
+      "jan": "Jan",
+      "feb": "Feb",
+      "mar": "Mar",
+      "apr": "Apr",
+      "may": "May",
+      "jun": "Jun",
+      "jul": "Jul",
+      "aug": "Aug",
+      "sep": "Sep",
+      "oct": "Oct",
+      "nov": "Nov",
+      "dec": "Dec"
+    },
+
+    "views": {
+      "list": "Aragti Liis",
+      "grid": "Aragti Grid",
+      "settings": "Dejinta"
+    },
+     "breadcrumb": {
+    "dashboard": "Dashboard",
+    "groups": "Kooxo",
+    "group_details": "Faahfaahinta Kooxda"
+  }
+  },
+    "leaddetails": {
+    "breadcrumbs": {
+      "dashboard": "Dashboard",
+      "leads": "Leads",
+      "lead": "Faahfaahinta Lead"
+    },
+
+    "common": {
+      "sl_no": "Lambarka",
+      "lead_id": "ID Lead",
+      "creator": "Abuuraha",
+      "lead_name": "Magaca Lead",
+      "client_name": "Magaca Macmiilka",
+      "value": "Qiime",
+      "source": "Isha",
+      "probability": "Suurtagalnimo",
+      "status": "Xaalad",
+      "awarded_amount": "Qaddarka la guuleeyay",
+      "rejected_reason": "Sababta diidmada",
+      "lead_source": "Isha Lead",
+      "lead_source_arabic": "Isha Lead (Carabi)",
+      "actions": "Ficillo",
+      "clear_all": "Nadiifi dhammaan",
+      "delete_success": "Si guul leh ayaa loo tirtiray!",
+      "under_approval": "Sugaya oggolaansho",
+      "percentageSuccess": "30%",
+      "placeholder_reject": "Sababta diidmada",
+      "arabic_reject_reason": "Sababta diidmada (Carabi)",
+      "arabic_sales": "Xaaladda iibka (Carabi)",
+      "arabic_designation": "Jago (Carabi)",
+      "sale_status": "Xaaladda iibka",
+      "contract_id": "ID Qandaraas",
+      "contract_name": "Magaca Qandaraaska",
+      "vendorname": "Magaca Alaab-qeybiyaha",
+      "contract": "Qandaraas:",
+      "total_amount": "Wadarta Qaddarka",
+      "contract_type": "Nooca Qandaraaska",
+      "delivery_date": "Taariikhda Gaarsiinta",
+      "award_reject": "Guulee/Diid",
+      "award_amount": "Qaddarka la guuleeyay",
+      "enter_amount": "Geli Qaddar"
+    },
+
+    "tabs": {
+      "leads": "Leads",
+      "awarded": "La guuleeyay",
+      "rejected": "La diiday",
+      "all": "Dhammaan"
+    },
+
+    "form": {
+      "idLabel": "ID",
+      "nameLabel": "Magaca Lead",
+      "amountLabel": "Qiime",
+      "currencyLabel": "Lacag",
+      "sourceLabel": "Isha",
+      "probabilityLabel": "Suurtagalnimo (%)",
+      "statusLabel": "Xaalad",
+      "addButton": "Kaydi"
+    },
+
+    "errors": {
+      "nameRequired": "Magaca Lead waa loo baahan yahay",
+      "idRequired": "ID Lead waa loo baahan yahay",
+      "valueRequired": "Qiime waa loo baahan yahay",
+      "currencyRequired": "Lacag waa loo baahan yahay",
+      "sourceRequired": "Isha waa loo baahan yahay",
+      "probabilityRequired": "Suurtagalnimo waa loo baahan yahay",
+      "statusRequired": "Xaalad waa loo baahan yahay",
+      "amount_required": "Qaddar waa loo baahan yahay"
+    },
+
+    "toast": {
+      "contract_added": "Xaaladda qandaraaska waa la daray",
+      "contract_delete": "Xaaladda qandaraaska waa la tirtiray",
+      "contract_update": "Xaaladda qandaraaska waa la cusboonaysiiyay",
+      "leadAdded": "Lead si guul leh ayaa loo daray!",
+      "leads_awarded": "Leads si guul leh ayaa loo guuleeyay",
+      "lead_awarded": "Lead si guul leh ayaa loo guuleeyay",
+      "lead_rejected": "Lead si guul leh ayaa loo diiday",
+      "leads_rejected": "Leads si guul leh ayaa loo diiday",
+      "lead_source": "Isha Lead waa la daray",
+      "lead_source_delete": "Isha Lead waa la tirtiray",
+      "lead_source_update": "Isha Lead waa la cusboonaysiiyay",
+      "lead_delete": "Ma hubtaa inaad tirtirto isha Lead?",
+      "leadUpdated": "Lead waa la cusboonaysiiyay",
+      "reject_reason": "Sababta diidmada waa la daray",
+      "reject_reason_delete": "Sababta diidmada waa la tirtiray",
+      "degination_update": "Jago waa la cusboonaysiiyay",
+      "sales_status_added": "Xaaladda iibka waa la daray",
+      "sales_status_deleted": "Xaaladda iibka waa la tirtiray",
+      "sales_status_updated": "Xaaladda iibka waa la cusboonaysiiyay",
+      "lead_deleted": "Lead waa la tirtiray",
+      "lead_delete_error": "Tirtiridda Lead way fashilantay",
+      "failed_to_delete_lead": "Ku guuldareysatay tirtiridda Lead",
+      "failed_delete_contract": "Ku guuldareysatay tirtiridda qandaraaska",
+      "contarct_deleted": "Qandaraas waa la tirtiray",
+      "unexpected_error": "Khalad lama filaan ah ayaa dhacay",
+      "contract_updated_successfully": "Qandaraas waa la cusboonaysiiyay",
+      "contract_created_successfully": "Qandaraas waa la abuuray",
+      "failed_to_delete": "Ku guuldareysatay tirtiridda xiriirka",
+      "contact_deleted_successfully": "Xiriir waa la tirtiray",
+      "are_you_sure_contact": "Ma hubtaa inaad tirtirto xiriirkan?",
+      "contact_updated": "Xiriir waa la cusboonaysiiyay",
+      "failed_to_update": "Ku guuldareysatay cusboonaysiinta",
+      "are_you_sure_lead": "Ma hubtaa inaad guuleyso lead-kan?",
+      "contact_created_successfully": "Xiriir waa la abuuray",
+      "are_you_reject": "Ma hubtaa inaad diido lead-kan?",
+      "award_amount": "Qaddarka la guuleeyay waa la daray",
+      "Vendor_added": "Alaab-qeybiye waa la daray",
+      "vendor_deleted_successfully": "Alaab-qeybiye waa la tirtiray",
+      "client_deleted_succesfully": "Macmiil waa la tirtiray",
+      "failed_to_delete_vendor": "Ku guuldareysatay tirtiridda alaab-qeybiyaha",
+      "failed_to_delete_client": "Ku guuldareysatay tirtiridda macmiilka",
+      "are_sure_delete_contract": "Ma hubtaa inaad tirtirto xaaladda qandaraaska?"
+    },
+
+    "buttons": {
+      "list_view": "Aragti Liis",
+      "grid_view": "Aragti Grid",
+      "delete": "Tirtir",
+      "add_lead": "Ku dar Lead",
+      "award": "Guulee",
+      "reject": "Diid",
+      "add_amount": "Ku dar Qaddar"
+    },
+
+    "confirm": {
+      "confirm_title": "Tirtir",
+      "confirm_content": "Ma hubtaa inaad tirtirto jago?",
+      "confirm_status": "Ma hubtaa inaad tirtirto xaaladda iibka?",
+      "confirm_reason": "Ma hubtaa inaad tirtirto sababta diidmada?"
+    },
+
+    "tooltips": {
+      "leadStatus": "Xaaladda Lead",
+      "leadValue": "Qiimaha Lead",
+      "percentageSuccess": "Boqolkiiba guusha",
+      "edit_desigination": "Wax ka beddel jago",
+      "delete_designation": "Tirtir jago"
+    },
+
+    "toolbar": {
+      "filters": "Filters",
+      "status": "Xaalad",
+      "leads": "Leads",
+      "options_status": "Ikhtiyaarrada xaaladda",
+      "leads_options": "Ikhtiyaarrada Leads",
+      "all_leads": "Dhammaan Leads",
+      "department": "Waax",
+      "print": "Daabac",
+      "export": "Dhoofin",
+      "import": "Soo dejin"
+    },
+
+    "editor": {
+      "placeholder": "Bilow qorista..."
+    },
+
+    "table": {
+      "no_data": "Xog lama helin",
+      "empty_rows": "Safaf kale ma jiraan"
+    },
+
+    "pagination": {
+      "rows_per_page": "Safaf bog kasta",
+      "dense_mode": "Hab ciriiri ah"
+    }
+  },
+
+  "addTarget": {
+    "dialogTitle": {
+      "add": "Ku dar target",
+      "edit": "Wax ka beddel target"
+    },
+
+    "toast": {
+      "target_add": "Target si guul leh ayaa loo daray",
+      "target_update": "Target si guul leh ayaa loo cusboonaysiiyay"
+    },
+
+    "form": {
+      "yearLabel": "Sannad",
+      "monthLabel": "Bil",
+      "addButton": "Ku dar",
+      "editButton": "Wax ka beddel",
+      "deleteButton": "Tirtir",
+      "saveButton": "Kaydi"
+    },
+
+    "dialogActions": {
+      "cancel": "Jooji"
+    },
+
+    "errors": {
+      "yearRequired": "Sannad waa loo baahan yahay",
+      "monthlyValueRequired": "Qiimaha bil kasta waa loo baahan yahay"
+    }
+  }
+}

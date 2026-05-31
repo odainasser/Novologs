@@ -1,0 +1,112 @@
+{
+  "heading": {
+    "list": "Liis"
+  },
+  "breadcrumbs": {
+    "dashboard": "Dashboard",
+    "timesheet": "Jadwalka Shaqada",
+    "list": "Liis",
+    "calender": "Kalandarka",
+    "activities": "Hawlaha",
+    "my_activities": "Hawlaha Kayga",
+    "all_timesheets": "Dhammaan Jadwalada Shaqada",
+    "all_activities": "Dhammaan Hawlaha",
+    "my_timesheets": "Jadwalada Shaqadayda"
+  },
+  "tabs": {
+    "all": "Dhammaan Jadwalada Shaqada",
+    "task_type": "Nooca Hawsha",
+    "mission": "Hawlgalku",
+    "Contract": "Qandaraas",
+    "vendor": "Alaab-qeybiye",
+    "project": "Mashruuc",
+    "Lead": "Hoggaan",
+    "Client": "Macmiil",
+    "general": "Guud"
+  },
+
+  "table": {
+    "sl_no": "Lambarka",
+    "timesheet_id": "Aqoonsiga Jadwalka",
+    "project": "Mashruuc",
+    "task": "Hawl",
+    "start_date": "Taariikhda Bilowga",
+    "duration": "Waqti & Muddo",
+    "notes": "Faahfaahin",
+    "not_available": "Lama heli karo",
+    "no_notes": "Faahfaahin ma jirto",
+    "timeslot": "Waqtiga",
+    "actions": "Ficillo",
+    "details": "Faahfaahin",
+    "date": "Taariikh",
+    "task_details": "Faahfaahinta Hawsha",
+    "tasktype": "Nooca Hawsha",
+    "duration_label": "Muddo",
+    "total_duration": "Wadarta Mudada",
+    "employee_id": "Aqoonsiga Shaqaalaha",
+    "code": "Koodh",
+    "employee": "Shaqaale",
+    "designation&department": "Jago & Waax"
+  },
+
+  "form": {
+    "save": "Kaydi",
+    "update": "Cusboonaysii",
+    "clear": "Nadiifi",
+
+    "id": "Aqoonsiga Jadwalka",
+    "project": "Mashruuc",
+    "task": "Hawl",
+    "start_date": "Taariikhda Bilowga",
+    "duration": "Waqti & Muddo",
+    "notes": "Faahfaahin",
+    "start_time": "Waqtiga Bilowga",
+    "end_time": "Waqtiga Dhamaadka",
+
+    "select_time_slot": "Dooro waqti",
+    "add_timesheet": "Ku dar Jadwal Shaqo",
+    "select_project": "Dooro Mashruuc",
+    "select_task": "Dooro Hawl",
+    "search_task": "Raadi hawl...",
+    "search_placeholder": "Raadi...",
+    "no_results": "Natiijo lama helin",
+    "search": "Raadi",
+    "search_project": "Raadi mashaariic...",
+    "add_timesheet_details": "Ku dar Faahfaahinta Jadwalka"
+  },
+
+  "toast": {
+    "timesheet_success": "Jadwalka shaqada si guul leh ayaa loo daray!",
+    "delete_success": "Si guul leh ayaa loo tirtiray!",
+    "calendar_error": "Fadlan marka hore dooro taariikh kaalandarka.",
+    "id_error": "Waa loo baahan yahay",
+    "start_time_missing": "Waqtiga bilowga waa maqan",
+    "durationMissing": "Muddo lama helin, fadlan dooro waqti",
+    "please_select_time_slot": "Fadlan dooro waqti",
+    "timesheet_updated": "Jadwalka shaqada si guul leh ayaa loo cusboonaysiiyay",
+    "timesheet_created": "Jadwalka shaqada si guul leh ayaa loo sameeyay",
+    "timesheet_deleted": "Jadwalka shaqada si guul leh ayaa loo tirtiray",
+    "delete_failed": "Tirtiriddu way fashilantay"
+  },
+
+  "actions": {
+    "delete": "Tirtir",
+    "add_timesheet": "Ku dar Jadwal Shaqo",
+    "edit": "Wax ka beddel",
+    "print": "Daabac",
+    "export": "Dhoofin",
+    "import": "Soo dejin",
+    "cancel": "Jooji",
+    "confirm": "Xaqiiji",
+    "save": "Kaydi",
+    "update": "Cusboonaysii",
+    "add": "Ku dar",
+    "any_actions": "Ficillo kasta"
+  },
+
+  "dialogs": {
+    "confirm_delete": "Ma hubtaa inaad tirtirto",
+    "items": "walxaha?",
+    "confirm_delete_single": "Ma hubtaa inaad tirtirto jadwalkan shaqo?"
+  }
+}

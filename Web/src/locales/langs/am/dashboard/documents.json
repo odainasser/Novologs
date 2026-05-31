@@ -1,0 +1,160 @@
+{
+    "documents": {
+     "add": {
+    "back": "ተመለስ",
+    "new_heading": "አዲስ ሰነድ ፅሁፍ",
+    "edit_heading": "ሰነዱን አስተካክል",
+    "details_title": "ዝርዝሮች",
+    "dashboard": "መለኪያ ሰሌዳ",
+    "documents": "ሰነዶች",
+    "type": "አይነት",
+    "actions": "ተግባሮች",
+    "comments_yet": "እስካሁን ድረስ አስተያየት የለም።",
+     "edit_content": "ይዘት ያስተካክሉ",
+    "details_subtitle": "ርዕስ፣ አጭር መግለጫ፣ ምስል...",
+    "form": {
+    "title": "ሰነዱ ርዕስ",
+    "description": "አጭር መግለጫ",
+    "cover_upload": "ኮቨር ምስል ማስገባት",
+    "category": "ምድብ",
+    "node_type": "እትም አይነት",
+    "viewers": "እንቅስቃሴ እንዲመለከቱ...",
+    "editors": "አርትዕ ተከታታዮች...",
+    "no_viewers_note": "እንደ እትም እንዲመለከቱ ማንኛውም እባክዎን ተመልከቱ፣ ማንኛውም ሰነድ እንደ አሰበከኝ ተጠቅመኝ እንዲሆን ማንም እንዲሁ እንዲመለከቱ...!",
+    "add_category": "አዲስ ምድብ አስተካክል",
+    "category_name": "ምድብ ስም",
+    "title_1": "ርዕስ",
+    "cover": "ኮቨር",
+    "card_header": "ባለቤት ማነት",
+    "subheader": "ማቅረብ ተተኪ ማነት",
+    "viewers_name": "ተመልካቾች",
+  "editor_name": "አርታዒዎች",
+  "Change_Viewers": "ተመልካቾችን ለውጥ",
+  "Add_viewers": "ተመልካቾችን አክል",
+  "Change_Editors": "አርታዒዎችን ለውጥ",
+  "Add_Editors": "አርታዒዎችን አክል"
+   },
+
+  "content": "ይዘት",
+  "placeholder": "መጻፍ ጀምሩ...",
+  "placeholder_category": "ምድቡን መፈለግ...",
+ "submit_create": "ሰነዱን አፍርስ",
+  "submit_update": "ሰነዱን አዘምን",
+  "toast_create": "ሰነዱ ተፈጥሯል",
+  "toast_update": "ሰነዱ አዘምኗል",
+  "editor_title": "ይዘት",
+  "cover_upload_success": "ኮቨር ምስል በተሳካ ሁኔታ ተሳስቷል",
+  "cover_upload_error": "በኮቨር ምስል ማስገባት ስህተት ተከሰተ",
+  "editor_subtitle": "ሰነዱን መጻፍ እንዲሆን እንደ በዚህ ቦታ ይሙሉ..."
+      },
+    "type": {
+    "book": "መፅሃፍ",
+    "folder": "ፎልደር",
+    "wiki": "ዊኪ",
+    "post": "ልጥፍ",
+    "project": "ፕሮጀክት",
+    "story": "ታሪክ",
+    "task": "ተግባር",
+    "milestone": "ወርቅ ነገር",
+    "lead": "ሊድ",
+    "client": "ደንበኛ",
+    "contract": "ውል",
+    "vendor": "አቅራቢ"
+  },
+
+"toast": {
+    "document_delete": "ሰነዱ በትክክል ተሰርዟል",
+    "response_error": "ሰነዱን ማጥፋት አልተሳካም",
+    "document_update": "ሰነዱ በትክክል ተዘምኗል",
+    "failed_document": "ሰነዱ ማዘመን አልተሳካም",
+    "failed_add": "ሰነዱ መጨመር አልተሳካም",
+    "comment_add":"እቅድ በትክክል ተጨመረ",
+    "comment_add_fail":"እቅድ መጨመር አልተሳካም",
+    "document_add_fail": "ሰነዱ ተጨመረ ነበር፣ ግን የተግባሩ አዘምን አልተሳካም",
+   "document_error": "ሰነዱን ማስቀመጥ ላይ ስህተት ተከሰተ",
+   "operation_failed":"ተግባር አልተሳካም እባክዎን እንደገና ይሞክሩ",
+   "document_link": "ሰነዱ በትክክል ተጨመረና ከተግባሩ ጋር ተያያዘ",
+  "unexpected_error_delete": "ሰነዱን ማጥፋት ላይ ያልተጠበቀ ስህተት ተፈጥሯል"
+},
+
+      "validation": {
+    "title_required": "ርዕስ ያስፈልጋል",
+    "description_required": "መግለጫ ያስፈልጋል",
+    "category_required": "ምድብ ያስፈልጋል",
+    "node_type_required": "እትም አይነት ያስፈልጋል"
+      },
+     "list": {
+  "heading": "ሰነዶች",
+
+  "tabs": {
+    "list": "ዝርዝር"
+},
+
+  "toolbar": {
+    "search_placeholder": "በሰነዶች ውስጥ ፍለጋ...",
+    "category_all": "ሁሉንም ምድቦች",
+    "sort_by": "በመስተካከል",
+    "sort_latest": "አዳዲስ",
+    "sort_oldest": "አሮጌ",
+    "add_button": "አዲስ ሰነድ ጨምር",
+    "none_selected":"ምንም እምረጡ አልተገኘም",
+    "back": "ወደኋላ",
+    "doc_type": "የሰነድ አይነት",
+    "edit": "አስተካክል",
+    "share": "አጋራ",
+    "dialog_title": "ሰነዱን አጋራ",
+    "make_public": "ለሁሉም አድርግ",
+    "copy_instruction": "ይህን አገናኝ ቅዳና አጋራ:",
+    "copy_button": "አገናኝ ቅዳ",
+    "close_button": "ዝጋ",
+    "copied_to_clipboard": "አገናኝ ወደ ቅኝብ ተቀድሏል!"
+  },
+  "filters": {
+    "keyword": "ቁልፍ ቃል:",
+    "category": "ምድብ:",
+    "sort": "በመስተካከል:"
+  }
+},
+
+      "details": {
+       "not_found": "ሰነዱ አልተገኘም",
+        "comments": "እቅዶች",
+        "share": {
+          "title": "مشاركة المستند",
+          "public_toggle": "اجعل المستند عاماً",
+          "copy_label": "انسخ وشارك هذا الرابط:",
+          "copy_button": "نسخ الرابط",
+          "copied": "تم نسخ الرابط إلى الحافظة!"
+        }
+      },
+
+    "comment": {
+   "placeholder": "እባክዎን አንዳንድ እቅድ አሳሳቢን ይጻፉ...",
+    "reply_button": "መልስ",
+    "write_comment": "አንዳንድ እቅድ አሳሳቢን ይጻፉ...",
+    "post_comment": "አሳሳቢን እቅድ ላክ",
+    "copied_file": "ፋይል ተቅጣ",
+    "attached_file_removed": "ፋይል አስወገድ",
+    "emoji_picker": "አንድ ምስል ምረጥ",
+    "attached_files": "ተከታታይ ፋይሎች",
+    "file_removed": "ፋይል አስወገድ",
+    "select_file": "ፋይል ምረጥ"
+},
+
+       "actions": {
+    "edit": "ማሻሻያ",
+    "delete": "ማስፈን",
+    "view": "ማሳየት",
+    "new": "አዲስ",
+    "no_content": "ለማስቀመጥ ምንም ይዘት አልተገኘም",
+    "cancel": "ማስተካከያ",
+    "add": "ጨምር",
+    "print": "ተተኪ",
+    "export": "ማስመዝገብ",
+    "save": "አስቀምጥ",
+     "import": "መግባት",
+    "delete_confirm": "እባኮትን ስለምታሳየው ሰነድ መስፈን ማስፈን ይደርሳል?"
+  }
+    }
+  }
+  

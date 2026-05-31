@@ -1,0 +1,17 @@
+{
+  "home": {
+    "welcome_back": "Welcome back ",
+    "new_notice": "You’ll see announcement here",
+    "no_notice": "No Announcement",
+    "view_all": "View All",
+    "no_data": "No data",
+    "no_data_found": "No data found",
+    "loading": "Loading...",
+    "error": "Error",
+    "try_again": "Try again",
+    "search": "Search",
+    "no_results": "No results found",
+    "searching": "Searching...",
+    "cancel": "Cancel"
+  }
+}

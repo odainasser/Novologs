@@ -1,0 +1,14 @@
+
+
+
+
+{
+  "upload": {
+    "drop_or_select": "Déposer ou sélectionner un fichier",
+    "drop_here": "Déposez les fichiers ici ou cliquez pour",
+    "browse": "parcourir",
+    "browse_suffix": "votre appareil.",
+    "upload_photo": "Téléverser une photo",
+    "update_photo": "Mettre à jour la photo"
+  }
+}

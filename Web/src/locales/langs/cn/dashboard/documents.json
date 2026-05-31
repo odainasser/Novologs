@@ -1,0 +1,157 @@
+{
+  "documents": {
+      "add": {
+      "back": "返回",
+      "new_heading": "创建新文档",
+      "edit_heading": "编辑文档",
+      "details_title": "详情",
+      "dashboard": "仪表板",
+      "documents": "文档",
+      "type": "类型",
+      "actions": "操作",
+      "edit_content": "编辑内容",
+         "no_comments_yet": "还没有评论。",
+
+      "details_subtitle": "标题、简短描述、封面图片...",
+      "form": {
+  "title": "文档标题",
+  "description": "简要描述",
+  "cover_upload": "上传封面图片",
+  "category": "类别",
+  "node_type": "节点类型",
+  "viewers": "搜索查看者...",
+  "editors": "搜索编辑者...",
+  "no_viewers_note": "如果未选择查看者，此帖子将公开。",
+  "add_category": "添加新类别",
+  "category_name": "类别名称",
+  "title_1": "标题",
+  "cover": "封面",
+  "card_header": "属性",
+  "subheader": "附加功能和属性...",
+  "viewers_name": "查看者",
+  "editor_name": "编辑者",
+  "Change_Viewers": "更改查看者",
+  "Add_viewers": "添加查看者",
+  "Change_Editors": "更改编辑者",
+  "Add_Editors": "添加编辑者"
+},
+
+      "content": "内容",
+      "placeholder": "开始书写...",
+      "placeholder_category": "搜索类别...",
+      "submit_create": "创建文档",
+      "submit_update": "更新文档",
+      "toast_create": "文档已创建",
+      "toast_update": "文档已更新",
+      "editor_title": "内容",
+      "cover_upload_success": "封面上传成功",
+      "cover_upload_error": "封面上传失败",
+      "editor_subtitle": "请在此输入文档内容..."
+    },
+
+    "validation": {
+      "title_required": "标题为必填项",
+      "description_required": "描述为必填项",
+      "category_required": "类别为必填项",
+      "node_type_required": "节点类型为必填项"
+    },
+  
+  "type": {
+    "book": "书籍",
+    "folder": "文件夹",
+    "wiki": "维基",
+    "post": "帖子",
+    "project": "项目",
+    "story": "故事",
+    "task": "任务",
+    "milestone": "里程碑",
+    "lead": "潜在客户",
+    "client": "客户",
+    "contract": "合同",
+    "vendor": "供应商"
+  },
+"toast": {
+    "document_delete": "文档删除成功",
+    "response_error": "文档删除失败",
+    "document_update": "文档更新成功",
+    "failed_document": "文档更新失败",
+    "failed_add": "文档添加失败",
+    "document_error": "保存文档时发生错误",
+    "document_link": "文档已成功添加并链接到任务",
+    "unexpected_error_delete": "删除文档时发生意外错误",
+    "document_add_fail": "文档已添加，但任务更新失败"
+
+},
+
+
+
+
+    "list": {
+      "heading": "文档",
+      "tabs": {
+        "list": "列表"
+      },
+      "toolbar": {
+        "search_placeholder": "搜索文档...",
+        "category_all": "所有类别",
+        "sort_by": "排序方式",
+        "sort_latest": "最新",
+        "sort_oldest": "最旧",
+        "add_button": "添加新文档",
+        "back": "返回",
+        "edit": "编辑",
+        "share": "分享",
+        "doc_type": "文档类型",
+
+        "dialog_title": "分享文档",
+        "make_public": "设为公开",
+        "copy_instruction": "复制并分享此链接：",
+        "copy_button": "复制链接",
+        "close_button": "关闭",
+        "copied_to_clipboard": "链接已复制到剪贴板！"
+      },
+      "filters": {
+        "keyword": "关键词：",
+        "category": "类别：",
+        "sort": "排序："
+      }
+    },
+    "details": {
+      "not_found": "未找到文档",
+      "comments": "评论",
+      "share": {
+        "title": "分享文档",
+        "public_toggle": "设为公开文档",
+        "copy_label": "复制并分享此链接：",
+        "copy_button": "复制链接",
+        "copied": "链接已复制到剪贴板！"
+      }
+    },
+    "comment": {
+      "placeholder": "写下你的评论...",
+      "reply_button": "回复",
+      "write_comment": "写下你的评论...",
+      "post_comment": "提交评论",
+      "copied_file": "文件已复制",
+      "attached_file_removed": "附件已移除",
+      "emoji_picker": "选择表情符号",
+      "attached_files": "附件",
+      "file_removed": "文件已移除",
+      "select_file": "选择文件"
+    },
+    "actions": {
+      "edit": "编辑",
+      "delete": "删除",
+      "view": "查看",
+      "new": "新建",
+      "cancel": "取消",
+      "add": "添加",
+      "print": "打印",
+      "export": "导出",
+       "save": "保存",
+      "no_content": "未找到可保存的内容",
+      "import": "导入",
+      "delete_confirm": "您确定要删除此文档吗？"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "gantt": {
+    "timeline_not_found": "Jadwal lama helin",
+    "column_assignees": "Loo qoondeeyay",
+    "column_project": "Mashruuc",
+    "column_mission": "Mission",
+    "column_client": "Macmiil",
+    "column_lead": "Hogaamiye",
+    "column_vendor": "Alaab-qeybiye",
+    "column_contract": "Qandaraas",
+    "column_backlog": "Kayd Hawleed",
+    "tooltip_start": "Bilow:",
+    "tooltip_finish": "Dhamaad:",
+    "no_tasks_display": "Wax hawlo ah lama soo bandhigi karo jadwalka",
+    "permission_denied": "Ogolaansho waa la diiday",
+    "confirm_date": "Xaqiiji beddelka taariikhda",
+    "date": "Taariikh",
+    "?": "?",
+    "title": "Gantt",
+    "are_you_sure": "Ma hubtaa inaad beddesho",
+    "confirm": "Xaqiiji",
+    "cancel": "Jooji",
+    "are_you_sure_update_task": "Ma hubtaa inaad cusboonaysiiso horumarka hawsha?",
+    "task_name": "Magaca Hawsha",
+    "ID": "ID",
+    "start_date": "Taariikhda Bilowga",
+    "end_date": "Taariikhda Dhamaadka",
+    "task_not_in_progress": "Hawshu ma ahan \"Socota\", lama cusboonaysiin karo horumarka",
+    "you_donot": "Ogolaansho uma lihid inaad wax ka beddesho horumarka",
+    "confirm_progress": "Xaqiiji beddelka horumarka"
+  }
+}

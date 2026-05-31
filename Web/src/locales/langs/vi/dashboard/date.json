@@ -1,0 +1,10 @@
+{
+    "date": {
+        "title": "Chọn khoảng thời gian",
+        "start_date": "Ngày bắt đầu",
+        "end_date": "Ngày kết thúc",
+        "end_date_validation": "Ngày kết thúc phải sau ngày bắt đầu",
+        "cancel": "Hủy",
+        "apply": "Áp dụng"
+    }
+}

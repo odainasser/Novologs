@@ -1,0 +1,17 @@
+{
+  "home": {
+    "welcome_back": "እንኳን በደህና መጡ ",
+    "new_notice": "ማስታወቂያው እዚህ ይታያል",
+    "no_notice": "ምንም ማስታወቂያ የለም",
+    "view_all": "ሁሉንም እይ",
+    "no_data": "መረጃ የለም",
+    "no_data_found": "መረጃ አልተገኘም",
+    "loading": "በመጫን ላይ...",
+    "error": "ስህተት",
+    "try_again": "እንደገና ሞክር",
+    "search": "ፈልግ",
+    "no_results": "ምንም ውጤት አልተገኘም",
+    "searching": "በመፈለግ ላይ...",
+    "cancel": "ሰርዝ"
+  }
+}

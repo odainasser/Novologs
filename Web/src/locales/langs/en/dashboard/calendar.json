@@ -1,0 +1,56 @@
+{
+    "calendar": {
+      "title": "Calendar",
+      "new_event": "New event",
+      "edit_event": "Edit event",
+      "filters": "Filters",
+      "colors": "Colors",
+      "range": "Range",
+      "event":"Event",
+      "events": "Events",
+      "today": "Today",
+      "month": "Month",
+      "week": "Week",
+      "day": "Day",
+      "agenda": "Agenda",
+      "reset": "Reset",
+      "view": {
+        "month": "Month",
+        "week": "Week",
+        "day": "Day",         
+        "agenda": "Agenda"
+      },
+      "tooltip":{
+        "delete_event":"Delete event",
+        "edit_event":"Edit event"
+
+      },    
+      "form": {
+        "title": "Title",
+        "description": "Description",
+        "all_day": "All day",
+        "start_date": "Start date",
+        "end_date": "End date",
+        "save": "Save changes",
+        "cancel": "Cancel",
+        "delete": "Delete event",
+        "create_success": "Create success!",
+        "update_success": "Update success!",
+        "delete_success": "Delete success!"
+      },
+      "dialog":{
+        "add":"Add",
+        "edit":"Edit",
+        "cancel":"Cancel",
+        "delete":"Delete"
+     },
+      "validation": {
+        "title_required": "Title is required!",
+        "description_required": "Description is required!",
+        "description_min": "Description must be at least 50 characters",
+        "title_max": "Title must be less than 100 characters",
+        "end_date_error": "End date must be later than start date"
+      }
+    }
+  }
+  

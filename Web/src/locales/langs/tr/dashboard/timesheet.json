@@ -1,0 +1,76 @@
+{
+  "heading": {
+    "list": "Liste"
+  },
+  "breadcrumbs": {
+    "dashboard": "Kontrol Paneli",
+    "timesheet": "Zaman Çizelgesi",
+    "list": "Liste"
+  },
+  "tabs": {
+    "all": "Tüm Zaman Çizelgeleri",
+    "task_type": "Görev Türü"
+  },
+  "table": {
+    "sl_no": "No",
+    "timesheet_id": "Zaman Çizelgesi Kimliği",
+    "project": "Proje",
+    "task": "Görev",
+    "start_date": "Başlangıç Tarihi",
+    "duration": "Saat ve Süre",
+    "notes": "Notlar",
+    "not_available": "Mevcut değil",
+    "no_notes": "Not yok",
+    "timeslot": "Zaman Aralığı",
+    "actions": "İşlemler",
+    "details": "Ayrıntılar",
+     "date": "Tarih",
+  "task_details": "Görev Detayları",
+  "tasktype": "Görev Türü"
+
+  },
+  "form": {
+    "save": "Kaydet",
+    "update": "Güncelle",
+    "clear": "Temizle",
+    "id": "Zaman Çizelgesi Kimliği",
+    "project": "Proje",
+    "task": "Görev",
+    "start_date": "Başlangıç Tarihi",
+    "duration": "Saat ve Süre",
+    "notes": "Notlar",
+    "start_time": "Başlangıç Saati",
+    "end_time": "Bitiş Saati",
+    "select_time_slot": "Zaman aralığı seçin",
+    "add_timesheet": "Zaman Çizelgesi Ekle",
+    "select_project": "Proje Seçin",
+    "select_task": "Görev Seçin",
+    "search_task": "Görev Ara...",
+    "search_placeholder": "Ara...",
+    "no_results": "Sonuç bulunamadı",
+    "search": "Ara",
+    "search_project": "Projeleri Ara...",
+    "add_timesheet_details":"Zaman Çizelgesi Detaylarını Ekle"
+  },
+  "toast": {
+    "timesheet_success": "Zaman çizelgesi başarıyla eklendi!",
+    "delete_success": "Başarıyla silindi!",
+    "calendar_error": "Lütfen önce takvimden bir tarih seçin.",
+    "id_error": "Gerekli"
+  },
+  "actions": {
+    "delete": "Sil",
+    "add_timesheet": "Zaman Çizelgesi Ekle",
+    "edit": "Düzenle",
+    "print": "Yazdır",
+    "export": "Dışa Aktar",
+    "import": "İçe Aktar",
+    "cancel": "İptal",
+    "confirm": "Onayla"
+  },
+  "dialogs": {
+    "confirm_delete": "Silmek istediğinizden emin misiniz",
+    "items": "öğeler?",
+    "confirm_delete_single": "Bu zaman çizelgesini silmek istediğinizden emin misiniz?"
+  }
+}

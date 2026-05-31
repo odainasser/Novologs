@@ -1,0 +1,162 @@
+{
+  "documents": {
+    "add": {
+      "back": "Dib u noqo",
+      "dashboard": "Dashboard",
+      "documents": "Dukumentiyo",
+      "actions": "Ficillo",
+      "new_heading": "Abuur Dukumenti Cusub",
+      "edit_heading": "Wax ka beddel Dukumenti",
+      "details_title": "Faahfaahin",
+      "type": "Nooc",
+      "edit_content": "Wax ka beddel nuxurka",
+      "no_comments_yet": "Faallooyin wali ma jiraan.",
+      "details_subtitle": "Cinwaan, sharaxaad gaaban, sawir...",
+      
+      "form": {
+        "title": "Cinwaanka Dukumentiga",
+        "description": "Sharaxaad Gaaban",
+        "cover_upload": "Soo geli sawirka cover-ka",
+        "category": "Qayb",
+        "node_type": "Nooca Node",
+        "viewers": "Raadi daawadayaal...",
+        "editors": "Raadi tafatirayaal...",
+        "no_viewers_note": "Haddii aan daawadayaal la dooran, dukumentigan wuxuu noqon doonaa mid dadweyne.",
+        "add_category": "Ku dar Qayb Cusub",
+        "category_name": "Magaca Qaybta",
+        "title_1": "Cinwaan",
+        "cover": "Cover",
+        "card_header": "Guryaha",
+        "subheader": "Shaqooyin dheeraad ah iyo astaamo...",
+        "viewers_name": "Daawadayaal",
+        "editor_name": "Tafatirayaal",
+        "Change_Viewers": "Beddel daawadayaasha",
+        "Add_viewers": "Ku dar daawadayaal",
+        "Change_Editors": "Beddel tafatirayaasha",
+        "Add_Editors": "Ku dar tafatirayaal"
+      },
+
+      "content": "Nuxur",
+      "placeholder": "Bilow qorista...",
+      "placeholder_category": "Raadi qayb...",
+      "submit_create": "Abuur Dukumenti",
+      "submit_update": "Cusboonaysii Dukumenti",
+      "toast_create": "Dukumenti waa la abuuray",
+      "toast_update": "Dukumenti waa la cusboonaysiiyay",
+      "editor_title": "Nuxur",
+      "cover_upload_success": "Sawirka cover-ka si guul leh ayaa loo soo geliyay",
+      "cover_upload_error": "Khalad ayaa dhacay marka la soo gelinayay sawirka cover-ka",
+      "editor_subtitle": "Halkan ku qor nuxurka dukumentiga..."
+    },
+
+    "validation": {
+      "title_required": "Cinwaan waa loo baahan yahay",
+      "description_required": "Sharaxaad waa loo baahan yahay",
+      "category_required": "Qayb waa loo baahan yahay",
+      "node_type_required": "Nooca Node waa loo baahan yahay"
+    },
+
+    "list": {
+      "heading": "Dukumentiyo",
+      "tabs": {
+        "list": "Liis"
+      },
+      "toolbar": {
+        "search_placeholder": "Raadi dukumentiyo...",
+        "category_all": "Dhammaan qaybaha",
+        "sort_by": "Kala saar",
+        "sort_latest": "Ugu dambeeyay",
+        "sort_oldest": "Ugu horeeyay",
+        "add_button": "Ku dar Dukumenti Cusub",
+        "none_selected": "Wax lama dooran",
+        "back": "Dib u noqo",
+        "edit": "Wax ka beddel",
+        "share": "La wadaag",
+        "doc_type": "Nooca Dukumentiga",
+        "dialog_title": "La wadaag Dukumenti",
+        "make_public": "Ka dhig dadweyne",
+        "copy_instruction": "Nuqul ka samee oo la wadaag link-kan:",
+        "copy_button": "Nuqul ka samee link",
+        "close_button": "Xir",
+        "copied_to_clipboard": "Link-ga waxaa lagu koobiyay clipboard!"
+      },
+      "filters": {
+        "keyword": "Eray:",
+        "category": "Qayb:",
+        "sort": "Kala saar:"
+      }
+    },
+
+    "type": {
+      "book": "Buug",
+      "folder": "Folder",
+      "wiki": "Wiki",
+      "post": "Qoraal",
+      "project": "Mashruuc",
+      "story": "Sheeko",
+      "task": "Hawl",
+      "milestone": "Heer",
+      "lead": "Lead",
+      "client": "Macmiil",
+      "contract": "Qandaraas",
+      "vendor": "Alaab-qeybiye"
+    },
+
+    "details": {
+      "not_found": "Dukumenti lama helin",
+      "comments": "Faallooyin",
+      "share": {
+        "title": "La wadaag Dukumenti",
+        "public_toggle": "Ka dhig dadweyne",
+        "copy_label": "Nuqul ka samee oo la wadaag link-kan:",
+        "copy_button": "Nuqul ka samee link",
+        "copied": "Link-ga waxaa lagu koobiyay clipboard!"
+      }
+    },
+
+    "comment": {
+      "placeholder": "Qor faallo...",
+      "reply_button": "Ka jawaab",
+      "write_comment": "Qor faallo...",
+      "post_comment": "Ku dar faallo",
+      "copied_file": "Fayl la koobiyay",
+      "attached_file_removed": "Fayl waa la saaray",
+      "emoji_picker": "Dooro emoji",
+      "attached_files": "Faylasha ku lifaaqan",
+      "file_removed": "Fayl waa la saaray",
+      "select_file": "Dooro fayl"
+    },
+
+    "toast": {
+      "document_delete": "Dukumenti si guul leh ayaa loo tirtiray",
+      "response_error": "Tirtiridda dukumentiga way fashilantay",
+      "document_update": "Dukumenti si guul leh ayaa loo cusboonaysiiyay",
+      "failed_document": "Ku guuldareysatay cusboonaysiinta dukumentiga",
+      "failed_add": "Ku guuldareysatay ku darista dukumentiga",
+      "comment_add": "Faallo si guul leh ayaa loo daray",
+      "comment_add_fail": "Ku guuldareysatay ku darista faallada",
+      "document_add_fail": "Dukumenti waa la daray, laakiin cusboonaysiinta hawsha way fashilantay",
+      "document_error": "Khalad ayaa dhacay marka la kaydinayay dukumentiga",
+      "document_link": "Dukumenti si guul leh ayaa loogu daray lana xiriiriyay hawsha",
+      "unexpected_error_delete": "Khalad lama filaan ah ayaa dhacay intii la tirtirayay dukumentiga",
+      "operation_failed": "Hawlgalka waa fashilmay. Fadlan mar kale isku day."
+    },
+
+    "actions": {
+      "edit": "Wax ka beddel",
+      "delete": "Tirtir",
+      "view": "Arag",
+      "new": "Cusub",
+      "cancel": "Jooji",
+      "add": "Ku dar",
+      "print": "Daabac",
+      "save": "Kaydi",
+      "export": "Dhoofin",
+      "import": "Soo dejin",
+      "no_documents_found": "Dukumentiyo lama helin",
+      "no_douments_available": "Dukumentiyo ma jiraan",
+      "no_content": "Wax nuxur ah lama helin si loo kaydiyo",
+      "delete_confirm": "Ma hubtaa inaad tirtirto dukumentigan?"
+    }
+  }
+}

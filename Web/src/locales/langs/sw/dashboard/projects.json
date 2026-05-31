@@ -1,0 +1,562 @@
+
+{
+    "projects":
+    {
+        
+    "dashboard": "Dashibodi",
+    "documents": "Nyaraka",
+    "new": "Mpya",
+    "cancel": "Ghairi",
+    "add": "Ongeza",
+    "done": "Imekamilika",
+    "none_selected": "Hakuna kilichochaguliwa",
+    "placeholder_category": "Tafuta kategoria...",
+    "print": "Chapisha",
+    "export": "Hamisha",
+    "import": "Leta",
+
+    "archived_projects": "Miradi Iliyohifadhiwa",
+    "active_projects": "Miradi Inayoendelea",
+    "all_projects": "Miradi Yote",
+
+    "project": "Mradi",
+    "mission": "Misheni",
+    "client": "Mteja",
+    "vendor": "Msambazaji",
+    "member": "Mwanachama",
+    "category_name": "Jina la Kategoria",
+
+    "edit": "Hariri",
+    "not_avaiable": "Haipatikani",
+
+    "cost": "Gharama",
+    "duration": "Muda",
+    "total_task": "Jumla ya Kazi",
+    "total_duration": "Jumla ya Muda",
+
+    "copy_url": "Nakili Kiungo",
+    "list": "Orodha",
+    "owner": "Mmiliki",
+
+    "task_types": "Aina za Kazi",
+    "general_task_type": "Aina ya Kazi ya Jumla",
+    "project_task_type": "Aina ya Kazi ya Mradi",
+    "mission_task_type": "Aina ya Kazi ya Misheni",
+    "client_task_type": "Aina ya Kazi ya Mteja",
+    "vendor_task_type": "Aina ya Kazi ya Msambazaji",
+
+    "buisnesslead": "Kiongozi wa Biashara",
+    "contract": "Mkataba",
+
+    "project_module": "Moduli za Mradi",
+    "project_milestone": "Hatua Muhimu za Mradi",
+
+    "new_status": "Hali Mpya",
+    "arabic_status": "Hali Mpya kwa Kiarabu",
+
+    "edit_designation": "Hariri Cheo",
+    "add_designation": "Ongeza Cheo",
+    "delete_designation": "Futa Cheo",
+
+    "new_category": "Kategoria Mpya",
+    "arabic_category": "Kategoria Mpya kwa Kiarabu",
+
+    "new_priority": "Kipaumbele Kipya",
+    "arabic_priority": "Kipaumbele kwa Kiarabu",
+
+    "projects": "Miradi",
+    "new_goal": "Lengo Jipya",
+    "arabic_new_goal": "Lengo Jipya kwa Kiarabu",
+
+    "not_available": "Haipatikani",
+
+    "add_update_members": "Ongeza / Sasisha Wanachama",
+
+    "card_header": "Sifa",
+    "subheader": "Vipengele na kazi za ziada...",
+
+    "view_members": "Tazama Wanachama",
+    "add_owners": "Ongeza Wamiliki",
+    "add_members": "Ongeza Wanachama",
+    "edit_owners": "Hariri Wamiliki",
+    "edit_members": "Hariri Wanachama",
+
+    "members": "Wanachama",
+    "owners": "Wamiliki",
+
+    "total_categories": "Jumla ya Kategoria",
+
+    "departments": "Idara",
+    "no_other_owners_found": "Hakuna wamiliki wengine waliopatikana",
+
+    "task_type": "Aina ya Kazi",
+    "designations": "Vyeo",
+    "employee_statuses": "Hali za Wafanyakazi",
+
+    "my_tasks": "Kazi Zangu",
+
+    "task_type_stats": "Takwimu za Aina za Kazi",
+    "my_task_type_stats": "Takwimu za Aina za Kazi Zangu",
+
+    "milestonestats": "Takwimu za Hatua Muhimu",
+    "mymilestonestats": "Takwimu za Hatua Muhimu Zangu",
+
+    "milestone1": "Hatua 1",
+    "milestone2": "Hatua 2",
+
+    "add_mission_details": "Ongeza Maelezo ya Misheni",
+    "edit_mission_details": "Hariri Maelezo ya Misheni",
+
+    "project_detail": "Maelezo ya Mradi",
+    "add_project_details": "Ongeza Maelezo ya Mradi",
+    "edit_project_details": "Hariri Maelezo ya Mradi",
+
+    "project_goals": "Malengo ya Mradi",
+    "no_goals_available": "Hakuna malengo yaliyopo",
+    "no_initiative_available": "Hakuna mipango iliyopo",
+    "no_milestone_available": "Hakuna hatua muhimu zilizopo",
+    "no_clients_available": "Hakuna wateja waliopo",
+    "no_tasktypes_available": "Hakuna aina za kazi zilizopo",
+    "no_modules_available": "Hakuna moduli zilizopo",
+
+    "mission_description": "Maelezo ya Misheni",
+    "project_description": "Maelezo ya Mradi",
+
+    "project_goal_arabic": "Lengo la Mradi kwa Kiarabu",
+    "project_goal_delete": "Una uhakika unataka kufuta lengo hili la mradi?",
+
+    "add_editors": "Ongeza Wahariri",
+    "add_viewers": "Ongeza Watazamaji",
+    "edit_viewers": "Hariri Watazamaji",
+    "edit_editors": "Hariri Wahariri",
+
+    "content": "Maudhui",
+    "title": "Kichwa",
+    "cover": "Jalada",
+
+    "code": "Msimbo",
+    "save": "Hifadhi",
+
+    "start_typing": "Anza kuandika...",
+
+    "project_type": "Aina ya kazi ya mradi",
+    "project_tasktype_arabic": "Aina ya kazi ya mradi kwa Kiarabu",
+
+
+
+       "project_settings": {
+    "tabs": {
+      "createProjects": "Ruhusa za Kuunda Mradi",
+      "viewProjects": "Ruhusa za Kuona Mradi",
+      "goal": "Malengo ya Mradi",
+      "goals": "Lengo la Mradi",
+      "initiative": "Mpango wa Mradi",
+      "search": "Tafuta",
+      "status": "Hali",
+      "tasktypes": "Aina za Kazi",
+      "new_intitiative": "Mpango Mpya",
+      "arabic_new_intitiative": "Mpango Mpya kwa Kiarabu",
+      "settings": "Mipangilio",
+      "project_initiative_added": "Mpango wa mradi umeongezwa kwa mafanikio",
+      "project_initiative_deleted": "Mpango wa mradi umefutwa kwa mafanikio",
+      "project_updated": "Mpango wa mradi umesasishwa kwa mafanikio",
+      "project_initiative_arabic": "Mpango wa mradi kwa Kiarabu",
+      "project_iniitative_confirm": "Una uhakika unataka kufuta mpango huu wa mradi?",
+      "project-cost-view": "Ruhusa ya Kuona Gharama za Mradi",
+      "view_all": "Ruhusa ya Kuona Miradi Yote",
+      "create_project": "Ruhusa ya Kuunda Mradi"
+    }
+  },
+
+  "projects-status": {
+    "created": "Imeundwa",
+    "started": "Imeanza",
+    "closed": "Imefungwa",
+    "completed": "Imekamilika",
+    "cancelled": "Imeghairiwa",
+    "inprogress": "Inaendelea",
+    "postpone": "Imeahirishwa",
+    "amended": "Imerekebishwa",
+    "reopened": "Imefunguliwa tena",
+    "stopped": "Imesimamishwa"
+  },
+
+  "missions": {
+    "archived_missions": "Misheni Zilizohifadhiwa",
+    "missions": "Misheni",
+    "active_missions": "Misheni Zinazoendelea",
+    "all_missions": "Misheni Zote",
+    "add_mission_color": "Ongeza Rangi ya Misheni",
+    "edit_mission_color": "Hariri Rangi ya Misheni",
+    "add_mission_name": "Ongeza Jina la Misheni",
+    "edit_mission_name": "Hariri Jina la Misheni",
+    "add_mission_details": "Ongeza Maelezo ya Misheni",
+    "add_mission": "Ongeza Misheni",
+    "change_owners": "Badilisha Wamiliki",
+    "mission_name": "Jina la Misheni",
+    "mission_details": "Maelezo ya Misheni",
+    "mission": "Misheni",
+    "milestones": "Hatua Muhimu",
+    "category": "Kategoria",
+    "AddMilestone": "Ongeza Hatua Muhimu",
+    "edit_milestone": "Hariri Hatua Muhimu",
+    "add_category": "Ongeza Kategoria",
+    "edit_category": "Hariri Kategoria",
+    "add_milestone": "Ongeza Hatua Muhimu",
+    "add_milestone_details": "Ongeza Maelezo ya Hatua Muhimu",
+    "edit_milestone_details": "Hariri Maelezo ya Hatua Muhimu",
+    "milestone_details": "Maelezo ya Hatua Muhimu",
+    "milestone": "Hatua Muhimu",
+    "confirm_swap": "Thibitisha Mabadiliko",
+    "are_you_sure_want": "Una uhakika unataka kubadilisha kategoria hii?",
+    "yes": "Ndiyo",
+    "cancel": "Ghairi",
+    "are_you_sure_milestone": "Una uhakika unataka kufuta hatua hii muhimu?",
+    "add_tasks": "Ongeza Kazi kwenye Hatua Muhimu",
+    "clear_all": "Futa Zote",
+    "are_you_sure_want_to_milestone": "Una uhakika unataka kufuta kazi zote kutoka kwenye hatua hii muhimu?",
+    "delete_milestone": "Hatua muhimu imefutwa kwa mafanikio",
+    "no_milestone_deleted": "Hakuna hatua muhimu iliyochaguliwa kufutwa",
+    "task_cleared": "Kazi zimeondolewa kutoka kwenye hatua muhimu kwa mafanikio",
+    "uncategorized": "Haijaainishwa",
+    "startdate": "Tarehe ya kuanza",
+    "enddate": "Tarehe ya mwisho",
+    "add": "Ongeza",
+    "name": "Jina",
+    "decription": "Maelezo",
+    "milestone_added": "Hatua muhimu imeongezwa kwa mafanikio",
+    "namerequired": "Jina linahitajika",
+    "startdate_enddate": "Tarehe ya kuanza haiwezi kuwa baada ya tarehe ya mwisho",
+    "enddate_startdate": "Tarehe ya mwisho haiwezi kuwa kabla ya tarehe ya kuanza"
+  },
+
+
+"table": {
+    "serialNo": "Namba ya Mfuatano",
+    "id": "Kitambulisho",
+    "serial_no": "Na. ya Mfuatano",
+    "creator": "Muundaji",
+    "name": "Jina",
+    "department": "Idara",
+    "startDate": "Tarehe ya Kuanza",
+    "endDate": "Tarehe ya Mwisho",
+    "members": "Wamiliki",
+    "owners": "Wanachama",
+    "details": "Maelezo",
+    "status": "Hali",
+    "actions": "Vitendo",
+    "confirm_delete": "Una uhakika unataka kufuta",
+    "content": "Una uhakika unataka kufuta nafasi hii?",
+    "content3": "Una uhakika unataka kufuta mradi huu?",
+    "no_data": "Hakuna data iliyopatikana",
+    "dense": "Mwonekano wa karibu",
+    "actions_delete": "Futa",
+    "save": "Hifadhi",
+    "clear_all": "Futa Sehemu Zote",
+    "update": "Sasisha",
+    "edit": "Hariri",
+    "project_name": "Jina la Mradi",
+    "add_owners": "Ongeza Wamiliki",
+    "add_members": "Ongeza Wanachama",
+    "add_project_color": "Ongeza Rangi ya Mradi",
+    "edit_project_color": "Hariri Rangi ya Mradi",
+    "add_project_details": "Ongeza Maelezo ya Mradi",
+    "edit_project_details": "Hariri Maelezo ya Mradi",
+    "add": "Ongeza",
+    "project_desc": "Maelezo ya Mradi",
+    "project_milestone": "Hatua ya Mradi",
+    "task_type": "Aina ya Kazi",
+    "modules": "Moduli",
+    "no_members": "Hakuna Wanachama",
+    "close": "Funga",
+    "project_tasks": "Kazi za Mradi",
+    "clear_All": "Futa Zote",
+    "email": "Barua Pepe",
+    "phone_number": "Nambari ya Simu",
+    "country": "Nchi",
+    "address": "Anwani",
+    "city": "Jiji",
+    "AddBranch": "Ongeza Tawi",
+    "branchupdated": "Tawi limesasishwa kwa mafanikio",
+    "branchcreated": "Tawi limeundwa kwa mafanikio",
+    "branchdeleted": "Tawi limefutwa kwa mafanikio",
+    "failed_to_update": "Imeshindikana kusasisha tawi",
+    "failed_to_delete": "Imeshindikana kufuta tawi",
+    "email_required": "Barua pepe inahitajika",
+    "no_branches_found": "Hakuna matawi yaliyopatikana",
+    "code": "Nambari",
+    "are_you_sure_want_delete": "Una uhakika unataka kufuta tawi hili?",
+    "no_branches_available_for": "Hakuna matawi yaliyopo kwa kampuni hii",
+    "task_delete": "Una uhakika unataka kufuta aina hii ya kazi ya mradi?"
+  },
+
+"categories": {
+    "project_track": "Ufuatiliaji wa Mradi",
+    "team_communication": "Mawasiliano ya Timu",
+    "document_sharing": "Ushirikiano wa Nyaraka",
+    "workflow_automation": "Uendeshaji wa Mtiririko wa Kazi",
+    "time_tracking": "Ufuatiliaji wa Muda",
+    "task_priority": "Kipaumbele cha Kazi",
+    "goal_setting": "Uwekaji wa Malengo",
+
+    "months": {
+      "jan": "Jan",
+      "feb": "Feb",
+      "mar": "Mac",
+      "apr": "Apr",
+      "may": "Mei",
+      "jun": "Jun",
+      "jul": "Jul",
+      "aug": "Ago",
+      "sep": "Sep"
+    }
+  },
+
+  "employee_card": {
+    "id_not_available": "Kitambulisho cha mfanyakazi hakipatikani",
+    "designation_not_available": "Cheo hakipatikani",
+    "department_not_available": "Idara haipatikani",
+    "status_not_available": "Hali haipatikani",
+    "start_date_not": "Tarehe ya kuanza haipatikani",
+    "end_date_not": "Tarehe ya mwisho haipatikani",
+    "description_available": "Maelezo hayapatikani",
+    "initiative_available": "Mpango haupatikani",
+    "goal_not_available": "Lengo halipatikani"
+  },
+
+  "status": {
+    "on_duty": "Kazini",
+    "update": "Sasisha",
+    "active": "Washa",
+    "archive": "Hifadhi",
+    "change_status": "Badilisha Hali",
+    "content_active": "Una uhakika unataka kuamilisha mradi huu?",
+    "content_archive": "Una uhakika unataka kuhifadhi mradi huu?",
+    "no_members_available": "Hakuna wanachama waliopo",
+    "confirm_change_status": "Una uhakika unataka kubadilisha hali kuwa",
+    "no_status_found": "Hakuna hali iliyopatikana",
+    "change": "Badilisha",
+    "no_members_found": "Hakuna wanachama waliopatikana",
+    "no_members_desc": "Hakuna wanachama waliopo",
+    "completed_on_time": "Imekamilika kwa wakati",
+    "completed_late": "Imekamilika kwa kuchelewa",
+    "overdue": "Imechelewa",
+    "working_on": "Inaendelea",
+    "not_started": "Haijaanza",
+    "on_hold": "Imesitishwa",
+    "waiting_for_approval": "Inasubiri idhini",
+    "in_progress": "Inaendelea",
+    "submitted": "Imewasilishwa",
+    "completed": "Imekamilika",
+    "task_progress": "Maendeleo ya Kazi",
+    "failed_update": "Imeshindikana kusasisha hali",
+    "task_status": "Hali ya kazi imebadilishwa kwa mafanikio",
+    "task_status_error": "Imeshindikana kubadilisha hali ya kazi"
+  },
+
+  "Projectmodule": {
+    "project_module_added": "Moduli ya mradi imeongezwa kwa mafanikio",
+    "project_module_deleted": "Moduli ya mradi imefutwa kwa mafanikio",
+    "project_module_updated": "Moduli ya mradi imesasishwa kwa mafanikio",
+    "tooltip_edit": "Hariri",
+    "tooltip_save": "Hifadhi",
+    "tooltip_delete": "Futa",
+    "project_module_arabic": "Moduli ya mradi kwa Kiarabu",
+    "add": "Ongeza",
+    "project_module": "Moduli ya Mradi",
+    "confirm_delete": "Una uhakika unataka kufuta moduli hii ya mradi?"
+  },
+
+  "tooltip": {
+    "list": "Mwonekano wa Orodha",
+    "grid": "Mwonekano wa Gridi",
+    "view_archived_projects": "Angalia Miradi Iliyohifadhiwa",
+    "view_active_projects": "Angalia Miradi Inayoendelea",
+    "settings": "Mipangilio",
+    "add_project_color": "Ongeza rangi ya mradi",
+    "add_project_details": "Ongeza maelezo ya mradi",
+    "add_employee": "Ongeza Mfanyakazi",
+    "cancel": "Ghairi",
+    "copy_phone_number": "Nakili Nambari ya Simu",
+    "phone_number_copied": "Nambari ya simu imenakiliwa",
+    "total_tasks": "Jumla ya kazi"
+  },
+
+  "project_details": {
+    "tabs": {
+      "profile": "Dashibodi",
+      "documents": "Nyaraka",
+      "tasks": "Kazi",
+      "files": "Faili",
+      "members": "Wanachama",
+      "nonMembers": "Wasio Wanachama",
+      "report": "Ripoti",
+      "closure": "Kufunga",
+      "client": "Mteja",
+      "task_types": "Aina za Kazi",
+      "select_task_types": "Chagua aina za kazi",
+      "no_initiative": "Hakuna mipango iliyopo",
+      "project_flow": "Mtiririko wa Mradi",
+      "overview": "Muhtasari",
+      "category": "Kategoria",
+      "milestone": "Hatua Muhimu",
+      "ticket_details": "Maelezo ya Tiketi",
+      "ticketing": "Kategoria za Tiketi",
+      "tickets": "Tiketi"
+    }
+  },
+
+  "toast": {
+    "task_priority_added": "Kipaumbele cha kazi kimeongezwa kwa mafanikio",
+    "task_priority_deleted": "Kipaumbele cha kazi kimefutwa kwa mafanikio",
+    "task_priority_updated": "Kipaumbele cha kazi kimesasishwa kwa mafanikio",
+    "delete_success": "Imefutwa kwa mafanikio!",
+    "project_goal_added": "Lengo la mradi limeongezwa kwa mafanikio",
+    "project_goal_deleted": "Lengo la mradi limefutwa kwa mafanikio",
+    "project_goal_updated": "Lengo la mradi limesasishwa kwa mafanikio",
+    "project_added": "Mradi umeongezwa kwa mafanikio",
+    "project_updated": "Mradi umesasishwa kwa mafanikio",
+    "project_deleted": "Mradi umefutwa kwa mafanikio",
+    "update_success": "Imesasishwa kwa mafanikio!",
+    "create_success": "Imeundwa kwa mafanikio!",
+    "confirm_delete": "Una uhakika unataka kufuta",
+    "employee_exempted": "Mfanyakazi ameondolewa kwenye kuongeza kazi",
+    "permission_add": "Ruhusa imeongezwa",
+    "add_employees": "Ongeza Wafanyakazi",
+    "no_contents": "Hakuna yaliyopo ya kuhifadhi",
+    "project_initiative_added": "Mpango wa mradi umeongezwa kwa mafanikio",
+    "project_initiative_deleted": "Mpango wa mradi umefutwa kwa mafanikio",
+    "project_update_initiative": "Mpango wa mradi umesasishwa kwa mafanikio",
+    "required": "Inahitajika",
+    "mission_add": "Dhamira imeongezwa kwa mafanikio",
+    "failed": "Imeshindikana",
+    "ticket_added": "Tiketi imeongezwa kwa mafanikio",
+    "adding_failed": "Kuongeza kumeshindikana",
+    "no_overview_found": "Hakuna muhtasari uliopatikana",
+    "no_overview_available": "Hakuna muhtasari wa mradi huu",
+    "are_you_deleted_overview": "Una uhakika unataka kufuta muhtasari huu?",
+    "failed_add": "Imeshindikana kufuta mradi",
+    "project_overview_added": "Muhtasari wa mradi umeongezwa kwa mafanikio",
+    "project_overview_failed": "Kuongeza muhtasari kumeshindikana",
+    "project_overview_linked": "Muhtasari umeunganishwa na mradi",
+    "project_link": "Kuunganisha na mradi kumeshindikana",
+    "project_overview_deleted": "Muhtasari wa mradi umefutwa kwa mafanikio",
+    "expected_error": "Hitilafu isiyotarajiwa imetokea",
+    "project_error": "Hitilafu imetokea wakati wa kusasisha mradi",
+    "project_task_type_delete": "Aina ya kazi ya mradi imefutwa kwa mafanikio",
+    "project_task_type_update": "Aina ya kazi ya mradi imesasishwa kwa mafanikio",
+    "project_task_type_added": "Aina ya kazi ya mradi imeongezwa kwa mafanikio",
+    "mission_updated_successfully": "Dhamira imesasishwa kwa mafanikio",
+    "mission_added_successfully": "Dhamira imeongezwa kwa mafanikio",
+    "mission_delete": "Una uhakika unataka kufuta dhamira hii?",
+    "ticket_category": "Kategoria ya tiketi imeongezwa kwa mafanikio",
+    "ticket_category_delete": "Kategoria ya tiketi imefutwa kwa mafanikio",
+    "project_activated_successfully": "Mradi umeamilishwa kwa mafanikio",
+    "project_archived_successfully": "Mradi umehifadhiwa kwa mafanikio",
+    "no_status_selected": "Hakuna hali iliyochaguliwa",
+    "project_status_updated": "Hali ya mradi imesasishwa kwa mafanikio",
+    "failed_to_update_status": "Imeshindikana kusasisha hali",
+    "ticket_category_updated": "Kategoria ya tiketi imesasishwa kwa mafanikio"
+  },
+
+  "fields": {
+    "new_category": "Kategoria Mpya",
+    "arabic_category": "Kategoria Mpya kwa Kiarabu",
+    "new_priority": "Kipaumbele Kipya",
+    "arabic_priority": "Kipaumbele Kipya kwa Kiarabu",
+    "no_file_chosen": "Hakuna faili lililochaguliwa",
+    "created": "Imeundwa",
+    "cancelled": "Imeghairiwa"
+  }
+},
+    
+
+
+
+
+
+
+
+
+
+
+
+
+"settings": {
+    "add_currency": "Ongeza Sarafu",
+    "no_currencies": "Hakuna sarafu zilizopatikana",
+    "add": "Ongeza",
+    "currency": "Sarafu",
+    "name": "Mipangilio",
+    "dashboard": "Dashibodi",
+    "list": "Orodha",
+    "system_dashbaord": "Dashibodi ya Mfumo",
+
+    "toast_currency_success": "Sarafu imeongezwa kwa mafanikio",
+    "company_logo_updated": "Nembo ya kampuni imesasishwa kwa mafanikio",
+    "company_logo_deleted": "Nembo ya kampuni imefutwa kwa mafanikio",
+    "company_added_successfully": "Kampuni imeongezwa kwa mafanikio",
+    "image_success": "Picha imepakiwa kwa mafanikio",
+    "unexpected_error": "Hitilafu isiyotarajiwa imetokea",
+
+    "company_logo": "Nembo ya Kampuni",
+    "edit_company_logo": "Hariri Nembo ya Kampuni",
+    "delete": "Futa",
+    "add_company_logo": "Ongeza Nembo ya Kampuni",
+
+    "file_large": "Faili ni kubwa kuliko",
+    "allowed_types": "Aina zinazoruhusiwa: *.jpeg, *.jpg, *.png, *.gif",
+
+    "cancel": "Ghairi",
+    "save": "Hifadhi",
+
+    "confirm_delete_logo": "Futa Nembo ya Kampuni",
+    "confirm_content": "Una uhakika unataka kufuta nembo hii ya kampuni?",
+    "delete_success": "Imefutwa kwa mafanikio!",
+
+    "company_info": "Taarifa za Kampuni",
+    "set_default": "Weka kama chaguo-msingi",
+    "max": "Ukubwa wa juu ni",
+
+    "provinces": "Mikoa",
+    "view_admin_dashboard": "Ruhusa ya kuona dashibodi ya msimamizi",
+    "access_accounts_module": "Ruhusa ya kufikia moduli ya akaunti",
+
+    "company_branches": "Matawi ya Kampuni",
+    "add_province": "Ongeza Mkoa",
+    "province_updated": "Mkoa umesasishwa kwa mafanikio",
+    "province_added": "Mkoa umeongezwa kwa mafanikio",
+    "province_deleted": "Mkoa umefutwa kwa mafanikio",
+
+    "back": "Rudi",
+    "no_province_added": "Hakuna mikoa iliyoongezwa",
+
+    "set_default_country": "Weka nchi ya chaguo-msingi",
+    "content": "Una uhakika unataka kuweka hii kama nchi ya chaguo-msingi? Mikoa itapakiwa kutoka nchi ya chaguo-msingi.",
+    "yes": "Ndiyo",
+
+    "default_province": "Mkoa wa chaguo-msingi umewekwa kuwa",
+    "set_currency": "Weka Sarafu",
+    "set_default_currency": "Weka kama sarafu ya chaguo-msingi",
+    "content_currency": "Una uhakika unataka kuweka hii kama sarafu ya chaguo-msingi?",
+    "default_currency": "Sarafu ya chaguo-msingi imewekwa kuwa"
+  },
+
+  "workflow": "Mtiririko wa Kazi",
+  "edit_workflow": "Hariri Mtiririko wa Kazi",
+  "add_workflow": "Ongeza Mtiririko wa Kazi",
+  "workflow_steps": "Hatua za Mtiririko wa Kazi",
+  "workflow_title": "Kichwa cha Mtiririko wa Kazi",
+  "workflow_updated": "Mtiririko wa kazi umesasishwa kwa mafanikio",
+  "workflow_added": "Mtiririko wa kazi umeongezwa kwa mafanikio",
+  "workflow_deleted": "Mtiririko wa kazi umefutwa kwa mafanikio",
+  "workflow_delete": "Una uhakika unataka kufuta mtiririko huu wa kazi?",
+  "title": "Kichwa",
+  "steps": "Hatua",
+  "add_steps": "Ongeza Hatua",
+  "search": "Tafuta",
+  "no_workflow_found": "Hakuna mtiririko wa kazi uliopatikana",
+  "step": "Hatua",
+  "step_required": "Hatua inahitajika",
+  "update_workflow": "Sasisha Mtiririko wa Kazi"
+}

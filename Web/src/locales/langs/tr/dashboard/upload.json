@@ -1,0 +1,13 @@
+
+
+
+{
+"upload": {
+  "drop_or_select": "Bir dosya bırakın veya seçin",
+  "drop_here": "Dosyaları buraya bırakın veya tıklayarak",
+  "browse": "göz atın",
+  "browse_suffix": "cihazınızdan.",
+  "upload_photo": "Fotoğraf Yükle",
+  "update_photo": "Fotoğrafı Güncelle"
+}
+}

@@ -1,0 +1,38 @@
+{
+  "gantt": {
+    "timeline_not_found": "Timeline not found",
+    "column_assignees": "Assignees",
+    "column_project": "Project",
+    "column_mission": "Mission",
+    "column_client": "Client",
+    "column_lead": "Lead",
+    "column_vendor": "Vendor",
+    "column_contract": "Contract",
+    "column_backlog": "Backlog",
+    "tooltip_start": "Start:",
+    "tooltip_finish": "Finish:",
+    "no_tasks_display":"No tasks to display in the timeline.",
+    "permission_denied":"Permission Denied",
+    "confirm_date":"Confirm Date Change",
+    "date":"date",
+    "?":"?",
+    "title":"gantt",
+    "are_you_sure":"Are you sure you want to change the",
+    "confirm":"Confirm",
+    "cancel":"Cancel",
+    "are_you_sure_update_task":"Are you sure you want to update the task progress?",
+    "task_name":"Task Name",
+    "ID":"ID",
+    "start_date":"Start Date",
+    "end_date":"End Date",
+    "task_not_in_progress":"Task not \"In Progress\", cannot update progress.",
+    "you_donot":"You do not have permission to edit progress.",
+    "confirm_progress" : "Confirm Progress Change"
+
+
+
+
+
+
+  }
+}

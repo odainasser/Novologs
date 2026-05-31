@@ -1,0 +1,22 @@
+{
+  "overview": "አጠቃላይ እይታ",
+  "home": "የመጀመሪያ ገጽ",
+  "team": "ቡድን",
+  "tasks": "ተግባራት",
+  "projects": "ፕሮጀክቶች",
+  "clients": "ደንበኞች",
+  "vendors": "እቃ አቅራቢዎች",
+  "missions": "የተለየ ተግባር",
+  "repositories": "ማከማቻዎች",
+  "timesheet": "የጊዜ ሰንጠረዥ",
+  "documents": "ሰነዶች",
+  "chat": "ውይይት",
+  "settings": "ቅንብሮች",
+  "activities": "እንቅስቃሴዎች",
+  "workflow": "የስራ ፍሰት",
+  "calender": "ቀን መቁጠሪያ",
+  "accounts": "መለያዎች",
+  "support": "ድጋፍ",
+  "ticketing": "የቲኬት ስርዓት",
+  "admin": "አስተዳዳሪ"
+}

@@ -1,0 +1,32 @@
+{
+  "gantt": {
+    "timeline_not_found": "የጊዜ መስመር አልተገኘም",
+    "column_assignees": "ተመድቡት",
+    "column_project": "ፕሮጀክት",
+    "column_mission": "ተግባር",
+    "column_client": "ደንበኛ",
+    "column_lead": "መሪ",
+    "column_vendor": "አቅራቢ",
+    "column_contract": "ውል",
+    "column_backlog": "የተዘጉ ተግባሮች",
+    "tooltip_start": "መጀመሪያ፡",
+    "tooltip_finish": "መጨረሻ፡",
+    "no_tasks_display": "በየጊዜው መስመር ላይ ምንም ተግባር የለም።",
+    "permission_denied": "ፍቃድ ተከልክሏል",
+     "confirm_date": "የቀን ለውጥን አረጋግጥ",
+     "date": "ቀን",
+     "?": "？",
+     "are_you_sure": "እርግጠኛ ነህ ማለው ትፈልጋለህ",
+     "confirm": "አረጋግጥ",
+    "cancel": "ሰርዝ",
+   "are_you_sure_update_task": "የተግባሩን እድገት ማዘመን እንደምትፈልጉ እርግጠኛ ነዎት?",
+   "task_name": "የተግባር ስም",
+   "ID": "መለያ",
+   "start_date": "የመጀመሪያ ቀን",
+   " end_date": "የመጨረሻ ቀን",
+  "task_not_in_progress": "ተግባሩ \"በሂደት ላይ\" አይደለም፣ እድገቱን ማዘመን አይቻልም።",
+  "you_donot": "እድገትን ለማስተካከል ፍቃድ የለዎትም።",
+   "confirm_progress": "የእርምጃ ሂደትን ማረጋገጥ"
+    
+  }
+}

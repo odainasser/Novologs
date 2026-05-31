@@ -1,0 +1,639 @@
+{
+  "teams": {
+    "heading": "Đội nhóm",
+    "dashboard": "Bảng điều khiển",
+    "organization_hierarchy": "Cấu trúc tổ chức",
+    "add_new_member": "Thêm thành viên mới",
+    "add_more_details": "Thêm chi tiết",
+    "export": "Xuất ra PDF",
+    "user": "Người dùng",
+    "list": "Danh sách",
+    "view": "Xem",
+    "forward": "Chuyển tiếp",
+    "tabs": {
+      "internal": "Nội bộ",
+      "all": "Tất cả",
+      "my-team": "Đội của tôi",
+      "external": "Bên ngoài"
+    },
+    "no_data": "Không có dữ liệu",
+    "no_members_found": "Không tìm thấy thành viên",
+    "no_members_available": "Hiện không có thành viên."
+  },
+  "tooltip": {
+    "grid": "Chế độ lưới",
+    "list": "Chế độ danh sách",
+    "add_employee": "Thêm nhân viên",
+    "add_user_details": "Thêm thông tin người dùng",
+    "edit_user_details": "Chỉnh sửa thông tin người dùng",
+    "add_organization": "Thêm vào cây tổ chức",
+    "add_user_image": "Thêm ảnh người dùng",
+    "change_user_image ": "Thay đổi ảnh người dùng",
+    "settings": "Cài đặt",
+    "Organization_tree": "Cây tổ chức",
+    "code": "Mã",
+    "details_added": "Đã thêm chi tiết"
+  },
+  "table": {
+    "headings": {
+      "serialNo": "STT",
+      "empId": "Mã NV",
+      "name": "Tên",
+      "userName": "Tên người dùng",
+      "role": "Chức vụ",
+      "department": "Phòng ban",
+      "email": "Email",
+      "status": "Trạng thái",
+      "id": "ID",
+      "designation": "Chức danh",
+      "firstName": "Tên",
+      "departmentId": "Phòng ban",
+      "contact": "Liên hệ",
+      "countryId": "Quốc tịch",
+      "device": "Thiết bị",
+      "company": "Công ty",
+      "actions": "Hành động",
+      "employee": "Nhân viên",
+      "card": "Thẻ",
+      "not_available": "Không có",
+      "not_register": "Chưa đăng ký",
+      "unknown_device": "Thiết bị không xác định",
+      "add_business_target": "Thêm mục tiêu kinh doanh",
+      "add_target": "Thêm mục tiêu",
+      "edit_target": "Chỉnh sửa mục tiêu",
+      "set_business": "Đặt mục tiêu kinh doanh",
+      "year": "Năm",
+      "phone-number": "Số điện thoại",
+      "enter-phoneno": "Nhập số điện thoại",
+      "ID": "ID",
+      "details": "Chi tiết",
+      "tree": "Cấu trúc",
+      "choose_country": "Chọn quốc gia",
+      "placeholder_search": "Tìm kiếm vai trò người dùng",
+      "admin": "Quản trị viên",
+      "hr_mangement": "Quản lý nhân sự",
+      "project_management": "Quản lý dự án",
+      "task_management": "Quản lý nhiệm vụ",
+      "client_management": "Quản lý khách hàng",
+      "vendor_management": "Quản lý nhà cung cấp",
+      "settings_management": "Quản lý cài đặt",
+      "hourly_rate": "Mức lương giờ (AED):",
+      "branches": "Chi nhánh",
+      "back": "Quay lại",
+      "permission_name": "Tên quyền",
+      "description": "Mô tả",
+      "category": "Danh mục",
+      "role_name": "Tên vai trò"
+    },
+    "status": {
+      "label": "Trạng thái",
+      "active": "Hoạt động",
+      "disabled": "Vô hiệu"
+    },
+    "search": {
+      "placeholder": "Tìm kiếm..."
+    },
+    "actions": {
+      "edit": "Chỉnh sửa",
+      "view": "Xem",
+      "print": "In",
+      "import": "Nhập",
+      "delete": "Xóa",
+      "export": "Xuất",
+      "search": "Tìm",
+      "save": "Lưu",
+      "clear_all": "Xóa hết",
+      "Dense": "Mật",
+      "add": "Thêm",
+      "cancel": "Hủy",
+      "addmore": "Thêm thêm",
+      "deactivate": "Vô hiệu hóa",
+      "update": "Cập nhật",
+      "view_more": "Xem thêm"
+    },
+    "confirm_delete": "Bạn có chắc muốn xóa không?",
+    "delete_success": "Xóa thành công!",
+    "deactivate_message": "Bạn có chắc muốn vô hiệu hóa nhân viên này không?"
+  },
+  "filters": {
+    "search_placeholder": "Tìm theo tên...",
+    "reset_filters": "Đặt lại bộ lọc",
+    "results_found": "{{count}} kết quả tìm thấy",
+    "status_filter": "Lọc theo trạng thái"
+  },
+  "Validations": {
+    "name_error": "Tên không được để trống.",
+    "email_error": "Tên người dùng không được để trống.",
+    "email_valid": "Cần email hợp lệ.",
+    "files_too": "Tập tin lớn hơn ${fData(1000000)}",
+    "allowed_types": "Cho phép: *.jpeg, *.jpg, *.png, *.gif",
+    "max": "kích thước tối đa"
+  },
+  "placeholder": {
+    "enter_address": "Nhập địa chỉ",
+    "serach_rights": "Tìm quyền người dùng..."
+  },
+  "success_messages": {
+    "employee_add": "Thêm nhân viên thành công!",
+    "user_updated": "Cập nhật người dùng thành công!"
+  },
+  "hierarchy": {
+    "title": "Cấu trúc tổ chức",
+    "add_role": "Thêm vai trò",
+    "new-user": "Người dùng mới",
+    "close": "Đóng",
+    "edit_permission_level": "Chỉnh sửa cấp quyền",
+    "no_levels_found": "Không tìm thấy cấp",
+    "edit": "Chỉnh sửa",
+    "general_members": "Thành viên chung",
+    "no_members": "Không có thành viên",
+    "add": "Thêm",
+    "search": "Tìm",
+    "back_to_employee": "Quay lại danh sách nhân viên",
+    "general_member_list": "Danh sách thành viên chung",
+    "please_add": "Vui lòng thêm",
+    "employee_here": "nhân viên ở đây",
+    "unknown_group": "Nhóm không xác định",
+    "delete": {
+      "confirm_title": "Xác nhận xóa",
+      "confirm_message": "Bạn có chắc muốn xóa '{{item}}' khỏi cấu trúc không?",
+      "cancel": "Hủy",
+      "del_confirm": "Bạn có chắc muốn xóa",
+      "from": "khỏi cấu trúc?",
+      "confirm": "Xóa",
+      "employee_deactivated_success": "Đã vô hiệu hóa nhân viên thành công",
+      "employee_activated": "Nhân viên đã được kích hoạt",
+      "error_activating_employee": "Lỗi khi kích hoạt nhân viên",
+      "employee_vacant": "Vị trí trống",
+      "no_members_available": "Không có thành viên",
+      "team_hierarchy": "Cấu trúc đội",
+      "employee_id_is_not": "ID nhân viên không có",
+      "desigination_not": "Chức danh không có",
+      "department_not": "Phòng ban không có"
+    },
+    "toast": {
+      "user_success": "Xóa người dùng khỏi cấu trúc thành công",
+      "failed_delete": "Xóa người dùng thất bại",
+      "are_sure": "Bạn có chắc muốn xóa nhân viên này khỏi cấu trúc không?",
+      "cancel": "Hủy",
+      "delete": "Xóa",
+      "delete_successfully": "Xóa thành công",
+      "edit": "Chỉnh sửa"
+    },
+    "fullscreen": {
+      "enter": "Xem toàn màn hình",
+      "exit": "Thoát"
+    },
+    "employee_vacant": "Vị trí trống",
+    "add_subordinate": "Thêm cấp dưới",
+    "select_user_permissions": "Vai trò người dùng",
+    "select_all": "Chọn tất cả",
+    "no_user_rights": "Không có quyền người dùng"
+  },
+  "profile": {
+    "heading": "Hồ sơ",
+    "dashboard": "Bảng điều khiển",
+    "teams": "Đội nhóm",
+    "tabs": {
+      "profile": "Hồ sơ",
+      "tasks": "Nhiệm vụ",
+      "timesheet": "Bảng chấm công",
+      "personal": "Thông tin cá nhân",
+      "gallery": "Thư viện"
+    },
+    "add_user_image": "Thêm ảnh người dùng",
+    "edit_user_image": "Chỉnh sửa ảnh người dùng",
+    "no_project": "Không tìm thấy dự án",
+    "no_project_details": "Không có chi tiết dự án.",
+    "about": "Về",
+    "follower": "Người theo dõi",
+    "following": "Đang theo dõi",
+    "live_at": "Sống tại",
+    "employee_id": "Mã nhân viên",
+    "status": "Trạng thái",
+    "not_available": "Không có",
+    "social": "Xã hội",
+    "skills": "Kỹ năng",
+    "no_skills_found": "Không tìm thấy kỹ năng",
+    "no_skills_description": "Thành viên này chưa có kỹ năng.",
+    "no_tasks_found": "Không tìm thấy nhiệm vụ",
+    "no_tasks_description": "Thành viên này chưa có nhiệm vụ.",
+    "task_status": "Trạng thái nhiệm vụ",
+    "task_categories": {
+      "not_started": "Chưa bắt đầu",
+      "in_progress": "Đang thực hiện",
+      "on_hold": "Tạm dừng",
+      "submitted": "Đã gửi",
+      "completed": "Hoàn thành"
+    },
+    "user_permissions": "Quyền người dùng",
+    "search_placeholder": "Tìm bạn bè...",
+    "add_post_placeholder": "Chia sẻ suy nghĩ của bạn...",
+    "attach_image": "Đính kèm ảnh/Video",
+    "start_streaming": "Bắt đầu phát",
+    "post_button": "Đăng",
+    "employee-activate": "Nhân viên được kích hoạt",
+    "error-activating-employee": "Lỗi kích hoạt nhân viên"
+  },
+  "months": {
+    "jan": "Thg 1",
+    "feb": "Thg 2",
+    "mar": "Thg 3",
+    "apr": "Thg 4",
+    "may": "Thg 5",
+    "jun": "Thg 6",
+    "jul": "Thg 7",
+    "aug": "Thg 8",
+    "sep": "Thg 9",
+    "oct": "Thg 10",
+    "nov": "Thg 11",
+    "dec": "Thg 12"
+  },
+  "editform": {
+    "labels": {
+      "employee_id": "Mã nhân viên",
+      "name": "Tên",
+      "username": "Tên người dùng",
+      "email": "Địa chỉ email",
+      "phone_number": "Số điện thoại",
+      "nationality": "Quốc tịch",
+      "address": "Địa chỉ",
+      "designation": "Chức danh",
+      "department": "Phòng ban",
+      "date_of_birth": "Ngày sinh",
+      "city": "Thành phố",
+      "national_id": "Số CMND/CCCD",
+      "national_id_expiry": "Hạn CMND/CCCD",
+      "passport": "Số hộ chiếu",
+      "passport_expiry": "Hạn hộ chiếu",
+      "insurance_id": "Mã bảo hiểm",
+      "insurance_id_expiry": "Hạn bảo hiểm",
+      "visa_type": "Loại visa",
+      "visa_expiry": "Hạn visa",
+      "gender": "Giới tính",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "whatsapp": "WhatsApp",
+      "twitter": "X (Twitter)",
+      "date_hired": "Ngày tuyển dụng",
+      "date_joining": "Ngày nhập",
+      "basic_salary": "Lương cơ bản",
+      "hra_amount": "Số tiền HRA",
+      "transportation_allowance": "Phụ cấp đi lại",
+      "other_allowance": "Phụ cấp khác",
+      "files": "Tệp",
+      "personal_details": "Chi tiết cá nhân",
+      "social_media_links": "Liên kết mạng xã hội",
+      "job_data": "Dữ liệu công việc",
+      "uploadfiles": "Tải lên tệp",
+      "showthumbnail": "Hiển thị ảnh thu nhỏ"
+    },
+    "validations": {
+      "avatar_required": "Ảnh đại diện là bắt buộc!",
+      "id_required": "ID là bắt buộc!",
+      "name_required": "Tên là bắt buộc!",
+      "username_required": "Tên người dùng là bắt buộc!",
+      "email_required": "Email là bắt buộc!",
+      "email_invalid": "Email không hợp lệ!",
+      "phone_invalid": "Số điện thoại không hợp lệ!",
+      "country_required": "Quốc gia là bắt buộc!",
+      "address_required": "Địa chỉ là bắt buộc!",
+      "company_required": "Công ty là bắt buộc!",
+      "state_required": "Bang/ tỉnh là bắt buộc!",
+      "city_required": "Thành phố là bắt buộc!",
+      "role_required": "Vai trò là bắt buộc!",
+      "zipcode_required": "Mã bưu điện là bắt buộc!"
+    },
+    "placeholders": {
+      "choose_country": "Chọn quốc gia"
+    },
+    "buttons": {
+      "create_user": "Tạo người dùng",
+      "save_changes": "Lưu thay đổi",
+      "add_image": "Thêm ảnh",
+      "edit_image": "Chỉnh sửa ảnh"
+    },
+    "toast": {
+      "create_success": "Tạo thành công!",
+      "update_success": "Cập nhật thành công!",
+      "image_upload": "Ảnh tải lên thành công",
+      "unexpected_error": "Đã xảy ra lỗi bất ngờ."
+    },
+    "helper_text": {
+      "avatar_upload": "Cho phép: *.jpeg, *.jpg, *.png, *.gif. Kích thước tối đa là "
+    }
+  },
+  "user_profile": {
+    "heading": "Hồ sơ",
+    "breadcrumb_dashboard": "Bảng điều khiển",
+    "breadcrumb_users": "Người dùng",
+    "tabs": {
+      "profile": "Hồ sơ",
+      "tasks": "Nhiệm vụ",
+      "timesheet": "Bảng chấm công"
+    },
+    "profile_home": {
+      "followers": "Người theo dõi",
+      "following": "Đang theo dõi",
+      "about_title": "Giới thiệu",
+      "location": "Sinh sống tại",
+      "email": "Email",
+      "role_at_company": "tại",
+      "studied_at": "Học tại",
+      "post_placeholder": "Chia sẻ suy nghĩ của bạn tại đây...",
+      "attach_image": "Hình ảnh / Video",
+      "streaming": "Phát trực tiếp",
+      "post_button": "Đăng",
+      "target": "Mục tiêu",
+      "days_off": "Ngày nghỉ",
+      "days_reported": "Ngày đã báo cáo",
+      "days_work": "Ngày làm việc",
+      "on_duty": "Đang làm việc",
+      "total_points": "Tổng điểm",
+      "device": "Thiết bị",
+      "task_details_title": "Chi tiết công việc",
+      "active_tasks": "Công việc đang hoạt động",
+      "not_active": "Không hoạt động",
+      "completed": "Hoàn thành",
+      "projects_title": "Dự án",
+      "pending_tasks": "Công việc đang chờ",
+      "sales_title": "Bán hàng",
+      "total_clients": "Tổng khách hàng",
+      "total_leads": "Tổng khách hàng tiềm năng",
+      "sales_target": "Mục tiêu bán hàng",
+      "total_vendors": "Tổng nhà cung cấp",
+      "active_vendors": "Nhà cung cấp đang hoạt động",
+      "leads_amount": "Giá trị khách hàng tiềm năng",
+      "awarded_amount": "Giá trị được trao",
+      "rejected_amount": "Giá trị bị từ chối",
+      "open_leads": "Khách hàng tiềm năng mở",
+      "closed_leads": "Khách hàng tiềm năng đã đóng",
+      "total_contracts_year": "Tổng hợp đồng trong năm nay",
+      "total_users": "Tổng người dùng",
+      "internal_users": "Người dùng nội bộ",
+      "external_users": "Người dùng bên ngoài",
+      "total_tasks": "Tổng công việc",
+      "total_projects": "Tổng dự án",
+      "active_clients": "Khách hàng đang hoạt động",
+      "tasks_title": "Công việc",
+      "tasks_year_to_date": "Công việc từ đầu năm đến nay",
+      "overall_target": "Mục tiêu tổng thể",
+      "months": {
+        "jan": "Th1",
+        "feb": "Th2",
+        "mar": "Th3",
+        "apr": "Th4",
+        "may": "Th5",
+        "jun": "Th6",
+        "jul": "Th7",
+        "aug": "Th8",
+        "sep": "Th9",
+        "oct": "Th10",
+        "nov": "Th11",
+        "dec": "Th12"
+      },
+      "chart_labels": {
+        "actual": "Thực tế",
+        "achieved": "Đạt được",
+        "remaining": "Còn lại",
+        "completed_on_time": "Hoàn thành đúng hạn",
+        "completed_late": "Hoàn thành muộn",
+        "overdue": "Quá hạn",
+        "working_on": "Đang thực hiện",
+        "not_started": "Chưa bắt đầu",
+        "on_hold": "Tạm dừng",
+        "waiting_for_approval": "Đang chờ phê duyệt"
+      }
+    },
+    "user_settings": {
+      "departments": "Phòng ban",
+      "designations": "Chức danh",
+      "employee_statuses": "Trạng thái nhân viên",
+      "team_notice": "Thông báo",
+      "exempted": "Miễn trừ việc thêm nhiệm vụ",
+      "hierarchy": "Thiết lập cấp nhiệm vụ",
+      "notice_board": "Bảng thông báo",
+      "roles": "Vai trò & quyền"
+    }
+  },
+  "departments": {
+    "labels": {
+      "new_department": "Phòng ban mới",
+      "new_division": "Bộ phận mới",
+      "new_section": "Khu vực mới",
+      "new_session": "Phiên mới",
+      "arabic_department": "Phòng ban tiếng Ả Rập",
+      "arabic_division": "Bộ phận tiếng Ả Rập",
+      "arabic_section": "Khu vực tiếng Ả Rập",
+      "arabic_session": "Phiên tiếng Ả Rập",
+      "department": "Phòng ban",
+      "division": "Bộ phận",
+      "section": "Khu vực",
+      "session": "Phiên",
+      "loading_departments": "Đang tải phòng ban...",
+      "failed_to_load": "Tải phòng ban thất bại.",
+      "department_name": "Tên phòng ban",
+      "department_name_arabic": "Tên phòng ban bằng tiếng Ả Rập",
+      "editing": "Đang chỉnh sửa...",
+      "no_of_employees": "Số nhân viên",
+      "all_departments": "Tất cả phòng ban",
+      "division_name": "Tên bộ phận",
+      "division_name_arabic": "Tên bộ phận tiếng Ả Rập",
+      "all_divisions": "Tất cả bộ phận",
+      "section_name": "Tên khu vực",
+      "section_name_arabic": "Tên khu vực tiếng Ả Rập",
+      "all_sections": "Tất cả khu vực",
+      "session_name": "Tên phiên",
+      "session_name_arabic": "Tên phiên tiếng Ả Rập",
+      "all_sessions": "Tất cả phiên"
+    },
+    "buttons": {
+      "save": "Lưu",
+      "delete": "Xóa",
+      "cancel": "Hủy",
+      "add": "Thêm",
+      "back": "Trở lại"
+    },
+    "tooltips": {
+      "edit_department": "Chỉnh sửa phòng ban",
+      "edit_departmentlevel": "Chỉnh sửa cấp phòng ban",
+      "delete_department": "Xóa phòng ban",
+      "edit": "Chỉnh sửa",
+      "delete": "Xóa",
+      "cannot_delete_department": "Không thể xóa: phòng ban có nhân viên",
+      "departments_available": "Không có phòng ban",
+      "cannot_delete_division": "Không thể xóa: bộ phận có nhân viên",
+      "division_available": "Không có bộ phận",
+      "cannot_section": "Không thể xóa: khu vực có nhân viên",
+      "section_available": "Không có khu vực",
+      "cannot_delete_session": "Không thể xóa: phiên có nhân viên",
+      "session_available": "Không có phiên"
+    },
+    "toast": {
+      "add_success": "Thêm phòng ban thành công",
+      "update_success": "Cập nhật phòng ban thành công",
+      "delete_success": "Xóa cấp phòng ban thành công",
+      "delete_level": "Xóa cấp thành công",
+      "update_level": "Cập nhật cấp thành công",
+      "delete_successfully": "Xóa thành công",
+      "delete_confirm": "Bạn có chắc muốn xóa?"
+    },
+    "dialog": {
+      "delete_title": "Xóa",
+      "delete_department_confirm": "Bạn có chắc muốn xóa phòng ban này?",
+      "delete_designation_confirm": "Bạn có chắc muốn xóa cấp này?"
+    }
+  },
+  "designations": {
+    "labels": {
+      "new_designation": "Chức danh mới",
+      "arabic_designation": "Chức danh tiếng Ả Rập",
+      "members": "Thành viên"
+    },
+    "buttons": {
+      "add": "Thêm",
+      "update": "Cập nhật",
+      "delete": "Xóa"
+    },
+    "tooltips": {
+      "edit": "Chỉnh sửa chức danh",
+      "delete": "Xóa chức danh",
+      "save": "Lưu"
+    },
+    "toast": {
+      "add_success": "Chức danh thêm thành công",
+      "update_success": "Chức danh cập nhật thành công",
+      "delete_success": "Chức danh xóa thành công",
+      "failed_designation": "Thêm chức danh thất bại",
+      "unexpected_error": "Lỗi không mong muốn"
+    },
+    "dialog": {
+      "delete_title": "Xóa",
+      "delete_confirm": "Bạn có chắc muốn xóa chức danh này?"
+    }
+  },
+  "status": {
+    "labels": {
+      "new_status": "Trạng thái nhân viên mới",
+      "arabic_status": "Trạng thái tiếng Ả Rập",
+      "choose_color": "Chọn màu"
+    },
+    "buttons": {
+      "add": "Thêm",
+      "update": "Cập nhật",
+      "delete": "Xóa"
+    },
+    "tooltips": {
+      "edit": "Chỉnh sửa trạng thái",
+      "delete": "Xóa trạng thái",
+      "save": "Lưu"
+    },
+    "toast": {
+      "add_success": "Thêm trạng thái nhân viên thành công",
+      "update_success": "Cập nhật trạng thái nhân viên thành công",
+      "delete_success": "Xóa trạng thái nhân viên thành công"
+    },
+    "dialog": {
+      "delete_title": "Xóa",
+      "delete_confirm": "Bạn có chắc muốn xóa trạng thái nhân viên này?"
+    }
+  },
+  "team_notice": {
+    "labels": {
+      "notice_en": "Thông báo bằng tiếng Anh",
+      "notice_ar": "Thông báo bằng tiếng Ả Rập"
+    },
+    "buttons": {
+      "add": "Thêm thông báo",
+      "save": "Lưu",
+      "cancel": "Hủy",
+      "clear": "Xóa thông báo"
+    },
+    "dialog": {
+      "title": "Thêm thông báo",
+      "title2": "Xóa thông báo"
+    },
+    "toast": {
+      "add_success": "Thêm thông báo thành công",
+      "delete": "Xóa thông báo thành công",
+      "delete_success": "Xóa thông báo thành công",
+      "delete_successfully": "Xóa thông báo thành công",
+      "update_success": "Cập nhật thông báo thành công",
+      "clear_success": "Xóa thông báo thành công",
+      "delete_confirm": "Bạn có chắc chắn muốn xóa thông báo này không?"
+    },
+    "errors": {
+      "empty_notice": "Thông báo không được để trống."
+    }
+  },
+  "task_exempted": {
+    "buttons": {
+      "add_employees": "Thêm nhân viên",
+      "confirm_exempt": "Có",
+      "add_member": "Thêm thành viên",
+      "add": "Thêm",
+      "close": "Đóng"
+    },
+    "toast": {
+      "exempt_success": "Nhân viên được miễn thêm nhiệm vụ!"
+    },
+    "placeholder": "Tìm",
+    "dialog": {
+      "exempt_title": "Miễn trừ",
+      "exempt_confirm": "Bạn có chắc muốn miễn nhân viên này khỏi thêm nhiệm vụ?"
+    },
+    "labels": {
+      "reporting_to": "Báo cáo cho",
+      "no_members": "Không có thành viên",
+      "assign_tasks": "Giao nhiệm vụ",
+      "unassign": "Hủy giao nhiệm vụ",
+      "are_you_sure_want": "Bạn có chắc muốn giao nhiệm vụ cho người dùng này không?"
+    }
+  },
+  "role": {
+    "new_role": "Vai trò mới",
+    "add_role": "Thêm vai trò mới",
+    "role_deleted": "Xóa vai trò thành công",
+    "permissions_unassigned": "Quyền đã được hủy đăng ký khỏi vai trò thành công",
+    "permissions_assigned": "Quyền được gán cho vai trò thành công",
+    "all_permissions": "Tất cả quyền đã được hủy gán khỏi vai trò thành công",
+    "role_added": "Vai trò được thêm thành công",
+    "assigned_permissions": "Quyền đã được gán",
+    "unassign_all": "Hủy gán tất cả",
+    "permissions_unassigned!": "Quyền đã được gán!",
+    "add_permission_role": "Thêm quyền cho vai trò này",
+    "role_name": "Tên vai trò",
+    "Add": "Thêm",
+    "cancel": "Hủy",
+    "delete": "Xóa",
+    "edit": "Chỉnh sửa",
+    "permissions": "Quyền",
+    "unassign": "Hủy gán",
+    "assign": "Gán",
+    "unassign_Permission": "Hủy quyền",
+    "unassign_all_permission": "Hủy tất cả quyền",
+    "are_you_sure_want": "Bạn có chắc muốn hủy gán?",
+    "confirm_delete": "Bạn có chắc muốn xóa vai trò này không?",
+    "unassign_to_all": "Hủy gán tất cả quyền",
+    "unassignall": "Hủy gán tất cả",
+    "from_this": "từ vai trò này?",
+    "unassign_sure": "Bạn có chắc muốn hủy gán tất cả quyền từ vai trò này không?",
+    "select_all": "Chọn tất cả",
+    "search": "Tìm",
+    "permissions_added": "Quyền được thêm cho người dùng thành công",
+    "permissions_updated": "Cập nhật quyền thành công",
+    "no_permissions_available": "Không có quyền nào",
+    "permissions_added_role": "Quyền được thêm cho vai trò thành công",
+    "permissions_added_user": "Quyền được thêm cho người dùng thành công",
+    "permissions_removed_user": "Quyền đã được gỡ khỏi người dùng thành công",
+    "permissions_available": "Không có quyền nào",
+    "description_added": "Mô tả được thêm thành công",
+    "description_added_fail": "Thêm mô tả thất bại",
+    "unassign_user_role": "Bạn có chắc muốn hủy quyền này cho người dùng không?",
+    "role_permissions_cannot_be_edit": "Không thể chỉnh sửa quyền vai trò",
+    "assign_permission": "Gán quyền",
+    "assign_all_permissions": "Gán tất cả quyền",
+    "assign_sure": "Bạn có chắc muốn gán tất cả quyền cho người dùng này không?"
+  }
+}

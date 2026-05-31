@@ -1,0 +1,437 @@
+{
+  "clients": {
+    "List": {
+      "heading": "ደንበኞች",
+      "dashboard": "ዳሽቦርድ",
+      "list": "ዝርዝር",
+      "heading2": "አቅራቢዎች"
+    },
+    "tabs": {
+      "groups": "ቡድኖች",
+      "clients": "ደንበኞች",
+      "leads": "መሪዎች",
+      "group1": "ቡድን1",
+      "group2": "ቡድን2",
+      "group3": "ቡድን3",
+      "documents": "ሰነዶች",
+      "contacts": "ዕውቂያዎች",
+      "tasks": "ተግባራት",
+      "files": "ፋይሎች",
+      "sales_details": "የሽያጭ ዝርዝሮች",
+      "sales_report": "የዒላማ ሪፖርት",
+      "contracts": "ውሎች"
+    },
+    "buttons": {
+      "add": "ጨምር",
+      "update": "አዘምን",
+      "delete": "ሰርዝ",
+      "add_client": "ደንበኛ ጨምር",
+      "add_member": "አባል ጨምር",
+      "add_lead": "መሪ ጨምር",
+      "back": "ተመለስ",
+      "add_sales_group": "የሽያጭ ቡድን ጨምር",
+      "add_group": "ቡድን ጨምር",
+      "edit_group": "ቡድን አርትዕ",
+      "save": "አስቀምጥ",
+      "print": "አትም",
+      "export": "ወደ ውጭ ላክ",
+      "import": "ከውጭ አምጣ",
+      "cancel": "ሰርዝ",
+      "clear_all": "ሁሉንም ሜዳዎች አጽዳ",
+      "add_employees": "ሰራተኞች ጨምር",
+      "editButton": "አርትዕ",
+      "add_members": "አባላት ጨምር",
+      "members": "አባላት",
+      "close": "ዝጋ",
+      "award_lead": "መሪ ሽልማት ስጥ",
+      "reject_lead":"መሪ ውድቅ ስጥ",
+  "edit": "አርትዕ",
+      "add_contact":"ዕውቂያ ጨምር",
+      "delete_contact":"ዕውቂያ ሰርዝ"
+    },
+    "toast": {
+      "delete_success": "በተሳካ ሁኔታ ተሰርዟል!",
+      "group_add": "ቡድን በተሳካ ሁኔታ ተጨምሯል!",
+      "client_add": "ደንበኛ በተሳካ ሁኔታ ተጨምሯል!",
+      "member_add": "አባል በተሳካ ሁኔታ ተጨምሯል",
+      "client_update": "ደንበኛ በተሳካ ሁኔታ ተዘምኗል!",
+      "employee_exempted": "ሰራተኛ ከተግባር መጨመር ተለይቷል",
+      "permission_added": "ፈቃድ ተጨምሯል",
+      "unexpected_error": "ያልተጠበቀ ስህተት ተከስቷል",
+      "vendor_update": "አቅራቢ በተሳካ ሁኔታ ተዘምኗል",
+      "group_deleted":"ቡድን በተሳካ ሁኔታ ተሰርዟል",
+      "group_error":"ቡድን ሰርዝ ላይ ስህተት ተከስቷል"
+      
+
+    },
+    "dialog": {
+      "delete_title": "ሰርዝ",
+      "delete_content": "መሰረዝ እንደሚፈልጉ እርግጠኛ ነዎት",
+      "items": "ንጥሎች?",
+      "delete_content2": "ይህን መሰረዝ እንደሚፈልጉ እርግጠኛ ነዎት?",
+      "delete_group":"ይህን ቡድን ሰርዝ እንደሚፈልጉ እርግጠኛ ነዎት?",
+      "delete_contact":"ይህን ዕውቂያ ሰርዝ እንደሚፈልጉ እርግጠኛ ነዎት?"
+
+    },
+    "filters": {
+      "name_placeholder": "በስም ፈልግ",
+      "search": "ፈልግ..."
+    },
+    "columns": {
+      "serial_no": "ተ.ቁ.",
+      "client_id": "የደንበኛ መለያ",
+      "name": "የደንበኛ ስም",
+      "website": "ድረ-ገጽ",
+      "emirates": "ኤምሬትስ",
+      "location": "አካባቢ",
+      "email": "ኢሜይል",
+      "address": "አድራሻ",
+      "empId": "የሰራተኛ መለያ",
+      "role": "ሃላፊነት",
+      "department": "ክፍል",
+      "status": "ሁኔታ",
+      "level": "ደረጃ",
+      "details": "ዝርዝሮች",
+      "username": "የተጠቃሚ ስም",
+      "employId": "መለያ",
+      "names": "ስም",
+      "creator": "ፈጣሪ",
+      "leads": "መሪዎች",
+      "sales": "ሽያጮች",
+      "actions": "ተግባራት",
+      "phone_no": "የስልክ ቁጥር",
+      "mobile_no":"የሞባይል ቁጥር",
+      "select_location": "አካባቢ ይምረጡ:",
+      "projects": "ፕሮጀክቶች",
+      "contracts": "ውሎች",
+      "vendor_name": "የአቅራቢ ስም",
+      "add_contact":"ዕውቂያ ጨምር",
+      "contact_details":"የዕውቂያ ዝርዝሮች",
+      "expected_start":"የሚጠበቀው የመጀመሪያ ቀን",
+      "date":"ቀን",
+      "source":"ምንጭ",
+      "contract_type":"የውል አይነት",
+      "no_source_available":"ምንም ምንጭ የለም",
+     "no_contract_type_available":"ምንም የውል አይነት የለም",
+     "no_status_available":"ምንም ሁኔታ የለም",
+     "probability":"እድል (%)",
+     "award":"ሽልማት",
+     "reject":"ውድቅ",
+     "members":"አባላት",
+     "myClient":"የእኔ ደንበኛ"
+   
+
+
+      
+    
+    
+    },
+    "labels": {
+      "group_id": "የቡድን መለያ",
+      "group_name": "የቡድን ስም",
+      "no_members": "ምንም አባላት የሉም",
+      "member_sales": "የአባል ሽያጭ ዝርዝሮች",
+      "all_clients": "ሁሉም ደንበኞች",
+      "all_vendors": "ሁሉም አቅራቢዎች",
+      "add_client_image": "የደንበኛ ምስል ጨምር",
+      "edit_client_image": "የደንበኛ ምስል አርትዕ",
+      "add_user_image": "የተጠቃሚ ምስል ጨምር",
+      "change_user_image": "የተጠቃሚ ምስል ቀይር",
+      "add_client_details": "የደንበኛ ዝርዝሮች ጨምር",
+      "edit_client_details": "የደንበኛ ዝርዝሮች አርትዕ",
+      "client_view_rights": "የደንበኛ መመልከት መብቶች",
+      "reject_reasons": "የውድቅ ምክንያቶች",
+      "sale_statuses": "የሽያጭ ሁኔታዎች",
+      "client_details": "የደንበኛ ዝርዝሮች",
+      "vendor_details": "የአቅራቢ ዝርዝሮች",
+      "add_vendor_details": "የአቅራቢ ዝርዝሮች ጨምር",
+      "edit_vendor_details": "የአቅራቢ ዝርዝሮች አርትዕ",
+      "active_clients": "ንቁ ደንበኞች",
+      "non_active_clients": "ንቁ ያልሆኑ ደንበኞች",
+      "client_members": "የደንበኛ አባላት",
+      "client_contacts": "የደንበኛ ዕውቂያዎች",
+      "client_tasks": "የደንበኛ ተግባራት",
+      "client_files": "የደንበኛ ፋይሎች",
+      "business_lead_info": "የንግድ መሪ መረጃ",
+      "lead_count": "የመሪዎች ቁጥር",
+      "lead_amount": "የመሪዎች መጠን",
+      "awarded_count": "የተሸለሙ ቁጥር",
+      "awarded_amount": "የተሸለመ መጠን",
+      "rejected_count": "የተወገዱ ቁጥር",
+      "rejected_amount": "የተወገደ መጠን",
+      "overall_target": "አጠቃላይ ዒላማ",
+      "days_off": "የእረፍት ቀናት",
+      "days_reported": "የተዘገቡ ቀናት",
+      "days_work": "የስራ ቀናት",
+      "total_points": "አጠቃላይ ነጥቦች:",
+      "business_target": "የንግድ ዒላማ ጨምር",
+      "report_to": "ሪፖርት ማድረግ ወደ",
+      "award_lead": "መሪ ሽልማት ስጥ",
+      "reject_lead": "መሪ ውድቅ አድርግ",
+      "select_reason": "ምክንያት ምረጥ",
+      "rejected": "ተወግዷል",
+      "Change_status": "ሁኔታ ቀይር",
+      "no_status_available": "ምንም ሁኔታ የለም",
+      "change": "ቀይር",
+      "no_availble": "የለም",
+      "no_members_available": "ምንም አባላት የሉም",
+      "lead_source": "የመሪ ምንጭ",
+      "sales_status": "የሽያጭ ሁኔታ",
+      "sales_status_arabic": "የሽያጭ ሁኔታ በአረብኛ",
+      "reject_reason_arabic": "የውድቅ ምክንያት በአረብኛ",
+      "designation_arabic": "ሃላፊነት በአረብኛ",
+      "no_available":"የለም",
+      "add_contact":"ዕውቂያ ጨምር",
+      "edit_contact":"ዕውቂያ አርትዕ",
+      "delete_contact":"ዕውቂያ ሰርዝ",
+      "contact_details":"የዕውቂያ ዝርዝሮች",
+      "no_contact_found":"ምንም ዕውቂያዎች አልተገኙም",
+     "no_contact_available":"ለዚህ ደንበኛ ምንም ዕውቂያዎች የሉም",
+     "no_contact_added":"ምንም ዕውቂያዎች አልተጨመሩም",
+      "no_contact_added_yet":"ገና ምንም ዕውቂያዎች አልተጨመሩም",
+      "create_group_permissions":"የቡድን ፈቃዶች ፍጠር",
+      "view_all_clients":"ሁሉንም ደንበኞች የመመልከት ፈቃድ",
+      "contract_types":"የውል አይነቶች",
+      "Contract Status":"የውል ሁኔታ",
+      "view_all_contract":"ሁሉንም ውሎች የመመልከት ፈቃድ",
+      "view_all_task":"ሁሉንም የደንበኛ ተግባራት የመመልከት ፈቃድ",
+      "view_all_file":"ሁሉንም የደንበኛ ፋይሎች የመመልከት ፈቃድ",
+      "add_target":"ዒላማ ጨምር",
+      "edit_businesss_target":"የንግድ የዒላማ አርትዕ",
+      "device":"የአልባሳት ሁኔታ"
+      
+
+
+      
+      
+
+    },
+    "placeholder": {
+      "search": "ፈልግ",
+      "group_name": "የቡድን ስም አስገባ",
+      "group_id": "የቡድን መለያ አስገባ",
+      "enter_address": "አድራሻ አስገባ"
+    },
+    "validations": {
+      "group_name": "የቡድን ስም ያስፈልጋል",
+      "group_id": "የቡድን መለያ ያስፈልጋል",
+      "file_is_too": "ፋይሉ ከዚህ የሚበልጥ ነው",
+      "allowed": "የተፈቀዱ *.jpeg, *.jpg, *.png, *.gif",
+      "max": "ከፍተኛ መጠን",
+      "required": "ያስፈልጋል።",
+      "mobile_no":"የሞባይል ቁጥር ያስፈልጋል",
+      "email_required":"ኢሜይል ያስፈልጋል።",
+      "name_required":"ስም ያስፈልጋል"
+    },
+    "categories": {
+      "jan": "ጃንዩ",
+      "feb": "ፌብሩ",
+      "mar": "ማርች",
+      "apr": "ኤፕሪል",
+      "may": "ሜይ",
+      "jun": "ጁን",
+      "jul": "ጁላይ",
+      "aug": "ኦገስት",
+      "sep": "ሴፕቴ",
+      "oct": "ኦክቶ",
+      "nov": "ኖቬም",
+      "dec": "ዲሴም"
+    },
+    "series": {
+      "actual": "ትክክለኛ",
+      "achieved": "የተሳካ",
+      "remaining": "የቀረ"
+    },
+    "sales_report": {
+      "title": "የዒላማ ሪፖርት ለ",
+      "total_achieved": "አጠቃላይ የተሳካ:",
+      "target": "ዒላማ:",
+      "remaining": "የቀረ:",
+      "total_progress": "አጠቃላይ እድገት:",
+      "no_target": "ምንም ዒላማ አልተቀመጠም",
+      "achieved": "የተሳካ",
+      "target_label": "ዒላማ",
+      "total_target": "አጠቃላይ ዒላማ"
+    },
+    "empty": {
+      "no_data": "ምንም ደንበኞች አልተገኙም"
+    },
+    "views": {
+      "list": "የዝርዝር እይታ",
+      "grid": "የፍርግርግ እይታ",
+      "settings": "ቅንብሮች"
+    },
+    "breadcrumb": {
+      "dashboard": "ዳሽቦርድ",
+      "groups": "ቡድኖች",
+      "group_details": "የቡድን ዝርዝሮች"
+    }
+  },
+  "leaddetails": {
+    "breadcrumbs": {
+      "dashboard": "ዳሽቦርድ",
+      "leads": "መሪዎች",
+      "lead": "የመሪ ዝርዝሮች"
+    },
+    "common": {
+      "sl_no": "ተ.ቁ.",
+      "lead_id": "የመሪ መለያ",
+      "creator": "ፈጣሪ",
+      "lead_name": "የመሪ ስም",
+      "client_name": "የደንበኛ ስም",
+      "value": "ዋጋ",
+      "source": "ምንጭ",
+      "probability": "እድል",
+      "status": "ሁኔታ",
+      "awarded_amount": "የተሸለመ መጠን",
+      "rejected_reason": "የውድቅ ምክንያት",
+      "lead_source": "የመሪ ምንጭ",
+      "lead_source_arabic": "የመሪ ምንጭ በአረብኛ",
+      "actions": "ተግባራት",
+      "clear_all": "ሁሉንም ሜዳዎች አጽዳ",
+      "delete_success": "በተሳካ ሁኔታ ተሰርዟል!",
+      "under_approval": "በፈቃድ ሂደት ላይ",
+      "percentageSuccess": "30%",
+      "placeholder_reject": "የውድቅ ምክንያት",
+      "arabic_reject_reason": "የውድቅ ምክንያት በአረብኛ",
+      "arabic_sales": "የሽያጭ ሁኔታ በአረብኛ",
+      "arabic_designation": "ሃላፊነት በአረብኛ",
+      "sale_status": "የሽያጭ ሁኔታ",
+      "contract_id": "የውል መለያ",
+      "contract_name": "የውል ስም",
+      "vendorname": "የአቅራቢ ስም",
+      "contract": "ውል :",
+      "total_amount": "አጠቃላይ መጠን",
+      "contract_type":"የውል አይነት",
+      "delivery_date":"የማድረስ ቀን",
+       "award_reject":"ሽልማት/ውድቅ"
+
+
+      
+    },
+    "tabs": {
+      "leads": "መሪዎች",
+      "awarded": "የተሸለሙ",
+      "rejected": "የተወገዱ",
+      "all": "ሁሉም"
+    },
+    "form": {
+      "idLabel": "መለያ",
+      "nameLabel": "የመሪ ስም",
+      "amountLabel": "ዋጋ",
+      "currencyLabel": "ምንዛሬ",
+      "sourceLabel": "ምንጭ",
+      "probabilityLabel": "እድል (%)",
+      "statusLabel": "ሁኔታ",
+      "addButton": "አስቀምጥ"
+    },
+    "errors": {
+      "nameRequired": "የመሪ ስም ያስፈልጋል",
+      "idRequired": "የመሪ መለያ ያስፈልጋል",
+      "valueRequired": "ዋጋ ያስፈልጋል",
+      "currencyRequired": "ምንዛሬ ያስፈልጋል",
+      "sourceRequired": "ምንጭ ያስፈልጋል",
+      "probabilityRequired": "እድል ያስፈልጋል",
+      "statusRequired": "ሁኔታ ያስፈልጋል"
+    },
+    "toast": {
+      "leadAdded": "መሪ በተሳካ ሁኔታ ተጨምሯል!",
+      "leads_awarded": "መሪዎች በተሳካ ሁኔታ ተሸልመዋል",
+      "leads_rejected": "መሪዎች በተሳካ ሁኔታ ተወግደዋል",
+      "lead_source": "የመሪ ምንጭ በተሳካ ሁኔታ ተጨምሯል",
+      "lead_source_delete": "የመሪ ምንጭ በተሳካ ሁኔታ ተሰርዟል",
+      "lead_source_update": "የመሪ ምንጭ በተሳካ ሁኔታ ተዘምኗል",
+      "lead_delete": "ይህን የመሪ ምንጭ መሰረዝ እንደሚፈልጉ እርግጠኛ ነዎት",
+      "leadUpdated": "መሪ በተሳካ ሁኔታ ተዘምኗል",
+      "reject_reason": "የውድቅ ምክንያት በተሳካ ሁኔታ ተጨምሯል",
+      "reject_reason_delete": "የውድቅ ምክንያት በተሳካ ሁኔታ ተሰርዟል",
+      "degination_update": "ሃላፊነት በተሳካ ሁኔታ ተዘምኗል",
+      "sales_status_added": "የሽያጭ ሁኔታ በተሳካ ሁኔታ ተጨምሯል",
+      "sales_status_deleted": "የሽያጭ ሁኔታ በተሳካ ሁኔታ ተሰርዟል",
+      "sales_status_updated": "የሽያጭ ሁኔታ በተሳካ ሁኔታ ተዘምኗል",
+      "lead_deleted":"መሪ በተሳካ ሁኔታ ተሰርዟል",
+      "lead_delete_error":"የመሪ መሰረዝ አልተሳካም",
+      "failed_to_delete_lead":"መሪን መሰረዝ አልተሳካም",
+      "failed_delete_contract":"ውልን መሰረዝ አልተሳካም",
+      "contarct_deleted":"ውል በተሳካ ሁኔታ ተሰርዟል",
+      "unexpected_error":"ያልተጠበቀ ስህተት ተከስቷል",
+      "contract_updated_successfully":"ውል በተሳካ ሁኔታ ተዘምኗል",
+      "contract_created_successfully":"ውል ሙሉ በሙሉ ተፈጠረ",
+      "failed_to_delete":"ዕውቂያን መሰረዝ አልተሳካም",
+      "contact_deleted_successfully":"ዕውቂያ በተሳካ ሁኔታ ተሰርዟል",
+      "are_you_sure_contact":"ይህን ዕውቂያ መሰረዝ እንደሚፈልጉ እርግጠኛ ነዎት?",
+      "contact_updated":"ዕውቂያ በተሳካ ሁኔታ ተዘምኗል",
+      "failed_to_update":"ዕውቂያን ማዘመን አልተሳካም",
+      "contact_created_successfully":"ዕውቂያ በተሳካ ሁኔታ ተፈጠረ"
+
+    },
+    "buttons": {
+      "list_view": "የዝርዝር እይታ",
+      "grid_view": "የፍርግርግ እይታ",
+      "delete": "ሰርዝ",
+      "add_lead": "መሪ ጨምር"
+    },
+    "confirm": {
+      "confirm_title": "ሰርዝ",
+      "confirm_content": "ይህን ሃላፊነት መሰረዝ እንደሚፈልጉ እርግጠኛ ነዎት?",
+      "confirm_status": "ይህን የሽያጭ ሁኔታ መሰረዝ እንደሚፈልጉ እርግጠኛ ነዎት?",
+      "confirm_reason": "ይህን የውድቅ ምክንያት መሰረዝ እንደሚፈልጉ እርግጠኛ ነዎት?"
+    },
+    "tooltips": {
+      "leadStatus": "የመሪ ሁኔታ",
+      "leadValue": "የመሪ ዋጋ",
+      "percentageSuccess": "የስኬት መቶኛ",
+      "edit_desigination": "ሃላፊነት አርትዕ",
+      "delete_designation": "ሃላፊነት ሰርዝ"
+    },
+    "toolbar": {
+      "filters": "ማጣሪያዎች",
+      "status": "ሁኔታ",
+      "leads": "መሪዎች",
+      "options_status": "የሁኔታ አማራጮች",
+      "leads_options": "የመሪዎች አማራጮች",
+      "all_leads": "ሁሉም መሪዎች",
+      "department": "ክፍል",
+      "print": "አትም",
+      "export": "ወደ ውጭ ላክ",
+      "import": "ከውጭ አምጣ"
+    },
+    "editor": {
+      "placeholder": "መተየብ ይጀምሩ..."
+    },
+    "table": {
+      "no_data": "ምንም መረጃ አልተገኘም",
+      "empty_rows": "ተጨማሪ ረድፎች የሉም"
+    },
+    "pagination": {
+      "rows_per_page": "ረድፎች በገጽ",
+      "dense_mode": "ጥቅጥቅ ያለ ሁነታ"
+    }
+  },
+  "addTarget": {
+    "dialogTitle": {
+      "add": "ዒላማ ጨምር ለ",
+      "edit": "ዒላማ አርትዕ ለ"
+    },
+    "toast":{
+      "target_add":"ዒላማ በተሳካ ሁኔታ ተጨምሯል",
+      "target_update":"ዒላማ በተሳካ ሁኔታ ተዘምኗል"},
+     
+    "form": {
+      "yearLabel": "ዓመት",
+      "monthLabel": "ወር",
+      "addButton": "ጨምር",
+      "editButton": "አርትዕ",
+      "deleteButton": "ሰርዝ",
+      "saveButton": "አስቀምጥ"
+      
+    },
+    "dialogActions": {
+      "cancel": "ሰርዝ"
+    },
+    "errors": {
+      "yearRequired": "ዓመት ያስፈልጋል",
+      "monthlyValueRequired": "ወርሃዊ ዋጋዎች ያስፈልጋሉ"
+    }
+  }
+}

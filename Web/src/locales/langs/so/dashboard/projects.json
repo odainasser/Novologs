@@ -1,0 +1,641 @@
+
+{
+    "projects":{
+        "dashboard": "Dashboard",
+  "documents": "Dukumentiyo",
+  "new": "Cusub",
+  "cancel": "Jooji",
+  "add": "Ku dar",
+  "done": "La dhammeeyay",
+  "none_selected": "Wax lama dooran",
+  "placeholder_category": "Raadi qayb...",
+  "print": "Daabac",
+  "export": "Dhoofin",
+  "import": "Soo dejin",
+
+  "archived_projects": "Mashruucyo kaydsan",
+  "active_projects": "Mashruucyo firfircoon",
+  "all_projects": "Dhammaan mashruucyada",
+
+  "project": "Mashruuc",
+  "mission": "Mission",
+  "client": "Macmiil",
+  "vendor": "Alaab-qeybiye",
+  "member": "Xubin",
+
+  "category_name": "Magaca qaybta",
+  "edit": "Wax ka beddel",
+  "not_avaiable": "Lama heli karo",
+  "cost": "Kharash",
+  "duration": "Muddo",
+
+  "total_task": "Wadarta hawlaha",
+  "total_duration": "Wadarta muddada",
+
+  "copy_url": "Nuqul ka samee URL",
+  "list": "Liis",
+  "owner": "Mulkiile",
+
+  "task_types": "Noocyada hawsha",
+  "general_task_type": "Nooca hawsha guud",
+  "project_task_type": "Nooca hawsha mashruuca",
+  "mission_task_type": "Nooca hawsha mission",
+  "client_task_type": "Nooca hawsha macmiilka",
+  "vendor_task_type": "Nooca hawsha alaab-qeybiyaha",
+
+  "buisnesslead": "Hogaamiyaha ganacsiga",
+  "contract": "Qandaraas",
+
+  "project_module": "Modules mashruuca",
+  "project_milestone": "Heerarka mashruuca",
+
+  "new_status": "Xaalad cusub",
+  "arabic_status": "Xaalad cusub (Carabi)",
+
+  "edit_designation": "Wax ka beddel jago",
+  "add_designation": "Ku dar jago",
+  "delete_designation": "Tirtir jago",
+
+  "new_category": "Qayb cusub",
+  "arabic_category": "Qayb cusub (Carabi)",
+
+  "new_priority": "Mudnaan cusub",
+  "arabic_priority": "Mudnaan cusub (Carabi)",
+
+  "projects": "Mashruucyo",
+  "new_goal": "Hadaf cusub",
+  "arabic_new_goal": "Hadaf cusub (Carabi)",
+
+  "not_available": "Lama heli karo",
+
+  "add_update_members": "Ku dar / Cusboonaysii xubnaha",
+
+  "card_header": "Guryaha",
+  "subheader": "Shaqooyin iyo astaamo dheeraad ah...",
+
+  "view_members": "Arag xubnaha",
+  "add_owners": "Ku dar mulkiilayaal",
+  "add_members": "Ku dar xubno",
+
+  "edit_owners": "Wax ka beddel mulkiilayaasha",
+  "edit_members": "Wax ka beddel xubnaha",
+
+  "members": "Xubno",
+  "owners": "Mulkiilayaal",
+
+  "total_categories": "Wadarta qaybaha",
+  "departments": "Waaxyo",
+
+  "no_other_owners_found": "Mulkiilayaal kale lama helin",
+
+  "task_type": "Nooca hawsha",
+  "designations": "Jagooyin",
+  "employee_statuses": "Xaaladaha shaqaalaha",
+
+  "my_tasks": "Hawlaha iiga",
+  "task_type_stats": "Tirakoobka noocyada hawsha",
+  "my_task_type_stats": "Tirakoobka noocyada hawsha iiga",
+
+  "milestonestats": "Tirakoobka heerarka",
+  "mymilestonestats": "Tirakoobka heerarka iiga",
+
+  "milestone1": "Heer 1",
+  "milestone2": "Heer 2",
+
+  "add_mission_details": "Ku dar faahfaahinta mission",
+  "edit_mission_details": "Wax ka beddel faahfaahinta mission",
+
+  "project_detail": "Faahfaahinta mashruuca",
+  "add_project_details": "Ku dar faahfaahinta mashruuca",
+  "edit_project_details": "Wax ka beddel faahfaahinta mashruuca",
+
+  "project_goals": "Hadafyada mashruuca",
+
+  "no_goals_available": "Hadafyo lama heli karo",
+  "no_initiative_available": "Initiatives lama heli karo",
+  "no_milestone_available": "Heerar lama heli karo",
+  "no_clients_available": "Macaamiil lama heli karo",
+  "no_tasktypes_available": "Noocyada hawsha lama heli karo",
+  "no_modules_available": "Modules lama heli karo",
+
+  "mission_description": "Sharaxaadda mission",
+  "project_description": "Sharaxaadda mashruuca",
+
+  "project_goal_arabic": "Hadaf mashruuc (Carabi)",
+  "project_goal_delete": "Ma hubtaa inaad tirtirto hadafkan mashruuca?",
+
+  "add_editors": "Ku dar tafatirayaal",
+  "add_viewers": "Ku dar daawadayaal",
+  "edit_viewers": "Wax ka beddel daawadayaasha",
+  "edit_editors": "Wax ka beddel tafatirayaasha",
+
+  "content": "Nuxur",
+  "title": "Cinwaan",
+  "cover": "Cover",
+
+  "code": "Kood",
+  "save": "Kaydi",
+
+  "start_typing": "Bilow qorista...",
+  "project_type": "Nooca hawsha mashruuca",
+  "project_tasktype_arabic": "Nooca hawsha mashruuca (Carabi)",
+
+
+        "project_settings": {
+    "tabs": {
+      "createProjects": "Oggolaanshaha abuurista mashruuca",
+      "viewProjects": "Oggolaanshaha aragga mashruuca",
+      "goal": "Hadafyada mashruuca",
+      "goals": "Hadaf mashruuc",
+      "initiative": "Initiative mashruuc",
+      "search": "Raadi",
+      "status": "Xaalad",
+      "tasktypes": "Noocyada hawsha",
+      "new_intitiative": "Initiative cusub",
+      "arabic_new_intitiative": "Initiative cusub (Carabi)",
+      "settings": "Dejinta",
+
+      "project_initiative_added": "Initiative mashruuc si guul leh ayaa loo daray",
+      "project_initiative_deleted": "Initiative mashruuc si guul leh ayaa loo tirtiray",
+      "project_updated": "Initiative mashruuc si guul leh ayaa loo cusboonaysiiyay",
+
+      "project_initiative_arabic": "Initiative mashruuc (Carabi)",
+      "project_iniitative_confirm": "Ma hubtaa inaad tirtirto initiative-kan mashruuca?",
+
+      "project-cost-view": "Oggolaanshaha aragga kharashka mashruuca",
+      "view_all": "Oggolaanshaha aragga dhammaan mashruucyada",
+      "create_project": "Oggolaanshaha abuurista mashruuca"
+    }
+},
+         "projects-status": {
+    "created": "La abuuray",
+    "started": "La bilaabay",
+    "closed": "La xiray",
+    "completed": "La dhammeeyay",
+    "cancelled": "La joojiyay",
+    "inprogress": "Socda",
+    "postpone": "La dib dhigay",
+    "amended": "La wax ka beddelay",
+    "reopened": "Dib loo furay",
+    "stopped": "La joojiyay"
+  },
+
+  "missions": {
+    "archived_missions": "Missions kaydsan",
+    "missions": "Missions",
+    "active_missions": "Missions firfircoon",
+    "all_missions": "Dhammaan missions",
+
+    "add_mission_color": "Ku dar midabka mission",
+    "edit_mission_color": "Wax ka beddel midabka mission",
+
+    "add_mission_name": "Ku dar magaca mission",
+    "edit_mission_name": "Wax ka beddel magaca mission",
+
+    "add_mission_details": "Ku dar faahfaahinta mission",
+    "add_mission": "Ku dar mission",
+
+    "change_owners": "Beddel mulkiilayaasha",
+
+    "mission_name": "Magaca mission",
+    "mission_details": "Faahfaahinta mission",
+    "mission": "Mission",
+
+    "milestones": "Heerar",
+    "category": "Qayb",
+
+    "AddMilestone": "Ku dar heer",
+    "edit_milestone": "Wax ka beddel heer",
+
+    "add_category": "Ku dar qayb",
+    "edit_category": "Wax ka beddel qayb",
+
+    "add_milestone": "Ku dar heer",
+
+    "add_milestone_details": "Ku dar faahfaahinta heerka",
+    "edit_milestone_details": "Wax ka beddel faahfaahinta heerka",
+    "milestone_details": "Faahfaahinta heerka",
+    "milestone": "Heer",
+
+    "confirm_swap": "Xaqiiji beddelka",
+    "are_you_sure_want": "Ma hubtaa inaad beddesho qaybtaan?",
+
+    "yes": "Haa",
+    "cancel": "Jooji",
+
+    "are_you_sure_milestone": "Ma hubtaa inaad tirtirto heerkan?",
+
+    "add_tasks": "Ku dar hawlo heerka",
+    "clear_all": "Nadiifi dhammaan",
+
+    "are_you_sure_want_to_milestone": "Ma hubtaa inaad tirtirto dhammaan hawlaha heerkan?",
+
+    "delete_milestone": "Heer si guul leh ayaa loo tirtiray",
+    "no_milestone_deleted": "Heer lama dooran si loo tirtiro",
+
+    "task_cleared": "Hawlaha si guul leh ayaa looga saaray heerka",
+    "uncategorized": "Aan la kala saarin",
+
+    "startdate": "Taariikhda bilowga",
+    "enddate": "Taariikhda dhammaadka",
+
+    "add": "Ku dar",
+    "name": "Magac",
+    "decription": "Sharaxaad",
+
+    "milestone_added": "Heer si guul leh ayaa loo daray",
+
+    "namerequired": "Magac waa loo baahan yahay",
+    "startdate_enddate": "Taariikhda bilowga ma noqon karto ka dambaysa taariikhda dhammaadka",
+    "enddate_startdate": "Taariikhda dhammaadka ma noqon karto ka hor taariikhda bilowga"
+  },
+
+"table": {
+    "serialNo": "Lambarka",
+    "id": "ID",
+    "serial_no": "Lambarka",
+    "creator": "Abuuraha",
+    "name": "Magac",
+    "department": "Waax",
+    "startDate": "Taariikhda bilowga",
+    "endDate": "Taariikhda dhammaadka",
+    "members": "Mulkiilayaal",
+    "owners": "Xubno",
+    "details": "Faahfaahin",
+    "status": "Xaalad",
+    "actions": "Ficillo",
+
+    "confirm_delete": "Ma hubtaa inaad tirtirto",
+    "content": "Ma hubtaa inaad tirtirto jago this?",
+    "content3": "Ma hubtaa inaad tirtirto mashruucan?",
+
+    "no_data": "Xog lama heli karo",
+    "dense": "Aragti ciriiri ah",
+
+    "actions_delete": "Tirtir",
+    "save": "Kaydi",
+    "clear_all": "Nadiifi dhammaan",
+    "update": "Cusboonaysii",
+    "edit": "Wax ka beddel",
+
+    "project_name": "Magaca mashruuca",
+    "add_owners": "Ku dar mulkiilayaal",
+    "add_members": "Ku dar xubno",
+
+    "add_project_color": "Ku dar midabka mashruuca",
+    "edit_project_color": "Wax ka beddel midabka mashruuca",
+
+    "add_project_details": "Ku dar faahfaahinta mashruuca",
+    "edit_project_details": "Wax ka beddel faahfaahinta mashruuca",
+
+    "add": "Ku dar",
+    "project_desc": "Sharaxaadda mashruuca",
+    "project_milestone": "Heerarka mashruuca",
+
+    "task_type": "Nooca hawsha",
+    "modules": "Modules",
+
+    "no_members": "Xubno ma jiraan",
+    "close": "Xir",
+
+    "project_tasks": "Hawlaha mashruuca",
+    "clear_All": "Nadiifi dhammaan",
+
+    "email": "Email",
+    "phone_number": "Lambarka telefoonka",
+    "country": "Dal",
+    "address": "Cinwaan",
+    "city": "Magaalo",
+
+    "AddBranch": "Ku dar laan",
+    "branchupdated": "Laanta si guul leh ayaa loo cusboonaysiiyay",
+    "branchcreated": "Laanta si guul leh ayaa loo abuuray",
+    "branchdeleted": "Laanta si guul leh ayaa loo tirtiray",
+
+    "failed_to_update": "Ku guuldareysatay cusboonaysiinta laanta",
+    "failed_to_delete": "Ku guuldareysatay tirtiridda laanta",
+
+    "email_required": "Email waa loo baahan yahay",
+    "no_branches_found": "Laamo lama helin",
+
+    "code": "Kood",
+
+    "are_you_sure_want_delete": "Ma hubtaa inaad tirtirto laantan?",
+    "no_branches_available_for": "Laamo lama heli karo shirkaddan",
+
+    "task_delete": "Ma hubtaa inaad tirtirto nooca hawsha mashruuca?"
+  },
+
+"categories": {
+    "project_track": "Raadinta mashruuca",
+    "team_communication": "Isgaarsiinta kooxda",
+    "document_sharing": "Wadaagista dukumentiyada",
+    "workflow_automation": "Otomaatiga habraaca shaqada",
+    "time_tracking": "Raadinta waqtiga",
+    "task_priority": "Mudnaanta hawsha",
+    "goal_setting": "Dejinta hadafka",
+
+    "months": {
+      "jan": "Jan",
+      "feb": "Feb",
+      "mar": "Mar",
+      "apr": "Apr",
+      "may": "May",
+      "jun": "Jun",
+      "jul": "Jul",
+      "aug": "Aug",
+      "sep": "Sep"
+    }
+  },
+
+ "employee_card": {
+    "id_not_available": "ID shaqaale lama heli karo",
+    "designation_not_available": "Jago lama heli karo",
+    "department_not_available": "Waax lama heli karo",
+    "status_not_available": "Xaalad lama heli karo",
+    "start_date_not": "Taariikhda bilowga lama heli karo",
+    "end_date_not": "Taariikhda dhammaadka lama heli karo",
+    "description_available": "Sharaxaad lama heli karo",
+    "initiative_available": "Initiative lama heli karo",
+    "goal_not_available": "Hadaf lama heli karo"
+  },
+
+  "status": {
+    "on_duty": "Shaqo ku jira",
+    "update": "Cusboonaysii",
+    "active": "Fur (Active)",
+    "archive": "Kaydi (Archive)",
+    "change_status": "Beddel xaaladda",
+
+    "content_active": "Ma hubtaa inaad firfircooneysid mashruucan?",
+    "content_archive": "Ma hubtaa inaad kaydiso mashruucan?",
+
+    "no_members_available": "Xubno ma jiraan",
+    "confirm_change_status": "Ma hubtaa inaad u beddesho xaaladda",
+    "no_status_found": "Xaalad lama helin",
+
+    "change": "Beddel",
+    "no_members_found": "Xubno lama helin",
+    "no_members_desc": "Xubno ma jiraan",
+
+    "completed_on_time": "La dhammeeyay waqtigii",
+    "completed_late": "La dhammeeyay dib u dhac",
+
+    "overdue": "Dib u dhacay",
+    "working_on": "Ku shaqeynaya",
+    "not_started": "Lama bilaabin",
+    "on_hold": "La hakiyay",
+    "waiting_for_approval": "Sugaya oggolaansho",
+    "in_progress": "Socda",
+    "submitted": "La gudbiyay",
+    "completed": "La dhammeeyay",
+
+    "task_progress": "Horumarka hawsha",
+
+    "failed_update": "Ku guuldareysatay cusboonaysiinta xaaladda",
+    "task_status": "Xaaladda hawsha si guul leh ayaa loo beddelay",
+    "task_status_error": "Ku guuldareysatay beddelka xaaladda hawsha"
+  },
+
+"Projectmodule": {
+    "project_module_added": "Module mashruuc si guul leh ayaa loo daray",
+    "project_module_deleted": "Module mashruuc si guul leh ayaa loo tirtiray",
+    "project_module_updated": "Module mashruuc si guul leh ayaa loo cusboonaysiiyay",
+
+    "tooltip_edit": "Wax ka beddel",
+    "tooltip_save": "Kaydi",
+    "tooltip_delete": "Tirtir",
+
+    "project_module_arabic": "Module mashruuc (Carabi)",
+    "add": "Ku dar",
+    "project_module": "Module mashruuc",
+
+    "confirm_delete": "Ma hubtaa inaad tirtirto module-kan mashruuca?"
+  },
+
+  "tooltip": {
+    "list": "Aragti liis",
+    "grid": "Aragti grid",
+
+    "view_archived_projects": "Arag mashruucyada kaydsan",
+    "view_active_projects": "Arag mashruucyada firfircoon",
+
+    "settings": "Dejinta",
+
+    "add_project_color": "Ku dar midabka mashruuca",
+    "add_project_details": "Ku dar faahfaahinta mashruuca",
+
+    "add_employee": "Ku dar shaqaale",
+    "cancel": "Jooji",
+
+    "copy_phone_number": "Nuqul ka samee lambarka telefoonka",
+    "phone_number_copied": "Lambarka telefoonka waa la nuqulay",
+
+    "total_tasks": "Wadarta hawlaha"
+  },
+
+
+
+
+      "project_details": {
+    "tabs": {
+      "profile": "Dashboard",
+      "documents": "Dukumentiyo",
+      "tasks": "Hawlo",
+      "files": "Faylal",
+      "members": "Xubno",
+      "nonMembers": "Aan xubno ahayn",
+      "report": "Warbixin",
+      "closure": "Xirid",
+      "client": "Macmiil",
+      "task_types": "Noocyada hawsha",
+      "select_task_types": "Dooro noocyada hawsha",
+      "no_initiative": "Initiatives lama heli karo",
+      "project_flow": "Socodka mashruuca",
+      "overview": "Guudmar",
+      "category": "Qayb",
+      "milestone": "Heer",
+      "ticket_details": "Faahfaahinta ticket-ka",
+      "ticketing": "Qaybaha ticket-ka",
+      "tickets": "Tickets"
+    }
+  },
+
+  "toast": {
+    "task_priority_added": "Mudnaanta hawsha si guul leh ayaa loo daray",
+    "task_priority_deleted": "Mudnaanta hawsha si guul leh ayaa loo tirtiray",
+    "task_priority_updated": "Mudnaanta hawsha si guul leh ayaa loo cusboonaysiiyay",
+
+    "delete_success": "Si guul leh ayaa loo tirtiray!",
+    "project_goal_added": "Hadaf mashruuc si guul leh ayaa loo daray",
+    "project_goal_deleted": "Hadaf mashruuc si guul leh ayaa loo tirtiray",
+    "project_goal_updated": "Hadaf mashruuc si guul leh ayaa loo cusboonaysiiyay",
+
+    "project_added": "Mashruuc si guul leh ayaa loo daray",
+    "project_updated": "Mashruuc si guul leh ayaa loo cusboonaysiiyay",
+    "project_deleted": "Mashruuc si guul leh ayaa loo tirtiray",
+
+    "update_success": "Cusboonaysiin guul leh!",
+    "create_success": "Abuurid guul leh!",
+
+    "confirm_delete": "Ma hubtaa inaad tirtirto",
+
+    "employee_exempted": "Shaqaale waa laga dhaafay ku darista hawsha",
+    "permission_add": "Ogolaansho waa la daray",
+
+    "add_employees": "Ku dar shaqaale",
+    "no_contents": "Wax la kaydiyo ma jiraan",
+
+    "project_initiative_added": "Initiative mashruuc si guul leh ayaa loo daray",
+    "project_initiative_deleted": "Initiative mashruuc si guul leh ayaa loo tirtiray",
+    "project_update_initiative": "Initiative mashruuc si guul leh ayaa loo cusboonaysiiyay",
+
+    "required": "Waa loo baahan yahay",
+    "mission_add": "Mission si guul leh ayaa loo daray",
+    "failed": "Fashilmay",
+
+    "ticket_added": "Ticket si guul leh ayaa loo daray",
+    "adding_failed": "Ku darista way fashilantay",
+
+    "no_overview_found": "Guudmar lama helin",
+    "no_overview_available": "Guudmar lama heli karo mashruucan",
+    "are_you_deleted_overview": "Ma hubtaa inaad tirtirto guudmarkan?",
+
+    "failed_add": "Ku guuldareysatay tirtiridda mashruuca",
+
+    "project_overview_added": "Guudmar mashruuc si guul leh ayaa loo daray",
+    "project_overview_failed": "Ku darista guudmarka mashruuca way fashilantay",
+    "project_overview_linked": "Guudmar mashruuc ayaa lagu xiray mashruuca",
+
+    "project_link": "Ku xidhista mashruuca way fashilantay",
+    "project_overview_deleted": "Guudmar mashruuc si guul leh ayaa loo tirtiray",
+
+    "expected_error": "Khalad lama filaan ah ayaa dhacay",
+    "project_error": "Khalad ayaa dhacay intii la cusboonaysiinayay mashruuca",
+
+    "project_task_type_delete": "Nooca hawsha mashruuca si guul leh ayaa loo tirtiray",
+    "project_task_type_update": "Nooca hawsha mashruuca si guul leh ayaa loo cusboonaysiiyay",
+    "project_task_type_added": "Nooca hawsha mashruuca si guul leh ayaa loo daray",
+
+    "mission_updated_successfully": "Mission si guul leh ayaa loo cusboonaysiiyay",
+    "mission_added_successfully": "Mission si guul leh ayaa loo daray",
+    "mission_delete": "Ma hubtaa inaad tirtirto mission-kan?",
+
+    "ticket_category": "Qaybta ticket-ka si guul leh ayaa loo daray",
+    "ticket_category_delete": "Qaybta ticket-ka si guul leh ayaa loo tirtiray",
+    "ticket_category_updated": "Qaybta ticket-ka si guul leh ayaa loo cusboonaysiiyay",
+
+    "project_activated_successfully": "Mashruuc si guul leh ayaa loo firfircooneysiiyay",
+    "project_archived_successfully": "Mashruuc si guul leh ayaa loo kaydiyay",
+
+    "no_status_selected": "Xaalad lama dooran",
+    "project_status_updated": "Xaaladda mashruuca si guul leh ayaa loo cusboonaysiiyay",
+    "failed_to_update_status": "Ku guuldareysatay cusboonaysiinta xaaladda"
+  },
+       "fields": {
+    "new_category": "Qayb cusub",
+    "arabic_category": "Qayb cusub (Carabi)",
+    "new_priority": "Mudnaan cusub",
+    "arabic_priority": "Mudnaan cusub (Carabi)",
+    "no_file_chosen": "Fayl lama dooran",
+    "created": "La abuuray",
+    "cancelled": "La joojiyay"
+  }
+    },
+"settings":{
+"add_currency" :"Add Currency",
+"no_currencies":"  No currencies found",
+"add":"Add",
+"currency":"Currency",
+"name":"Settings",
+"dashboard":"Dashboard",
+"list":"List",
+"system_dashbaord":"System Dashboard",
+"toast_currency_success":"Currency added successfully",
+"company_logo_updated":"Company logo updated successfully",
+"company_logo_deleted":"Company logo deleted successfully",
+"company_added_successfully":"Company added successfully",
+"image_success":"Image uploaded successfully",
+"unexpected_error":" An Unexpected error occured",
+"company_logo":"Company Logo",
+"edit_company_logo":"Edit Company Logo",
+"delete":"Delete",
+"add_company_logo":"Add Company Logo",
+"file_large":"File is larger than",
+"allowed_types":"Allowed types: *.jpeg, *.jpg, *.png, *.gif",
+"cancel":"Cancel",
+"save":"Save",
+"confirm_delete_logo":"Delete Company Logo",
+"confirm_content":"Are you sure you want to delete this company logo?",
+"delete_success":"Delete success!",
+"company_info":"Company Info",
+"set_default":"Set as default",
+"max":"Max size of",
+"provinces":"Provinces",
+"view_admin_dashboard":"View Admin Dashboard Permission",
+"access_accounts_module":"Access Accounts Module Permission",
+"company_branches":"Company Branches",
+"add_province":"Add Province",
+"province_updated":"Province updated successfully",
+"province_added":"Province added successfully",
+"province_deleted":"Province deleted successfully",
+"back":"Back",
+"no_province_added":"No provinces added",
+"set_default_country":"Set default country",
+"content":"Are you sure you want to set this as the default country? Provinces will be loaded from the default country.",
+"yes":"Yes",
+"default_province":"Default province set to",
+"set_currency":"Set Currency",
+"set_default_currency":"Set as default currency",
+"content_currency":"Are you sure you want to set this as the default currency?",
+"default_currency":"Default currency set to"
+
+
+
+
+
+
+
+},
+"workflow": "Habraaca shaqada",
+  "edit_workflow": "Wax ka beddel habraaca shaqada",
+  "add_workflow": "Ku dar habraac shaqo",
+  "workflow_steps": "Tallaabooyinka habraaca",
+  "workflow_title": "Cinwaanka habraaca",
+
+  "workflow_updated": "Habraaca shaqada si guul leh ayaa loo cusboonaysiiyay",
+  "workflow_added": "Habraaca shaqada si guul leh ayaa loo daray",
+  "workflow_deleted": "Habraaca shaqada si guul leh ayaa loo tirtiray",
+
+  "workflow_delete": "Ma hubtaa inaad tirtirto habraacan shaqada?",
+
+  "title": "Cinwaan",
+  "steps": "Tallaabooyin",
+  "add_steps": "Ku dar tallaabooyin",
+
+  "search": "Raadi",
+  "no_workflow_found": "Habraac shaqo lama helin",
+
+  "step": "Tallaabo",
+  "step_required": "Tallaabo waa loo baahan yahay",
+
+  "update_workflow": "Cusboonaysii habraaca shaqada"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

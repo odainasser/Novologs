@@ -1,0 +1,162 @@
+{
+    "documents": {
+      "add": {
+        "back": "Back",
+        "dashboard":"Dashboard",
+        "documents":"Documents",
+        "actions":"Actions",
+        "new_heading": "Create New Document",
+        "edit_heading": "Edit Document",
+        "details_title": "Details",
+        "type":"Type",
+        "edit_content":"Edit Content",
+        "no_comments_yet":"No comments yet.",
+        "details_subtitle": "Title, short description, image...",
+        "form": {
+          "title": "Document Title",
+          "description": "Short Description",
+          "cover_upload": "Upload a cover image",
+          "category": "Category",
+          "node_type": "Node Type",
+          "viewers": "Search viewers...",
+          "editors": "Search editors...",
+          "no_viewers_note": "If No viewers selected, this post will be public.",
+          "add_category": "Add New Category",
+          "category_name": "Category Name",
+          "title_1": "Title",
+          "cover":"Cover",
+          "card_header":"Properties",
+          "subheader":"Additional functions and attributes...",
+          "viewers_name":"Viewers",
+          "editor_name":"Editors",
+          "Change_Viewers":"Change Viewers",
+          "Add_viewers":"Add Viewers",
+          "Change_Editors":"Change Editors",
+          "Add_Editors":"Add Editors"
+        },
+        "content":"Content",
+        "placeholder": "Start Typing...",
+        "placeholder_category":"Search category...",
+        "submit_create": "Create Document",
+        "submit_update": "Update Document",
+        "toast_create": "Document created",
+        "toast_update": "Document updated",
+        "editor_title": "Content",
+        "cover_upload_success": "Cover image uploaded successfully",
+        "cover_upload_error": "Error uploading cover image",
+       "editor_subtitle": "Write your document content here..."
+      },
+      
+      "validation": {
+        "title_required": "Title is required",
+        "description_required": "Description is required",
+        "category_required": "Category is required",
+        "node_type_required": "Node Type is required"
+      },
+      "list": {
+        "heading": "Documents",
+        "tabs": {
+          "list": "List"
+           },
+        "toolbar": {
+          "search_placeholder": "Search documents...",
+          "category_all": "All Category",
+          "sort_by": "Sort by",
+          "sort_latest": "Latest",
+          "sort_oldest": "Oldest",
+          "add_button": "Add New Documents",
+          "none_selected":"None selected",
+          "back": "Back",
+          "edit": "Edit",
+          "share": "Share",
+          "doc_type": "Doc Type",
+          "dialog_title": "Share Document",
+          "make_public": "Make Public",
+          "copy_instruction": "Copy and share this link:",
+          "copy_button": "Copy Link",
+          "close_button": "Close",
+          "copied_to_clipboard": "Link copied to clipboard!"
+        },
+        "filters": {
+          "keyword": "Keyword:",
+          "category": "Category:",
+          "sort": "Sort by:"
+        }
+       
+        
+      },
+       "type":{
+          "book":"Book",
+          "folder":"Folder",
+          "wiki":"Wiki",
+          "post":"Post",
+          "project":"Project",
+          "story":"Story",
+          "task":"Task",
+          "milestone":"Milestone",
+          "lead":"Lead",
+          "client":"Client",
+          "contract":"Contract",
+          "vendor":"Vendor"
+        },
+
+      "details": {
+        "not_found": "Document not found",
+        "comments": "Comments",
+        "share": {
+          "title": "Share Document",
+          "public_toggle": "Make Public",
+          "copy_label": "Copy and share this link:",
+          "copy_button": "Copy Link",
+          "copied": "Link copied to clipboard!"
+        }
+      },
+
+      "comment": {
+        "placeholder": "Write some of your comments...",
+        "reply_button": "Reply",
+        "write_comment": "Write some of your comments...",
+        "post_comment": "Post comment",
+        "copied_file": "Copied file",
+        "attached_file_removed": "File removed",
+        "emoji_picker": "Pick emoji",
+        "attached_files": "Attached Files",
+        "file_removed": "File removed",
+        "select_file": "Select a file"
+      },
+
+    "toast": {
+    "document_delete":"Document Deleted Successfully",
+    "response_error":"Document deleted failed",
+    "document_update":"Document Updated Successfully",
+    "failed_document":"Failed to update document",
+    "failed_add":"Failed to add document",
+    "comment_add":"Comment added successfully",
+    "comment_add_fail":"Failed to add comment",
+     "document_add_fail":"Document added, but task update failed",
+    "document_error":"An error occurred while saving the document",
+    "document_link":"Document added and linked to task successfully",
+    "unexpected_error_delete":"Unexpected error occurred while deleting the document",
+    "operation_failed":"Operation failed. Please try again."
+    },
+      
+    
+      "actions": {
+        "edit": "Edit",
+        "delete": "Delete",
+        "view": "View",
+        "new":"New",
+        "cancel":"Cancel",
+        "add":"Add",
+        "print":"Print",
+        "save":"Save",
+        "export":"Export",
+        "import":"Import",
+        "no_documents_found":"No documents found",
+        "no_douments_available":"There are no documents available",
+        "no_content":"No content found to save",
+        "delete_confirm": "Are you sure you want to delete this document?"
+      }
+    }
+  }
+   

@@ -1,0 +1,112 @@
+{
+  "heading": {
+    "list": "Orodha"
+  },
+  "breadcrumbs": {
+    "dashboard": "Dashibodi",
+    "timesheet": "Ratiba ya Kazi",
+    "list": "Orodha",
+    "calender": "Kalenda",
+    "activities": "Shughuli",
+    "my_activities": "Shughuli Zangu",
+    "all_timesheets": "Ratiba Zote za Kazi",
+    "all_activities": "Shughuli Zote",
+    "my_timesheets": "Ratiba Zangu za Kazi"
+  },
+  "tabs": {
+    "all": "Ratiba Zote za Kazi",
+    "task_type": "Aina ya Kazi",
+    "mission": "Misheni",
+    "Contract": "Mkataba",
+    "vendor": "Msambazaji",
+    "project": "Mradi",
+    "Lead": "Fursa",
+    "Client": "Mteja",
+    "general": "Jumla"
+  },
+
+  "table": {
+    "sl_no": "Na.",
+    "timesheet_id": "Kitambulisho cha Ratiba",
+    "project": "Mradi",
+    "task": "Kazi",
+    "start_date": "Tarehe ya Kuanza",
+    "duration": "Muda na Kipindi",
+    "notes": "Maelezo",
+    "not_available": "Haipatikani",
+    "no_notes": "Hakuna maelezo",
+    "timeslot": "Muda",
+    "actions": "Vitendo",
+    "details": "Maelezo",
+    "date": "Tarehe",
+    "task_details": "Maelezo ya Kazi",
+    "tasktype": "Aina ya Kazi",
+    "duration_label": "Muda",
+    "total_duration": "Jumla ya Muda",
+    "employee_id": "Kitambulisho cha Mfanyakazi",
+    "code": "Msimbo",
+    "employee": "Mfanyakazi",
+    "designation&department": "Cheo na Idara"
+  },
+
+  "form": {
+    "save": "Hifadhi",
+    "update": "Sasisha",
+    "clear": "Futa",
+
+    "id": "Kitambulisho cha Ratiba",
+    "project": "Mradi",
+    "task": "Kazi",
+    "start_date": "Tarehe ya Kuanza",
+    "duration": "Muda na Kipindi",
+    "notes": "Maelezo",
+    "start_time": "Muda wa Kuanza",
+    "end_time": "Muda wa Kumaliza",
+
+    "select_time_slot": "Chagua muda",
+    "add_timesheet": "Ongeza Ratiba ya Kazi",
+    "select_project": "Chagua Mradi",
+    "select_task": "Chagua Kazi",
+    "search_task": "Tafuta kazi...",
+    "search_placeholder": "Tafuta...",
+    "no_results": "Hakuna matokeo yaliyopatikana",
+    "search": "Tafuta",
+    "search_project": "Tafuta miradi...",
+    "add_timesheet_details": "Ongeza Maelezo ya Ratiba ya Kazi"
+  },
+
+  "toast": {
+    "timesheet_success": "Ratiba ya kazi imeongezwa kwa mafanikio!",
+    "delete_success": "Imefutwa kwa mafanikio!",
+    "calendar_error": "Tafadhali chagua tarehe kutoka kwenye kalenda kwanza.",
+    "id_error": "Inahitajika",
+    "start_time_missing": "Muda wa kuanza haupo",
+    "durationMissing": "Muda haupo, tafadhali chagua muda",
+    "please_select_time_slot": "Tafadhali chagua muda",
+    "timesheet_updated": "Ratiba ya kazi imesasishwa kwa mafanikio",
+    "timesheet_created": "Ratiba ya kazi imeundwa kwa mafanikio",
+    "timesheet_deleted": "Ratiba ya kazi imefutwa kwa mafanikio",
+    "delete_failed": "Kufuta kumeshindikana"
+  },
+
+  "actions": {
+    "delete": "Futa",
+    "add_timesheet": "Ongeza Ratiba ya Kazi",
+    "edit": "Hariri",
+    "print": "Chapisha",
+    "export": "Hamisha",
+    "import": "Leta",
+    "cancel": "Ghairi",
+    "confirm": "Thibitisha",
+    "save": "Hifadhi",
+    "update": "Sasisha",
+    "add": "Ongeza",
+    "any_actions": "Vitendo Vyovyote"
+  },
+
+  "dialogs": {
+    "confirm_delete": "Una uhakika unataka kufuta",
+    "items": "vipengee?",
+    "confirm_delete_single": "Una uhakika unataka kufuta ratiba hii ya kazi?"
+  }
+}

@@ -1,0 +1,630 @@
+{
+  "teams": {
+    "heading": "Equipos",
+    "dashboard": "Panel",
+    "organization_hierarchy": "Jerarquía Organizacional",
+    "add_new_member": "Agregar Nuevo Miembro",
+    "add_more_details": "Agregar Más Detalles",
+    "export": "Exportar a PDF",
+    "user": "Usuario",
+    "list": "Lista",
+    "view": "Ver",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "forward": "Reenviar",
+    "tabs": {
+      "internal": "Interno",
+      "all": "Todos",
+      "my-team": "Mi Equipo",
+      "external": "Externo"
+    },
+    "no_data": "Sin datos",
+    "no_members_found": "No se encontraron miembros",
+    "no_members_available": "No hay miembros disponibles."
+  },
+  "tooltip": {
+    "grid": "Vista de cuadrícula",
+    "list": "Vista de lista",
+    "add_employee": "Agregar empleado",
+    "add_user_details": "Agregar detalles del usuario",
+    "edit_user_details": "Editar detalles del usuario",
+    "add_organization": "Agregar al árbol organizacional",
+    "add_user_image": "Agregar imagen de usuario",
+    "change_user_image ": "Cambiar imagen de usuario",
+    "settings": "Configuraciones",
+    "Organization_tree": "Árbol organizacional",
+    "code": "Código",
+    "details_added": "Detalles agregados"
+  },
+  "table": {
+    "headings": {
+      "serialNo": "N.º",
+      "empId": "ID Emp.",
+      "name": "Nombre",
+      "userName": "Nombre de usuario",
+      "role": "Designación",
+      "department": "Departamento",
+      "email": "Correo electrónico",
+      "status": "Estado",
+      "id": "ID",
+      "designation": "Designación",
+      "firstName": "Nombre",
+      "departmentId": "Departamento",
+      "contact": "Contacto",
+      "countryId": "Nacionalidad",
+      "device": "Dispositivo",
+      "company": "Compañía",
+      "actions": "Acciones",
+      "employee": "Empleado",
+      "card": "Tarjeta",
+      "not_available": "No disponible",
+      "not_register": "No registrado",
+      "unknown_device": "Dispositivo desconocido",
+      "add_business_target": "Agregar objetivo empresarial",
+      "add_target": "Agregar objetivo",
+      "edit_target": "Editar objetivo",
+      "set_business": "Establecer objetivo empresarial",
+      "year": "Año",
+      "phone-number": "Número de teléfono",
+      "enter-phoneno": "Ingresa número de teléfono",
+      "ID": "ID",
+      "details": "Detalles",
+      "tree": "Nivel",
+      "choose_country": "Elegir país",
+      "placeholder_search": "Buscar roles de usuario",
+      "admin": "Administrador",
+      "hr_mangement": "Gestión de RRHH",
+      "project_management": "Gestión de proyectos",
+      "task_management": "Gestión de tareas",
+      "client_management": "Gestión de clientes",
+      "vendor_management": "Gestión de proveedores",
+      "settings_management": "Gestión de configuraciones",
+      "hourly_rate": "Tarifa por hora en AED：",
+      "branches": "Sucursales",
+      "back": "Regresar",
+      "permission_name": "Nombre del permiso",
+      "description": "Descripción",
+      "category": "Categoría",
+      "role_name": "Nombre del rol"
+    },
+    "status": {
+      "label": "Estado",
+      "active": "Activo",
+      "disabled": "Deshabilitado"
+    },
+    "search": {
+      "placeholder": "Buscar..."
+    },
+    "actions": {
+      "edit": "Editar",
+      "view": "Ver",
+      "print": "Imprimir",
+      "import": "Importar",
+      "delete": "Eliminar",
+      "export": "Exportar",
+      "search": "Buscar",
+      "save": "Guardar",
+      "clear_all": "Borrar todos los campos",
+      "Dense": "Compacto",
+      "add": "Agregar",
+      "cancel": "Cancelar",
+      "addmore": "Agregar más",
+      "deactivate": "Desactivar",
+      "update": "Actualizar",
+      "view_more": "Ver más"
+    },
+    "confirm_delete": "¿Estás seguro de que deseas eliminar?",
+    "delete_success": "¡Eliminado con éxito!",
+    "deactivate_message": "¿Estás seguro de que quieres desactivar a este empleado?"
+  },
+  "filters": {
+    "search_placeholder": "Buscar por nombre...",
+    "reset_filters": "Restablecer filtros",
+    "results_found": "{{count}} resultado(s) encontrado(s)",
+    "status_filter": "Filtrar por estado"
+  },
+  "Validations": {
+    "name_error": "El nombre no puede estar vacío.",
+    "email_error": "El nombre de usuario no puede estar vacío.",
+    "email_valid": "Se requiere un correo electrónico válido.",
+    "files_too": "El archivo es más grande que ${fData(1000000)}",
+    "allowed_types": "Permitidos *.jpeg, *.jpg, *.png, *.gif",
+    "max": "tamaño máximo de"
+  },
+  "placeholder": {
+    "enter_address": "Ingresa dirección",
+    "serach_rights": "Buscar derechos de usuario..."
+  },
+  "success_messages": {
+    "employee_add": "¡Empleado agregado con éxito!",
+    "user_updated": "¡Usuario actualizado con éxito!"
+  },
+  "hierarchy": {
+    "title": "Jerarquía Organizacional",
+    "add_role": "Agregar rol",
+    "new-user": "Nuevo usuario",
+    "close": "Cerrar",
+    "edit_permission_level": "Editar nivel de permiso",
+    "no_levels_found": "No se encontraron niveles",
+    "edit": "Editar",
+    "general_members": "Miembros generales",
+    "no_members": "Sin miembros",
+    "add": "Agregar",
+    "search": "Buscar",
+    "back_to_employee": "Volver a la lista de empleados",
+    "general_member_list": "Lista de miembros generales",
+    "please_add": "Por favor agrega",
+    "employee_here": "empleado aquí",
+    "unknown_group": "Grupo desconocido",
+    "delete": {
+      "confirm_title": "Confirmar eliminación",
+      "confirm_message": "¿Estás seguro de que deseas eliminar '{{item}}' de la jerarquía?",
+      "cancel": "Cancelar",
+      "del_confirm": "¿Estás seguro de que deseas eliminar",
+      "from": "de la jerarquía?",
+      "confirm": "Eliminar",
+      "employee_deactivated_success": "Empleado desactivado con éxito",
+      "employee_activated": "Empleado activado",
+      "error_activating_employee": "Error al activar empleado",
+      "employee_vacant": "Empleado vacante",
+      "no_members_available": "No hay miembros disponibles",
+      "team_hierarchy": "Jerarquía del equipo",
+      "employee_id_is_not": "ID de empleado no disponible",
+      "desigination_not": "Designación no disponible",
+      "department_not": "Departamento no disponible"
+    },
+    "toast": {
+      "user_success": "Usuario eliminado de la jerarquía exitosamente",
+      "failed_delete": "Error al eliminar el usuario",
+      "are_sure": "¿Estás seguro de que deseas eliminar este empleado de la jerarquía?",
+      "cancel": "Cancelar",
+      "delete": "Eliminar",
+      "delete_successfully": "Eliminado exitosamente",
+      "edit": "Editar"
+    },
+    "fullscreen": {
+      "enter": "Ver en pantalla completa",
+      "exit": "Salir"
+    },
+    "employee_vacant": "Empleado vacante",
+    "add_subordinate": "Agregar subordinado",
+    "select_user_permissions": "Roles de usuario",
+    "select_all": "Seleccionar todo",
+    "no_user_rights": "Sin derechos de usuario"
+  },
+  "profile": {
+    "heading": "Perfil",
+    "dashboard": "Panel",
+    "teams": "Equipos",
+    "tabs": {
+      "profile": "Perfil",
+      "tasks": "Tareas",
+      "timesheet": "Hoja de tiempo",
+      "personal": "Detalles personales",
+      "gallery": "Galería"
+    },
+    "add_user_image": "Agregar imagen de usuario",
+    "edit_user_image": "Editar imagen de usuario",
+    "no_project": "No se encontraron proyectos",
+    "no_project_details": "Detalles del proyecto no disponibles.",
+    "about": "Acerca de",
+    "follower": "Seguidor",
+    "following": "Siguiendo",
+    "live_at": "Vive en",
+    "employee_id": "ID de empleado",
+    "status": "Estado",
+    "not_available": "No disponible",
+    "social": "Social",
+    "skills": "Habilidades",
+    "no_skills_found": "No se encontraron habilidades",
+    "no_skills_description": "No hay habilidades disponibles para este miembro.",
+    "no_tasks_found": "No se encontraron tareas",
+    "no_tasks_description": "No hay tareas disponibles para este miembro.",
+    "task_status": "Estado de la tarea",
+    "task_categories": {
+      "not_started": "No iniciada",
+      "in_progress": "En progreso",
+      "on_hold": "En espera",
+      "submitted": "Enviada",
+      "completed": "Completada"
+    },
+    "user_permissions": "Permisos de usuario",
+    "search_placeholder": "Buscar amigos...",
+    "add_post_placeholder": "Comparte lo que piensas aquí...",
+    "attach_image": "Adjuntar imagen/video",
+    "start_streaming": "Iniciar transmisión",
+    "post_button": "Publicar",
+    "employee-activate": "Empleado activado",
+    "error-activating-employee": "Error al activar empleado"
+  },
+  "months": {
+    "jan": "Ene",
+    "feb": "Feb",
+    "mar": "Mar",
+    "apr": "Abr",
+    "may": "May",
+    "jun": "Jun",
+    "jul": "Jul",
+    "aug": "Ago",
+    "sep": "Sep",
+    "oct": "Oct",
+    "nov": "Nov",
+    "dec": "Dic"
+  },
+  "editform": {
+    "labels": {
+      "employee_id": "ID de empleado",
+      "name": "Nombre",
+      "username": "Nombre de usuario",
+      "email": "Correo electrónico",
+      "phone_number": "Número de teléfono",
+      "nationality": "Nacionalidad",
+      "address": "Dirección",
+      "designation": "Designación",
+      "department": "Departamento",
+      "date_of_birth": "Fecha de nacimiento",
+      "city": "Ciudad",
+      "national_id": "Número de identificación nacional",
+      "national_id_expiry": "Expiración del ID nacional",
+      "passport": "Número de pasaporte",
+      "passport_expiry": "Expiración del pasaporte",
+      "insurance_id": "ID de seguro",
+      "insurance_id_expiry": "Expiración del seguro",
+      "visa_type": "Tipo de visa",
+      "visa_expiry": "Expiración de visa",
+      "gender": "Género",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "whatsapp": "Whatsapp",
+      "twitter": "X (Twitter)",
+      "date_hired": "Fecha de contrato",
+      "date_joining": "Fecha de ingreso",
+      "basic_salary": "Salario básico",
+      "hra_amount": "Monto HRA",
+      "transportation_allowance": "Ayuda de transporte",
+      "other_allowance": "Otras ayudas",
+      "files": "Archivos",
+      "personal_details": "Detalles personales",
+      "social_media_links": "Enlaces de redes sociales",
+      "job_data": "Datos del empleo",
+      "uploadfiles": "Subir archivos",
+      "showthumbnail": "Mostrar miniatura"
+    },
+    "validations": {
+      "avatar_required": "¡Avatar es obligatorio!",
+      "id_required": "¡ID es obligatorio!",
+      "name_required": "¡El nombre es obligatorio!",
+      "username_required": "¡El nombre de usuario es obligatorio!",
+      "email_required": "¡El correo es obligatorio!",
+      "email_invalid": "¡El correo debe ser válido!",
+      "phone_invalid": "¡Número de teléfono inválido!",
+      "country_required": "¡El país es obligatorio!",
+      "address_required": "¡La dirección es obligatoria!",
+      "company_required": "¡La empresa es obligatoria!",
+      "state_required": "¡El estado es obligatorio!",
+      "city_required": "¡La ciudad es obligatoria!",
+      "role_required": "¡El rol es obligatorio!",
+      "zipcode_required": "¡El código postal es obligatorio!"
+    },
+    "placeholders": {
+      "choose_country": "Elige un país"
+    },
+    "buttons": {
+      "create_user": "Crear usuario",
+      "save_changes": "Guardar cambios",
+      "add_image": "Agregar imagen",
+      "edit_image": "Editar imagen"
+    },
+    "toast": {
+      "create_success": "¡Creado con éxito!",
+      "update_success": "¡Actualizado con éxito!",
+      "image_upload": "Imagen subida con éxito",
+      "unexpected_error": "Ocurrió un error inesperado."
+    },
+    "helper_text": {
+      "avatar_upload": "Permitido: *.jpeg, *.jpg, *.png, *.gif. Tamaño máximo de "
+    }
+  },
+  "user_profile": {
+    "heading": "Perfil",
+    "breadcrumb_dashboard": "Panel",
+    "breadcrumb_users": "Usuarios",
+    "tabs": {
+      "profile": "Perfil",
+      "tasks": "Tareas",
+      "timesheet": "Hoja de tiempo"
+    },
+    "profile_home": {
+      "followers": "Seguidores",
+      "following": "Siguiendo",
+      "about_title": "Acerca de",
+      "location": "Vive en",
+      "email": "Correo",
+      "role_at_company": "en",
+      "studied_at": "Estudió en",
+      "post_placeholder": "Comparte lo que piensas aquí...",
+      "attach_image": "Imagen/Video",
+      "streaming": "Transmitir",
+      "post_button": "Publicar",
+      "target": "Objetivo",
+      "days_off": "Días libres",
+      "days_reported": "Días reportados",
+      "days_work": "Días trabajados",
+      "on_duty": "De servicio",
+      "total_points": "Puntos totales",
+      "device": "Dispositivo",
+      "task_details_title": "Detalles de tareas",
+      "active_tasks": "Tareas activas",
+      "not_active": "No activo",
+      "completed": "Completado",
+      "projects_title": "Proyectos",
+      "pending_tasks": "Tareas pendientes",
+      "sales_title": "Ventas",
+      "total_clients": "Clientes totales",
+      "total_leads": "Prospectos totales",
+      "sales_target": "Meta de ventas",
+      "leads_amount": "Cantidad de prospectos",
+      "awarded_amount": "Monto otorgado",
+      "rejected_amount": "Monto rechazado",
+      "tasks_title": "Tareas",
+      "tasks_year_to_date": "Tareas del año hasta la fecha",
+      "overall_target": "Meta total",
+      "months": {
+        "jan": "Ene",
+        "feb": "Feb",
+        "mar": "Mar",
+        "apr": "Abr",
+        "may": "May",
+        "jun": "Jun",
+        "jul": "Jul",
+        "aug": "Ago",
+        "sep": "Sep",
+        "oct": "Oct",
+        "nov": "Nov",
+        "dec": "Dic"
+      },
+      "chart_labels": {
+        "actual": "Real",
+        "achieved": "Logrado",
+        "remaining": "Restante",
+        "completed_on_time": "Completado a tiempo",
+        "completed_late": "Completado tarde",
+        "overdue": "Vencido",
+        "working_on": "Trabajando en",
+        "not_started": "No iniciado",
+        "on_hold": "En espera",
+        "waiting_for_approval": "Esperando aprobación"
+      }
+    },
+    "user_settings": {
+      "departments": "Departamentos",
+      "designations": "Designaciones",
+      "employee_statuses": "Estados de empleado",
+      "team_notice": "Anuncio",
+      "exempted": "Exento de agregar tarea",
+      "hierarchy": "Establecer jerarquía de tareas",
+      "notice_board": "Tablón de anuncios",
+      "roles": "Roles y permisos"
+    }
+  },
+  "departments": {
+    "labels": {
+      "new_department": "Nuevo departamento",
+      "new_division": "Nueva división",
+      "new_section": "Nueva sección",
+      "new_session": "Nueva sesión",
+      "arabic_department": "Departamento en árabe",
+      "arabic_division": "División en árabe",
+      "arabic_section": "Sección en árabe",
+      "arabic_session": "Sesión en árabe",
+      "department": "Departamento",
+      "division": "División",
+      "section": "Sección",
+      "session": "Sesión",
+      "loading_departments": "Cargando departamentos...",
+      "failed_to_load": "Error al cargar departamentos.",
+      "department_name": "Nombre del departamento",
+      "department_name_arabic": "Nombre del departamento en árabe",
+      "editing": "Editando...",
+      "no_of_employees": "Número de empleados",
+      "all_departments": "Todos los departamentos",
+      "division_name": "Nombre de la división",
+      "division_name_arabic": "Nombre de la división en árabe",
+      "all_divisions": "Todas las divisiones",
+      "section_name": "Nombre de la sección",
+      "section_name_arabic": "Nombre de la sección en árabe",
+      "all_sections": "Todas las secciones",
+      "session_name": "Nombre de la sesión",
+      "session_name_arabic": "Nombre de la sesión en árabe",
+      "all_sessions": "Todas las sesiones"
+    },
+    "buttons": {
+      "save": "Guardar",
+      "delete": "Eliminar",
+      "cancel": "Cancelar",
+      "add": "Agregar",
+      "back": "Regresar"
+    },
+    "tooltips": {
+      "edit_department": "Editar departamento",
+      "edit_departmentlevel": "Editar nivel del departamento",
+      "delete_department": "Eliminar departamento",
+      "edit": "Editar",
+      "delete": "Eliminar",
+      "cannot_delete_department": "No se puede eliminar: el departamento tiene empleados asignados",
+      "departments_available": "No hay departamentos disponibles",
+      "cannot_delete_division": "No se puede eliminar: la división tiene empleados asignados",
+      "division_available": "No hay divisiones disponibles",
+      "cannot_section": "No se puede eliminar: la sección tiene empleados asignados",
+      "section_available": "No hay secciones disponibles",
+      "cannot_delete_session": "No se puede eliminar: la sesión tiene empleados asignados",
+      "session_available": "No hay sesiones disponibles"
+    },
+    "toast": {
+      "add_success": "Departamento agregado con éxito",
+      "update_success": "Departamento actualizado con éxito",
+      "delete_success": "Nivel de departamento eliminado con éxito",
+      "delete_level": "Nivel eliminado con éxito",
+      "update_level": "Nivel actualizado con éxito",
+      "delete_successfully": "Eliminado con éxito",
+      "delete_confirm": "¿Estás seguro de que deseas eliminar?"
+    },
+    "dialog": {
+      "delete_title": "Eliminar",
+      "delete_department_confirm": "¿Estás seguro de eliminar este departamento?",
+      "delete_designation_confirm": "¿Estás seguro de eliminar este nivel de departamento?"
+    }
+  },
+  "designations": {
+    "labels": {
+      "new_designation": "Nueva designación",
+      "arabic_designation": "Designación en árabe",
+      "members": "Miembros"
+    },
+    "buttons": {
+      "add": "Agregar",
+      "update": "Actualizar",
+      "delete": "Eliminar"
+    },
+    "tooltips": {
+      "edit": "Editar designación",
+      "delete": "Eliminar designación",
+      "save": "Guardar"
+    },
+    "toast": {
+      "add_success": "Designación agregada con éxito",
+      "update_success": "Designación actualizada con éxito",
+      "delete_success": "Designación eliminada con éxito",
+      "failed_designation": "Error al agregar designación",
+      "unexpected_error": "Error inesperado"
+    },
+    "dialog": {
+      "delete_title": "Eliminar",
+      "delete_confirm": "¿Estás seguro de eliminar esta designación?"
+    }
+  },
+  "status": {
+    "labels": {
+      "new_status": "Nuevo estado de empleado",
+      "arabic_status": "Estado en árabe",
+      "choose_color": "Elegir color"
+    },
+    "buttons": {
+      "add": "Agregar",
+      "update": "Actualizar",
+      "delete": "Eliminar"
+    },
+    "tooltips": {
+      "edit": "Editar estado",
+      "delete": "Eliminar estado",
+      "save": "Guardar"
+    },
+    "toast": {
+      "add_success": "Estado de empleado agregado con éxito",
+      "update_success": "Estado de empleado actualizado con éxito",
+      "delete_success": "Estado de empleado eliminado con éxito"
+    },
+    "dialog": {
+      "delete_title": "Eliminar",
+      "delete_confirm": "¿Estás seguro de eliminar este estado de empleado?"
+    }
+  },
+  "team_notice": {
+    "labels": {
+      "notice_en": "Anuncio en inglés",
+      "notice_ar": "Anuncio en árabe"
+    },
+    "buttons": {
+      "add": "Agregar anuncio",
+      "save": "Guardar",
+      "cancel": "Cancelar",
+      "clear": "Limpiar anuncio"
+    },
+    "dialog": {
+      "title": "Agregar anuncio",
+      "title2": "Eliminar anuncio"
+    },
+    "toast": {
+      "add_success": "Anuncio agregado con éxito",
+      "delete": "Anuncio eliminado con éxito",
+      "delete_success": "Anuncio eliminado con éxito",
+      "delete_successfully": "Anuncio eliminado con éxito",
+      "update_success": "Anuncio actualizado con éxito",
+      "clear_success": "Anuncio borrado con éxito",
+      "delete_confirm": "¿Está seguro de que desea eliminar el anuncio?"
+    },
+    "errors": {
+      "empty_notice": "El anuncio no puede estar vacío."
+    }
+  },
+  "task_exempted": {
+    "buttons": {
+      "add_employees": "Agregar empleados",
+      "confirm_exempt": "Sí",
+      "add_member": "Agregar miembro",
+      "add": "Agregar",
+      "close": "Cerrar"
+    },
+    "toast": {
+      "exempt_success": "¡Empleado exento de agregar tareas!"
+    },
+    "placeholder": "Buscar",
+    "dialog": {
+      "exempt_title": "Eximir",
+      "exempt_confirm": "¿Estás seguro de eximir a este empleado de agregar tareas?"
+    },
+    "labels": {
+      "reporting_to": "Reportando a",
+      "no_members": "No hay miembros",
+      "assign_tasks": "Asignar tareas",
+      "unassign": "Desasignar",
+      "are_you_sure_want": "¿Estás seguro de querer asignar tareas a este usuario?"
+    }
+  },
+  "role": {
+    "new_role": "Nuevo rol",
+    "add_role": "Agregar nuevo rol",
+    "role_deleted": "Rol eliminado con éxito",
+    "permissions_unassigned": "Permisos desasignados del rol con éxito",
+    "permissions_assigned": "Permisos asignados al rol con éxito",
+    "all_permissions": "Todos los permisos desasignados del rol con éxito",
+    "role_added": "Rol agregado con éxito",
+    "assigned_permissions": "Permisos asignados",
+    "unassign_all": "Desasignar todo",
+    "permissions_unassigned!": "¡Permisos asignados!",
+    "add_permission_role": "Agregar permiso a este rol",
+    "role_name": "Nombre del rol",
+    "Add": "Agregar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "permissions": "Permisos",
+    "unassign": "Desasignar",
+    "assign": "Asignar",
+    "unassign_Permission": "Desasignar permiso",
+    "unassign_all_permission": "Desasignar todos los permisos",
+    "are_you_sure_want": "¿Estás seguro de querer desasignar?",
+    "confirm_delete": "¿Estás seguro de que quieres eliminar este rol?",
+    "unassign_to_all": "Desasignar todos los permisos",
+    "unassignall": "Desasignar todo",
+    "from_this": "de este rol?",
+    "unassign_sure": "¿Estás seguro de querer desasignar todos los permisos de este rol?",
+    "select_all": "Seleccionar todo",
+    "search": "Buscar",
+    "permissions_added": "Permisos agregados al usuario con éxito",
+    "permissions_updated": "Permisos actualizados con éxito",
+    "no_permissions_available": "No hay permisos disponibles",
+    "permissions_added_role": "Permisos agregados al rol con éxito",
+    "permissions_added_user": "Permisos agregados al usuario con éxito",
+    "permissions_removed_user": "Permisos eliminados del usuario con éxito",
+    "permissions_available": "No hay permisos disponibles",
+    "description_added": "Descripción agregada con éxito",
+    "description_added_fail": "Error al agregar descripción",
+    "unassign_user_role": "¿Estás seguro de querer desasignar este permiso a este usuario?",
+    "role_permissions_cannot_be_edit": "Los permisos del rol no se pueden editar",
+    "assign_permission": "Asignar permiso",
+    "assign_all_permissions": "Asignar todos los permisos",
+    "assign_sure": "¿Estás seguro de querer asignar todos los permisos a este usuario?"
+  }
+}

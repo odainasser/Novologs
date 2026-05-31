@@ -1,0 +1,11 @@
+{
+  "date": {
+  "title": "Tarih aralığını seçin",
+  "start_date": "Başlangıç tarihi",
+  "end_date": "Bitiş tarihi",
+  "end_date_validation": "Bitiş tarihi, başlangıç tarihinden sonra olmalıdır",
+  "cancel": "İptal",
+  "apply": "Uygula"
+}
+
+}

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import './style.css';
+
+.jodit-container {
+  height: 30vh !important;
+}
+.main-container {
+  font-family: 'Lato';
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* This selector targets the editable element (excluding comments). */
+.ck-editor__editable_inline {
+  min-height: 500px;
+  overflow: auto;
+}
+
+.editor-container_classic-editor .editor-container__editor {
+  width: 100%;
+  min-height: 400px;
+}
+
+.ck.ck-sticky-panel .ck-sticky-panel__content_sticky {
+  top: 70px !important;
+  z-index: 10 !important;
+}
+
+/* Editor mention */
+.jodit-autocomplete {
+}
+.jodit-autocomplete-item {
+  padding: 0.05em !important;
+}
+
+.mention-item {
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.mention-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* Avatar */
+.mention-avatar {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  object-fit: cover;
+  border: 1px solid #ddd;
+}
+
+/* Info container */
+.mention-info {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Email */
+.mention-email {
+  font-size: 1em;
+  color: #555;
+  font-weight: bold;
+}
+
+/* Full name */
+.mention-full-name {
+  font-size: 1em;
+  color: #888;
+}
+
+.jodit-popup {
+  border-radius: 10px !important;
+}
+
+.jodit-popup {
+  transition: border-radius 0.2s ease-in-out;
+}
+/* Scrollbar styles */
+.jodit-popup__content {
+  border-radius: 10px;
+}
+.jodit-ui-dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.jodit-popup__content::-webkit-scrollbar {
+  width: 0.5em; /* Width of the scrollbar */
+}
+
+.jodit-popup__content::-webkit-scrollbar-thumb {
+  background-color: #bbb; /* Color of the scrollbar thumb */
+  border-radius: 4px; /* Rounded corners for the scrollbar thumb */
+}
+
+.jodit-popup__content::-webkit-scrollbar-thumb:hover {
+  background-color: #888; /* Darker color when hovered */
+}
+
+.jodit-popup__content::-webkit-scrollbar-track {
+  background-color: #f0f0f0; /* Background color of the scrollbar track */
+  border-radius: 4px; /* Rounded corners for the scrollbar track */
+}
+
+.jodit-emoji__emojis {
+  display: flex !important;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,733 @@
+{
+ "teams": {
+    "heading": "Kooxo",
+    "dashboard": "Dashboard",
+    "organization_hierarchy": "Qaab-dhismeedka Ururka",
+    "add_new_member": "Ku dar Xubin Cusub",
+    "add_more_details": "Ku dar Faahfaahin Dheeraad ah",
+    "export": "U dhoofin PDF",
+    "user": "Isticmaale",
+    "list": "Liis",
+    "view": "Arag",
+    "forward": "U dir",
+    "super_admin": "Maamule Sare",
+    "admin": "Maamule",
+    "employee": "Shaqaale",
+    "parent_missing": "Maamulaha Sare ma jiro",
+    "deactivated_user": "Isticmaale la damiyay",
+    "active_user": "Isticmaale firfircoon",
+    "inactive_user": "Isticmaale aan firfircooneyn",
+    "created_on": "La sameeyay",
+    "updated_on": "La cusboonaysiiyay",
+    "branch": "Laanta",
+    "hourly_rate": "Qiimaha Saacaddii",
+    "active": "Firfircoon",
+    "not-active": "Aan firfircooneyn",
+    "reports_to": "Warbixin u gudbiya",
+    "reports_to_admin": "Warbixin u gudbiya Maamulaha",
+    "reports_to_user": "Warbixin u gudbiya Isticmaale",
+    "tabs": {
+      "internal": "Gudaha",
+      "all": "Dhammaan",
+      "my-team": "Kooxdayda",
+      "external": "Dibadda"
+    },
+    "no_data": "Xog ma jirto",
+    "no_members_found": "Xubno lama helin",
+    "no_members_available": "Xubno ma jiraan"
+  },
+
+  "tooltip": {
+    "grid": "Aragti Grid",
+    "list": "Aragti Liis",
+    "add_employee": "Ku dar Shaqaale",
+    "add_user_details": "Ku dar Faahfaahinta Isticmaale",
+    "edit_user_details": "Wax ka beddel Faahfaahinta Isticmaale",
+    "add_organization": "Ku dar Geedka Ururka",
+    "add_user_image": "Ku dar Sawirka Isticmaale",
+    "change_user_image": "Beddel sawirka isticmaalaha",
+    "settings": "Dejinta",
+    "Organization_tree": "Geedka Ururka",
+    "code": "Koodh",
+    "details_added": "Faahfaahin ayaa lagu daray"
+  },
+ "table": {
+    "headings": {
+      "serialNo": "Lambarka",
+      "empId": "Aqoonsiga Shaqaalaha",
+      "name": "Magac",
+      "userName": "Magaca Isticmaalaha",
+      "role": "Jago",
+      "department": "Waax",
+      "email": "Email",
+      "status": "Xaalad",
+      "id": "ID",
+      "branch": "Laanta",
+      "code": "Koodh",
+      "designation": "Jago",
+      "firstName": "Magac",
+      "departmentId": "Waax",
+      "contact": "Xiriir",
+      "countryId": "Jinsiyad",
+      "device": "Qalab",
+      "company": "Shirkad",
+      "actions": "Ficillo",
+      "employee": "Shaqaale",
+      "card": "Kaadh",
+      "not_available": "Lama heli karo",
+      "not_register": "Ma diiwaangashan",
+      "unknown_device": "Qalab aan la aqoon",
+      "add_business_target": "Ku dar Hadaf Ganacsi",
+      "add_target": "Ku dar Hadaf",
+      "edit_target": "Wax ka beddel Hadaf",
+      "set_business": "Deji Hadaf Ganacsi",
+      "year": "Sanad",
+      "phone-number": "Lambarka Taleefanka",
+      "enter-phoneno": "Geli lambarka taleefanka",
+      "ID": "ID",
+      "details": "Faahfaahin",
+      "tree": "Heer",
+      "choose_country": "Dooro Dal",
+      "placeholder_search": "Raadi doorarka isticmaalaha",
+      "admin": "Maamule",
+      "hr_mangement": "Maamulka HR",
+      "project_management": "Maamulka Mashaariicda",
+      "task_management": "Maamulka Hawlaha",
+      "client_management": "Maamulka Macaamiisha",
+      "vendor_management": "Maamulka Alaab-qeybiyeyaasha",
+      "settings_management": "Maamulka Dejinta",
+      "hourly_rate": "Qiimaha Saacaddii (AED)",
+      "branches": "Laamo",
+      "back": "Dib u noqo",
+      "permission_name": "Magaca Ogolaanshaha",
+      "description": "Sharaxaad",
+      "category": "Qayb",
+      "role_name": "Magaca Jago"
+    },
+
+    "status": {
+      "label": "Xaalad",
+      "active": "Firfircoon",
+      "disabled": "La damiyay"
+    },
+
+    "search": {
+      "placeholder": "Raadi..."
+    },
+
+    "actions": {
+      "edit": "Wax ka beddel",
+      "view": "Arag",
+      "print": "Daabac",
+      "import": "Soo dejin",
+      "delete": "Tirtir",
+      "export": "Dhoofin",
+      "search": "Raadi",
+      "save": "Kaydi",
+      "clear_all": "Nadiifi dhammaan meelaha",
+      "Dense": "Isku dhafan",
+      "clear": "Nadiifi",
+      "add": "Ku dar",
+      "cancel": "Jooji",
+      "addmore": "Ku dar dheeraad",
+      "deactivate": "Dami",
+      "update": "Cusboonaysii",
+      "view_more": "Arag dheeraad"
+    },
+
+    "confirm_delete": "Ma hubtaa inaad tirtirto?",
+    "delete_success": "Si guul leh ayaa loo tirtiray!",
+    "deactivate_message": "Ma hubtaa inaad damiso shaqaalahan?",
+    "no_branches": "Laamo lama heli karo"
+  },
+
+  "filters": {
+    "search_placeholder": "Raadi magac...",
+    "reset_filters": "Dib u deji filtarrada",
+    "results_found": "{{count}} natiijo ayaa la helay",
+    "status_filter": "Ku sifee xaalad"
+  },
+
+  "Validations": {
+    "name_error": "Magacu ma bannaanaan karo.",
+    "email_error": "Magaca isticmaalaha ma bannaanaan karo.",
+    "email_valid": "Email sax ah ayaa loo baahan yahay.",
+    "files_too": "Faylku wuu ka weyn yahay ${fData(1000000)}",
+    "allowed_types": "Noocyada la oggol yahay *.jpeg, *.jpg, *.png, *.gif",
+    "max": "ugu badnaan cabbirka"
+  },
+
+  "placeholder": {
+    "enter_address": "Geli cinwaan",
+    "serach_rights": "Raadi xuquuqda isticmaalaha..."
+  },
+
+  "success_messages": {
+    "employee_add": "Shaqaale si guul leh ayaa loo daray!",
+    "user_updated": "Isticmaale si guul leh ayaa loo cusboonaysiiyay!"
+  },
+
+  "hierarchy": {
+    "title": "Qaab-dhismeedka Ururka",
+    "add_role": "Ku dar Jago",
+    "new-user": "Isticmaale Cusub",
+    "close": "Xir",
+    "edit_permission_level": "Wax ka beddel Heerka Ogolaanshaha",
+    "no_levels_found": "Heerar lama helin",
+    "edit": "Wax ka beddel",
+    "general_members": "Xubno Guud",
+    "no_members": "Xubno ma jiraan",
+    "add": "Ku dar",
+    "search": "Raadi",
+    "back_to_employee": "Ku noqo liiska shaqaalaha",
+    "general_member_list": "Liiska xubnaha guud",
+    "please_add": "Fadlan ku dar",
+    "employee_here": "shaqaale halkan",
+    "unknown_group": "Koox aan la aqoon",
+
+    "delete": {
+      "confirm_title": "Xaqiiji Tirtirka",
+      "confirm_message": "Ma hubtaa inaad ka saarto '{{item}}' qaab-dhismeedka?",
+      "cancel": "Jooji",
+      "del_confirm": "Ma hubtaa inaad tirtirto",
+      "from": "qaab-dhismeedka?",
+      "confirm": "Tirtir",
+      "employee_deactivated_success": "Shaqaale si guul leh ayaa loo damiyay",
+      "employee_activated": "Shaqaale waa la kiciyay",
+      "error_activating_employee": "Khalad ayaa dhacay markii la kicinayay shaqaalaha",
+      "employee_vacant": "Booska shaqaalaha waa bannaan",
+      "no_members_available": "Xubno lama heli karo",
+      "team_hierarchy": "Qaab-dhismeedka kooxda",
+      "employee_id_is_not": "ID shaqaale lama heli karo",
+      "desigination_not": "Jago lama heli karo",
+      "department_not": "Waax lama heli karo"
+    },
+
+    "toast": {
+      "user_success": "Isticmaale si guul leh ayaa looga saaray qaab-dhismeedka",
+      "failed_delete": "Ku guuldareysatay tirtiridda isticmaalaha",
+      "are_sure": "Ma hubtaa inaad ka saarto shaqaalahan qaab-dhismeedka?",
+      "cancel": "Jooji",
+      "delete": "Tirtir",
+      "delete_successfully": "Si guul leh ayaa loo tirtiray",
+      "edit": "Wax ka beddel",
+      "user_added_hierarchy": "Isticmaale si guul leh ayaa loogu daray qaab-dhismeedka",
+      "user_error": "Ku guuldareysatay ku darista isticmaalaha qaab-dhismeedka"
+    },
+
+    "fullscreen": {
+      "enter": "Arag Fullscreen",
+      "exit": "Ka bax"
+    },
+
+    "employee_vacant": "Boos shaqaale bannaan",
+    "add_subordinate": "Ku dar Hoosaad",
+    "select_user_permissions": "Dooro doorarka isticmaalaha",
+    "select_all": "Dooro dhammaan",
+    "no_user_rights": "Xuquuq isticmaalaha ma jirto",
+    "internal_employee": "Haddii aan la dooran doorar, isticmaaluhu wuxuu noqon doonaa shaqaale gudaha ah."
+  },
+  "profile": {
+    "heading": "Profile",
+    "dashboard": "Dashboard",
+    "teams": "Kooxo",
+    "tabs": {
+      "profile": "Profile",
+      "tasks": "Hawlaha",
+      "timesheet": "Jadwalka Shaqada",
+      "personal": "Faahfaahinta Shakhsiyeed",
+      "gallery": "Sawirro"
+    },
+    "add_user_image": "Ku dar Sawir Isticmaale",
+    "edit_user_image": "Wax ka beddel Sawir Isticmaale",
+    "no_project": "Mashaariic lama helin",
+    "no_project_details": "Faahfaahinta mashruuca lama heli karo",
+    "about": "Ku saabsan",
+    "follower": "Raacsade",
+    "following": "La socdo",
+    "live_at": "Ku nool",
+    "employee_id": "Aqoonsiga Shaqaalaha",
+    "status": "Xaalad",
+    "not_available": "Lama heli karo",
+    "social": "Bulsho",
+    "skills": "Xirfado",
+    "no_skills_found": "Xirfado lama helin",
+    "no_skills_description": "Xirfado looma helin xubinkan",
+    "no_tasks_found": "Hawlaha lama helin",
+    "no_tasks_description": "Hawlaha looma helin xubinkan",
+    "task_status": "Xaaladda Hawsha",
+    "task_categories": {
+      "not_started": "Ma bilaaban",
+      "in_progress": "Socota",
+      "on_hold": "Hakadka ku jira",
+      "submitted": "La gudbiyay",
+      "completed": "La dhammeeyay"
+    },
+    "user_permissions": "Ogolaanshaha Isticmaalaha",
+    "search_placeholder": "Raadi saaxiibo...",
+    "add_post_placeholder": "La wadaag waxa aad ka fikirayso...",
+    "attach_image": "Ku dar Sawir/Muuqaal",
+    "start_streaming": "Bilow Streaming",
+    "post_button": "Post",
+    "employee-activate": "Shaqaale waa la kiciyay",
+    "activate": "Kici",
+    "are-you-sure-activated": "Ma hubtaa inaad kiciso isticmaalahan?",
+    "error-activating-employee": "Khalad ayaa dhacay marka la kicinayay shaqaalaha"
+  },
+
+  "months": {
+    "jan": "Jan",
+    "feb": "Feb",
+    "mar": "Mar",
+    "apr": "Apr",
+    "may": "May",
+    "jun": "Jun",
+    "jul": "Jul",
+    "aug": "Aug",
+    "sep": "Sep",
+    "oct": "Oct",
+    "nov": "Nov",
+    "dec": "Dec"
+  },
+
+  "editform": {
+    "labels": {
+      "employee_id": "Aqoonsiga Shaqaalaha",
+      "name": "Magac",
+      "username": "Magaca Isticmaalaha",
+      "email": "Cinwaanka Emailka",
+      "phone_number": "Lambarka Taleefanka",
+      "nationality": "Jinsiyad",
+      "address": "Cinwaan",
+      "designation": "Jago",
+      "department": "Waax",
+      "date_of_birth": "Taariikhda Dhalashada",
+      "city": "Magaalo",
+      "national_id": "Lambarka Aqoonsiga Qaranka",
+      "national_id_expiry": "Dhacitaanka Aqoonsiga Qaranka",
+      "passport": "Lambarka Baasaboorka",
+      "passport_expiry": "Dhacitaanka Baasaboorka",
+      "insurance_id": "Aqoonsiga Caymiska",
+      "insurance_id_expiry": "Dhacitaanka Caymiska",
+      "visa_type": "Nooca Visa",
+      "visa_expiry": "Dhacitaanka Visa",
+      "gender": "Jinsiga",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "whatsapp": "WhatsApp",
+      "twitter": "X (Twitter)",
+      "date_hired": "Taariikhda La Shaqaaleysiiyay",
+      "date_joining": "Taariikhda Ku Biirista",
+      "basic_salary": "Mushaharka Aasaasiga ah",
+      "hra_amount": "Qadarka HRA",
+      "transportation_allowance": "Gunno Gaadiid",
+      "other_allowance": "Gunno Kale",
+      "files": "Faylal",
+      "personal_details": "Faahfaahinta Shakhsiyeed",
+      "social_media_links": "Xiriirada Baraha Bulshada",
+      "job_data": "Xogta Shaqada",
+      "uploadfiles": "Soo geli Faylal",
+      "showthumbnail": "Muuji Thumbnail"
+    },
+
+    "validations": {
+      "avatar_required": "Sawirka waa loo baahan yahay!",
+      "id_required": "ID waa loo baahan yahay!",
+      "name_required": "Magac waa loo baahan yahay!",
+      "username_required": "Magaca isticmaalaha waa loo baahan yahay!",
+      "email_required": "Email waa loo baahan yahay!",
+      "email_invalid": "Email sax ah ayaa loo baahan yahay!",
+      "phone_invalid": "Lambarka taleefanka ma saxna!",
+      "country_required": "Dal waa loo baahan yahay!",
+      "address_required": "Cinwaan waa loo baahan yahay!",
+      "company_required": "Shirkad waa loo baahan yahay!",
+      "state_required": "Gobol waa loo baahan yahay!",
+      "city_required": "Magaalo waa loo baahan yahay!",
+      "role_required": "Jago waa loo baahan yahay!",
+      "zipcode_required": "Zip code waa loo baahan yahay!"
+    },
+
+    "placeholders": {
+      "choose_country": "Dooro dal"
+    },
+
+    "buttons": {
+      "create_user": "Abuur Isticmaale",
+      "save_changes": "Kaydi isbeddelada",
+      "add_image": "Ku dar Sawir",
+      "edit_image": "Wax ka beddel Sawir"
+    },
+
+    "toast": {
+      "create_success": "Si guul leh ayaa loo sameeyay!",
+      "update_success": "Si guul leh ayaa loo cusboonaysiiyay!",
+      "image_upload": "Sawir si guul leh ayaa loo soo geliyay",
+      "unexpected_error": "Khalad lama filaan ah ayaa dhacay"
+    },
+
+    "helper_text": {
+      "avatar_upload": "Noocyada la oggol yahay *.jpeg, *.jpg, *.png, *.gif. Cabbirka ugu badan"
+    }
+  },
+  "user_profile": {
+    "heading": "Profile",
+    "breadcrumb_dashboard": "Dashboard",
+    "breadcrumb_users": "Users",
+    "tabs": {
+      "profile": "Profile",
+      "tasks": "Tasks",
+      "timesheet": "Timesheet"
+    },
+    "profile_home": {
+      "followers": "Follower",
+      "following": "Following",
+      "about_title": "About",
+      "location": "Live at",
+      "email": "Email",
+      "role_at_company": "at",
+      "studied_at": "Studied at",
+      "post_placeholder": "Share what you are thinking here...",
+      "attach_image": "Image/Video",
+      "streaming": "Streaming",
+      "post_button": "Post",
+      "target": "Target",
+      "days_off": "Days off",
+      "days_reported": "Days reported",
+      "days_work": "Days Work",
+      "on_duty": "On Duty",
+      "total_points": "Total Points",
+      "device": "Device",
+      "task_details_title": "Task Details",
+      "active_tasks": "Active tasks",
+      "not_active": "Not active",
+      "completed": "Completed",
+      "projects_title": "Projects",
+      "pending_tasks": "pending tasks",
+      "sales_title": "Sales",
+      "total_clients": "Total Clients",
+      "total_leads": "Total Leads",
+      "sales_target": "Sales Target",
+      "total_vendors": "Total Vendors",
+      "active_vendors": "Active Vendors",
+      "leads_amount": "Leads Amount",
+      "awarded_amount": "Awarded Amount",
+      "rejected_amount": "Rejected Amount",
+      "open_leads": "Open Leads",
+      "closed_leads": "Closed Leads",
+      "total_contracts_year": "Total Contracts this year",
+      "total_users": "Total Users",
+      "internal_users": "Internal Users",
+      "external_users": "External Users",
+      "total_tasks": "Total Tasks",
+      "total_projects": "Total Projects",
+      "active_clients": "Active Clients",
+      "tasks_title": "My Assigned Tasks",
+      "tasks_year_to_date": "My Assigned Tasks to Date",
+      "overall_target": "Overall Target",
+      "months": {
+        "jan": "Jan",
+        "feb": "Feb",
+        "mar": "Mar",
+        "apr": "Apr",
+        "may": "May",
+        "jun": "Jun",
+        "jul": "Jul",
+        "aug": "Aug",
+        "sep": "Sep",
+        "oct": "Oct",
+        "nov": "Nov",
+        "dec": "Dec"
+      },
+      "chart_labels": {
+        "actual": "Actual",
+        "achieved": "Achieved",
+        "remaining": "Remaining",
+        "completed_on_time": "Completed on time",
+        "completed_late": "Completed late",
+        "overdue": "Overdue",
+        "working_on": "Working on",
+        "not_started": "Not Started",
+        "on_hold": "On hold",
+        "waiting_for_approval": "Waiting for approval"
+      }
+    },
+    "user_settings": {
+      "departments": "Departments",
+      "designations": "Designations",
+      "employee_statuses": "Employee Statuses",
+      "team_notice": "Team Notice",
+      "exempted": "Exempted to add task",
+      "hierarchy": "Set task hierarchy",
+      "notice_board": "Notice Board",
+      "roles": "Roles and Permissions"
+    }
+  },
+  "departments": {
+    "labels": {
+      "new_department": "Waax Cusub",
+      "new_division": "Qayb Cusub",
+      "new_section": "Qeyb-hoosaad Cusub",
+      "new_session": "Session Cusub",
+      "arabic_department": "Waax Cusub (Carabi)",
+      "arabic_division": "Qayb Cusub (Carabi)",
+      "arabic_section": "Qeyb-hoosaad Cusub (Carabi)",
+      "arabic_session": "Session Cusub (Carabi)",
+      "department": "Waax",
+      "division": "Qayb",
+      "section": "Qeyb-hoosaad",
+      "session": "Session",
+      "loading_departments": "Waaxyaha waa la soo gelinayaa...",
+      "failed_to_load": "Ku guuldareysatay soo gelinta waaxyaha",
+      "department_name": "Magaca Waaxda",
+      "department_name_arabic": "Magaca Waaxda (Carabi)",
+      "editing": "Wax ka beddelaya...",
+      "no_of_employees": "Tirada Shaqaalaha",
+      "all_departments": "Dhammaan Waaxyaha",
+      "division_name": "Magaca Qaybta",
+      "division_name_arabic": "Magaca Qaybta (Carabi)",
+      "all_divisions": "Dhammaan Qaybaha",
+      "section_name": "Magaca Qeyb-hoosaadka",
+      "section_name_arabic": "Magaca Qeyb-hoosaadka (Carabi)",
+      "all_sections": "Dhammaan Qeyb-hoosaadyada",
+      "session_name": "Magaca Session",
+      "session_name_arabic": "Magaca Session (Carabi)",
+      "all_sessions": "Dhammaan Sessions"
+    },
+
+    "buttons": {
+      "save": "Kaydi",
+      "delete": "Tirtir",
+      "cancel": "Jooji",
+      "add": "Ku dar",
+      "back": "Dib u noqo"
+    },
+
+    "tooltips": {
+      "edit_department": "Wax ka beddel waax",
+      "edit_departmentlevel": "Wax ka beddel heerka waax",
+      "delete_department": "Tirtir waax",
+      "edit": "Wax ka beddel",
+      "delete": "Tirtir",
+      "cannot_delete_department": "Lama tirtiri karo: waaxdu waxay leedahay shaqaale ku xiran",
+      "departments_available": "Waaxyo lama heli karo",
+      "cannot_delete_division": "Lama tirtiri karo: qaybtu waxay leedahay shaqaale ku xiran",
+      "division_available": "Qaybo lama heli karo",
+      "cannot_section": "Lama tirtiri karo: qeyb-hoosaadku wuxuu leeyahay shaqaale ku xiran",
+      "section_available": "Qeyb-hoosaadyo lama heli karo",
+      "cannot_delete_session": "Lama tirtiri karo: session-ku wuxuu leeyahay shaqaale ku xiran",
+      "session_available": "Sessions lama heli karo"
+    },
+
+    "toast": {
+      "add_success": "Waax si guul leh ayaa loo daray",
+      "update_success": "Waax si guul leh ayaa loo cusboonaysiiyay",
+      "delete_success": "Heerka waax si guul leh ayaa loo tirtiray",
+      "delete_level": "Heerka waax si guul leh ayaa loo tirtiray",
+      "update_level": "Heerka waax si guul leh ayaa loo cusboonaysiiyay",
+      "delete_successfully": "Si guul leh ayaa loo tirtiray",
+      "delete_confirm": "Ma hubtaa inaad tirtirto "
+    },
+
+    "dialog": {
+      "delete_title": "Tirtir",
+      "delete_confirm": "Ma hubtaa inaad tirtirto waaxdan?",
+      "delete_desig": "Ma hubtaa inaad tirtirto jagadan?",
+      "delete_confirm2": "Ma hubtaa inaad tirtirto?"
+    }
+  },
+
+  "designations": {
+    "labels": {
+      "new_designation": "Jago Cusub",
+      "arabic_designation": "Jago Cusub (Carabi)",
+      "members": "Xubno"
+    },
+
+    "buttons": {
+      "add": "Ku dar",
+      "update": "Cusboonaysii",
+      "delete": "Tirtir"
+    },
+
+    "tooltips": {
+      "edit": "Wax ka beddel jago",
+      "delete": "Tirtir jago",
+      "save": "Kaydi"
+    },
+
+    "toast": {
+      "add_success": "Jago si guul leh ayaa loo daray",
+      "add_update": "Ogeysiiska kooxda si guul leh ayaa loo cusboonaysiiyay",
+      "update_success": "Jago si guul leh ayaa loo cusboonaysiiyay",
+      "delete_success": "Jago si guul leh ayaa loo tirtiray",
+      "failed_designation": "Ku guuldareysatay ku darista jago",
+      "unexpected_error": "Khalad lama filaan ah ayaa dhacay"
+    },
+
+    "dialog": {
+      "delete_title": "Tirtir",
+      "delete_confirm": "Ma hubtaa inaad tirtirto waaxdan?",
+      "delete_confirm2": "Ma hubtaa inaad tirtirto?"
+    }
+  },
+  
+"status": {
+    "labels": {
+      "new_status": "Xaalad Shaqaale Cusub",
+      "arabic_status": "Xaalad Shaqaale Cusub (Carabi)",
+      "choose_color": "Dooro Midab"
+    },
+    "buttons": {
+      "add": "Ku dar",
+      "update": "Cusboonaysii",
+      "delete": "Tirtir"
+    },
+    "tooltips": {
+      "edit": "Wax ka beddel xaalad",
+      "delete": "Tirtir xaalad",
+      "save": "Kaydi"
+    },
+    "toast": {
+      "add_success": "Xaaladda shaqaalaha si guul leh ayaa loo daray",
+      "update_success": "Xaaladda shaqaalaha si guul leh ayaa loo cusboonaysiiyay",
+      "delete_success": "Xaaladda shaqaalaha si guul leh ayaa loo tirtiray"
+    },
+    "dialog": {
+      "delete_title": "Tirtir",
+      "delete_confirm": "Ma hubtaa inaad tirtirto xaaladdan shaqaalaha?"
+    }
+  },
+
+  "team_notice": {
+    "labels": {
+      "notice_en": "Ogeysiiska Kooxda (Ingiriis)",
+      "notice_ar": "Ogeysiiska Kooxda (Carabi)"
+    },
+    "buttons": {
+      "add": "Ku dar Ogeysiis Koox",
+      "save": "Kaydi",
+      "cancel": "Jooji",
+      "clear": "Nadiifi Ogeysiiska"
+    },
+    "dialog": {
+      "title": "Ku dar Ogeysiis Koox",
+      "title2": "Tirtir Ogeysiis Koox"
+    },
+    "toast": {
+      "delete": "Ogeysiiska kooxda si guul leh ayaa loo tirtiray",
+      "update_success": "Ogeysiiska kooxda si guul leh ayaa loo cusboonaysiiyay",
+      "add_success": "Ogeysiiska kooxda si guul leh ayaa loo daray",
+      "clear_success": "Ogeysiiska kooxda si guul leh ayaa loo nadiifiyay",
+      "delete_confirm": "Ma hubtaa inaad tirtirto ogeysiiska kooxda?"
+    },
+    "errors": {
+      "empty_notice": "Ogeysiiska kooxda ma noqon karo madhan."
+    }
+  },
+
+  "task_exempted": {
+    "buttons": {
+      "add_employees": "Ku dar Shaqaale",
+      "confirm_exempt": "Haa",
+      "add_member": "Ku dar Xubin",
+      "add": "Ku dar",
+      "close": "Xir"
+    },
+    "toast": {
+      "exempt_success": "Shaqaale waxaa laga dhaafay ku darista hawlaha!",
+      "assigning_tasks": "Shaqaalaha si guul leh ayaa looga dhaafay u qoondeynta hawlaha",
+      "permission_granted": "Ogolaansho si guul leh ayaa loo siiyay isticmaalaha",
+      "permission_removed": "Ogolaanshaha si guul leh ayaa looga qaaday isticmaalaha",
+      "task_assign": "Hawlaha hadda waxaa loo qoondeyn karaa isticmaalahan"
+    },
+    "placeholder": "Raadi",
+    "dialog": {
+      "exempt_title": "Ka dhaaf Shaqaale",
+      "exempt_confirm": "Ma hubtaa inaad ka dhaafto shaqaalahan ku darista hawlaha?"
+    },
+    "labels": {
+      "reporting_to": "Warbixin u gudbiya",
+      "no_members": "Xubno ma jiraan",
+      "assign_tasks": "Qoondee Hawlo",
+      "unassign_tasks": "Ka saar Hawlaha",
+      "unassign": "Ka saar",
+      "are_you_sure_want": "Ma hubtaa inaad hawlo u qoondeyso isticmaalahan?",
+      "are_you_sure_want_back": "Ma hubtaa inaad hawlaha dib ugu qoondeyso isticmaalahan?",
+      "remove_permission": "Ka saar Ogolaansho",
+      "are_you_sure_want_remove": "Ma hubtaa inaad ka saarto ogolaanshahan isticmaalahan?"
+    }
+  },
+  "role": {
+    "roles": "Doorarka",
+    "role": "Door",
+    "new_role": "Door Cusub",
+    "add_role": "Ku dar Door Cusub",
+    "role_deleted": "Door si guul leh ayaa loo tirtiray",
+    "permissions_unassigned": "Ogolaanshaha si guul leh ayaa looga saaray door-ka",
+    "permissions_assigned": "Ogolaanshaha si guul leh ayaa loogu daray door-ka",
+    "all_permissions": "Dhammaan ogolaanshaha si guul leh ayaa looga saaray door-ka",
+    "role_added": "Door si guul leh ayaa loo daray",
+    "assigned_permissions": "Ogolaanshaha la siiyay",
+    "unassign_all": "Ka saar dhammaan",
+    "permissions_unassigned!": "Ogolaansho waa la siiyay!",
+    "add_permission_role": "Ku dar ogolaansho door-kan",
+    "role_name": "Magaca Door-ka",
+
+    "Add": "Ku dar",
+    "cancel": "Jooji",
+    "delete": "Tirtir",
+    "edit": "Wax ka beddel",
+
+    "permissions": "Ogolaansho",
+    "no_permissions": "Ogolaansho ma jiro",
+    "EditPermissions": "Wax ka beddel ogolaanshaha",
+    "unassign": "Ka saar",
+    "permission": "Ogolaansho",
+    "assign": "Ku dar",
+
+    "permission_descriptions": "Sharaxaadaha Ogolaanshaha",
+    "rolesPermissions": "Doorarka iyo Ogolaanshaha",
+
+    "unassign_Permission": "Ka saar ogolaanshaha",
+    "unassign_all_permission": "Ka saar dhammaan ogolaanshaha",
+    "are_you_sure_want": "Ma hubtaa inaad ka saarto",
+    "confirm_delete": "Ma hubtaa inaad tirtirto door-kan?",
+    "unassign_to_all": "Ka saar dhammaan ogolaanshaha",
+    "unassignall": "Ka saar dhammaan",
+    "from_this": "door-kan?",
+    "unassign_sure": "Ma hubtaa inaad ka saarto dhammaan ogolaanshaha door-kan?",
+    "select_all": "Dooro dhammaan",
+    "search": "Raadi",
+
+    "permissions_added": "Ogolaansho si guul leh ayaa loogu daray isticmaalaha",
+    "permissions_updated": "Ogolaansho si guul leh ayaa loo cusboonaysiiyay",
+    "no_permissions_available": "Ogolaansho lama heli karo",
+    "permissions_added_role": "Ogolaansho si guul leh ayaa loogu daray door-ka",
+    "permissions_updated_role": "Ogolaansho si guul leh ayaa loo cusboonaysiiyay",
+    "permissions_added_user": "Ogolaansho si guul leh ayaa loogu daray isticmaalaha",
+    "permissions_removed_user": "Ogolaansho si guul leh ayaa looga saaray isticmaalaha",
+    "permissions_available": "Ogolaansho lama heli karo",
+
+    "description_added": "Sharaxaad si guul leh ayaa loo daray",
+    "description_added_fail": "Ku darista sharaxaadda way fashilantay",
+
+    "unassign_user_role": "Ma hubtaa inaad ka saarto ogolaanshahan isticmaalahan?",
+    "role_permissions_cannot_be_edit": "Ogolaanshaha door-kan lama beddeli karo",
+    "no_permission_available_role": "Ogolaansho lama heli karo door-kan",
+
+    "assign_permission": "Ku dar ogolaansho",
+    "assign_all_permissions": "Ku dar dhammaan ogolaanshaha",
+    "assign_sure": "Ma hubtaa inaad ku darto ogolaanshahan isticmaalahan?",
+    "no_permissions_found": "Ogolaansho lama helin",
+
+    "edit_description": "Wax ka beddel sharaxaad",
+    "add_description": "Ku dar sharaxaad",
+    "description": "Sharaxaad",
+
+    "update": "Cusboonaysii",
+    "add": "Ku dar",
+
+    "np_permissions_available_user": "Ogolaansho lama heli karo isticmaalahan"
+  }
+}

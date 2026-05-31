@@ -1,0 +1,59 @@
+{
+  "calendar": {
+    "title": "Kalandar",
+    "new_event": "Ku dar dhacdo cusub",
+    "edit_event": "Wax ka beddel dhacdo",
+    "filters": "Shaandhooyin",
+    "colors": "Midabbo",
+    "range": "Xad",
+    "event": "Dhacdo",
+    "events": "Dhacdooyin",
+    "today": "Maanta",
+    "month": "Bil",
+    "week": "Usbuuc",
+    "day": "Maalin",
+    "agenda": "Ajande",
+    "reset": "Dib u dejin",
+
+    "view": {
+      "month": "Bil",
+      "week": "Usbuuc",
+      "day": "Maalin",
+      "agenda": "Ajande"
+    },
+
+    "tooltip": {
+      "delete_event": "Tirtir dhacdo",
+      "edit_event": "Wax ka beddel dhacdo"
+    },
+
+    "form": {
+      "title": "Cinwaan",
+      "description": "Sharaxaad",
+      "all_day": "Maalin dhan",
+      "start_date": "Taariikhda bilowga",
+      "end_date": "Taariikhda dhammaadka",
+      "save": "Kaydi isbeddelka",
+      "cancel": "Jooji",
+      "delete": "Tirtir dhacdo",
+      "create_success": "Si guul leh ayaa loo abuuray!",
+      "update_success": "Si guul leh ayaa loo cusboonaysiiyay!",
+      "delete_success": "Si guul leh ayaa loo tirtiray!"
+    },
+
+    "dialog": {
+      "add": "Ku dar",
+      "edit": "Wax ka beddel",
+      "cancel": "Jooji",
+      "delete": "Tirtir"
+    },
+
+    "validation": {
+      "title_required": "Cinwaan waa loo baahan yahay!",
+      "description_required": "Sharaxaad waa loo baahan yahay!",
+      "description_min": "Sharaxaadda waa inay ahaataa ugu yaraan 50 xaraf",
+      "title_max": "Cinwaanku waa inuu ka yar yahay 100 xaraf",
+      "end_date_error": "Taariikhda dhammaadka waa inay ka dambaysaa taariikhda bilowga"
+    }
+  }
+}

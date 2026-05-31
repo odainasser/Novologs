@@ -1,0 +1,13 @@
+
+
+
+{
+  "upload": {
+    "drop_or_select": "拖放或选择文件",
+    "drop_here": "将文件拖放到此处或点击",
+    "browse": "浏览",
+    "browse_suffix": "从您的设备中选择。",
+    "upload_photo": "上传图片",
+    "update_photo": "更新图片"
+  }
+}

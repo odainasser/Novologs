@@ -1,0 +1,500 @@
+
+{
+"tasks": {
+"heading": "Nhiệm vụ",
+"dashboard": "Bảng điều khiển",
+"serial_no": "STT",
+"priorities": "Ưu tiên",
+"list": "Danh sách",
+"ref": "Số tham chiếu",
+"task_id": "ID Nhiệm vụ",
+"project": "Dự án/Nhiệm vụ",
+"source":"Nguồn",
+"description": "Mô tả",
+"untitled": "Không tên",
+"press_enter_create": "Nhấn phím Enter để tạo tác vụ.",
+"members": "Thành viên",
+"sub_tasks": "Phụ",
+"cost_time": "Chi phí & Thời gian",
+"priority_delete": "Bạn có chắc chắn muốn xóa ưu tiên này không?",
+"contacts": "Liên hệ",
+"start_date": "Ngày bắt đầu",
+"end_date": "Ngày kết thúc",
+"type": "Loại",
+"status": "Trạng thái",
+"category": "Danh mục",
+"not_submitted": "Chưa gửi",
+"not_started": "Chưa bắt đầu",
+"Exportpdf":"Xuất PDF",
+"in_progress": "Đang tiến hành",
+"on_hold": "Tạm dừng",
+"completed": "Hoàn thành",
+"submitted": "Đã gửi",
+"Task_Report": "Báo cáo nhiệm vụ",
+"task_reporting": "Báo cáo nhiệm vụ",
+"task_export": "Xuất nhiệm vụ",
+"task_export_as_pdf": "Xuất PDF",
+"task_export_as_excel": "Xuất Excel",
+"Employee": "Nhân viên",
+
+
+"priority": "Ưu tiên",
+"weight": "Trọng lượng",
+"add_task": "Thêm nhiệm vụ",
+"edit_weight": "Chỉnh sửa trọng lượng",
+"add_weight": "Thêm trọng lượng",
+"add_members": "Thêm thành viên",
+"task_description": "Mô tả nhiệm vụ",
+"save": "Lưu",
+"clear_all": "Xóa tất cả các trường",
+"delete": "Xóa",
+"confirm_delete": "Bạn có chắc chắn muốn xóa",
+"items": "mục?",
+"search": "Tìm kiếm...",
+"edit": "Chỉnh sửa",
+"details": "Chi tiết",
+"actions": "Hành động",
+"settings": "Cài đặt",
+"task_variant": "Biến thể nhiệm vụ",
+"edit_members": "Chỉnh sửa thành viên",
+"repeat": "Lặp lại",
+"lead": "Chìa khóa",
+"add_filedetails": "Thêm chi tiết tệp",
+"select_data_range": "Chọn khoảng thời gian",
+"close": "Đóng",
+"add": "Thêm",
+"add_task_details": "Thêm chi tiết nhiệm vụ",
+"edit_task_details": "Chỉnh sửa chi tiết nhiệm vụ",
+"projects": "Dự án",
+"mission": "Nhiệm vụ",
+"client": "Khách hàng",
+"vendor": "Nhà cung cấp",
+"general_task_type": "Loại nhiệm vụ chung",
+"project_task_type": "Loại nhiệm vụ dự án",
+"mission_task_type": "Loại nhiệm vụ nhiệm vụ",
+"client_task_type": "Loại nhiệm vụ khách hàng",
+"vendor_task_type": "Loại nhiệm vụ nhà cung cấp",
+"buisnesslead": "Chìa khóa kinh doanh",
+"contract": "Hợp đồng",
+"project_module": "Mô-đun dự án",
+"project_milestone": "Mốc dự án",
+"new_status": "Trạng thái mới",
+"arabic_status": "Trạng thái mới (Tiếng Ả Rập)",
+"edit_designation": "Chỉnh sửa chức danh",
+"add_designation": "Thêm chức danh",
+"delete_designation": "Xóa chức danh",
+"new_category": "Danh mục mới",
+"arabic_category": "Danh mục mới (Tiếng Ả Rập)",
+"new_priority": "Ưu tiên mới",
+"arabic_priority": "Ưu tiên mới (Tiếng Ả Rập)",
+"task_type": "Loại nhiệm vụ",
+"no_projects": "Không có dự án",
+"no_missions": "Không có nhiệm vụ",
+"no_clients": "Không có khách hàng",
+"no_vendors": "Không có nhà cung cấp",
+"no_categories": "Không có danh mục",
+"no_priorities": "Không có ưu tiên",
+"no_statuses": "Không có trạng thái",
+"no_tasks": "Không có nhiệm vụ",
+"no_leads": "Không có chìa khóa",
+"no_contracts": "Không có hợp đồng",
+"no_modules": "Không có mô-đun",
+"no_milestones": "Không có mốc",
+"none": "Không có",
+"no_members": "Không có thành viên",
+"task_category": "Danh mục nhiệm vụ",
+"required": "Bắt buộc.",
+"show_date": "Hiển thị chuyển đổi ngày bắt đầu",
+"actvities_completed": "hoạt động đã hoàn thành",
+"not_available": "Không khả dụng",
+"general": "Chung",
+"subtask_in": "Phụ nhiệm vụ trong",
+"task_in": "Nhiệm vụ trong",
+"backlog_in": "Dự trữ trong",
+"change_mystatus": "Thay đổi trạng thái của tôi",
+"results_found": "Kết quả tìm thấy",
+"clear": "Xóa",
+   "is_an": "là thành viên gốc",
+  "parent_task": "ID nhiệm vụ cha",
+  "confidential_task": "Đây là một nhiệm vụ bảo mật",
+  "created_on": "Tạo vào",
+  "assigned_to_me": "Được giao cho tôi",
+  "task_labels": "Nhãn nhiệm vụ",
+  "task_categories": "Danh mục nhiệm vụ",
+  "edit-category": "Chỉnh sửa danh mục",
+  "delete_category": "Xóa danh mục",
+  "add_category": "Thêm danh mục",
+  "are_you_sure": "Bạn có chắc chắn muốn xóa danh mục này?",
+   "edit_label": "Chỉnh sửa nhãn",
+  "add_label": "Thêm nhãn",
+  "delete_label": "Xóa nhãn",
+  "default_statuses": "Trạng thái mặc định",
+  "default_categories": "Danh mục mặc định",
+  "default_priorities": "Ưu tiên mặc định",
+  "are_you_sure_want_to_delete": "Bạn có chắc chắn muốn xóa trạng thái này không?",
+  "desig_not_available": "Chức danh không có sẵn",
+  "department_not_available": "Phòng ban không có sẵn",
+  "status_not_available": "Trạng thái không có sẵn",
+  "add_timesheet_details": "Zaman çizelgesi detaylarını ekle",
+  "change_status":"Thay đổi trạng thái",
+  "status_changed": "Trạng thái đã được thay đổi thành công",
+  "failed_update": "Cập nhật trạng thái thất bại",
+  "failed_delete": "Xóa nhiệm vụ thất bại",
+  "id_not_available": "ID không có sẵn",
+  "source_added": "Nguồn đã được thêm",
+  "edit_task_source": "Chỉnh sửa nguồn tác vụ",
+  "add_task_category": "Thêm danh mục tác vụ",
+  "record_audio": "Ghi âm",
+  "cost": "Chi phí",
+  "duration": "Thời gian",
+  "copy_url": "Sao chép URL",
+  "delete_priority": "Xóa ưu tiên",
+  "edit_priority": "Chỉnh sửa ưu tiên",
+  "failed_to_upadte": "Cập nhật ưu tiên thất bại",
+  "transcripts": "Bản ghi âm",
+  "description_not_available": "Mô tả không có sẵn",
+  "description_english": "Mô tả bằng tiếng Anh:",
+  "description_arabic": "Mô tả bằng tiếng Ả Rập:",
+  "comments_yet": "Chưa có bình luận nào",
+  "no_activities": "Không có hoạt động nào cho ngày đã chọn",
+  "create_ai": "Tạo quyền tác vụ AI",
+  "exempted": "Bị miễn nhiệm vụ",
+  "account_number": "Số tài khoản",
+  "account_name": "Tên tài khoản",
+  "debit": "Ghi nợ (AED)",
+  "credit": "Trả nợ (AED)",
+  "new":"Mới",
+  "voucher_number":"Số chứng từ",
+  "accountdetails":"Chi tiết tài khoản",
+  "narration":"Mô tả",
+  "debit-a":"Ghi nợ",
+  "credit-a":"Trả nợ",
+  "date":"Ngày",
+  "unexpected_error":"Đã xảy ra lỗi không mong muốn khi xóa mốc.",
+  "confirm_swap":"Xác nhận trao đổi",
+  "are_you_want_swap":"Bạn có chắc chắn muốn trượt danh mục này không?",
+  "yes":"Có",
+  "cancel":"Hủy",
+  "Back":"Trở lại",
+  "general-o":"Chung",
+  "leads":"Chìa khóa",
+  "purchase_date":"Ngày mua",
+  "receipt_number":"Số hóa đơn",
+  "journal_number":"Số nhật ký",
+  "receiver":"Người nhận",
+  "payment_method":"Phương thức thanh toán",
+  "amount":"Số tiền",
+  "categorized":"Đã được phân loại",
+  
+
+  
+
+  
+
+
+
+
+  
+"category-toast": {
+  "task_category_added": "Danh mục công việc đã được thêm thành công",
+  "task_category_deleted": "Danh mục công việc đã được xóa thành công",
+  "unexpected_error": "Đã xảy ra lỗi không mong muốn",
+  "failed_to_delete": "Xóa danh mục không thành công",
+  "task_category_updated": "Danh mục công việc đã được cập nhật thành công",
+  "edit_category": "Chỉnh sửa danh mục",
+  "add_category": "Thêm danh mục",
+  "delete_category": "Xóa danh mục",
+  "are_you_sure": "Bạn có chắc chắn muốn xóa danh mục không?",
+  "failed_to_update": "Cập nhật danh mục không thành công"
+
+},
+"errors": {
+  "no_permission": "Không có quyền",
+  "restricted": "Trang bạn đang cố truy cập bị hạn chế. Vui lòng liên hệ quản trị viên hệ thống.",
+  "go_home": "Về trang chủ",
+  "internal": "500 Lỗi máy chủ nội bộ",
+  "please_try": "Đã xảy ra lỗi, vui lòng thử lại sau.",
+  "sorry_page": "Xin lỗi, không tìm thấy trang!",
+  "sorry-couldnt": "Xin lỗi, chúng tôi không thể tìm thấy trang bạn đang tìm kiếm. Có thể bạn đã gõ sai URL? Hãy kiểm tra lại chính tả.",
+  "unexpected_error": "Đã xảy ra lỗi không mong muốn"
+},
+
+
+
+"filters": {
+  "status": "Trạng thái",
+  "members": "Thành viên",
+  "print": "In",
+  "import": "Nhập",
+  "export": "Xuất",
+  "task_statuses": "Trạng thái nhiệm vụ",
+  "task_types": "Loại nhiệm vụ",
+  "task_pirority": "Ưu tiên nhiệm vụ",
+  "change_task_status": "Thay đổi trạng thái nhiệm vụ"
+},
+
+"tooltips": {
+  "add_task_details": "Thêm chi tiết nhiệm vụ"
+},
+
+"todo": {
+  "dialog_title": "Công việc cần làm",
+  "cancel": "Hủy",
+  "add": "Thêm",
+  "success": "Công việc đã được thêm thành công",
+  "update": "Cập nhật",
+  "delete": "Xóa"
+},
+
+"confirm": {
+  "delete": "Xóa",
+  "delete_desig": "Bạn có chắc chắn muốn xóa chức danh này?"
+},
+
+"subtasks": {
+    "subtasks": "Nhiệm vụ phụ",
+    "assigned": "Được giao",
+    "created": "Được tạo",
+    "backlog": "Dự trữ",
+    "delete": "Xóa",
+    "task_description": "Mô tả nhiệm vụ",
+    "start_date": "Ngày bắt đầu",
+    "end_date": "Ngày kết thúc",
+    "category": "Danh mục",
+    "priority": "Ưu tiên",
+    "weight": "Trọng lượng",
+    "assign": "Gán",
+    "add_members": "Thêm thành viên",
+    "add_weight": "Thêm trọng lượng",
+    "edit_weight": "Chỉnh sửa trọng lượng",
+    "add_task": "Thêm nhiệm vụ",
+    "clear_all_fields": "Xóa tất cả các trường",
+    "are_you_sure_want_to_delete": "Bạn có chắc chắn muốn xóa không",
+    "items": "mục?",
+    "save": "Lưu",
+    "actions": "Hành động",
+    "sl_no": "STT",
+    "task_id": "ID nhiệm vụ",
+    "members": "Thành viên"
+},
+
+
+
+
+"toast": {
+  "delete_success": "Xóa thành công!",
+  "update_success": "Cập nhật thành công!",
+  "create_success": "Tạo thành công!",
+  "task_update": "Nhiệm vụ đã được cập nhật thành công",
+  "task_status_added": "Trạng thái nhiệm vụ đã được thêm thành công",
+  "task_status_deleted": "Trạng thái nhiệm vụ đã được xóa thành công",
+  "task_status_updated": "Trạng thái nhiệm vụ đã được cập nhật thành công",
+  "task_type_added": "Loại nhiệm vụ đã được thêm thành công",
+  "task_type_deleted": "Loại nhiệm vụ đã được xóa thành công",
+  "task_type_updated": "Loại nhiệm vụ đã được cập nhật thành công",
+  "task_priority_added": "Ưu tiên nhiệm vụ đã được thêm thành công",
+  "task_priority_deleted": "Ưu tiên nhiệm vụ đã được xóa thành công",
+  "task_priority_updated": "Ưu tiên nhiệm vụ đã được cập nhật thành công",
+  "status_changed": "Trạng thái đã thay đổi thành công",
+  "failed_update": "Cập nhật trạng thái không thành công",
+  "unexpected_error": "Une erreur inattendue s’est produite",
+  "failed_delete": "Xóa nhiệm vụ không thành công",
+"task_deleted": "Tác vụ đã được xóa thành công",
+"document_confirm": "Bạn có chắc chắn muốn xóa tài liệu này không?",
+
+  "document_deleted": "Xóa tài liệu thành công",
+  "failed_document": "Xóa tài liệu không thành công",
+  "failed_add": "Thêm tài liệu không thành công",
+  "failed_update_document": "Cập nhật tài liệu không thành công",
+ 
+  "no_content_save": "Không có nội dung để lưu",
+  "document_added": "Tài liệu đã được thêm thành công",
+  "document_updated": "Tài liệu đã được cập nhật thành công",
+  "document_added_link": "Tài liệu đã được thêm và liên kết thành công với nhiệm vụ",
+  "document_failed": "Tài liệu đã được thêm, nhưng cập nhật nhiệm vụ thất bại",
+  "document_error": "Đã xảy ra lỗi khi lưu tài liệu",
+ "link_copied": "Liên kết đã được sao chép vào bảng tạm",
+  "failed_link": "Không thể sao chép liên kết",
+  "audio_upload": "Tải âm thanh thành công",
+  "audio_upload_failed": "Tải âm thanh thất bại:",
+  "task_create": "Tạo nhiệm vụ thành công",
+  "task_update_failed": "Cập nhật nhiệm vụ thất bại",
+  "delete_task_milestone": "Xóa nhiệm vụ khỏi cột mốc",
+  "are_you_sure_want_to_delete_milestone": "Bạn có chắc chắn muốn xóa nhiệm vụ này khỏi cột mốc này không?",
+  "task_forwarded": "Chuyển tiếp nhiệm vụ thành công",
+  "task_cleared": "Đã xóa nhiệm vụ khỏi cột mốc thành công",
+  "record_audio": "Ghi âm",
+  "category_not_available": "Danh mục không khả dụng",
+  "priority_not_available": "Ưu tiên không khả dụng",
+  "status_not_available": "Trạng thái không khả dụng",
+  "comment_delete": "Xóa bình luận thành công",
+  "failed_comment": "Xóa bình luận không thành công",
+  "are_you_sure": "Bạn có chắc chắn muốn xóa bình luận này không?"
+
+
+
+
+},
+
+
+
+
+"comment_input": {
+    "placeholder": "Nhập tin nhắn",
+    "comment": "Bình luận",
+    "add_image": "Thêm hình ảnh",
+    "attach_file": "Đính kèm tệp",
+    "failed_attach": "Không lấy được thông tin tệp",
+    "failed_upload": "Tải tệp lên không thành công",
+    "error_upload": "Lỗi khi tải tệp lên",
+    "file_size_exceeded": "Kích thước tệp vượt quá giới hạn",
+    "comment_added": "Bình luận đã được thêm thành công",
+    "upload_file": "Tệp đã được tải lên",
+    "operation_failed": "Thao tác thất bại. Vui lòng thử lại.",
+    "please_enter": "Vui lòng nhập tin nhắn hoặc đính kèm tệp."
+  },
+
+   "kanban": {
+    "title": "Kanban",
+    "column_fixed": "Cột cố định"
+},
+
+"gantt": {
+    "assignees": "Người được giao",
+    "mission": "Nhiệm vụ",
+    "backlog": "Dự trữ",
+    "tooltip_start": "Bắt đầu",
+    "tooltip_finish": "Kết thúc"
+  },
+
+
+  
+  
+    
+   "toolbar": {
+    "column_name": "Tên cột",
+    "rename": "Đổi tên",
+    "clear": "Xóa",
+    "delete": "Xóa",
+    "are_you_sure_want_to_delete": "Bạn có chắc chắn muốn xóa cột này không?",
+    "note": "Ghi chú",
+    "note_text": "Tất cả các nhiệm vụ liên quan đến danh mục này cũng sẽ bị xóa."
+},
+
+  
+  
+  
+  
+
+"weight_dialog": {
+    "title": "Thêm Cân Nặng",
+    "search": "Tìm kiếm",
+    "no_weights": "Không tìm thấy cân nặng",
+    "close": "Đóng"
+  },
+  
+
+
+
+
+
+  "reminder": {
+    "add_reminder": "Thêm lời nhắc",
+    "description": "Mô tả",
+    "start_date": "Ngày bắt đầu",
+    "add_members": "Thêm thành viên",
+    "cancel": "Hủy",
+    "add": "Thêm",
+    "success": "Đã thêm lời nhắc thành công",
+    "deleted": "Đã xóa lời nhắc thành công",
+    "failed": "Xóa nhiệm vụ thất bại",
+    "error": "Đã xảy ra lỗi không mong muốn",
+    "no_activity": "Không tìm thấy hoạt động nào",
+    "delete_activity": "Bạn có chắc chắn muốn xóa hoạt động này không?",
+    "activity_completed": "Hoạt động đã hoàn thành",
+    "no_activities_available": "Không có hoạt động nào cho ngày đã chọn",
+    "editor_not_ready": "Trình chỉnh sửa chưa được khởi tạo.",
+    "reminder": "Lời nhắc",
+    "title": "Xác nhận",
+    "complete": "Hoàn thành",
+    "date": "Ngày",
+    "invalid_date":"Invalid Date",
+    "no_reminder":"No Reminder Set",
+    "content": "Bạn có chắc chắn muốn hoàn thành hoạt động này không?"
+  },
+
+
+"members-a": {
+    "dialog_title_add": "Thêm Thành viên",
+    "dialog_title_default": "Thành viên",
+    "assign_to_me": "Giao cho tôi",
+    "confidential": "Nhiệm vụ bảo mật",
+    "search": "Tìm kiếm",
+    "no_members": "Không có thành viên",
+    "add_button": "Thêm",
+    "close_button": "Đóng",
+    "assignee": "Người nhận nhiệm vụ",
+    "completed": "Hoàn thành"
+  },
+
+      "tabs": {
+    "assigned": "Được giao",
+    "created": "Đã tạo",
+    "backlog": "Công việc tồn đọng"
+  },
+
+  "forward": {
+  "designation": "Chức danh:",
+  "forward": "Chuyển tiếp",
+  "are_you_sure_want_forward": "Bạn có chắc chắn muốn chuyển tiếp nhiệm vụ này đến các thành viên đã chọn không?",
+  "send": "Gửi",
+  "forward_task": "Chuyển tiếp nhiệm vụ"
+},
+
+
+     "views": {
+    "list": "Chế độ xem danh sách",
+    "grid": "Chế độ xem Kanban",
+    "gantt": "Biểu đồ Gantt"
+  },
+
+  "kanban_details": {
+  "back": "Quay lại",
+  "delete": "Xóa",
+  "task_name": "Tên nhiệm vụ",
+  "delete_task": "Xóa nhiệm vụ",
+  "overview": "Tổng quan",
+  "like": "Thích",
+  "task_id_label": "ID nhiệm vụ",
+  "task_details_title": "Chi tiết nhiệm vụ",
+  "add_reminder": "Thêm nhắc nhở",
+  "add_activities": "Thêm hoạt động",
+  "start_typing": "Bắt đầu gõ...",
+  "subtasks_label": "Công việc con",
+  "comments_label": "Bình luận",
+  "reminder_description": "Mô tả",
+  "reminder_start_date": "Ngày bắt đầu",
+  "reminder_start_time": "Thời gian bắt đầu",
+  "delete_reminder_tooltip": "Xóa nhắc nhở",
+  "delete_activity_tooltip": "Xóa hoạt động",
+  "todo_checkbox": "Đánh dấu là đã làm",
+  "editor_placeholder": "Bắt đầu gõ...",
+  "activities": "Hoạt động",
+  "confirm_delete": "Bạn có chắc chắn muốn xóa?",
+  "error_loading_timeline": "Lỗi khi tải dòng thời gian. Vui lòng thử lại.",
+  "timeline": "Dòng thời gian",
+  
+
+
+ "statuses": {
+    "not_started": "Chưa bắt đầu",
+    "in_progress": "Đang tiến hành",
+    "on_hold": "Tạm dừng",
+    "submitted": "Đã nộp",
+    "completed": "Hoàn thành"
+  },
+  "fullscreen": "Toàn màn hình",
+  "exit_fullscreen": "Thoát toàn màn hình"
+}
+    }
+  }

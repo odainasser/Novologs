@@ -1,0 +1,31 @@
+{
+  "gantt": {
+    "timeline_not_found": "Không tìm thấy dòng thời gian",
+    "column_assignees": "Người được giao",
+    "column_project": "Dự án",
+    "column_mission": "Nhiệm vụ",
+    "column_client": "Khách hàng",
+    "column_lead": "Khách hàng tiềm năng",
+    "column_vendor": "Nhà cung cấp",
+    "column_contract": "Hợp đồng",
+    "column_backlog": "Công việc tồn đọng",
+    "tooltip_start": "Bắt đầu:",
+    "tooltip_finish": "Kết thúc:",
+    "no_tasks_display": "Không có nhiệm vụ nào để hiển thị trên dòng thời gian.",
+    "permission_denied": "Không có quyền truy cập",
+    "confirm_date": "Xác nhận thay đổi ngày",
+    "date": "ngày",
+    "?": "?",
+    "are_you_sure": "Bạn có chắc chắn muốn thay đổi",
+    "confirm": "Xác nhận",
+    "cancel": "Hủy",
+    "are_you_sure_update_task": "Bạn có chắc chắn muốn cập nhật tiến độ nhiệm vụ không?",
+    "task_name": "Tên nhiệm vụ",
+    "ID": "ID",
+    "start_date": "Ngày bắt đầu",
+    "end_date": "Ngày kết thúc",
+    "task_not_in_progress": "Nhiệm vụ không ở trạng thái \"Đang thực hiện\", không thể cập nhật tiến độ.",
+    "you_donot": "Bạn không có quyền chỉnh sửa tiến độ.",
+    "confirm_progress": "Xác nhận thay đổi tiến độ"
+  }
+}

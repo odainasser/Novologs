@@ -1,0 +1,14 @@
+
+
+
+
+{
+"upload":{
+  "drop_or_select": "Drop or select file",
+  "drop_here": "Drop files here or click to",
+  "browse": "browse",
+  "browse_suffix": "through your machine." ,
+   "upload_photo": "Upload photo",
+   "update_photo": "Update photo"
+    }
+}

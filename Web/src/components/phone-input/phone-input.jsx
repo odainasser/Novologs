@@ -1,0 +1,167 @@
+import { useState, forwardRef, useCallback, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+
+import Box from '@mui/material/Box';
+import TextField from '@mui/material/TextField';
+import IconButton from '@mui/material/IconButton';
+import InputAdornment from '@mui/material/InputAdornment';
+import { inputBaseClasses } from '@mui/material/InputBase';
+
+import { Iconify } from '../iconify';
+import { CountryListPopover } from './list';
+import { getCountry, getCountryCodeFromPhonePrefix } from './utils';
+
+// ----------------------------------------------------------------------
+
+export const PhoneInput = forwardRef(
+  (
+    {
+      sx,
+      size = 'small',
+      value,
+      label,
+      onChange,
+      placeholder,
+      disableSelect,
+      variant = 'outlined',
+      country: inputCountryCode,
+      ...other
+    },
+    ref
+  ) => {
+    const { t } = useTranslation('dashboard/teams');
+
+    const [searchCountry, setSearchCountry] = useState('');
+    const [selectedCountry, setSelectedCountry] = useState(
+      () => getCountryCodeFromPhonePrefix(value) || inputCountryCode || 'AE'
+    );
+    useEffect(() => {
+      const detectedCountry = getCountryCodeFromPhonePrefix(value);
+
+      if (detectedCountry && detectedCountry !== selectedCountry) {
+        setSelectedCountry(detectedCountry);
+      }
+    }, [value, selectedCountry]);
+
+    const hasLabel = !!label;
+    const cleanValue = value ?? '';
+    useEffect(() => {
+      if (inputCountryCode) {
+        setSelectedCountry(inputCountryCode);
+      }
+    }, [inputCountryCode]);
+
+    const handleClear = useCallback(() => {
+      onChange?.('');
+    }, [onChange]);
+
+    const handleInputChange = useCallback(
+      (event) => {
+        const raw = event.target.value ?? '';
+
+        let nextValue = raw.replace(/[^\d+]/g, '');
+
+        if (nextValue.includes('+')) {
+          nextValue = `+${nextValue.replace(/\+/g, '')}`;
+        }
+
+        const country = getCountry(selectedCountry);
+        const dialCode = country?.phone ? `+${country.phone}` : '';
+
+        if (nextValue && !nextValue.startsWith('+') && dialCode) {
+          nextValue = `${dialCode}${nextValue}`;
+        }
+
+        onChange?.(nextValue);
+      },
+      [onChange, selectedCountry]
+    );
+
+    return (
+      <Box
+        sx={{
+          '--popover-button-mr': '12px',
+          '--popover-button-height': '22px',
+          '--popover-button-width': variant === 'standard' ? '48px' : '60px',
+          position: 'relative',
+          [`& .${inputBaseClasses.input}`]: {
+            pl: 'calc(var(--popover-button-width) + var(--popover-button-mr))',
+          },
+          ...sx,
+        }}
+      >
+        {!disableSelect && (
+          <CountryListPopover
+            searchCountry={searchCountry}
+            countryCode={selectedCountry}
+            onClickCountry={(inputValue) => {
+              setSelectedCountry(inputValue);
+
+              const newCountry = getCountry(inputValue);
+              const newDialCode = newCountry?.phone ? `+${newCountry.phone}` : '';
+
+              if (!newDialCode) return;
+
+              const currentValue = value ?? '';
+
+              // remove old leading dial code if present, keep the local number part
+              const localNumber = currentValue.replace(/^\+\d+/, '').replace(/\D/g, '');
+
+              onChange?.(localNumber ? `${newDialCode}${localNumber}` : newDialCode);
+            }}
+            onSearchCountry={(inputValue) => setSearchCountry(inputValue)}
+            sx={{
+              pl: variant === 'standard' ? 0 : 1.5,
+              ...(variant === 'standard' &&
+                hasLabel && {
+                  mt: size === 'small' ? '16px' : '20px',
+                }),
+              ...((variant === 'filled' || variant === 'outlined') && {
+                mt: size === 'small' ? '8px' : '13px',
+              }),
+              ...(variant === 'filled' &&
+                hasLabel && {
+                  mt: size === 'small' ? '21px' : '25px',
+                }),
+            }}
+          />
+        )}
+
+        <TextField
+          ref={ref}
+          fullWidth
+          size={size}
+          label={label}
+          value={cleanValue}
+          variant={variant}
+          onChange={handleInputChange}
+          placeholder={placeholder ?? t('table.headings.enter-phoneno')}
+          InputLabelProps={{ shrink: true }}
+          InputProps={{
+            endAdornment: cleanValue ? (
+              <InputAdornment position="end">
+                <IconButton size="small" edge="end" onClick={handleClear}>
+                  <Iconify width={16} icon="mingcute:close-line" />
+                </IconButton>
+              </InputAdornment>
+            ) : null,
+            inputProps: {
+              maxLength: 18,
+              inputMode: 'tel',
+              style: { fontSize: '12px' },
+            },
+            sx: {
+              '& input': {
+                padding: '11px 14px',
+              },
+              '& .MuiInputBase-input': {
+                paddingLeft: '50px',
+              },
+            },
+          }}
+          {...other}
+        />
+      </Box>
+    );
+  }
+);

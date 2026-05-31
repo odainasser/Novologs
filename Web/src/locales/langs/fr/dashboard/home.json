@@ -1,0 +1,17 @@
+{
+  "home": {
+    "welcome_back": "Bon retour ",
+    "new_notice": "Vous verrez une annonce ici",
+    "no_notice": "Aucune annonce",
+    "view_all": "Voir tout",
+    "no_data": "Aucune donnée",
+    "no_data_found": "Aucune donnée trouvée",
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "try_again": "Réessayer",
+    "search": "Recherche",
+    "no_results": "Aucun résultat trouvé",
+    "searching": "Recherche en cours...",
+    "cancel": "Annuler"
+  }
+}

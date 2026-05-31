@@ -1,0 +1,54 @@
+{
+  "calendar": {
+    "title": "Calendario",
+    "new_event": "Nuevo evento",
+    "edit_event": "Editar evento",
+    "filters": "Filtros",
+    "colors": "Colores",
+    "range": "Rango",
+    "event": "Evento",
+    "events": "Eventos",
+    "today": "Hoy",
+    "month": "Mes",
+    "week": "Semana",
+    "day": "Día",
+    "agenda": "Agenda",
+    "reset": "Restablecer",
+    "view": {
+      "month": "Mes",
+      "week": "Semana",
+      "day": "Día",
+      "agenda": "Agenda"
+    },
+    "tooltip": {
+      "delete_event": "Eliminar evento",
+      "edit_event": "Editar evento"
+    },
+    "form": {
+      "title": "Título",
+      "description": "Descripción",
+      "all_day": "Todo el día",
+      "start_date": "Fecha de inicio",
+      "end_date": "Fecha de finalización",
+      "save": "Guardar cambios",
+      "cancel": "Cancelar",
+      "delete": "Eliminar evento",
+      "create_success": "¡Creación exitosa!",
+      "update_success": "¡Actualización exitosa!",
+      "delete_success": "¡Eliminación exitosa!"
+    },
+    "dialog": {
+      "add": "Agregar",
+      "edit": "Editar",
+      "cancel": "Cancelar",
+      "delete": "Eliminar"
+    },
+    "validation": {
+      "title_required": "¡El título es obligatorio!",
+      "description_required": "¡La descripción es obligatoria!",
+      "description_min": "La descripción debe tener al menos 50 caracteres",
+      "title_max": "El título debe tener menos de 100 caracteres",
+      "end_date_error": "La fecha de finalización debe ser posterior a la fecha de inicio"
+    }
+  }
+}

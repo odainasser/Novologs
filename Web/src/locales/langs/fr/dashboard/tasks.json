@@ -1,0 +1,493 @@
+
+{
+  "tasks": {
+  "heading": "Tâches",
+  "dashboard": "Tableau de bord",
+  "serial_no": "N°",
+   "priorities": "Priorités",
+  "list": "Liste",
+  "ref": "N° de Réf.",
+  "general": "général" ,
+  "source":"Source",
+  "contacts":"Contacts",
+  "not_submitted": "Non soumis",
+  "not_started": "Non commencée",
+  "in_progress": "En cours",
+  "on_hold": "En attente",
+  "completed": "Terminée",
+  "submitted": "Soumise",
+  "Task_Report": "Rapport de tâches",
+  "task_reporting": "Rapport de tâches",
+  "task_export": "Exporter les tâches",
+  "task_export_as_pdf": "Exporter en PDF",
+  "task_export_as_excel": "Exporter en Excel",
+  "press_enter_create": "Appuyez sur Entrée pour créer la tâche.",
+  "task_id": "ID de Tâche",
+  "project": "Projet/Mission",
+  "description": "Description",
+  "untitled": "Sans titre",
+  "members": "Membres",
+  "sub_tasks": "Sous",
+  "start_date": "Date de début",
+  "end_date": "Date de fin",
+  "type": "Type",
+ "Exportpdf":"Exporter en PDF",
+  "status": "Statut",
+  "category": "Catégorie",
+  "priority": "Priorité",
+  "weight": "Poids",
+  "add_task": "Ajouter une tâche",
+  "edit_weight": "Modifier le poids",
+  "add_weight": "Ajouter un poids",
+  "add_members": "Ajouter des membres",
+  "task_description": "Description de la tâche",
+  "save": "Enregistrer",
+  "clear_all": "Effacer tous les champs",
+  "delete": "Supprimer",
+  "confirm_delete": "Êtes-vous sûr de vouloir supprimer",
+  "items": "éléments ?",
+  "search": "Rechercher...",
+  "edit": "Modifier",
+  "details": "Détails",
+  "actions": "Actions",
+  "settings": "Paramètres",
+  "task_variant": "Variante de tâche",
+  "edit_members": "Modifier les membres",
+  "repeat": "Répéter",
+  "select_data_range": "Sélectionner la plage de dates",
+  "close": "Fermer",
+  "add": "Ajouter",
+  "add_task_details": "Ajouter les détails de la tâche",
+  "edit_task_details": "Modifier les détails de la tâche",
+  "projects": "Projet",
+  "mission": "Mission",
+  "client": "Client",
+  "vendor": "Fournisseur",
+  "general_task_type": "Type de tâche général",
+  "project_task_type": "Type de tâche de projet",
+  "mission_task_type": "Type de tâche de mission",
+  "client_task_type": "Type de tâche client",
+  "vendor_task_type": "Type de tâche fournisseur",
+  "buisnesslead": "Responsable commercial",
+  "contract": "Contrat",
+  "project_module": "Modules du projet",
+  "project_milestone": "Jalon du projet",
+  "new_status": "Nouveau statut",
+  "arabic_status": "Statut en arabe",
+  "edit_designation": "Modifier l’intitulé du poste",
+  "add_designation": "Ajouter un intitulé de poste",
+  "delete_designation": "Supprimer l’intitulé du poste",
+  "new_category": "Nouvelle catégorie",
+  "arabic_category": "Catégorie en arabe",
+  "new_priority": "Nouvelle priorité",
+  "arabic_priority": "Priorité en arabe",
+  "add_timesheet_details": "Ajouter les détails de la feuille de temps",
+  "change_status": "Changer le statut",
+  "task_type": "Type de tâche",
+  "no_projects": "Aucun projet disponible",
+  "no_missions": "Aucune mission disponible",
+  "no_clients": "Aucun client disponible",
+  "no_vendors": "Aucun fournisseur disponible",
+  "no_categories": "Aucune catégorie disponible",
+  "no_priorities": "Aucune priorité disponible",
+  "no_statuses": "Aucun statut disponible",
+  "no_tasks": "Aucune tâche disponible",
+  "no_leads": "Aucune piste disponible",
+  "no_contracts": "Aucun contrat disponible",
+  "no_modules": "Aucun module disponible",
+  "no_milestones": "Aucune étape disponible",
+  "none": "Aucun",
+  "no_members": "Aucun membre",
+   "task_category": "Catégorie de tâche",
+   "lead": "Prospect",
+   "required": "Requis.",
+   "cost_time": "Coût et temps",
+  "add_filedetails": "Ajouter les détails du fichier",
+   
+   "show_date": "Afficher le commutateur de date de début",
+   "activities_completed": "activités terminées",
+   "not_available": "Non disponible",
+   "subtask_in": "Sous-tâche dans",
+    "task_in": "Tâche dans",
+    "backlog_in": "Arriéré dans",
+   "change_mystatus": "Changer mon statut",
+   "results_found": "Résultats trouvés",
+    "clear": "Effacer",
+    "is_an": "est un membre d'origine",
+    "parent_task": "ID de la tâche principale",
+    "confidential_task": "C'est une tâche confidentielle",
+    "created_on": "Créé le",
+     "assigned_to_me": "Attribué à moi",
+     "task_labels": "Étiquettes de tâche",
+      "task_categories": "Catégories de tâches",
+      "edit-category": "Modifier la catégorie",
+  "delete_category": "Supprimer la catégorie",
+  "add_category": "Ajouter une catégorie",
+  "are_you_sure": "Êtes-vous sûr de vouloir supprimer cette catégorie?",
+   "edit_label": "Modifier l’étiquette",
+  "add_label": "Ajouter une étiquette",
+  "delete_label": "Supprimer l’étiquette",
+   "default_statuses": "Statuts par défaut",
+  "default_categories": "Catégories par défaut",
+  "default_priorities": "Priorités par défaut",
+  
+  "are_you_sure_want_to_delete": "Êtes-vous sûr de vouloir supprimer ce statut ?",
+  "desig_not_available": "L'intitulé de poste n'est pas disponible",
+  "department_not_available": "Le département n'est pas disponible",
+  "status_not_available": "Statut non disponible",
+   "id_not_available": "Identifiant non disponible",
+   "status_changed": "Statut modifié avec succès",
+  "failed_update": "Échec de la mise à jour du statut",
+  "failed_delete": "Échec de la suppression de la tâche",
+   "source_added": "Source ajoutée",
+  "edit_task_source": "Modifier la source de la tâche",
+  "add_task_category": "Ajouter une catégorie de tâche",
+  "record_audio": "Enregistrer l'audio",
+   "cost": "Coût",
+  "duration": "Durée",
+  "copy_url": "Copier l'URL",
+  "delete_priority": "Eliminar prioridad",
+  "edit_priority": "Editar prioridad",
+  "failed_to_upadte": "Error al actualizar la prioridad",
+  "transcripts": "Transcriptions",
+  "description_not_available": "Description non disponible",
+  "description_english": "Description en anglais:",
+  "description_arabic": "Description en arabe:",
+   "comments_yet": "Aucun commentaire pour le moment",
+   "no_activities": "Aucune activité disponible pour la date sélectionnée",
+   "create_ai": "Créer une autorisation de tâche AI",
+   "exempted": "Exempté de l'attribution de tâches",
+   "account_number": "Numéro de compte",
+   "account_name": "Nom du compte",
+   "debit": "Débit (AED)",
+   "credit": "Crédit (AED)",
+   "new":"Nouveau",
+   "voucher_number":"Numéro de chèque",
+   "accountdetails":"Détails du compte",
+   "narration":"Narration",
+   "debit-a":"Débit",
+   "credit-a":"Crédit",
+   "date":"Date",
+   "unexpected_error":"Une erreur inattendue s'est produite lors de la suppression du jalon.",
+   "confirm_swap":"Confirmer le remplacement",
+   "are_you_want_swap":"Êtes-vous sûr de vouloir glisser cette catégorie ?",
+   "yes":"Oui",
+   "cancel":"Annuler",
+   "Back":"Retour",
+   "general-o":"Général",
+   "leads":"Prospects",
+   "purchase_date":"Date de achat",
+   "receipt_number":"Numéro de reçu",
+   "journal_number":"Numéro de journal",
+   "receiver":"Récepteur",
+   "payment_method":"Méthode de paiement",
+   "amount":"Montant",
+   "categorized":"Categorisé",
+   
+
+
+
+
+   
+
+
+
+  
+     "category-toast": {
+  "task_category_added": "Catégorie de tâche ajoutée avec succès",
+  "task_category_deleted": "Catégorie de tâche supprimée avec succès",
+  "unexpected_error": "Une erreur inattendue s'est produite",
+  "failed_to_delete": "Échec de la suppression de la catégorie",
+  "task_category_updated": "Catégorie de tâche mise à jour avec succès",
+  "edit_category": "Modifier la catégorie",
+  "add_category": "Ajouter une catégorie",
+  "delete_category": "Supprimer la catégorie",
+  "are_you_sure": "Êtes-vous sûr de vouloir supprimer la catégorie ?",
+  "failed_to_update": "Échec de la mise à jour de la catégorie"
+
+},
+"errors": {
+  "no_permission": "Pas d'autorisation",
+  "restricted": "La page à laquelle vous essayez d’accéder est restreinte. Veuillez contacter votre administrateur système.",
+  "go_home": "Aller à l'accueil",
+  "internal": "500 Erreur interne du serveur",
+  "please_try": "Une erreur s'est produite, veuillez réessayer plus tard.",
+  "sorry_page": "Désolé, page introuvable !",
+  "sorry-couldnt": "Désolé, nous n'avons pas pu trouver la page que vous recherchez. Peut-être avez-vous mal saisi l'URL ? Vérifiez bien l’orthographe.",
+  "unexpected_error": "Une erreur inattendue s'est produite"
+},
+
+
+
+
+"filters": {
+  "status": "Statut",
+  "members": "Membres",
+  "print": "Imprimer",
+  "import": "Importer",
+  "export": "Exporter",
+  "task_statuses": "Statuts des tâches",
+  "task_types": "Types de tâches",
+  "task_pirority": "Priorités des tâches",
+  "change_task_status": "Changer le statut de la tâche"
+},
+
+"tooltips": {
+  "add_task_details": "Ajouter les détails de la tâche"
+},
+
+"todo": {
+  "dialog_title": "À faire",
+  "cancel": "Annuler",
+  "add": "Ajouter",
+  "success": "Tâche ajoutée avec succès",
+  "update": "Mettre à jour",
+  "delete": "Supprimer"
+},
+
+"confirm": {
+  "delete": "Supprimer",
+  "delete_desig": "Êtes-vous sûr de vouloir supprimer cet intitulé de poste ?"
+},
+
+"subtasks": {
+  "subtasks": "Sous-tâches",
+  "assigned": "Assigné",
+  "created": "Créé",
+  "backlog": "Arriéré",
+  "delete": "Supprimer",
+  "task_description": "Description de la tâche",
+  "start_date": "Date de début",
+  "end_date": "Date de fin",
+  "category": "Catégorie",
+  "priority": "Priorité",
+  "weight": "Poids",
+  "assign": "Attribuer",
+  "add_members": "Ajouter des membres",
+  "add_weight": "Ajouter un poids",
+  "edit_weight": "Modifier le poids",
+  "add_task": "Ajouter une tâche",
+  "clear_all_fields": "Effacer tous les champs",
+  "are_you_sure_want_to_delete": "Êtes-vous sûr de vouloir supprimer",
+  "items": "éléments ?",
+  "save": "Enregistrer",
+  "actions": "Actions",
+  "sl_no": "N°",
+  "task_id": "ID de tâche",
+  "members": "Membres"
+},
+
+
+
+
+"toast": {
+  "delete_success": "Suppression réussie !",
+  "update_success": "Mise à jour réussie !",
+  "create_success": "Création réussie !",
+  "task_update": "Tâche mise à jour avec succès",
+  "task_status_added": "Statut de la tâche ajouté avec succès",
+  "task_status_deleted": "Statut de la tâche supprimé avec succès",
+  "task_status_updated": "Statut de la tâche mis à jour avec succès",
+  "task_type_added": "Type de tâche ajouté avec succès",
+  "task_type_deleted": "Type de tâche supprimé avec succès",
+  "task_type_updated": "Type de tâche mis à jour avec succès",
+  "task_priority_added": "Priorité de tâche ajoutée avec succès",
+  "task_priority_deleted": "Priorité de tâche supprimée avec succès",
+  "task_priority_updated": "Priorité de tâche mise à jour avec succès",
+    "status_changed": "Statut modifié avec succès",
+    "failed_update": "Échec de la mise à jour du statut",
+     "unexpected_error": "Une erreur inattendue s’est produite",
+     "task_deleted": "Tarea eliminada con éxito",
+  "failed_delete": "Échec de la suppression de la tâche",
+  "document_deleted": "Document supprimé avec succès",
+  "failed_document": "Échec de la suppression du document",
+  "failed_add": "Échec de l'ajout du document",
+  "failed_update_document": "Échec de la mise à jour du document",
+  "document_confirm": "Êtes-vous sûr de vouloir supprimer ce document ?",
+   "link_copied": "Lien copié dans le presse-papiers",
+   "failed_link": "Échec de la copie du lien",
+
+  "no_content_save": "Aucun contenu à enregistrer",
+  "document_added": "Document ajouté avec succès",
+  "document_updated": "Document mis à jour avec succès",
+  "document_added_link": "Document ajouté et lié à la tâche avec succès",
+  "document_failed": "Document ajouté, mais échec de la mise à jour de la tâche",
+  "document_error": "Une erreur s'est produite lors de l'enregistrement du document",
+
+  "audio_upload": "Audio téléchargé avec succès",
+  "audio_upload_failed": "Échec du téléchargement de l'audio :",
+  "task_create": "Tâche créée avec succès",
+  "task_update_failed": "Échec de la mise à jour de la tâche",
+  "delete_task_milestone": "Supprimer la tâche de l'étape",
+  "are_you_sure_want_to_delete_milestone": "Êtes-vous sûr de vouloir supprimer cette tâche de cette étape ?",
+  "task_forwarded": "Tâche transférée avec succès",
+  "task_cleared": "Tâche supprimée de l'étape avec succès",
+  "record_audio": "Enregistrer l'audio",
+  "category_not_available": "Catégorie non disponible",
+   
+  "comment_delete": "Commentaire supprimé avec succès",
+  "failed_comment": "Échec de la suppression du commentaire",
+  "are_you_sure": "Êtes-vous sûr de vouloir supprimer ce commentaire ?"
+
+
+
+
+    
+},
+
+
+
+
+"comment_input": {
+    "placeholder": "Tapez un message",
+    "comment": "Commentaire",
+    "add_image": "Ajouter une image",
+    "attach_file": "Joindre un fichier",
+    "failed_attach": "Échec de l'obtention des détails du fichier",
+    "failed_upload": "Échec du téléversement du fichier",
+    "error_upload": "Erreur lors du téléversement du fichier",
+    "file_size_exceeded": "La taille du fichier est dépassée",
+    "comment_added": "Commentaire ajouté avec succès",
+    "upload_file": "Fichier téléversé",
+    "operation_failed": "Échec de l'opération. Veuillez réessayer.",
+    "please_enter": "Veuillez saisir un message ou joindre un fichier."
+  },
+  
+
+   "kanban": {
+  "title": "Kanban",
+  "column_fixed": "Colonne fixée"
+},
+
+  
+  
+   "gantt": {
+  "assignees": "Affectés",
+  "mission": "Mission",
+  "backlog": "Arriéré",
+  "tooltip_start": "Début",
+  "tooltip_finish": "Fin"
+},
+
+    "toolbar": {
+  "column_name": "Nom de la colonne",
+  "rename": "Renommer",
+  "clear": "Effacer",
+  "delete": "Supprimer",
+  "are_you_sure_want_to_delete": "Êtes-vous sûr de vouloir supprimer la colonne ?",
+  "note": "Remarque",
+  "note_text": "Toutes les tâches liées à cette catégorie seront également supprimées."
+},
+
+  
+  
+  
+
+"weight_dialog": {
+  "title": "Ajouter un poids",
+  "search": "Rechercher",
+  "no_weights": "Aucun poids trouvé",
+  "close": "Fermer"
+},
+
+
+
+
+
+"reminder": {
+    "add_reminder": "Ajouter un rappel",
+    "description": "Description",
+    "start_date": "Date de début",
+    "add_members": "Ajouter des membres",
+    "cancel": "Annuler",
+    "add": "Ajouter",
+    "success": "Rappel ajouté avec succès",
+    "deleted": "Rappel supprimé avec succès",
+    "failed": "Échec de la suppression de la tâche",
+    "error": "Une erreur inattendue est survenue",
+    "no_activity": "Aucune activité trouvée",
+    "delete_activity": "Êtes-vous sûr de vouloir supprimer cette activité ?",
+    "activity_completed": "Activité terminée",
+    "no_activities_available": "Aucune activité disponible pour la date sélectionnée",
+    "editor_not_ready": "L'éditeur n'est pas encore initialisé.",
+    "reminder": "Rappel",
+    "title": "Confirmer",
+    "complete": "Terminer",
+    "date": "Date",
+    "invalid_date":"Invalid Date",
+    "no_reminder":"No Reminder Set",
+    "content": "Êtes-vous sûr de vouloir terminer cette activité ?"
+  },
+  
+"forward": {
+  "designation": "Désignation :",
+  "forward": "Transférer",
+  "are_you_sure_want_forward": "Êtes-vous sûr de vouloir transférer cette tâche aux membres sélectionnés ?",
+  "send": "Envoyer",
+  "forward_task": "Transférer la tâche"
+},
+
+
+"members-a": {
+  "dialog_title_add": "Ajouter des membres",
+  "dialog_title_default": "Membres",
+  "assign_to_me": "M’attribuer",
+  "confidential": "Tâche confidentielle",
+  "search": "Rechercher",
+  "no_members": "Aucun membre",
+  "add_button": "Ajouter",
+  "close_button": "Fermer",
+  "assignee": "Attribué à",
+  "completed": "Terminé"
+},
+
+  "tabs": {
+  "assigned": "Attribuées",
+  "created": "Créées",
+  "backlog": "À traiter"
+},
+
+      "views": {
+  "list": "Vue en liste",
+  "grid": "Vue Kanban",
+  "gantt": "Diagramme de Gantt"
+},
+
+  "kanban_details": {
+  "back": "Retour",
+  "delete": "Supprimer",
+  "task_name": "Nom de la tâche",
+  "delete_task": "Supprimer la tâche",
+  "overview": "Aperçu",
+  "like": "J'aime",
+  "task_id_label": "ID de la tâche",
+  "task_details_title": "Détails de la tâche",
+  "add_reminder": "Ajouter un rappel",
+  "add_activities": "Ajouter des activités",
+  "start_typing": "Commencez à taper...",
+  "subtasks_label": "Sous-tâches",
+  "comments_label": "Commentaires",
+  "reminder_description": "Description",
+  "reminder_start_date": "Date de début",
+  "reminder_start_time": "Heure de début",
+  "delete_reminder_tooltip": "Supprimer le rappel",
+  "delete_activity_tooltip": "Supprimer l'activité",
+  "todo_checkbox": "Marquer comme fait",
+  "editor_placeholder": "Commencez à taper...",
+  "activities": "Activités",
+  "timeline": "Chronologie",
+  "error_loading_timeline":"Erreur lors du chargement de la chronologie. Veuillez réessayer.",
+  "confirm_delete": "Êtes-vous sûr de vouloir supprimer ?",
+ "statuses": {
+  "not_started": "Non commencée",
+  "in_progress": "En cours",
+  "on_hold": "En attente",
+  "submitted": "Soumise",
+  "completed": "Terminée"
+},
+"fullscreen": "Plein écran",
+"exit_fullscreen": "Quitter le plein écran"
+
+}
+}
+  }

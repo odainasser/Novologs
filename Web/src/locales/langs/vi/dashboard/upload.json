@@ -1,0 +1,14 @@
+
+
+
+
+{
+  "upload": {
+    "drop_or_select": "Thả hoặc chọn tệp",
+    "drop_here": "Thả tệp ở đây hoặc nhấp để",
+    "browse": "duyệt",
+    "browse_suffix": "qua máy tính của bạn.",
+    "upload_photo": "Tải ảnh lên",
+    "update_photo": "Cập nhật ảnh"
+  }
+}

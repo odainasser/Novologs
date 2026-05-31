@@ -1,0 +1,11 @@
+global using Ardalis.GuardClauses;
+global using AutoMapper;
+global using AutoMapper.QueryableExtensions;
+global using FluentValidation;
+global using MediatR;
+global using Microsoft.EntityFrameworkCore;
+global using SystemLoaders.Common.Security;
+global using Novologs.Domain.Constants;
+global using Novologs.Application.Modules.Account.Common.Authorization;
+global using Novologs.Application.Modules.Account.Common.DTOs;
+global using Novologs.Application.Modules.Account.Products.DTOs;

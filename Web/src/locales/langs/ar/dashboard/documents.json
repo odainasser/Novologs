@@ -1,0 +1,159 @@
+{
+    "documents": {
+      "add": {
+        "back": "عودة",
+        "new_heading": "إنشاء مستند جديد",
+        "edit_heading": "تعديل المستند",
+        "details_title": "التفاصيل",
+        "dashboard": "لوحة التحكم",
+        "documents": "المستندات",
+        "actions":"الإجراءات",
+        "edit_content": "تعديل المحتوى",
+      "no_comments_yet": "لا توجد تعليقات حتى الآن.",
+
+   
+           "type":"نوع",
+        "details_subtitle": "العنوان، الوصف المختصر، الصورة...",
+        "form": {
+          "title": "عنوان المستند",
+          "description": "وصف مختصر",
+          "cover_upload": "تحميل صورة الغلاف",
+          "category": "الفئة",
+          "node_type": "نوع العقدة",
+          "viewers": "البحث عن المشاهدين...",
+          "editors": "البحث عن المحررين...",
+          "no_viewers_note": "إذا لم يتم تحديد مشاهدين، سيكون هذا المنشور عاماً.",
+          "add_category": "إضافة فئة جديدة",
+          "category_name": "اسم الفئة",
+          "title_1": "العنوان",
+          "cover": "الغلاف",
+          "card_header": "الخصائص",
+          "subheader": "وظائف وسمات إضافية...",
+          "viewers_name": "المشاهدون",
+           "editor_name": "المحررون",
+            "Change_Viewers": "تغيير المشاهدين",
+           "Add_viewers": "إضافة مشاهدين",
+           "Change_Editors": "تغيير المحررين",
+           "Add_Editors": "إضافة محررين"
+
+          
+
+        },
+        "content": "المحتوى",
+         "placeholder": "ابدأ الكتابة...",
+         "placeholder_category": "ابحث في الفئة...",
+
+
+        "submit_create": "إنشاء المستند",
+        "submit_update": "تحديث المستند",
+        "toast_create": "تم إنشاء المستند",
+        "toast_update": "تم تحديث المستند",
+        "editor_title": "المحتوى",
+        "cover_upload_success": "تم تحميل صورة الغلاف بنجاح",
+        "cover_upload_error": "حدث خطأ أثناء تحميل صورة الغلاف",
+        "editor_subtitle": "اكتب محتوى المستند هنا..."
+      },
+      "type": {
+      "book": "كتاب",
+     "folder": "مجلد",
+    "wiki": "ويكي",
+    "post": "منشور",
+    "project": "مشروع",
+    "story": "قصة",
+    "task": "مهمة",
+    "milestone": "معلم",
+    "lead": "عميل محتمل",
+    "client": "عميل",
+    "contract": "عقد",
+    "vendor": "مورد"
+  },
+  "toast": {
+    "document_delete": "تم حذف المستند بنجاح",
+    "response_error": "فشل حذف المستند",
+    "document_update": "تم تحديث المستند بنجاح",
+    "failed_document": "فشل تحديث المستند",
+    "failed_add": "فشل في إضافة المستند",
+    "document_add_fail": "تمت إضافة المستند، ولكن فشل تحديث المهمة",
+
+    "document_error": "حدث خطأ أثناء حفظ المستند",
+    "document_link": "تمت إضافة المستند وربطه بالمهمة بنجاح",
+    "unexpected_error_delete": "حدث خطأ غير متوقع أثناء حذف المستند"
+},
+
+
+
+      "validation": {
+        "title_required": "العنوان مطلوب",
+        "description_required": "الوصف مطلوب",
+        "category_required": "الفئة مطلوبة",
+        "node_type_required": "نوع العقدة مطلوب"
+      },
+      "list": {
+        "heading": "المستندات",
+        "tabs": {
+          "list": "قائمة"
+        },
+        "toolbar": {
+          "search_placeholder": "البحث في المستندات...",
+          "category_all": "جميع الفئات",
+          "sort_by": "ترتيب حسب",
+          "sort_latest": "الأحدث",
+          "sort_oldest": "الأقدم",
+          "add_button": "إضافة مستند جديد",
+          "back": "رجوع",
+          "edit": "تعديل",
+          "share": "مشاركة",
+          "doc_type": "نوع المستند",
+          "dialog_title": "مشاركة المستند",
+          "make_public": "اجعله عامًا",
+          "copy_instruction": "انسخ وشارك هذا الرابط:",
+          "copy_button": "نسخ الرابط",
+          "close_button": "إغلاق",
+          "copied_to_clipboard": "تم نسخ الرابط إلى الحافظة!"
+        },
+        "filters": {
+          "keyword": "الكلمة المفتاحية:",
+          "category": "الفئة:",
+          "sort": "الترتيب حسب:"
+        }
+      },
+      "details": {
+        "not_found": "لم يتم العثور على المستند",
+        "comments": "التعليقات",
+        "share": {
+          "title": "مشاركة المستند",
+          "public_toggle": "اجعل المستند عاماً",
+          "copy_label": "انسخ وشارك هذا الرابط:",
+          "copy_button": "نسخ الرابط",
+          "copied": "تم نسخ الرابط إلى الحافظة!"
+        }
+      },
+     "comment": {
+  "placeholder": "اكتب بعض تعليقاتك...",
+  "reply_button": "رد",
+  "write_comment": "اكتب بعض تعليقاتك...",
+  "post_comment": "إرسال التعليق",
+  "copied_file": "تم نسخ الملف",
+  "attached_file_removed": "تمت إزالة الملف",
+  "emoji_picker": "اختر رمزًا تعبيريًا",
+  "attached_files": "الملفات المرفقة",
+  "file_removed": "تمت إزالة الملف",
+  "select_file": "اختر ملفًا"
+},
+
+      "actions": {
+        "edit": "تعديل",
+        "delete": "حذف",
+        "view": "عرض",
+        "new": "جديد",
+        "cancel": "إلغاء",
+        "add": "إضافة",
+        "print": "طباعة",
+        "export": "تصدير",
+        "import": "استيراد",
+        "no_content": "لم يتم العثور على محتوى للحفظ",
+        "delete_confirm": "هل أنت متأكد أنك تريد حذف هذا المستند؟"
+      }
+    }
+  }
+  

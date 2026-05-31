@@ -1,0 +1,162 @@
+{
+  "documents": {
+    "add": {
+      "back": "Geri",
+      "dashboard": "Gösterge Paneli",
+      "documents": "Belgeler",
+      "actions:": "Eylemler",
+      "edit_content": "İçeriği Düzenle",
+      "new_heading": "Yeni Belge Oluştur",
+      "edit_heading": "Belgeyi Düzenle",
+      "details_title": "Detaylar",
+      "type": "Tür",
+      
+         "no_comments_yet": "Henüz yorum yok.",
+      "details_subtitle": "Başlık, kısa açıklama, görsel...",
+   "form": {
+  "title": "Belge Başlığı",
+  "description": "Kısa açıklama",
+  "cover_upload": "Kapak görseli yükle",
+  "category": "Kategori",
+  "node_type": "Düğüm Türü",
+  "viewers": "Okuyucuları ara...",
+  "editors": "Editörleri ara...",
+  "no_viewers_note": "Eğer hiç okuyucu seçilmezse, bu gönderi herkese açık olacaktır.",
+  "add_category": "Yeni kategori ekle",
+  "category_name": "Kategori adı",
+  "title_1": "Başlık",
+  "cover": "Kapak",
+  "card_header": "Özellikler",
+  "subheader": "Ek işlevler ve özellikler...",
+  "viewers_name": "Görüntüleyenler",
+  "editor_name": "Editörler",
+  "Change_Viewers": "Görüntüleyenleri Değiştir",
+  "Add_viewers": "Görüntüleyen Ekle",
+  "Change_Editors": "Editörleri Değiştir",
+  "Add_Editors": "Editör Ekle"
+},
+
+  "content": "İçerik",
+  "placeholder": "Yazmaya başlayın...",
+  "placeholder_category": "Kategori ara...",
+
+  "submit_create": "Belge Oluştur",
+  "submit_update": "Belgeyi Güncelle",
+  "toast_create": "Belge oluşturuldu",
+  "toast_update": "Belge güncellendi",
+  "editor_title": "İçerik",
+  "cover_upload_success": "Kapak resmi başarıyla yüklendi",
+  "cover_upload_error": "Kapak resmi yüklenirken hata oluştu",
+  "editor_subtitle": "Belgenizin içeriğini buraya yazın..."
+},
+"validation": {
+  "title_required": "Başlık gereklidir",
+  "description_required": "Açıklama gereklidir",
+  "category_required": "Kategori gereklidir",
+  "node_type_required": "Düğüm tipi gereklidir"
+},
+"list": {
+  "heading": "Belgeler",
+  "tabs": {
+    "list": "Liste"
+  },
+  "toolbar": {
+  "search_placeholder": "Belgeleri ara...",
+  "category_all": "Tüm kategoriler",
+  "sort_by": "Sırala",
+  "sort_latest": "En yeniler",
+  "sort_oldest": "En eskiler",
+  "add_button": "Yeni belge ekle",
+  "none_selected": "Hiçbir öğe seçilmedi",
+  "back": "Geri",
+  "edit": "Düzenle",
+  "doc_type": "Belge Türü",
+
+  "share": "Paylaş",
+  "dialog_title": "Belgeyi paylaş",
+  "make_public": "Herkese açık yap",
+  "copy_instruction": "Bu bağlantıyı kopyalayıp paylaşın:",
+  "copy_button": "Bağlantıyı kopyala",
+  "close_button": "Kapat",
+  "copied_to_clipboard": "Bağlantı panoya kopyalandı!"
+},
+"filters": {
+  "keyword": "Anahtar kelime:",
+  "category": "Kategori:",
+  "sort": "Sırala:"
+}
+},
+"details": {
+  "not_found": "Belge bulunamadı",
+  "comments": "Yorumlar",
+  "share": {
+    "title": "Belgeyi paylaş",
+    "public_toggle": "Herkese açık yap",
+    "copy_label": "Bu bağlantıyı kopyalayın ve paylaşın:",
+    "copy_button": "Bağlantıyı kopyala",
+    "copied": "Bağlantı panoya kopyalandı!"
+  }
+},
+"type": {
+  "book": "Kitap",
+  "folder": "Klasör",
+  "wiki": "Wiki",
+  "post": "Gönderi",
+  "project": "Proje",
+  "story": "Hikaye",
+  "task": "Görev",
+  "milestone": "Kilometre Taşı",
+  "lead": "Aday",
+  "client": "Müşteri",
+  "contract": "Sözleşme",
+  "vendor": "Tedarikçi"
+},
+"toast": {
+  "document_delete": "Belge başarıyla silindi",
+  "response_error": "Belge silme işlemi başarısız",
+  "document_update": "Belge başarıyla güncellendi",
+  "failed_document": "Belge güncellenemedi",
+  "failed_add": "Belge eklenemedi",
+  "comment_add":"Yorum başarıyla eklendi",
+  "comment_add_fail":"Yorum eklenemedi",
+  "operation_failed":"İşlem başarısız. Lütfen tekrar deneyin.",
+  "document_add_fail": "Belge eklendi, ancak görev güncellemesi başarısız oldu",
+  "document_error": "Belge kaydedilirken bir hata oluştu",
+  "document_link": "Belge başarıyla eklendi ve göreve bağlandı",
+  "unexpected_error_delete": "Belge silinirken beklenmeyen bir hata oluştu"
+},
+"comment": {
+  "placeholder": "Lütfen bazı yorumlar yazın...",
+  "reply_button": "Yanıtla",
+  "write_comment": "Lütfen bazı yorumlar yazın...",
+  "post_comment": "Yorumu Gönder",
+  "copied_file": "Dosya kopyalandı",
+  "attached_file_removed": "Dosya kaldırıldı",
+  "emoji_picker": "Bir emoji seçin",
+  "attached_files": "Ekli Dosyalar",
+  "file_removed": "Dosya kaldırıldı",
+  "select_file": "Dosya Seç"
+},
+
+"actions": {
+  "edit": "Düzenle",
+  "delete": "Sil",
+  "view": "Görüntüle",
+  "new": "Yeni",
+  "cancel": "İptal",
+  "save":"Kaydet",
+  "add": "Ekle",
+  "print": "Yazdır",
+  "export": "Dışa Aktar",
+  "import": "İçe Aktar",
+  "no_content": "Kaydedilecek içerik bulunamadı",
+  "delete_confirm": "Bu belgeyi silmek istediğinizden emin misiniz?"
+}
+  }
+}
+
+
+
+
+
+
