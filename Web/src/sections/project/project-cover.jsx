@@ -18,7 +18,7 @@ import { CONFIG } from 'src/config-global';
 import { useMockedUser } from 'src/auth/hooks';
 import { useTranslation } from 'react-i18next';
 import { fDate } from 'src/utils/format-time';
-import { getItemCost } from 'src/actions/timeSheet/timeSheetActions';
+import { getItemCost } from 'src/actions/time-sheet/timeSheetActions';
 import { useAuthContext } from 'src/auth/hooks';
 
 // ----------------------------------------------------------------------

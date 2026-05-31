@@ -19,11 +19,11 @@ import { useTranslation } from 'react-i18next';
 
 import dynamic from 'next/dynamic';
 
-// const ClientLeafletMap = dynamic(() => import('./ClientLeafletMap'), {
+// const ClientLeafletMap = dynamic(() => import('./client-leaflet-map'), {
 //   loading: () => <p>Loading map...</p>,
 //   ssr: false,
 // });
-const ClientGoogleMap = dynamic(() => import('./ClientGoogleMap'), {
+const ClientGoogleMap = dynamic(() => import('./client-google-map'), {
   loading: () => <p>Loading map...</p>,
   ssr: false,
 });

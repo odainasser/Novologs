@@ -12,7 +12,7 @@ import { DashboardContent } from 'src/layouts/dashboard';
 import { useGetContacts, useGetConversation, useGetConversations } from 'src/actions/chat';
 
 import { EmptyContent } from 'src/components/empty-content';
-import { getUser } from 'src/actions/userManage/userManageActions';
+import { getUser } from 'src/actions/user-manage/userManageActions';
 import { useMockedUser } from 'src/auth/hooks';
 
 import { Layout } from '../layout';

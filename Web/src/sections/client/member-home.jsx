@@ -11,7 +11,7 @@ import { useTranslation } from 'react-i18next';
 import { Label } from 'src/components/label';
 
 import { TargetSales } from './target-sales';
-import { getUserStatistics } from 'src/actions/userManage/userManageActions';
+import { getUserStatistics } from 'src/actions/user-manage/userManageActions';
 import LinearProgress from '@mui/material/LinearProgress';
 import { ErrorView } from 'src/sections/error/error-view';
 

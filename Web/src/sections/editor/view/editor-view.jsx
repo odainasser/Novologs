@@ -3,10 +3,10 @@ import Box from '@mui/material/Box';
 
 import { useState, useRef } from 'react';
 import TextField from '@mui/material/TextField';
-import CkEditorComponent from 'src/components/htmlEditor/CkEditorComponent';
+import CkEditorComponent from 'src/components/html-editor/ck-editor-component';
 import { Scrollbar } from 'src/components/scrollbar';
 import { useTranslation } from 'react-i18next';
-import CkEditorPreview from 'src/components/htmlEditor/CkEditorPreview';
+import CkEditorPreview from 'src/components/html-editor/ck-editor-preview';
 import { Stack, Button } from '@mui/material';
 export function EditorView({ docItem, editorContent, setEditorContent, employeesData, isDocFile }) {
   const { t, i18n } = useTranslation('dashboard/documents');

@@ -31,7 +31,7 @@ import LinearProgress from '@mui/material/LinearProgress';
 import { useForm, FormProvider } from 'react-hook-form'; // Import RHF hooks
 import { useAuthContext } from 'src/auth/hooks';
 
-import { getUser } from 'src/actions/userManage/userManageActions';
+import { getUser } from 'src/actions/user-manage/userManageActions';
 import { EmptyContent } from 'src/components/empty-content';
 import { ConfirmDialog } from 'src/components/custom-dialog';
 import { useBoolean } from 'src/hooks/use-boolean';

@@ -27,7 +27,7 @@ import Tab from '@mui/material/Tab';
 import { useTranslation } from 'react-i18next';
 import { KanbanListView } from 'src/sections/kanban/view/kanban-list-view';
 import { TimesheetListView } from 'src/sections/timesheet/view/timesheet-list-view';
-import { getUserDetail } from 'src/actions/userManage/userManageActions';
+import { getUserDetail } from 'src/actions/user-manage/userManageActions';
 import { UserPermissionsView } from '../user-permissions-view';
 import { RolesView } from '../roles-view';
 

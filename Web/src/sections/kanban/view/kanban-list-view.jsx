@@ -73,9 +73,9 @@ import { KanbanSettingsView } from './kanban-settings-view';
 import { UserSettingsButton } from 'src/sections/user/view/user-settings-button';
 import { getTasks } from 'src/actions/task/taskActions';
 
-import { getItemCost } from 'src/actions/timeSheet/timeSheetActions';
+import { getItemCost } from 'src/actions/time-sheet/timeSheetActions';
 
-import { getUser } from 'src/actions/userManage/userManageActions';
+import { getUser } from 'src/actions/user-manage/userManageActions';
 import { getAvailableUser } from 'src/actions/task/taskActions';
 
 import {

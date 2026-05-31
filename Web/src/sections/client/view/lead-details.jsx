@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 
 import { useState, useRef } from 'react';
 import TextField from '@mui/material/TextField';
-import CkEditorComponent from 'src/components/htmlEditor/CkEditorComponent';
+import CkEditorComponent from 'src/components/html-editor/ck-editor-component';
 import { Scrollbar } from 'src/components/scrollbar';
 import { DashboardContent } from 'src/layouts/dashboard';
 import { CustomBreadcrumbs } from 'src/components/custom-breadcrumbs';

@@ -19,7 +19,7 @@ import { CustomBreadcrumbs } from 'src/components/custom-breadcrumbs';
 import { paths } from 'src/routes/paths';
 
 import { navData } from 'src/layouts/config-nav-dashboard';
-import { getUserDetail } from 'src/actions/userManage/userManageActions';
+import { getUserDetail } from 'src/actions/user-manage/userManageActions';
 import { DashboardContent } from 'src/layouts/dashboard';
 
 export function ShowHideMenu({ userId }) {

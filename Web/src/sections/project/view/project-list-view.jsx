@@ -29,7 +29,7 @@ import { useSetState } from 'src/hooks/use-set-state';
 
 import { varAlpha } from 'src/theme/styles';
 import { DashboardContent } from 'src/layouts/dashboard';
-import { getUser } from 'src/actions/userManage/userManageActions';
+import { getUser } from 'src/actions/user-manage/userManageActions';
 import { getDepartments } from 'src/actions/department/departmentActions';
 import { getProjects, deleteProject } from 'src/actions/project/projectActions';
 

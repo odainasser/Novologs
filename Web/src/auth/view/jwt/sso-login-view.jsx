@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useRouter, useSearchParams } from 'src/routes/hooks';
 import { toast } from 'src/components/snackbar';
-import { ssoLogin } from 'src/actions/ssoLinks/ssoActions';
+import { ssoLogin } from 'src/actions/sso-links/ssoActions';
 import { useAuthContext } from 'src/auth/hooks';
 import Alert from '@mui/material/Alert';
 import { Card, CardContent, Box, LinearProgress, Typography } from '@mui/material';

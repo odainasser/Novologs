@@ -32,7 +32,7 @@ import * as XLSX from 'xlsx';
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
 import { fDate } from 'src/utils/format-time';
-import CkEditorComponent from 'src/components/htmlEditor/CkEditorComponent';
+import CkEditorComponent from 'src/components/html-editor/ck-editor-component';
 import EditIcon from '@mui/icons-material/Edit';
 import {
   getPurchaseOrderById,

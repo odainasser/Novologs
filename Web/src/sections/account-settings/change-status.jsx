@@ -16,7 +16,7 @@ import { DateTimePicker } from '@mui/x-date-pickers';
 import dayjs from 'dayjs';
 import { toast } from 'src/components/snackbar';
 import{ useTranslation } from 'react-i18next';
-import { getWorkStatus, changeMyStatus } from 'src/actions/userManage/userManageActions';
+import { getWorkStatus, changeMyStatus } from 'src/actions/user-manage/userManageActions';
 
 export function ChangeStatus({ handleCloseStatusDialog, zetaUser, checkUserSession }) {
   const { t, i18n } = useTranslation('dashboard/sign');

@@ -14,7 +14,7 @@ import DialogActions from '@mui/material/DialogActions';
 import InputAdornment from '@mui/material/InputAdornment';
 import FormControlLabel from '@mui/material/FormControlLabel';
 
-import { getCompanyBranches } from 'src/actions/userManage/userManageActions';
+import { getCompanyBranches } from 'src/actions/user-manage/userManageActions';
 
 import { Iconify } from 'src/components/iconify';
 import { Scrollbar } from 'src/components/scrollbar';

@@ -13,7 +13,7 @@ import { CONFIG } from 'src/config-global';
 
 import { Label } from 'src/components/label';
 import { FileThumbnail } from 'src/components/file-thumbnail';
-import { setNotificationAsRead } from 'src/actions/userManage/userManageActions';
+import { setNotificationAsRead } from 'src/actions/user-manage/userManageActions';
 import { toast } from 'src/components/snackbar';
 import Tooltip from '@mui/material/Tooltip';
 import IconButton from '@mui/material/IconButton';

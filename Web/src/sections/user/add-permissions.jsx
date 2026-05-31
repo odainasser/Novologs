@@ -20,9 +20,9 @@ import {
   assignPermissionToRole,
   updateUserPermission,
   updateRolePermission,
-} from 'src/actions/userManage/userManageActions';
+} from 'src/actions/user-manage/userManageActions';
 import { toast } from 'src/components/snackbar';
-import { getUserDetail } from 'src/actions/userManage/userManageActions';
+import { getUserDetail } from 'src/actions/user-manage/userManageActions';
 
 // ----------------------------------------------------------------------
 

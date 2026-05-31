@@ -44,7 +44,7 @@ import { ErrorView } from 'src/sections/error/error-view';
 import { varAlpha } from 'src/theme/styles';
 import { fDateTimeNew } from 'src/utils/format-time';
 import { useSetState } from 'src/hooks/use-set-state';
-import { getUser } from 'src/actions/userManage/userManageActions';
+import { getUser } from 'src/actions/user-manage/userManageActions';
 import { fIsAfter } from 'src/utils/format-time';
 import dayjs from 'dayjs';
 import isBetween from 'dayjs/plugin/isBetween';

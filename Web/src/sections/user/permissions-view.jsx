@@ -20,7 +20,7 @@ import {
   addRoles,
   deleteRole,
   unassignPermissionToRole,
-} from 'src/actions/userManage/userManageActions';
+} from 'src/actions/user-manage/userManageActions';
 import { Iconify } from 'src/components/iconify';
 import { toast } from 'src/components/snackbar';
 import { useBoolean } from 'src/hooks/use-boolean';

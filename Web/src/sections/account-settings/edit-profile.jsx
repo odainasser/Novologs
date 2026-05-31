@@ -13,7 +13,7 @@ import { UploadAvatar } from 'src/components/upload';
 import { addFile } from 'src/actions/file/fileActions';
 import Typography from '@mui/material/Typography';
 import { fData } from 'src/utils/format-number';
-import { updateUser } from 'src/actions/userSettings/userSettingsActions';
+import { updateUser } from 'src/actions/user-settings/userSettingsActions';
 import { useTranslation } from 'react-i18next';
 
 export function EditProfile({ handleCloseProfileDialog, zetaUser, checkUserSession }) {

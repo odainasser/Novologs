@@ -23,7 +23,7 @@ import {
   addTimesheet,
   updateTimesheet,
   deleteTimesheet,
-} from 'src/actions/timeSheet/timeSheetActions';
+} from 'src/actions/time-sheet/timeSheetActions';
 
 import { toast } from 'src/components/snackbar';
 import { Iconify } from 'src/components/iconify';

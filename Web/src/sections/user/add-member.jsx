@@ -19,7 +19,7 @@ import { useMockedUser } from 'src/auth/hooks';
 import Switch from '@mui/material/Switch';
 import { useTranslation } from 'react-i18next';
 import { toast } from 'src/components/snackbar';
-import { assignPermissionToUser } from 'src/actions/userManage/userManageActions';
+import { assignPermissionToUser } from 'src/actions/user-manage/userManageActions';
 // ----------------------------------------------------------------------
 
 export function AddMember({

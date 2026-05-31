@@ -18,7 +18,7 @@ import { SettingsDrawer, defaultSettings, SettingsProvider } from 'src/component
 import { CheckoutProvider } from 'src/sections/checkout/context';
 
 import { AuthProvider } from 'src/auth/context/jwt';
-import AppProviders from 'src/app/AppProviders';
+import AppProviders from 'src/app/app-providers';
 
 export const viewport = {
   width: 'device-width',

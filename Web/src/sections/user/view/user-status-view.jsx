@@ -22,7 +22,7 @@ import {
   addStatus,
   updateStatus,
   deleteStatus,
-} from 'src/actions/userManage/userManageActions';
+} from 'src/actions/user-manage/userManageActions';
 import LinearProgress from '@mui/material/LinearProgress';
 
 export function UserStatusView() {

@@ -18,7 +18,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import { SalesReport } from '../sales-report';
 import { useTranslation } from 'react-i18next';
-import { getUserDetail } from 'src/actions/userManage/userManageActions';
+import { getUserDetail } from 'src/actions/user-manage/userManageActions';
 import { getSalesTarget } from 'src/actions/client/clientActions';
 
 export function MemberProfileView({ memberId }) {

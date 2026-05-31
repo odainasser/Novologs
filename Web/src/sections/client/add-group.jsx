@@ -19,7 +19,7 @@ import { Divider } from '@mui/material';
 import { useMockedUser } from 'src/auth/hooks';
 import Switch from '@mui/material/Switch';
 import { useTranslation } from 'react-i18next';
-import { addUserGroup, updateUserGroup } from 'src/actions/userManage/userManageActions';
+import { addUserGroup, updateUserGroup } from 'src/actions/user-manage/userManageActions';
 import { useAuthContext } from 'src/auth/hooks';
 
 // ----------------------------------------------------------------------

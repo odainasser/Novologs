@@ -18,12 +18,12 @@ import { Iconify } from 'src/components/iconify';
 import { AddMember } from '../add-member';
 import { useTranslation } from 'react-i18next';
 import { useBoolean } from 'src/hooks/use-boolean';
-import { getUser } from 'src/actions/userManage/userManageActions';
+import { getUser } from 'src/actions/user-manage/userManageActions';
 import {
   getPermissionList,
   getUsersWithPermission,
   unassignPermissionToUser,
-} from 'src/actions/userManage/userManageActions';
+} from 'src/actions/user-manage/userManageActions';
 
 export function TaskExemptedView({
   isTaskExempt,

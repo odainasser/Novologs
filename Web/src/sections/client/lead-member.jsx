@@ -18,7 +18,7 @@ import { Divider } from '@mui/material';
 import { useMockedUser } from 'src/auth/hooks';
 import { useTranslation } from 'react-i18next';
 import Stack from '@mui/material/Stack';
-import { getUser } from 'src/actions/userManage/userManageActions';
+import { getUser } from 'src/actions/user-manage/userManageActions';
 import { shareLeadMembers, getLeadMemberByLeadId } from 'src/actions/client/clientActions';
 import { toast } from 'src/components/snackbar';
 

@@ -5,7 +5,7 @@ import { useRouter } from 'src/routes/hooks';
 import { toast } from 'src/components/snackbar';
 import useChatHub from 'src/hooks/use-live-chat-hook';
 import { useAuthContext } from 'src/auth/hooks';
-// import { getUser } from 'src/actions/userManage/userManageActions';
+// import { getUser } from 'src/actions/user-manage/userManageActions';
 
 const ChatNotificationContext = createContext({});
 

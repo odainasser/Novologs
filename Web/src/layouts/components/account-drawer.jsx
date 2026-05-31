@@ -36,7 +36,7 @@ import { ChangeStatus } from 'src/sections/account-settings/change-status';
 import { AddAccount } from 'src/sections/account-settings/add-account';
 
 import { useTranslation } from 'react-i18next';
-import { getSSOLinks, generateToken } from 'src/actions/ssoLinks/ssoActions';
+import { getSSOLinks, generateToken } from 'src/actions/sso-links/ssoActions';
 import { toast } from 'src/components/snackbar';
 import ListItemText from '@mui/material/ListItemText';
 
@@ -52,7 +52,7 @@ export function AccountDrawer({ data = [], anchor = 'right', sx, ...other }) {
     mutate: mutateLinks,
   } = getSSOLinks(zetaUser?.id);
 
-  console.log('this is the ssoLinks', ssoLinks.linkedTo);
+  console.log('this is the sso-links', ssoLinks.linkedTo);
 
   const storedLang = localStorage.getItem('selectedLang');
 

@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 
 import { useState, useRef, useMemo, useEffect } from 'react';
 import TextField from '@mui/material/TextField';
-import CkEditorComponent from 'src/components/htmlEditor/CkEditorComponent';
+import CkEditorComponent from 'src/components/html-editor/ck-editor-component';
 import { Scrollbar } from 'src/components/scrollbar';
 import { DashboardContent } from 'src/layouts/dashboard';
 import { useTranslation } from 'react-i18next';
@@ -15,7 +15,7 @@ import {
 } from 'src/actions/document/documentActions';
 import Stack from '@mui/material/Stack';
 import { updateProject } from 'src/actions/project/projectActions';
-import CkEditorPreview from 'src/components/htmlEditor/CkEditorPreview';
+import CkEditorPreview from 'src/components/html-editor/ck-editor-preview';
 import Button from '@mui/material/Button';
 import { toast } from 'src/components/snackbar';
 import { useBoolean } from 'src/hooks/use-boolean';
@@ -23,7 +23,7 @@ import { ConfirmDialog } from 'src/components/custom-dialog';
 import CircularProgress from '@mui/material/CircularProgress';
 import { useAuthContext } from 'src/auth/hooks';
 import { EmptyContent } from 'src/components/empty-content';
-import { getUser } from 'src/actions/userManage/userManageActions';
+import { getUser } from 'src/actions/user-manage/userManageActions';
 
 export function ProjectDocument({ projectDetails, mutateProjects, projectMembers }) {
   const { t, i18n } = useTranslation('dashboard/projects');

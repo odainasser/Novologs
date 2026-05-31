@@ -18,7 +18,7 @@ import { useForm, Controller, FormProvider } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';
 import LoadingButton from '@mui/lab/LoadingButton';
-import { confirmEmail } from 'src/actions/userManage/userManageActions';
+import { confirmEmail } from 'src/actions/user-manage/userManageActions';
 import { toast } from 'src/components/snackbar';
 
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';

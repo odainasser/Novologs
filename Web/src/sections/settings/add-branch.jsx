@@ -42,7 +42,7 @@ import {
   addCompanyBranch,
   updateCompanyBranch,
   deleteCompanyBranch,
-} from 'src/actions/userManage/userManageActions';
+} from 'src/actions/user-manage/userManageActions';
 import { CountrySelect } from 'src/components/country-select/country-select';
 import { PhoneInput } from 'src/components/phone-input/phone-input';
 import { useTranslation } from 'react-i18next';

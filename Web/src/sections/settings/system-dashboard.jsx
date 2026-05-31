@@ -7,7 +7,7 @@ import ListItemText from '@mui/material/ListItemText';
 
 import { fDate } from 'src/utils/format-time';
 
-import { getUser, getTenantInfo } from 'src/actions/userManage/userManageActions';
+import { getUser, getTenantInfo } from 'src/actions/user-manage/userManageActions';
 
 import { Label } from 'src/components/label';
 import { isActive } from '@tiptap/core';

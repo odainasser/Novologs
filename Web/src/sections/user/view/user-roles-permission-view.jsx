@@ -4,7 +4,7 @@ import { paths } from 'src/routes/paths';
 
 import { CustomBreadcrumbs } from 'src/components/custom-breadcrumbs';
 
-import { getUserDetail } from 'src/actions/userManage/userManageActions';
+import { getUserDetail } from 'src/actions/user-manage/userManageActions';
 import { RolesView } from '../roles-view';
 import { DashboardContent } from 'src/layouts/dashboard';
 import Button from '@mui/material/Button';

@@ -63,7 +63,7 @@ import { useTranslation } from 'react-i18next';
 import FileDetailsDrawer from '../file-manager-file-details';
 import { addFile, getFiles, deleteFile } from 'src/actions/file/fileActions';
 import { useAuthContext } from 'src/auth/hooks';
-import { getUser } from 'src/actions/userManage/userManageActions';
+import { getUser } from 'src/actions/user-manage/userManageActions';
 import { AddFileDetails } from '../add-file-details';
 import dayjs from 'dayjs';
 import isBetween from 'dayjs/plugin/isBetween';

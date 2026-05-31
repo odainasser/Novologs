@@ -357,7 +357,7 @@ export function AddKanbanDetails({
           )}
           {!isProject && !isClient && !isLead && !isSubTask && (
             <DialogTitle>
-              {mode === 'timeSheet'
+              {mode === 'time-sheet'
                 ? t('tasks.add_timesheet_details')
                 : mode === 'add'
                   ? t('tasks.add_task_details')
@@ -473,7 +473,7 @@ export function AddKanbanDetails({
             </Box>
             <Box display="flex" justifyContent="center" gap={1} sx={{ mt: 2 }}>
               {' '}
-              {mode !== 'timeSheet' && (
+              {mode !== 'time-sheet' && (
                 <TextField
                   select
                   fullWidth
@@ -493,7 +493,7 @@ export function AddKanbanDetails({
                   )}
                 </TextField>
               )}
-              {mode === 'timeSheet' && (
+              {mode === 'time-sheet' && (
                 <TextField
                   select
                   fullWidth
@@ -712,7 +712,7 @@ export function AddKanbanDetails({
               {t('tasks.todo.cancel')}
             </Button>
             <Button variant="contained" onClick={handleAddDetail} sx={{ bgcolor: '#006A67' }}>
-              {mode === 'add' || mode === 'timeSheet'
+              {mode === 'add' || mode === 'time-sheet'
                 ? t('tasks.members-a.add_button')
                 : t('tasks.save')}
             </Button>

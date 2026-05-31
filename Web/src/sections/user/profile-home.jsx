@@ -27,7 +27,7 @@ import CardContent from '@mui/material/CardContent';
 import { lighten } from '@mui/system';
 import { useTheme } from '@mui/material/styles';
 import { useTranslation } from 'react-i18next';
-import { getUserStatistics, getAdminStatistics } from 'src/actions/userManage/userManageActions';
+import { getUserStatistics, getAdminStatistics } from 'src/actions/user-manage/userManageActions';
 import LinearProgress from '@mui/material/LinearProgress';
 import { ErrorView } from 'src/sections/error/error-view';
 import { EmptyContent } from 'src/components/empty-content';

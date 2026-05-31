@@ -3,7 +3,7 @@ import { CKEditor } from '@ckeditor/ckeditor5-react';
 import { ClassicEditor } from 'ckeditor5';
 import 'ckeditor5/ckeditor5.css';
 import './module.css';
-import editorConfig from './CkEditorConfig';
+import editorConfig from './ck-editor-config';
 
 export default function CkEditorComponent5({ data = '', onChange }) {
   const editorContainerRef = useRef(null);

@@ -38,7 +38,7 @@ import {
   deactivateUser,
   deleteUser,
   resendEmail,
-} from 'src/actions/userSettings/userSettingsActions';
+} from 'src/actions/user-settings/userSettingsActions';
 import { fDate } from 'src/utils/format-time';
 import { Chip } from '@mui/material';
 import { alpha } from '@mui/material/styles';

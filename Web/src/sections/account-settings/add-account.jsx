@@ -18,7 +18,7 @@ import * as z from 'zod';
 import { toast } from 'src/components/snackbar';
 import { useTranslation } from 'react-i18next';
 import { linkAccountSignIn } from 'src/auth/context/jwt';
-import { ssoInitiate } from 'src/actions/ssoLinks/ssoActions';
+import { ssoInitiate } from 'src/actions/sso-links/ssoActions';
 
 export function AddAccount({ handleCloseAccountDialog, mutateLinks }) {
   const { t, i18n } = useTranslation('dashboard/sign');

@@ -82,7 +82,7 @@ import LinearProgress from '@mui/material/LinearProgress';
 import { ErrorView } from 'src/sections/error/error-view';
 import { useAuthContext } from 'src/auth/hooks';
 import { getSettings } from 'src/actions/settings/settingActions';
-import { getUser } from 'src/actions/userManage/userManageActions';
+import { getUser } from 'src/actions/user-manage/userManageActions';
 
 //}
 

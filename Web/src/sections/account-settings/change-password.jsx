@@ -15,7 +15,7 @@ import Alert from '@mui/material/Alert';
 import { Visibility, VisibilityOff } from '@mui/icons-material';
 import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';
-import { changePassword } from 'src/actions/userManage/userManageActions';
+import { changePassword } from 'src/actions/user-manage/userManageActions';
 import { toast } from 'src/components/snackbar';
 import { useTranslation } from 'react-i18next';
 

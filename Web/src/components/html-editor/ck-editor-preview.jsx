@@ -4,7 +4,7 @@ import { ClassicEditor } from 'ckeditor5';
 
 import 'ckeditor5/ckeditor5.css';
 import './module.css';
-import editorConfig from './CkEditorConfig';
+import editorConfig from './ck-editor-config';
 import DOMPurify from 'dompurify';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 

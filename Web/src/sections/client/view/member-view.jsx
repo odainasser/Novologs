@@ -29,7 +29,7 @@ import ListItemText from '@mui/material/ListItemText';
 import { TextField, MenuItem } from '@mui/material';
 import Button from '@mui/material/Button';
 import { AddGroup } from '../add-group';
-import { getUser, getUserGroups, deleteUserGroup } from 'src/actions/userManage/userManageActions';
+import { getUser, getUserGroups, deleteUserGroup } from 'src/actions/user-manage/userManageActions';
 import { getHierarchy } from 'src/actions/hierarchy/hierarchyActions';
 
 import LinearProgress from '@mui/material/LinearProgress';

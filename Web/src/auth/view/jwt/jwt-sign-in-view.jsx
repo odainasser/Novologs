@@ -29,7 +29,7 @@ import { signInUserWithPassword, forgetPassword } from '../../context/jwt';
 import { PasswordIcon } from 'src/assets/icons';
 import { toast } from 'src/components/snackbar';
 import { useTranslation } from 'react-i18next';
-import { ssoLogin } from 'src/actions/ssoLinks/ssoActions';
+import { ssoLogin } from 'src/actions/sso-links/ssoActions';
 import { Card, CardContent, LinearProgress, Typography } from '@mui/material';
 
 export function JwtSignInView() {

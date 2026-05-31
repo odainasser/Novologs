@@ -15,9 +15,9 @@ import { useBoolean } from 'src/hooks/use-boolean';
 import { KanbanDetailsToolbar } from './kanban-details-toolbar';
 
 import { CustomTabs } from 'src/components/custom-tabs';
-import CkEditorComponent from 'src/components/htmlEditor/CkEditorComponent';
+import CkEditorComponent from 'src/components/html-editor/ck-editor-component';
 
-import CkEditorPreview from 'src/components/htmlEditor/CkEditorPreview';
+import CkEditorPreview from 'src/components/html-editor/ck-editor-preview';
 
 import { KanbanAddRemainder } from 'src/sections/kanban/kanban-add-reminder';
 

@@ -30,7 +30,7 @@ import { useTheme, useMediaQuery } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import ListItemText from '@mui/material/ListItemText';
 import { TextField } from '@mui/material';
-import { getUser } from 'src/actions/userManage/userManageActions';
+import { getUser } from 'src/actions/user-manage/userManageActions';
 import { WorkFlowFileMembers } from './workflow-file-members';
 import { Label } from 'src/components/label';
 import { AddWorkflowComment } from './workflow-chat';

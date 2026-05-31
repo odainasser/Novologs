@@ -50,7 +50,7 @@ import {
   assignPermissionToUser,
   getPermissionList,
   unassignPermissionToUser,
-} from 'src/actions/userManage/userManageActions';
+} from 'src/actions/user-manage/userManageActions';
 import { Iconify } from 'src/components/iconify';
 import { useBoolean } from 'src/hooks/use-boolean';
 import { ConfirmDialog } from 'src/components/custom-dialog';

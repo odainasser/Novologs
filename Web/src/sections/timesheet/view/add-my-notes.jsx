@@ -27,7 +27,7 @@ import { Iconify } from 'src/components/iconify';
 import { toast } from 'src/components/snackbar';
 import { useTranslation } from 'react-i18next';
 import { addDocument, updateDocument } from 'src/actions/document/documentActions';
-import { getUser } from 'src/actions/userManage/userManageActions';
+import { getUser } from 'src/actions/user-manage/userManageActions';
 import { EditorView } from 'src/sections/editor/view/editor-view';
 import { getDocument } from 'src/actions/document/documentActions';
 export default function AddMyNotes({

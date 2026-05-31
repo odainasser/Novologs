@@ -1,4 +1,4 @@
-import { userEndpoints } from './userManage';
+import { userEndpoints } from './user-manage';
 import { hierarchyEndpoints } from './hierarchy';
 import { deptEndpoints } from './departments';
 import { designationEndpoints } from './designations';
@@ -12,7 +12,7 @@ import { fileEndpoints } from './files';
 import { documentEndpoints } from './documents';
 import { timesheetEndpoints } from './timesheet';
 import { chatEndpoints } from './chat';
-import { ssoEndpoints } from './ssoLinks';
+import { ssoEndpoints } from './sso-links';
 import { accountsEndpoints } from './accounts';
 import { transactionEndpoints } from './transactions';
 import { purchaseEndpoints } from './purchase';

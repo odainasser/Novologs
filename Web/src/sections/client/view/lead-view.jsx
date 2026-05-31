@@ -85,7 +85,7 @@ import { getCurrencies } from 'src/actions/settings/settingActions';
 import LinearProgress from '@mui/material/LinearProgress';
 import { ErrorView } from 'src/sections/error/error-view';
 import { useAuthContext } from 'src/auth/hooks';
-import { getUser } from 'src/actions/userManage/userManageActions';
+import { getUser } from 'src/actions/user-manage/userManageActions';
 
 export function LeadView({ isClient, isClientView, clientId, isShared }) {
   const { t, i18n } = useTranslation('dashboard/client');

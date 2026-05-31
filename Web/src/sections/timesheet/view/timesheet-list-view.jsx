@@ -69,7 +69,7 @@ import {
   addTimesheet,
   updateTimesheet,
   deleteTimesheet,
-} from 'src/actions/timeSheet/timeSheetActions';
+} from 'src/actions/time-sheet/timeSheetActions';
 import LinearProgress from '@mui/material/LinearProgress';
 import { ErrorView } from 'src/sections/error/error-view';
 import { useAuthContext } from 'src/auth/hooks';
@@ -887,7 +887,7 @@ export function TimesheetListView({ isUser, userId }) {
                                     <IconButton
                                       onClick={() => {
                                         setDetails(true);
-                                        setMode('timeSheet');
+                                        setMode('time-sheet');
                                       }}
                                     >
                                       <Iconify
@@ -910,7 +910,7 @@ export function TimesheetListView({ isUser, userId }) {
                                   <IconButton
                                     onClick={() => {
                                       setDetails(true);
-                                      setMode('timeSheet');
+                                      setMode('time-sheet');
                                     }}
                                   >
                                     <Iconify

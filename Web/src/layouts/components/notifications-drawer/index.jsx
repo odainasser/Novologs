@@ -23,7 +23,7 @@ import { Scrollbar } from 'src/components/scrollbar';
 import { CustomTabs } from 'src/components/custom-tabs';
 
 import { NotificationItem } from './notification-item';
-import { getUserNotifications, clearNotification } from 'src/actions/userManage/userManageActions';
+import { getUserNotifications, clearNotification } from 'src/actions/user-manage/userManageActions';
 import LinearProgress from '@mui/material/LinearProgress';
 import { ErrorView } from 'src/sections/error/error-view';
 import { EmptyContent } from 'src/components/empty-content';
