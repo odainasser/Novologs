@@ -61,6 +61,13 @@ public class TenantDbContextInitialiser
     {
         try
         {
+            // Reflection-based seeds that require no JSON file — always run so that authentication
+            // and the SuperAdmin role always work even if the defaults file is missing.
+            await SeedPermissionsAsync();
+            await SeedRolesAsync();
+            await SeedSuperAdminPermissionsAsync();
+
+            // JSON-driven reference data for all modules (no-op if the defaults file is absent).
             await TrySeedJsonAsync();
         }
         catch (Exception ex)
@@ -87,8 +94,7 @@ public class TenantDbContextInitialiser
         await SeedLocalizedEntitiesAsync<ProjectInitiative, LocalizedEntitySeed>(seedingData.ProjectInitiatives);
         await SeedLocalizedEntitiesAsync<WorkStatus, WorkStatusSeed>(seedingData.WorkStatuses);
 
-        await SeedPermissionsAsync();
-        await SeedRolesAsync();
+        // Permissions and roles are already seeded in SeedAsync (reflection-based, no JSON needed).
         await SeedRolePermissionsAsync(seedingData.RolesMapping);
         await SeedDepartmentsAsync(seedingData.Departments);
         await SeedDesignationsAsync(seedingData.Designations);
@@ -99,7 +105,15 @@ public class TenantDbContextInitialiser
         await SeedSettingsAsync(seedingData.Settings);
         await SeedDefaultCurrencySettingAsync();
 
-        await AccountSeeder.SeedDefaultChartOfAccountsAsync(_context, CancellationToken.None);
+        try
+        {
+            await AccountSeeder.SeedDefaultChartOfAccountsAsync(_context, CancellationToken.None);
+        }
+        catch (FileNotFoundException ex)
+        {
+            // Chart-of-Accounts CSV is optional reference data; a missing file must not block startup.
+            _logger.LogWarning("Skipping Chart of Accounts seeding — {Message}", ex.Message);
+        }
     }
 
     public async Task SeedFoldersAsync(Guid adminId)
@@ -245,6 +259,39 @@ public class TenantDbContextInitialiser
                     _context.Set<RolePermission>().Add(rolePermission);
                 }
             }
+        }
+
+        await _context.SaveChangesAsync();
+    }
+
+    /// <summary>
+    /// Grants every defined permission to the SuperAdmin role. This keeps the SuperAdmin's effective
+    /// permission list (returned by GetUserInfo and consumed by the frontend) in sync with the full
+    /// permission catalogue, and is self-maintaining as new permissions are added to <see cref="Permissions"/>.
+    /// </summary>
+    private async Task SeedSuperAdminPermissionsAsync()
+    {
+        var superAdmin = await _roleManager.FindByNameAsync(Roles.SuperAdmin);
+        if (superAdmin == null) return;
+
+        var allPermissionIds = await _context.Set<Permission>()
+            .Select(p => p.Id)
+            .ToListAsync();
+
+        var existing = (await _context.Set<RolePermission>()
+                .Where(rp => rp.RoleId == superAdmin.Id)
+                .Select(rp => rp.PermissionId)
+                .ToListAsync())
+            .ToHashSet();
+
+        foreach (var permissionId in allPermissionIds)
+        {
+            if (existing.Contains(permissionId)) continue;
+            _context.Set<RolePermission>().Add(new RolePermission(Guid.NewGuid())
+            {
+                RoleId = superAdmin.Id,
+                PermissionId = permissionId
+            });
         }
 
         await _context.SaveChangesAsync();

@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <None Update="private_key.pem" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="Seeding.json" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
 

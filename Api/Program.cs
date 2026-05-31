@@ -16,6 +16,10 @@ builder.Host.UseSerilog((context, config) => config
     .Enrich.WithProperty("Application", "Novologs.Api")
     .WriteTo.Console());
 
+// Default the seeding-data path to <ContentRoot>/Seeding.json unless explicitly configured.
+builder.Configuration["DefaultsJsonPath"] ??=
+    Path.Combine(builder.Environment.ContentRootPath, "Seeding.json");
+
 // Clean Architecture layers.
 builder.AddApplicationServices();
 builder.AddInfrastructureServices();
@@ -39,16 +43,19 @@ app.UseAuthorization();
 // Module minimal-API endpoints.
 app.MapEndpoints();
 
-// DEV-only: seed a SuperAdmin login on a fresh database so JWT auth is testable.
+// DEV-only: provision the default tenant + a SuperAdmin login and seed all module reference data.
 if (app.Environment.IsDevelopment())
 {
     using var scope = app.Services.CreateScope();
     var sp = scope.ServiceProvider;
-    var roleManager = sp.GetRequiredService<RoleManager<IdentityRole<Guid>>>();
     var userManager = sp.GetRequiredService<UserManager<TenantUser>>();
     var db = sp.GetRequiredService<ApplicationDbContext>();
+    var initialiser = sp.GetRequiredService<TenantDbContextInitialiser>();
 
-    // Default tenant so Finbuckle resolves a tenant context for single-DB (model B).
+    // Apply any pending migrations first so all tables exist (no-op when already up to date).
+    await initialiser.InitialiseAsync();
+
+    // Default tenant so Finbuckle resolves a tenant context for single-DB.
     if (!await db.Set<AppTenantInfo>().AnyAsync(t => t.Identifier == "default"))
     {
         db.Set<AppTenantInfo>().Add(new AppTenantInfo
@@ -62,18 +69,22 @@ if (app.Environment.IsDevelopment())
         await db.SaveChangesAsync();
     }
 
-    if (!await roleManager.RoleExistsAsync("SuperAdmin"))
-        await roleManager.CreateAsync(new IdentityRole<Guid>("SuperAdmin"));
+    // Seed every module: permissions, roles, SuperAdmin permissions, and JSON-driven reference data
+    // (task statuses, priorities, categories, currencies, departments, designations, lookups, ...).
+    await initialiser.SeedAsync();
 
-    if (await userManager.FindByEmailAsync("administrator@localhost") is null)
+    // Dev SuperAdmin login (SuperAdmin role is created by the seeder and granted all permissions).
+    var admin = await userManager.FindByEmailAsync("administrator@localhost");
+    if (admin is null)
     {
-        var admin = new TenantUser
+        admin = new TenantUser
         {
             UserName = "administrator@localhost",
             Email = "administrator@localhost",
             EmailConfirmed = true,
             FullName = "Administrator",
-            Country = "UAE"
+            Country = "UAE",
+            Code = "ADMIN_INIT"
         };
         var result = await userManager.CreateAsync(admin, "Administrator1!");
         if (result.Succeeded)
@@ -81,6 +92,14 @@ if (app.Environment.IsDevelopment())
         else
             Log.Warning("Admin seed failed: {Errors}", string.Join("; ", result.Errors.Select(e => e.Description)));
     }
+    else if (!await userManager.IsInRoleAsync(admin, "SuperAdmin"))
+    {
+        await userManager.AddToRoleAsync(admin, "SuperAdmin");
+    }
+
+    // Root document folders for the admin.
+    if (admin is not null)
+        await initialiser.SeedFoldersAsync(admin.Id);
 }
 
 app.Run();

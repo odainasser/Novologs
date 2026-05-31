@@ -1,0 +1,115 @@
+{
+  "Departments": [
+    { "Name": "Admin" },
+    { "Name": "Human Resources" },
+    { "Name": "Finance" },
+    { "Name": "Information Technology" },
+    { "Name": "Sales" },
+    { "Name": "Operations" }
+  ],
+
+  "Designations": [
+    { "Name": "Super Admin" },
+    { "Name": "Manager" },
+    { "Name": "Team Lead" },
+    { "Name": "Employee" }
+  ],
+
+  "RolesMapping": [],
+
+  "Statuses": [
+    { "Status": 0, "Color": "#919EAB", "Name": { "en": "Not Started", "ar": "لم يبدأ" } },
+    { "Status": 1, "Color": "#2065D1", "Name": { "en": "In Progress", "ar": "قيد التنفيذ" } },
+    { "Status": 2, "Color": "#FFAB00", "Name": { "en": "On Hold", "ar": "معلّق" } },
+    { "Status": 3, "Color": "#7635DC", "Name": { "en": "Submitted", "ar": "تم الإرسال" } },
+    { "Status": 4, "Color": "#36B37E", "Name": { "en": "Completed", "ar": "مكتمل" } },
+    { "Status": 5, "Color": "#637381", "Name": { "en": "Other", "ar": "أخرى" } },
+    { "Status": 6, "Color": "#00B8D9", "Name": { "en": "Completed Late", "ar": "مكتمل متأخر" } },
+    { "Status": 7, "Color": "#FF5630", "Name": { "en": "Overdue", "ar": "متأخر" } }
+  ],
+
+  "Priorities": [
+    { "Name": { "en": "Low", "ar": "منخفض" } },
+    { "Name": { "en": "Medium", "ar": "متوسط" } },
+    { "Name": { "en": "High", "ar": "عالٍ" } },
+    { "Name": { "en": "Urgent", "ar": "عاجل" } }
+  ],
+
+  "Categories": [
+    { "Name": { "en": "General", "ar": "عام" } },
+    { "Name": { "en": "Development", "ar": "تطوير" } },
+    { "Name": { "en": "Design", "ar": "تصميم" } },
+    { "Name": { "en": "Meeting", "ar": "اجتماع" } },
+    { "Name": { "en": "Support", "ar": "دعم" } }
+  ],
+
+  "WorkStatuses": [
+    { "Name": { "en": "Available", "ar": "متاح" } },
+    { "Name": { "en": "Busy", "ar": "مشغول" } },
+    { "Name": { "en": "Away", "ar": "بعيد" } },
+    { "Name": { "en": "Offline", "ar": "غير متصل" } }
+  ],
+
+  "ProjectTaskTypes": [
+    { "Name": { "en": "Task", "ar": "مهمة" } },
+    { "Name": { "en": "Bug", "ar": "خلل" } },
+    { "Name": { "en": "Feature", "ar": "ميزة" } },
+    { "Name": { "en": "Improvement", "ar": "تحسين" } }
+  ],
+
+  "ProjectGoals": [
+    { "Name": { "en": "Increase Revenue", "ar": "زيادة الإيرادات" } },
+    { "Name": { "en": "Improve Quality", "ar": "تحسين الجودة" } },
+    { "Name": { "en": "Reduce Cost", "ar": "خفض التكلفة" } }
+  ],
+
+  "ProjectInitiatives": [
+    { "Name": { "en": "Digital Transformation", "ar": "التحول الرقمي" } },
+    { "Name": { "en": "Operational Excellence", "ar": "التميز التشغيلي" } }
+  ],
+
+  "LeadRejectionReasons": [
+    { "Name": { "en": "Budget Constraints", "ar": "قيود الميزانية" } },
+    { "Name": { "en": "Not Interested", "ar": "غير مهتم" } },
+    { "Name": { "en": "Chose Competitor", "ar": "اختار منافسًا" } },
+    { "Name": { "en": "No Response", "ar": "لا يوجد رد" } }
+  ],
+
+  "LeadSaleStatuses": [
+    { "Name": { "en": "New", "ar": "جديد" } },
+    { "Name": { "en": "Contacted", "ar": "تم التواصل" } },
+    { "Name": { "en": "Qualified", "ar": "مؤهل" } },
+    { "Name": { "en": "Won", "ar": "ناجح" } },
+    { "Name": { "en": "Lost", "ar": "خاسر" } }
+  ],
+
+  "LeadSources": [
+    { "Name": { "en": "Website", "ar": "الموقع الإلكتروني" } },
+    { "Name": { "en": "Referral", "ar": "إحالة" } },
+    { "Name": { "en": "Social Media", "ar": "وسائل التواصل" } },
+    { "Name": { "en": "Email Campaign", "ar": "حملة بريدية" } },
+    { "Name": { "en": "Phone Call", "ar": "مكالمة هاتفية" } }
+  ],
+
+  "VendorContractTypes": [
+    { "Name": { "en": "Service", "ar": "خدمة" } },
+    { "Name": { "en": "Supply", "ar": "توريد" } },
+    { "Name": { "en": "Maintenance", "ar": "صيانة" } }
+  ],
+
+  "VendorContractStatuses": [
+    { "Name": { "en": "Active", "ar": "نشط" } },
+    { "Name": { "en": "Pending", "ar": "قيد الانتظار" } },
+    { "Name": { "en": "Expired", "ar": "منتهي" } },
+    { "Name": { "en": "Terminated", "ar": "ملغى" } }
+  ],
+
+  "Currencies": [
+    { "Symbol": "SAR", "Name": { "en": "Saudi Riyal", "ar": "ريال سعودي" } },
+    { "Symbol": "USD", "Name": { "en": "US Dollar", "ar": "دولار أمريكي" } },
+    { "Symbol": "EUR", "Name": { "en": "Euro", "ar": "يورو" } },
+    { "Symbol": "AED", "Name": { "en": "UAE Dirham", "ar": "درهم إماراتي" } }
+  ],
+
+  "Settings": []
+}
