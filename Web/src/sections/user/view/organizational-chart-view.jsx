@@ -12,10 +12,7 @@ import { Iconify } from 'src/components/iconify';
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
 
-import {
-  GROUP_DATA,
-  SIMPLE_DATA,
-} from 'src/sections/_examples/extra/organizational-chart-view/data';
+import { GROUP_DATA, SIMPLE_DATA } from './organizational-chart-data';
 
 import Chip from '@mui/material/Chip';
 import { AddHierarchyMembers } from '../add-heirarchy-members';

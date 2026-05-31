@@ -1,9 +1,12 @@
 const isStaticExport = 'false';
 
 const nextConfig = {
-  trailingSlash: true,
   env: {
     BUILD_STATIC_EXPORT: isStaticExport,
+  },
+  compiler: {
+    // Strip console.* from production bundles (keep error/warn); dev keeps all logs.
+    removeConsole: process.env.NODE_ENV === 'production' ? { exclude: ['error', 'warn'] } : false,
   },
   modularizeImports: {
     '@mui/icons-material': {

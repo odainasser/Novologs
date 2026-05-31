@@ -1,5 +1,5 @@
 import { useTheme } from '@mui/material/styles';
-import { ComponentBlock } from 'src/sections/_examples/component-block';
+import { ComponentBlock } from 'src/components/component-block';
 import {
   Timeline,
   TimelineItem,
