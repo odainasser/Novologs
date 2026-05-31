@@ -32,8 +32,8 @@ if (app.Environment.IsDevelopment())
 app.UseSerilogRequestLogging();
 
 app.UseCors();
-app.UseMultiTenant();
 app.UseAuthentication();
+app.UseMultiTenant();   // must run AFTER authentication so the claim strategy can read JWT claims
 app.UseAuthorization();
 
 // Module minimal-API endpoints.

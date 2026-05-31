@@ -87,7 +87,7 @@ public static class DependencyInjection
 
         // Finbuckle multitenancy backed by the single ApplicationDbContext.
         builder.Services.AddMultiTenant<AppTenantInfo>()
-            .WithClaimStrategy()
+            .WithClaimStrategy("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/system")
             .WithStaticStrategy("default")
             .WithStore<DatabaseTenantStore>(ServiceLifetime.Scoped);
         builder.Services.AddScoped<IMultiTenantStore<AppTenantInfo>, DatabaseTenantStore>();

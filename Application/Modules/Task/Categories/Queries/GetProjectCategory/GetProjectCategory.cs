@@ -70,8 +70,6 @@ public class
             .AsNoTracking().AsSplitQuery()
             .Include(t => t.Name)
             .ToListAsync(cancellationToken);
-        var defaultStatus = taskStatuses.First(s => s.Status == Novologs.Domain.Enums.ProjectTaskStatus.NotStarted);
-
 
         var query = _context.GetSet<Novologs.Domain.Entities.TaskCategory>()
             .AsNoTracking().AsSplitQuery();

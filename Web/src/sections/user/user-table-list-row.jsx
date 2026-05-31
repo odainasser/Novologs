@@ -758,10 +758,12 @@ export function UserTableListRow({
                 }}
               >
                 {storedLang === 'ar'
-                  ? row.designationName.localizedStrings?.find(
-                      (ls) => ls.language.toLowerCase() === 'ar'
-                    )?.value || row.designationName.value
-                  : row.designationName.value || t('table.headings.not_available')}
+                  ? row.designationName?.localizedStrings?.find(
+                      (ls) => ls.language?.toLowerCase() === 'ar'
+                    )?.value ||
+                    row.designationName?.value ||
+                    t('table.headings.not_available')
+                  : row.designationName?.value || t('table.headings.not_available')}
               </Typography>
 
               {/* Flex container for Label and Roles */}
