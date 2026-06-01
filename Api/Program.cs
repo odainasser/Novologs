@@ -1,4 +1,5 @@
 using Finbuckle.MultiTenant;
+using Finbuckle.MultiTenant.AspNetCore.Extensions;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Novologs.Api;

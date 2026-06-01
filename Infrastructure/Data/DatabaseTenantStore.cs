@@ -23,14 +23,22 @@ public class DatabaseTenantStore : IMultiTenantStore<AppTenantInfo>
         return await _dbContext.GetSet<AppTenantInfo>().ToListAsync();
     }
 
-    public async Task<AppTenantInfo?> TryGetByIdentifierAsync(string identifier)
+    public async Task<IEnumerable<AppTenantInfo>> GetAllAsync(int take, int skip)
+    {
+        return await _dbContext.GetSet<AppTenantInfo>()
+            .Skip(skip)
+            .Take(take)
+            .ToListAsync();
+    }
+
+    public async Task<AppTenantInfo?> GetByIdentifierAsync(string identifier)
     {
         identifier = identifier.Trim().ToLower();
         return await _dbContext.GetSet<AppTenantInfo>()
             .FirstOrDefaultAsync(t => t.Identifier == identifier);
     }
 
-    public async Task<AppTenantInfo?> TryGetAsync(string id)
+    public async Task<AppTenantInfo?> GetAsync(string id)
     {
         if (Guid.TryParse(id, out Guid tenantId))
         {
@@ -41,9 +49,9 @@ public class DatabaseTenantStore : IMultiTenantStore<AppTenantInfo>
         return null;
     }
 
-    public Task<bool> TryAddAsync(AppTenantInfo tenantInfo) => Task.FromResult(false);
+    public Task<bool> AddAsync(AppTenantInfo tenantInfo) => Task.FromResult(false);
 
-    public Task<bool> TryRemoveAsync(string identifier) => Task.FromResult(false);
+    public Task<bool> RemoveAsync(string identifier) => Task.FromResult(false);
 
-    public Task<bool> TryUpdateAsync(AppTenantInfo tenantInfo) => Task.FromResult(false);
+    public Task<bool> UpdateAsync(AppTenantInfo tenantInfo) => Task.FromResult(false);
 }

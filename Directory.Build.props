@@ -1,10 +1,11 @@
 <!-- Solution-wide build settings for the Novologs modular monolith. -->
 <Project>
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    <WarningsNotAsErrors>NU1901;NU1902;NU1903;NU1904</WarningsNotAsErrors>
+    <!-- ASPDEPR002: minimal-API WithOpenApi() is deprecated in .NET 10 but still functional; tracked for removal. -->
+    <WarningsNotAsErrors>NU1901;NU1902;NU1903;NU1904;ASPDEPR002</WarningsNotAsErrors>
   </PropertyGroup>
 </Project>

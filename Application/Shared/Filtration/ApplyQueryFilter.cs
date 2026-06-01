@@ -19,7 +19,8 @@ public static class ModelBuilderApplyQueryExtensions
             // replacing parameter with actual type
             var filterBody = ReplacingExpressionVisitor.Replace(filter.Parameters[0], entityParam, filter.Body);
 
-            var filterLambda = entityType.GetQueryFilter();
+            var filterLambda = entityType.GetDeclaredQueryFilters()
+                .FirstOrDefault(f => f.IsAnonymous)?.Expression;
             // Other filter already present, combine them
             if (filterLambda != null)
             {

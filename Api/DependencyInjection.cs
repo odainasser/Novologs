@@ -1,5 +1,5 @@
 using Microsoft.Extensions.Hosting;
-using Microsoft.OpenApi.Models;
+using Microsoft.OpenApi;
 using Novologs.Api.Services;
 using Novologs.Application.Common.Interfaces;
 
@@ -32,14 +32,11 @@ public static class DependencyInjection
                 Type = SecuritySchemeType.ApiKey,
                 Scheme = "Bearer"
             });
-            options.AddSecurityRequirement(new OpenApiSecurityRequirement
+            options.AddSecurityRequirement(document => new OpenApiSecurityRequirement
             {
                 {
-                    new OpenApiSecurityScheme
-                    {
-                        Reference = new OpenApiReference { Type = ReferenceType.SecurityScheme, Id = "Bearer" }
-                    },
-                    Array.Empty<string>()
+                    new OpenApiSecuritySchemeReference("Bearer", document),
+                    new List<string>()
                 }
             });
         });

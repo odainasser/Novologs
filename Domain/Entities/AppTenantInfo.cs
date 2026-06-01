@@ -24,19 +24,12 @@ public class AppTenantInfo : BaseDeletableAuditableEntity<Guid>, ITenantInfo, IC
 
     public Guid OwnerId { get; set; }
 
-    public string? Identifier { get; set; }
+    public string Identifier { get; set; } = null!;
 
     public string? Name { get; set; }
     public string? Policy { get; set; }
     public bool PaymentApproval { get; set; }
     [ForeignKey(nameof(OwnerId))] public virtual ApplicationUser Owner { get; set; } = null!;
 
-    string? ITenantInfo.Id
-    {
-        get => base.Id.ToString();
-        set
-        {
-            base.Id = Guid.TryParse(value, out Guid res) ? res : Guid.NewGuid();
-        }
-    }
+    string ITenantInfo.Id => base.Id.ToString();
 }
