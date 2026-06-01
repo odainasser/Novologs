@@ -47,7 +47,8 @@ const useChatHub = ({
   /* ======================= Connect ======================= */
 
   const connectSignalR = async () => {
-    if (!accessToken) return;
+    // Skip until the backend SignalR hub exists (avoids repeated negotiate 404s).
+    if (!accessToken || !CONFIG.enableChatHub) return;
 
     const freshToken = await handleTokenExpiration(false);
 

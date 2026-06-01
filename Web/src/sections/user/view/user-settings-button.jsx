@@ -1,20 +1,17 @@
 'use client';
 
+import { forwardRef } from 'react';
 import { m } from 'framer-motion';
 
-import Badge from '@mui/material/Badge';
 import SvgIcon from '@mui/material/SvgIcon';
 import IconButton from '@mui/material/IconButton';
 
-import { useSettingsContext } from 'src/components/settings/context';
-
 // ----------------------------------------------------------------------
 
-export function UserSettingsButton({ sx, ...other }) {
-  const settings = useSettingsContext();
-
+export const UserSettingsButton = forwardRef(function UserSettingsButton({ sx, ...other }, ref) {
   return (
     <IconButton
+      ref={ref}
       aria-label="settings"
       sx={{ color: 'white', p: 0, width: 40, height: 40, ...sx }}
       {...other}
@@ -39,4 +36,4 @@ export function UserSettingsButton({ sx, ...other }) {
         </SvgIcon>
     </IconButton>
   );
-}
+});

@@ -1,5 +1,6 @@
 'use client';
 
+import { m } from 'framer-motion';
 import { useState, useCallback } from 'react';
 
 import IconButton from '@mui/material/IconButton';
@@ -32,6 +33,7 @@ export function ContactUs({ sx, ...other }) {
       <Tooltip title="Contact us" arrow>
         <a href="mailto:help@novologs.com">
           <IconButton
+            component={m.button}
             whileTap="tap"
             whileHover="hover"
             variants={varHover(1.05)}

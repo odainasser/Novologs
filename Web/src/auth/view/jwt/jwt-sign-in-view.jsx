@@ -205,12 +205,6 @@ export function JwtSignInView() {
                 </IconButton>
               </InputAdornment>
             ),
-            inputProps: {
-              style: {
-                '::-ms-reveal': { display: 'none' },
-                '::-ms-clear': { display: 'none' },
-              },
-            },
           }}
           sx={{
             '& input::-ms-reveal': {
