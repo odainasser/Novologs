@@ -161,7 +161,7 @@ export function AccountDrawer({ data = [], anchor = 'right', sx, ...other }) {
     <>
       <AccountButton
         onClick={handleOpenDrawer}
-        photoURL={zetaUser?.profileImageFileUrl || zetaUser?.fullName?.charAt(0).toUpperCase()}
+        photoURL={zetaUser?.profileImageFileUrl}
         displayName={zetaUser?.fullName}
         sx={sx}
         {...other}

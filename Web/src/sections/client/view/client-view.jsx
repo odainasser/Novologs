@@ -881,12 +881,13 @@ export function ClientView({ isClientView, isPurchaseClient }) {
                                     },
                                   }}
                                 >
-                                  {provinceSettings?.length > 0 &&
-                                    JSON.parse(provinceSettings[0].value).map((item) => (
-                                      <MenuItem key={item.symbol} value={item.name.value}>
-                                        {item.name.value}
-                                      </MenuItem>
-                                    ))}
+                                  {provinceSettings?.length > 0
+                                    ? JSON.parse(provinceSettings[0].value).map((item) => (
+                                        <MenuItem key={item.symbol} value={item.name.value}>
+                                          {item.name.value}
+                                        </MenuItem>
+                                      ))
+                                    : []}
                                 </TextField>
                               </TableCell>
 
@@ -908,7 +909,6 @@ export function ClientView({ isClientView, isPurchaseClient }) {
                               </TableCell>
                               {!isPurchaseClient && (
                                 <>
-                                  {' '}
                                   <TableCell
                                     sx={{
                                       borderRight: '1px dotted rgba(200, 200, 200, 0.6)',
